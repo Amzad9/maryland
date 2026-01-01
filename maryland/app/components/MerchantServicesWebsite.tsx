@@ -360,7 +360,7 @@ export default function MerchantServicesWebsite() {
             text-3xl sm:text-4xl font-body font-semibold leading-tight text-slate-900
           "
                                 >
-                                    Experience the future of payments
+                                    Experience the of payments
                                 </h2>
                                 <p
                                     className="
