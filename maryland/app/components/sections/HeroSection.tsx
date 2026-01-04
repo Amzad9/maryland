@@ -20,10 +20,10 @@ export default function HeroSection() {
                         className="px-5 py-4 text-sm font-semibold rounded-full text-slate-900 bg-[linear-gradient(90deg,#f4e28f,#f1d86a,#d4af37,#c9a227,#f4e28f)] bg-size-[300%_100%] animate-[gradientMove_4s_ease_infinite] shadow-[0_0_20px_#d4af3744] hover:shadow-[0_0_30px_#d4af3766] transition-all duration-300 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#d4af37] focus:ring-offset-2 focus:ring-offset-slate-900"
                         aria-label="Get free quote now"
                     >
-                        Get Free Quote Now Here
+                        Get Your Free Quote
                     </button>
                     <button className="w-full sm:w-auto px-8 py-3.5 border-2 border-slate-400 text-white font-semibold rounded-full hover:bg-slate-700/50 hover:border-white transition focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-slate-900 text-base" aria-label="Call us now">
-                        Call Here
+                      Call Now
                     </button>
                 </div>
             </div>

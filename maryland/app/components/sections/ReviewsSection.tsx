@@ -43,7 +43,7 @@ export default function ReviewsSection() {
                                 </div>
                                 <blockquote>
                                     <p className="text-slate-300 text-xs leading-relaxed mb-4">
-                                        "Eta Card Processing has streamlined our operations! Their local assistance means no significant needs. Their local expertise is unmatched."
+                                        "Eta Card Processing has streamlined our operations! Their local assistance meets our critical needs. Their local expertise is unmatched."
                                     </p>
                                 </blockquote>
                                 <div>
@@ -61,7 +61,7 @@ export default function ReviewsSection() {
                                 </div>
                                 <blockquote>
                                     <p className="text-slate-300 text-xs leading-relaxed mb-4">
-                                        "Moving to Eta was the best decision. The POS system is another, and the zero-fee program is a game changer for many company."
+                                        "Moving to Eta was the best decision. The POS system is excellent, and the zero-fee program is a game changer for many companies."
                                     </p>
                                 </blockquote>
                                 <div>

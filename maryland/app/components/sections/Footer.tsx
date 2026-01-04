@@ -41,7 +41,7 @@ export default function Footer() {
 
           {/* About */}
           <div className="space-y-4">
-          <Image src="/logo.png" alt="Maryland Merchant Services" width={100} height={100} />
+            <Image src="/logo.png" alt="Maryland Merchant Services" width={100} height={100} />
 
             <p className="text-sm text-slate-400 leading-relaxed">
               Elite Card Processing was founded on the principles of providing exceptional
@@ -128,16 +128,16 @@ export default function Footer() {
 
             {/* Social */}
             <div className="flex items-center gap-4" role="list" aria-label="Social media links">
-                                        <a href="#facebook" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="Facebook" role="listitem">
-                                            <span className="text-slate-900 text-lg font-bold" aria-hidden="true">f</span>
-                                        </a>
-                                        <a href="#twitter" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="Twitter" role="listitem">
-                                            <span className="text-slate-900 text-lg font-bold" aria-hidden="true">t</span>
-                                        </a>
-                                        <a href="#linkedin" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="LinkedIn" role="listitem">
-                                            <span className="text-slate-900 text-lg font-bold" aria-hidden="true">in</span>
-                                        </a>
-                                    </div>
+              <a href="#facebook" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="Facebook" role="listitem">
+                <span className="text-slate-900 text-lg font-bold" aria-hidden="true">f</span>
+              </a>
+              <a href="#twitter" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="Twitter" role="listitem">
+                <span className="text-slate-900 text-lg font-bold" aria-hidden="true">t</span>
+              </a>
+              <a href="#linkedin" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="LinkedIn" role="listitem">
+                <span className="text-slate-900 text-lg font-bold" aria-hidden="true">in</span>
+              </a>
+            </div>
           </div>
         </div>
 

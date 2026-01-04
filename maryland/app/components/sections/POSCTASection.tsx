@@ -13,7 +13,7 @@ export default function POSCTASection() {
                     </div>
                     <div className="col-span-12 lg:col-span-8 order-1 lg:order-2">
                         <h2 id="pos-cta-heading" className="text-3xl sm:text-4xl font-body font-semibold leading-tight text-slate-900">
-                            Experience the of payments
+                        Experience the Future of Payments
                         </h2>
                         <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
                             Discover how our cutting-edge technology and local expertise can transform your business operations and boost your bottom line. From seamless transactions to powerful analytics, we provide all the tools you need to scale your business effortlessly.

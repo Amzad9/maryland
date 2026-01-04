@@ -2,7 +2,7 @@ import { CreditCard, Monitor, DollarSign, Building2, Smartphone, Handshake } fro
 
 export default function ServicesSection() {
     const services = [
-        { icon: CreditCard, title: "Merchant Accounts & Processing", text: "Accept all major credit and debit cards with competitive rates and reliable processing. We specialize in merchant credit card.", button: "Get Government Processing Quote" },
+        { icon: CreditCard, title: "Merchant Accounts & Processing", text: "Accept all major credit and debit cards with competitive rates and reliable processing. We specialize in merchant credit card processing.", button: "Get Government Processing Quote" },
         { icon: Monitor, title: "POS Systems & Terminals", text: "Complete hardware solutions including Clover POS systems, Aloha POS for restaurants, and EMV credit card terminals.", button: "Explore Technology Options - Get Quote" },
         { icon: DollarSign, title: "Eliminate Processing Fees", text: "Save thousands monthly with our cash pricing and dual pricing compliance programs. Just like gas stations.", button: "Eliminate Processing Fees" },
         { icon: Building2, title: "Government & Utility Processing", text: "Specialized government and utility processing with Level III reporting and compliance. Perfect for municipalities.", button: "Get Government Processing Quote" },
