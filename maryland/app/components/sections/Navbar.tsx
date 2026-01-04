@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-
+import Image from 'next/image';
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -13,15 +13,16 @@ export default function Navbar() {
 
             <nav className="sticky bg-[#10284D]/97 top-0 z-50 backdrop-blur-md border-b border-slate-800">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between py-5">
+                    <div className="flex items-center justify-between py-2">
                         <div className="flex items-center gap-2 select-none">
-                            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[linear-gradient(135deg,#f4e28f,#d4af37,#b8962e)] shadow-[0_0_15px_rgba(212,175,55,0.6)]">
+                            {/* <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[linear-gradient(135deg,#f4e28f,#d4af37,#b8962e)] shadow-[0_0_15px_rgba(212,175,55,0.6)]">
                                 <span className="text-slate-900 font-extrabold text-lg leading-none">MD</span>
                             </div>
                             <div className="flex flex-col leading-none">
                                 <span className="text-white font-extrabold text-sm sm:text-base tracking-wide">Maryland</span>
                                 <span className="text-slate-300 text-[10px] sm:text-xs tracking-wider uppercase">Merchant Services</span>
-                            </div>
+                            </div> */}
+                            <Image src="/logo.png" alt="Maryland Merchant Services" width={80} height={80} />
                         </div>
 
                         <div className="hidden lg:flex items-center space-x-6">
