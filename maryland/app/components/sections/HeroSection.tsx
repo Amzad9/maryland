@@ -4,7 +4,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[120%] h-[80%] rounded-full bg-blue-500/20 blur-[120px]"></div>
                 <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#112240]/50 to-[#0a192f]"></div>
-                <div className="absolute inset-0 opacity-10 bg-[url('/bgs.jpeg')]"></div>
+                <div className="absolute inset-0 opacity-10 bg-[url('/bg.jpg')] bg-cover bg-center"></div>
             </div>
             <div className="relative z-40">
                 <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">

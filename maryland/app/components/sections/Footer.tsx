@@ -149,7 +149,7 @@ export default function Footer() {
             Elite Card Processing LLC is a registered ISO of Citizens Bank, Providence, RI.
           </p>
           <p className="text-sm text-slate-500">
-            © 2025 Elite Card Processing · All rights reserved
+            © {new Date().getFullYear()} Elite Card Processing · All rights reserved
           </p>
         </div>
       </div>

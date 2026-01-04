@@ -3,7 +3,7 @@ import { Monitor, CreditCard, Settings, Smartphone, ArrowUpRight } from 'lucide-
 
 export default function PaymentTechnologySection() {
     const technologies = [
-        { icon: Monitor, title: "POS Solutions", text: "We promise cost-effective payment solutions designed to help you lower expenses and boost profits.", color: "blue" },
+        { icon: Monitor, title: "POS Business Solutions", text: "We promise cost-effective payment solutions designed to help you lower expenses and boost profits.", color: "blue" },
         { icon: CreditCard, title: "Processing & Terminals", text: "We promise cost-effective payment solutions designed to help you lower expenses and boost profits.", color: "green" },
         { icon: Settings, title: "Specialized Services", text: "We promise cost-effective payment solutions designed to help you lower expenses and boost profits.", color: "purple" },
         { icon: Smartphone, title: "Account Management", text: "We promise cost-effective payment solutions designed to help you lower expenses and boost profits.", color: "orange" }
@@ -86,10 +86,12 @@ export default function PaymentTechnologySection() {
                                     <div className="flex justify-end mt-auto">
                                         <a 
                                             href={`/${item.title.toLowerCase().replace(/\s+/g, '-')}`}
-                                            className="group/arrow inline-flex items-center justify-center w-10 h-10 rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
+                                            className="group/arrow inline-flex items-center text-white justify-center text-sm py-1 px-2 rounded-full  transition-all duration-300 hover:scale-110"
                                             aria-label={`Learn more about ${item.title}`}
                                         >
-                                            <ArrowUpRight className="w-5 h-5 group-hover/arrow:translate-x-1 group-hover/arrow:-translate-y-1 transition-transform" style={{ color: '#f4e28f' }} />
+                                            Learn More
+                                            <ArrowUpRight className="w-5 h-5 group-hover/arrow:translate-x-1 group-hover/arrow:-translate-y-1 transition-transform" style={{ color: '#f4e28f' }} /> 
+                                            
                                         </a>
                                     </div>
                                 </div>

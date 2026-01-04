@@ -1,19 +1,44 @@
+import Image from "next/image";
 export default function ReviewsSection() {
     return (
         <section id="reviews" className="w-full px-4 sm:px-6 lg:px-8 py-8 sm:py-12 bg-white" aria-labelledby="testimonials-heading">
             <h2 id="testimonials-heading" className="sr-only">Customer Testimonials</h2>
             <div className="container mx-auto">
                 <div className="grid md:grid-cols-1 xl:grid-cols-12 gap-8">
-                    <div className="relative rounded-3xl overflow-hidden shadow-2xl lg:h-full col-span-12 md:col-span-5">
-                        <img src="https://plus.unsplash.com/premium_photo-1711051475117-f3a4d3ff6778?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="max-w-full" alt="Business team" />
+                    <div
+                        className="
+    relative
+    col-span-12 md:col-span-5
+    w-full
+    overflow-hidden
+    rounded-3xl
+    shadow-2xl
+    aspect-4/5
+    sm:aspect-video
+    md:aspect-auto
+    md:h-full
+    min-h-[260px]
+  "
+                    >
+                        <Image
+                            src="https://plus.unsplash.com/premium_photo-1711051475117-f3a4d3ff6778?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0"
+                            alt="Business team"
+                            fill
+                            priority
+                            sizes="
+      (max-width: 640px) 100vw,
+      (max-width: 1024px) 100vw,
+      40vw
+    "
+                            className="object-cover"
+                        />
                     </div>
-
                     <div className="bg-linear-to-br col-span-12 md:col-span-7 bg-[#10284D] backdrop-blur-xl rounded-3xl px-8 py-24 border border-slate-700/30 shadow-2xl">
                         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 md:gap-6 gap-24 lg:gap-6 text-center">
                             <article className="relative rounded-3xl p-3 border border-slate-700/30 shadow-2xl bg-[linear-gradient(45deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_8%,rgba(16,40,77,0.95)_22%,rgba(16,40,77,1)_100%)]">
                                 <div className="relative inline-block mb-4 -mt-16">
                                     <div className="w-24 h-24 rounded-full bg-linear-to-br from-yellow-400 to-yellow-600 p-1 shadow-[0_0_30px_rgba(255,215,100,0.65),0_0_60px_rgba(255,255,255,0.25)]">
-                                        <img src="https://media.istockphoto.com/id/1410862476/photo/closeup-face-of-young-attractive-girl-looking-at-camera-isolated-on-orange-color-background.webp?a=1&s=612x612&w=0&k=20&c=IASXuVO7CRN3ifDpQlrSxkVkNMXwSXSULsjlYTQAol4=" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Sarah J." />
+                                        <Image src="/test1.png" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Sarah J." />
                                     </div>
                                 </div>
                                 <blockquote>
@@ -22,7 +47,8 @@ export default function ReviewsSection() {
                                     </p>
                                 </blockquote>
                                 <div>
-                                    <p className="text-white font-semibold text-sm">Sarah J.</p>
+                                <p className="text-white font-semibold text-sm">Michael B.</p>
+
                                     <p className="text-slate-400 text-xs">Restaurant Owner</p>
                                 </div>
                             </article>
@@ -30,16 +56,17 @@ export default function ReviewsSection() {
                             <article className="relative rounded-3xl p-3 border border-slate-700/30 shadow-2xl bg-[linear-gradient(45deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_8%,rgba(16,40,77,0.95)_22%,rgba(16,40,77,1)_100%)]">
                                 <div className="relative inline-block mb-4 -mt-16">
                                     <div className="w-24 h-24 rounded-full bg-linear-to-br from-yellow-400 to-yellow-600 p-1 shadow-[0_0_30px_rgba(255,215,100,0.65),0_0_60px_rgba(255,255,255,0.25)]">
-                                        <img src="https://media.istockphoto.com/id/2057786344/photo/portrait-of-beautiful-elegant-young-woman-with-curly-hair-posing-with-smile-against-black.webp?a=1&s=612x612&w=0&k=20&c=D1DzhcJvEepBC_SgyS7cO3fe0nc7lvTrQqZ5helsMwc=" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Michael B." />
+                                        <Image src="/test2.png" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Michael B." />
                                     </div>
                                 </div>
                                 <blockquote>
                                     <p className="text-slate-300 text-xs leading-relaxed mb-4">
-                                        "Moving to Eta was the best decision. The POS system is another, and the zero-fee program is a game changer."
+                                        "Moving to Eta was the best decision. The POS system is another, and the zero-fee program is a game changer for many company."
                                     </p>
                                 </blockquote>
                                 <div>
-                                    <p className="text-white font-semibold text-sm">Michael B.</p>
+                                    <p className="text-white font-semibold text-sm">Sarah J.</p>
+
                                     <p className="text-slate-400 text-xs">Retail Manager</p>
                                 </div>
                             </article>
@@ -47,7 +74,7 @@ export default function ReviewsSection() {
                             <article className="relative rounded-3xl p-3 border border-slate-700/30 shadow-2xl bg-[linear-gradient(45deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_8%,rgba(16,40,77,0.95)_22%,rgba(16,40,77,1)_100%)]">
                                 <div className="relative inline-block mb-4 -mt-16">
                                     <div className="w-24 h-24 rounded-full bg-linear-to-br from-yellow-400 to-yellow-600 p-1 shadow-[0_0_30px_rgba(255,215,100,0.65),0_0_60px_rgba(255,255,255,0.25)]">
-                                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="David L." />
+                                        <Image src="/test3.png" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="David L." />
                                     </div>
                                 </div>
                                 <blockquote>
