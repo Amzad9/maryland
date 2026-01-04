@@ -6,7 +6,7 @@ export default function WhyChooseUsSection() {
         { 
             icon: Building2,
             title: "Local Maryland Company", 
-            description: "We are your Hagerstown neighbors — offering local support, not offshore call centers."
+            description: "We are your Hagerstown neighbors offering local support, not offshore call centers."
         },
         { 
             icon: Clock,
