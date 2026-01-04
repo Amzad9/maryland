@@ -8,7 +8,7 @@ import {
   Linkedin,
   MessageCircle,
 } from 'lucide-react';
-
+import Image from 'next/image';
 export default function Footer() {
   const linkClass =
     "relative text-sm text-slate-400 hover:text-[#f4e28f] transition-colors duration-300 " +
@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <footer
-      className="w-full bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden"
+      className="w-full bg-linear-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative overflow-hidden"
       aria-label="Site footer"
     >
       {/* Pattern overlay */}
@@ -41,10 +41,8 @@ export default function Footer() {
 
           {/* About */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold relative inline-block">
-              Elite Card Processing
-              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-gradient-to-r from-[#f4e28f] to-transparent"></span>
-            </h3>
+          <Image src="/logo.png" alt="Maryland Merchant Services" width={100} height={100} />
+
             <p className="text-sm text-slate-400 leading-relaxed">
               Elite Card Processing was founded on the principles of providing exceptional
               service at a great rate. We bring merchants the latest technology to improve efficiency.
@@ -55,7 +53,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-bold relative inline-block">
               Our Solutions
-              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-gradient-to-r from-[#f4e28f] to-transparent"></span>
+              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-linear-to-r from-[#f4e28f] to-transparent"></span>
             </h3>
             <ul className="space-y-3">
               {[
@@ -82,7 +80,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-bold relative inline-block">
               Resources
-              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-gradient-to-r from-[#f4e28f] to-transparent"></span>
+              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-linear-to-r from-[#f4e28f] to-transparent"></span>
             </h3>
             <ul className="space-y-3">
               {[
@@ -106,7 +104,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-bold relative inline-block">
               Connect With Us
-              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-gradient-to-r from-[#f4e28f] to-transparent"></span>
+              <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-linear-to-r from-[#f4e28f] to-transparent"></span>
             </h3>
 
             <div className="space-y-3 text-sm">
