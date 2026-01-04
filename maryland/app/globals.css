@@ -5,6 +5,15 @@
   --foreground: #171717;
   --font-heading: serif;
   --font-body: sans-serif;
+  
+  /* Theme Colors */
+  --color-primary-dark: #10284D;
+  --color-gold-light: #f4e28f;
+  --color-gold-medium: #f1d86a;
+  --color-gold-dark: #d4af37;
+  
+  /* Gradient */
+  --gradient-gold: linear-gradient(90deg, #f4e28f 0%, #f1d86a 30%, #d4af37 60%, #f4e28f 100%);
 }
 
 @theme inline {
