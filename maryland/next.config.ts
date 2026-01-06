@@ -13,7 +13,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'media.istockphoto.com',
+        hostname: 'lh3.googleusercontent.com',
       },
     ],
   },

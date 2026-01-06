@@ -16,7 +16,6 @@ import Footer from "./components/sections/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <Navbar />
       <main id="main-content">
         <HeroSection />
         <ServicesSection />
@@ -30,7 +29,7 @@ export default function Home() {
         {/* <NewsletterSection /> */}
         <ReviewsSection />
       </main>
-      <Footer />
+
     </div>
   );
 }

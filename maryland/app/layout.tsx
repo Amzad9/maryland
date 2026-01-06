@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
+import Navbar from "./components/sections/Navbar";
+import Footer from "./components/sections/Footer";
 import "./globals.css";
 
 const headingFont = Playfair_Display({
@@ -27,9 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${headingFont.variable} ${bodyFont.variable} antialiased`}
-      >
+        className={`${headingFont.variable} ${bodyFont.variable} antialiased`}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
