@@ -13,7 +13,7 @@ export default function AboutPage() {
       </div>
 
       {/* HERO */}
-      <section className="relative flex h-[600px] items-center justify-center overflow-hidden">
+      <section className="relative flex h-[350px] sm:h-[400px] items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{

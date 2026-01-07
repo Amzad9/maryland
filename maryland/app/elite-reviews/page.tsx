@@ -89,7 +89,7 @@ export default function ReviewsPage() {
   return (
     <div className="min-h-screen bg-white/50">
       {/* HERO */}
-      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[350px] sm:h-[400px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{

@@ -73,17 +73,15 @@ export default function CareersPage() {
     <div className="relative min-h-screen bg-linear-to-br from-slate-50 via-blue-50 to-indigo-50 overflow-hidden">
 
       {/* ================= HERO ================= */}
-      <section className="relative py-20 md:py-32 overflow-hidden bg-slate-50">
+      <section className="relative py-20 md:py-24 overflow-hidden bg-slate-50">
         <div className="absolute inset-0 bg-linear-to-tr from-blue-500/10 via-transparent to-indigo-500/10" />
         <div className="absolute top-10 left-10 w-96 h-96 bg-sky-400/30 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-10 right-10 w-80 h-80 bg-indigo-400/30 rounded-full blur-3xl animate-pulse delay-1000" />
        <Image src="https://plus.unsplash.com/premium_photo-1666299431118-6ddad73cfec5?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero" fill className="absolute opacity-10 inset-0 object-cover" />
         <div className="container mx-auto relative z-10 px-6 text-center max-w-4xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-            Ready To Get Started With Maryland&apos;s
-            <span className="block bg-linear-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
-              Trusted Merchant Services Provider?
-            </span>
+          Join Our Team at Elite Card Processing
+
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
@@ -227,7 +225,7 @@ export default function CareersPage() {
   </div>
 </section>
 {/* ================= CTA ================= */}
-<section className="relative py-16 md:py-28 overflow-hidden bg-url('https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') bg-cover bg-center">
+<section className="relative py-16 md:pt-5 md:pb-24 overflow-hidden bg-url('https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') bg-cover bg-center">
   {/* Background glow */}
   {/* <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-linear-to-br from-sky-400/30 to-indigo-400/30 rounded-full blur-3xl animate-pulse" /> */}
 

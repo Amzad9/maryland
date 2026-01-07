@@ -39,7 +39,7 @@ const HowToVideos = () => {
 
       <div className="relative z-10">
 
-        <section className="relative flex h-[600px] items-center justify-center overflow-hidden">
+        <section className="relative flex h-[350px] sm:h-[400px] items-center justify-center overflow-hidden">
           {/* Background Image */}
           <div
             className="absolute inset-0 bg-cover bg-center"
