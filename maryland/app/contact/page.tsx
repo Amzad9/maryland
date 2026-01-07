@@ -50,22 +50,24 @@ const ContactPage = () => {
     <main className="min-h-screen bg-linear-to-br from-slate-50 via-white to-blue-50 dark:from-slate-950 dark:via-black dark:to-indigo-950">
 
       {/* Hero Section */}
-      <section className="relative py-16 md:py-32 overflow-hidden">
+      <section className="relative py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0 bg-linear-to-tr from-blue-600/10 via-transparent to-indigo-600/10" />
         <div className="absolute top-10 left-10 w-72 h-72 sm:w-96 sm:h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse hidden sm:block" />
         <div className="absolute bottom-10 right-10 w-64 h-64 sm:w-80 sm:h-80 bg-indigo-500/20 rounded-full blur-3xl animate-pulse delay-1000 hidden sm:block" />
 
         <div className="container mx-auto relative z-10 px-4">
           <div className="text-center max-w-4xl mx-auto">
-            <span className="inline-block px-4 sm:px-6 py-2 mb-6 text-sm sm:text-base font-semibold tracking-wider text-blue-600 uppercase bg-blue-100/80 backdrop-blur-md rounded-full border border-blue-200/50">
+            <span className="inline-block px-4 sm:px-6 py-2 mb-6 text-[12px] font-semibold tracking-wider text-blue-400 uppercase bg-blue-100/20 backdrop-blur-md rounded-full border border-blue-200/50">
               <Zap className="inline w-4 h-4 mr-1" /> Get In Touch
             </span>
             <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-snug sm:leading-tight">
-              Ready To Get Started With Maryland's <span className="block">Trusted Merchant Services Provider?</span>
+              Ready To Get Started With Maryland's 
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
               Join thousands of Maryland businesses saving big with transparent, local payment processing from Elite Card Processing.
             </p>
+            <div className="mx-auto mt-2 h-1 w-28 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500" />
+
           </div>
         </div>
       </section>

@@ -106,6 +106,8 @@ export default function ReviewsPage() {
           <p className="text-lg sm:text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto">
             Trusted by hundreds of businesses
           </p>
+          <div className="mx-auto mt-2 h-1 w-28 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500" />
+
         </div>
       </section>
 

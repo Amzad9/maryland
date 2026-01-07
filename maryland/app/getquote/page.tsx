@@ -12,7 +12,7 @@ export default function QuotePage() {
             <div className="absolute inset-0 -z-10 bg-[url(/mesh-gradient.webp)] bg-cover opacity-20" />
 
             {/* HEADER */}
-            <section className="mx-auto max-w-3xl px-6 pt-24 text-center relative">
+            <section className="mx-auto max-w-3xl px-6 pt-16 pb-24 text-center relative">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-tight">
                     Transparent pricing
                     <span className="block text-cyan-600">within 24 hours</span>

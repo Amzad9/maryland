@@ -88,6 +88,8 @@ export default function CareersPage() {
             Join thousands of Maryland businesses saving big with transparent,
             local payment processing from Elite Card Processing.
           </p>
+          <div className="mx-auto mt-2 h-1 w-28 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500" />
+
         </div>
       </section>
 
