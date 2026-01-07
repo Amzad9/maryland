@@ -191,7 +191,7 @@ const ContactPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-20">
+      <section className="py-16 md:py-8">
         <div className="container mx-auto px-4">
           <div className="relative rounded-3xl overflow-hidden p-10 md:p-20 text-center text-black bg-[url('https://images.unsplash.com/photo-1651094856217-6f30970b1521?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center">
             <div className="absolute inset-0 bg-blue-100/70 backdrop-blur-2xl" />
@@ -220,7 +220,7 @@ const ContactPage = () => {
       </section>
 
       {/* Benefits & Offers */}
-      <section className="py-16 md:py-20">
+      <section className="py-16 md:py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
 
