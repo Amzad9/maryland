@@ -104,7 +104,7 @@ export default function Navbar() {
                           {link.items?.map(item => (
                             <a
                               key={item}
-                              href={`/${link.href}/${slugify(item)}`}
+                              href={`/${slugify(item)}`}
                               onClick={handleLinkClick}
                               className="block px-4 py-3 text-sm text-slate-300 hover:bg-white/10 hover:text-white transition"
                             >
