@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@plugin "daisyui";
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -40,4 +40,8 @@ h1 {
 h2, h3, h4, h5 {
   font-family: var(--font-body);
   letter-spacing: -0.02em;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
 }

@@ -1,13 +1,36 @@
 'use client';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [solutionsOpen, setSolutionsOpen] = useState(false);
+    const [mobileSolutionsOpen, setMobileSolutionsOpen] = useState(false);
+    
+    const dropdownRef = useRef(null);
+
+    const SOLUTIONS_ITEMS = [
+        'Point of sale systems',
+        'Online food ordering',
+        'Level III merchant services',
+        'Merchant cash advance',
+        'Seasonal ATMs',
+        'Cash discount dial pricing',
+        'Account management',
+        'Retail services',
+        '2a firearms',
+        'Restaurants'
+    ];
+
     const NAV_LINKS = [
         { name: 'Home', href: '/' },
-        { name: 'Solutions', href: 'solutions' },
+        { 
+            name: 'Solutions', 
+            href: 'solutions',
+            hasDropdown: true,
+            items: SOLUTIONS_ITEMS
+        },
         { name: 'Merchants', href: 'merchants' },
         { name: 'About', href: 'about' },
         { name: 'How To Videos', href: 'how-to-videos' },
@@ -16,10 +39,26 @@ export default function Navbar() {
         { name: 'Contact', href: 'contact' },
     ];
 
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setSolutionsOpen(false);
+            }
+        }
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, []);
+
+    // Close mobile menu when route changes
+    const handleLinkClick = () => {
+        setMobileMenuOpen(false);
+        setMobileSolutionsOpen(false);
+    };
+
     return (
         <>
-           
-
             {/* Navbar */}
             <nav className="sticky top-0 z-50 bg-[#10284D]/95 backdrop-blur-md border-b border-slate-800">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,19 +71,54 @@ export default function Navbar() {
                         </div>
 
                         {/* Desktop Links */}
-                        <div className="hidden lg:flex items-center space-x-6">
-                            {NAV_LINKS.map(({ name, href }) => (
-                                <a
-                                    key={href}
-                                    href={href}
-                                    className="text-md text-slate-300 font-body hover:text-white px-2 py-1 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                        <div className="hidden lg:flex items-center space-x-4 xl:space-x-6">
+                            {NAV_LINKS.map((link) => (
+                                <div 
+                                    key={link.name} 
+                                    className="relative"
+                                    ref={link.hasDropdown ? dropdownRef : null}
                                 >
-                                    {name}
-                                </a>
+                                    {link.hasDropdown ? (
+                                        <div className="relative">
+                                            <button
+                                                onClick={() => setSolutionsOpen(!solutionsOpen)}
+                                                className="flex items-center gap-1 text-md text-slate-300 font-body hover:text-white px-2 py-1 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                            >
+                                                {link.name}
+                                                <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${solutionsOpen ? 'rotate-180' : ''}`} />
+                                            </button>
+                                            
+                                            {/* Dropdown Menu */}
+                                            {solutionsOpen && (
+                                                <div className="absolute top-full left-0 mt-2 w-64  bg-[#10284D] backdrop-blur-sm rounded-lg shadow-xl border border-slate-800 overflow-hidden animate-fadeIn">
+                                                    <div className="py-2">
+                                                        {link.items.map((item, index) => (
+                                                            <a
+                                                                key={index}
+                                                                href={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                                                className="block px-4 py-3 text-sm text-slate-100 hover:bg-slate-500 hover:text-slate-900 transition-colors border-b border-b-[#10184D] last:border-b-0"
+                                                                onClick={() => setSolutionsOpen(false)}
+                                                            >
+                                                                {item}
+                                                            </a>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            )}
+                                        </div>
+                                    ) : (
+                                        <a
+                                            href={link.href}
+                                            className="text-md text-slate-300 font-body hover:text-white px-2 py-1 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                        >
+                                            {link.name}
+                                        </a>
+                                    )}
+                                </div>
                             ))}
                             <a
                                 href="getquote"
-                                className="px-5 py-2.5 text-sm font-semibold rounded-full text-slate-900 bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 shadow-lg hover:shadow-xl transition-all"
+                                className="px-5 py-2.5 text-sm font-semibold rounded-full text-slate-900 bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 shadow-lg hover:shadow-xl transition-all ml-4"
                             >
                                 Get A Quote Now
                             </a>
@@ -68,21 +142,50 @@ export default function Navbar() {
                     mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
                 }`}
             >
-                <div className="h-full overflow-y-auto px-6 py-20 space-y-4 ">
-                    {NAV_LINKS.map(({ name, href }) => (
-                        <a
-                            key={href}
-                            href={href}
-                            className="block text-md text-slate-300 font-body hover:text-white px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
-                            onClick={() => setMobileMenuOpen(false)}
-                        >
-                            {name}
-                        </a>
+                <div className="h-full overflow-y-auto px-6 py-20 space-y-4">
+                    {NAV_LINKS.map((link) => (
+                        <div key={link.name}>
+                            {link.hasDropdown ? (
+                                <>
+                                    <button
+                                        onClick={() => setMobileSolutionsOpen(!mobileSolutionsOpen)}
+                                        className="flex items-center justify-between w-full text-md text-slate-300 font-body hover:text-white px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                    >
+                                        {link.name}
+                                        <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${mobileSolutionsOpen ? 'rotate-180' : ''}`} />
+                                    </button>
+                                    
+                                    {/* Mobile Dropdown */}
+                                    {mobileSolutionsOpen && (
+                                        <div className="ml-4 mt-2 mb-3 space-y-2 border-l border-slate-700 pl-4 animate-fadeIn">
+                                            {link.items.map((item, index) => (
+                                                <a
+                                                    key={index}
+                                                    href={`/solutions/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                                    className="block text-sm text-slate-300 hover:text-white px-2 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                                    onClick={handleLinkClick}
+                                                >
+                                                    {item}
+                                                </a>
+                                            ))}
+                                        </div>
+                                    )}
+                                </>
+                            ) : (
+                                <a
+                                    href={link.href}
+                                    className="block text-md text-slate-300 font-body hover:text-white px-2 py-2 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                                    onClick={handleLinkClick}
+                                >
+                                    {link.name}
+                                </a>
+                            )}
+                        </div>
                     ))}
                     <a
                         href="getquote"
                         className="inline-block px-5 py-2.5 mt-4 text-sm font-semibold rounded-full text-slate-900 bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 shadow-lg hover:shadow-xl transition-all"
-                        onClick={() => setMobileMenuOpen(false)}
+                        onClick={handleLinkClick}
                     >
                         Get A Quote Now
                     </a>
@@ -96,6 +199,22 @@ export default function Navbar() {
                     onClick={() => setMobileMenuOpen(false)}
                 />
             )}
+
+            <style jsx>{`
+                @keyframes fadeIn {
+                    from {
+                        opacity: 0;
+                        transform: translateY(-10px);
+                    }
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+                .animate-fadeIn {
+                    animation: fadeIn 0.2s ease-out forwards;
+                }
+            `}</style>
         </>
     );
 }
