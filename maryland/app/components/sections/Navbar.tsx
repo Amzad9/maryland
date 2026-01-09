@@ -107,7 +107,7 @@ export default function Navbar() {
                                                         {link.items?.map((item, index) => (
                                                             <a
                                                                 key={index}
-                                                                href={`/solutions/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                                                href={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
                                                                 className="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors border-b border-slate-100 last:border-b-0"
                                                                 onClick={() => setSolutionsOpen(false)}
                                                             >
@@ -173,7 +173,7 @@ export default function Navbar() {
                                             {link.items?.map((item, index) => (
                                                 <a
                                                     key={index}
-                                                    href={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                                    href={`/point-of-sale-systems/${item.toLowerCase().replace(/\s+/g, '-')}`}
                                                     className="block text-sm text-slate-300 hover:text-white px-2 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
                                                     onClick={handleLinkClick}
                                                 >
