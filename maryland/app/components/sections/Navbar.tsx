@@ -3,12 +3,19 @@ import { useState, useEffect, useRef } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 
+interface NavLink {
+    name: string;
+    href: string;
+    hasDropdown?: boolean;
+    items?: string[];
+}
+
 export default function Navbar() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [solutionsOpen, setSolutionsOpen] = useState(false);
-    const [mobileSolutionsOpen, setMobileSolutionsOpen] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+    const [solutionsOpen, setSolutionsOpen] = useState<boolean>(false);
+    const [mobileSolutionsOpen, setMobileSolutionsOpen] = useState<boolean>(false);
     
-    const dropdownRef = useRef(null);
+    const dropdownRef = useRef<HTMLDivElement>(null);
 
     const SOLUTIONS_ITEMS = [
         'Point of sale systems',
@@ -23,7 +30,7 @@ export default function Navbar() {
         'Restaurants'
     ];
 
-    const NAV_LINKS = [
+    const NAV_LINKS: NavLink[] = [
         { name: 'Home', href: '/' },
         { 
             name: 'Solutions', 
@@ -41,8 +48,8 @@ export default function Navbar() {
 
     // Close dropdown when clicking outside
     useEffect(() => {
-        function handleClickOutside(event) {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        function handleClickOutside(event: MouseEvent) {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
                 setSolutionsOpen(false);
             }
         }
@@ -66,7 +73,13 @@ export default function Navbar() {
                         {/* Logo */}
                         <div className="flex items-center gap-2 select-none">
                             <a href="/">
-                                <Image src="/logo.png" alt="Maryland Merchant Services" width={80} height={80} />
+                                <Image 
+                                    src="/logo.png" 
+                                    alt="Maryland Merchant Services" 
+                                    width={80} 
+                                    height={80} 
+                                    className="h-auto"
+                                />
                             </a>
                         </div>
 
@@ -90,13 +103,13 @@ export default function Navbar() {
                                             
                                             {/* Dropdown Menu */}
                                             {solutionsOpen && (
-                                                <div className="absolute top-full left-0 mt-2 w-64  bg-[#10284D] backdrop-blur-sm rounded-lg shadow-xl border border-slate-800 overflow-hidden animate-fadeIn">
+                                                <div className="absolute top-full left-0 mt-2 w-64 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl border border-slate-200 overflow-hidden animate-fadeIn z-50">
                                                     <div className="py-2">
-                                                        {link.items.map((item, index) => (
+                                                        {link.items?.map((item, index) => (
                                                             <a
                                                                 key={index}
-                                                                href={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
-                                                                className="block px-4 py-3 text-sm text-slate-100 hover:bg-slate-500 hover:text-slate-900 transition-colors border-b border-b-[#10184D] last:border-b-0"
+                                                                href={`/solutions/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                                                className="block px-4 py-3 text-sm text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors border-b border-slate-100 last:border-b-0"
                                                                 onClick={() => setSolutionsOpen(false)}
                                                             >
                                                                 {item}
@@ -158,7 +171,7 @@ export default function Navbar() {
                                     {/* Mobile Dropdown */}
                                     {mobileSolutionsOpen && (
                                         <div className="ml-4 mt-2 mb-3 space-y-2 border-l border-slate-700 pl-4 animate-fadeIn">
-                                            {link.items.map((item, index) => (
+                                            {link.items?.map((item, index) => (
                                                 <a
                                                     key={index}
                                                     href={`/solutions/${item.toLowerCase().replace(/\s+/g, '-')}`}

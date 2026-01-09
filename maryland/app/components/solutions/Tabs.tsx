@@ -70,7 +70,7 @@ export default function BusinessTabs() {
         <div className="relative">
           {/* Glass morphism container for content */}
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white/50 shadow-2xl shadow-blue-500/5 overflow-hidden">
-            <div className="overflow-x-hidden">
+            <div className="overflow-x-hidden overflow-y-hidden">
               {/* Tab 1 Content */}
               {activeTab === 0 && (
                 <div className="animate-fadeIn">
@@ -101,7 +101,7 @@ export default function BusinessTabs() {
 
               {/* Tab 5 Content */}
               {activeTab === 4 && (
-                <div className="animate-fadeIn overflow-x-hidden">
+                <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
                   <MarylandBusiness />
                 </div>
               )}
