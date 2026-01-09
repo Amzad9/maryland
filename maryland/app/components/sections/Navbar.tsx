@@ -46,7 +46,6 @@ export default function Navbar() {
         { name: 'Contact', href: 'contact' },
     ];
 
-    // Close dropdown when clicking outside
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
