@@ -173,7 +173,7 @@ export default function Navbar() {
                                             {link.items?.map((item, index) => (
                                                 <a
                                                     key={index}
-                                                    href={`/solutions/${item.toLowerCase().replace(/\s+/g, '-')}`}
+                                                    href={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
                                                     className="block text-sm text-slate-300 hover:text-white px-2 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-yellow-400"
                                                     onClick={handleLinkClick}
                                                 >
