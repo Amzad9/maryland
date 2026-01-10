@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Business() {
   return (
     <>
-      <section className="py-6 px-2 md:px-6 rounded-2xl">
+      <section className="md:py-6 px-2 md:px-6 rounded-2xl">
         <div className="container mx-auto space-y-24 rounded-xl relative">
           <div className="absolute -top-20 -left-20 w-72 h-72 bg-sky-400/20 rounded-full blur-3xl animate-pulse" />
           <div className="absolute bottom-0 -right-20 w-72 h-72 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000" />
@@ -26,10 +26,10 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1556742393-d75f468bfcb0?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/paymentm.avif"
                   alt="Tablet POS system on restaurant counter"
-                  width={800}
-                  height={450}
+                  width={500}
+                  height={500}
                   className="object-cover w-full h-96 group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -41,10 +41,10 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://www.shutterstock.com/image-photo/wireless-payment-transaction-being-made-260nw-2517212071.jpg"
+                  src="/storetransaction.webp"
                   alt="Modern retail payment terminals comparison"
-                  width={1080}
-                  height={675}
+                  width={500}
+                  height={500}
                   className="object-cover w-full h-96 group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -68,7 +68,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1758519289582-398f2d7a4a88?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/clearlypayments.jpg"
                   alt="iPad POS system for service businesses"
                   width={1400}
                   height={1050}
@@ -101,7 +101,7 @@ export default function Business() {
 
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
+            <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 md:px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
               Compare Merchant Services Options
             </button>
             <button className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">

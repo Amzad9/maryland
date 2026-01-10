@@ -52,7 +52,7 @@ export default function ResourcesSection() {
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {/* Complete Merchant Services Resources */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-8 hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg">
                 <CreditCard className="w-7 h-7 text-white" />
@@ -82,7 +82,7 @@ export default function ResourcesSection() {
           </div>
 
           {/* Business Growth Through Payment Processing */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-8 hover:border-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 flex items-center justify-center shadow-lg">
                 <TrendingUp className="w-7 h-7 text-white" />
@@ -112,7 +112,7 @@ export default function ResourcesSection() {
           </div>
 
           {/* Merchant Services Support and Training */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-8 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-linear-to-r from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
                 <Shield className="w-7 h-7 text-white" />
@@ -150,7 +150,7 @@ export default function ResourcesSection() {
           <button 
             onMouseEnter={() => setIsHoveredView(true)}
             onMouseLeave={() => setIsHoveredView(false)}
-            className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
+            className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
           >
             <span className="text-lg">View all merchant services solutions</span>
             <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredView ? 'translate-x-2' : ''}`} />
@@ -159,7 +159,7 @@ export default function ResourcesSection() {
           <button 
             onMouseEnter={() => setIsHoveredGet(true)}
             onMouseLeave={() => setIsHoveredGet(false)}
-            className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
+            className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-gradient-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
           >
             <span className="text-lg">Get started with payment processing today</span>
             <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredGet ? 'translate-x-2' : ''}`} />

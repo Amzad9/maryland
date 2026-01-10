@@ -19,8 +19,8 @@ export default function BusinessTabs() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-4 py-16 md:py-20">
-      <div className="container mx-auto">
+    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 py-16 md:py-20">
+      <div className="">
         {/* Tab Navigation */}
         <div className="relative mb-8 md:mb-12">
           {/* Horizontal scroll wrapper */}

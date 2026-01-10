@@ -1,31 +1,28 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-
 export default function MarylandBusiness() {
   return (
-    <section className="mx-auto px-4 py-16 bg-white">
-      <div className="container mx-auto p-6 rounded-4xl relative">
+    <section className="mx-auto px-2 md:px-4 py-8 md:py-16 bg-white">
+      <div className="container mx-auto  rounded-4xl relative">
         {/* Glow effect on top corners */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-blue-500/15 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/15 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
-        <h2 className="text-4xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-tight">
+        <h2 className="text-3xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-tight">
           Maryland Businesses Thriving with Elite Card Processing Merchant Services
         </h2>
 
         <div className="space-y-12 mt-5">
-          {/* DinerDaddy POS - Image Left, Content Right */}
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row">
-            {/* Image Section - Left */}
-            <div className="md:w-1/2 relative overflow-hidden">
+            <div className="md:w-1/2 relative">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
-                  <Image 
-                    src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                <figure className="relative h-full">
+                  <Image
+                    src="/diner.png"
                     alt="DinerDaddy POS with Integrated Merchant Services" 
-                    fill
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    height={500} width={500}
+                    className="w-full h-full rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -76,10 +73,10 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[500px]">
                   <Image 
-                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/clover.jpg" 
                     alt="Clover POS All-in-One Payment Systems" 
-                    fill
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    height={500} width={500}
+                    className="w-full h-full rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -130,9 +127,10 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[500px]">
                   <Image 
-                    src="https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/aldeiro.webp" 
                     alt="Aldelo POS Restaurant Merchant Services" 
-                    fill
+                    height={500}
+                    width={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
@@ -184,7 +182,7 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[500px]">
                   <Image 
-                    src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/mobilepayment.jpg" 
                     alt="Mobile Payment Processing Options" 
                     fill
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"

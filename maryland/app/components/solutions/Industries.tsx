@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function IndustrySolutions() {
   return (
-    <section className="mx-auto px-4 py-16 bg-gray-100">
+    <section className="mx-auto px-0 md:px-4 py-8  md:py-16 bg-gray-100">
       <div className="container mx-auto p-4 rounded-3xl relative">
         {/* Glow effect on top corners */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-blue-500/15 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/15 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
-        <h2 className="text-4xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
+        <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
           Specialized Payment Processing Solutions Designed for Your Industry
         </h2>
 
@@ -21,9 +21,9 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="https://images.unsplash.com/photo-1636256374134-3c992f85fa16?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/pos.webp" 
                     alt="Restaurant POS" 
-                    fill
+                    width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
@@ -31,7 +31,7 @@ export default function IndustrySolutions() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Restaurant POS Solutions</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -85,24 +85,21 @@ export default function IndustrySolutions() {
             </div>
           </div>
 
-          {/* Retail & Service Card - Image Right, Content Left (Reversed) */}
           <div className="card bg-base-100 shadow-xl overflow-hidden group h-full flex flex-col md:flex-row-reverse">
-            {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="https://images.unsplash.com/photo-1622782914767-404fb9ab3f57?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/storetransaction.webp" 
                     alt="Clover POS" 
-                    fill
+                    width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
             </div>
             
-            {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Retail & Service Solutions</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -163,9 +160,9 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="https://images.unsplash.com/photo-1766426497505-681b56759e14?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/merchant-services-hero.jpg" 
                     alt="Service Business Payment Processing" 
-                    fill
+                    width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
@@ -173,7 +170,7 @@ export default function IndustrySolutions() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Service Business Payment Processing</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -228,9 +225,9 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="https://plus.unsplash.com/premium_photo-1683122058706-1ac4a2f833a2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    src="/service.webp" 
                     alt="Specialty Merchant Services" 
-                    fill
+                    width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
@@ -238,7 +235,7 @@ export default function IndustrySolutions() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Specialty Merchant Services</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">

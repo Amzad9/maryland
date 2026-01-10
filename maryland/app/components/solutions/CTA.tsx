@@ -16,10 +16,10 @@ export default function CTA() {
             <div className="absolute bottom-1/3 right-1/3 w-3 h-3 bg-purple-400/40 rounded-full animate-ping delay-300"></div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4">
-                <div className="bg-linear-to-br from-white via-white to-blue-50/30 backdrop-blur-xl rounded-3xl border-2 border-white/50 shadow-2xl shadow-blue-500/10 p-8 md:p-12 transform transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/20">
+                <div className="bg-linear-to-br from-white via-white to-blue-50/30 backdrop-blur-xl rounded-3xl border-2 border-white/50 shadow-2xl shadow-blue-500/10 p-4 md:p-12 transform transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/20">
                     <div className="max-w-4xl mx-auto">
                         <div className="text-center mb-10">
-                            <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                            <h2 className="text-2xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
                                 Are You Ready To Take Your Business To The Next Level?
                             </h2>
                             
