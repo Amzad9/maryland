@@ -189,7 +189,7 @@ export default function TestimonialCard() {
                             key={itemIndex} 
                             className="flex items-center gap-3 px-4 py-3 rounded-xl "
                           >
-                            <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex-shrink-0"></div>
+                            <div className="w-2 h-2 rounded-full bg-linear-to-r from-blue-500 to-purple-500 flex-shrink-0"></div>
                             <span className="text-gray-700 text-sm">{item}</span>
                           </div>
                         ))}
@@ -199,7 +199,7 @@ export default function TestimonialCard() {
                     {/* Bottom Indicator */}
                     <div className="pt-5 border-t border-white/20">
                       <div className="text-xs text-gray-500 flex items-center gap-2">
-                        <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 animate-pulse"></div>
+                        <div className="w-2 h-2 rounded-full bg-linear-to-r from-blue-500 to-purple-500 animate-pulse"></div>
                         Verified Success Story
                       </div>
                     </div>

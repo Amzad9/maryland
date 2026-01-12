@@ -18,7 +18,7 @@ export default function PaymentProcessingHardware() {
           <div className="card overflow-hidden  rounded-4xl group h-full flex flex-col md:flex-row">
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/mobilepayment.jpg" 
                     alt="Complete Merchant Services Terminals" 
@@ -30,7 +30,7 @@ export default function PaymentProcessingHardware() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-white text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Complete Merchant Services Terminals</h3>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
@@ -51,7 +51,7 @@ export default function PaymentProcessingHardware() {
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/tablet.jpg" 
                     alt="Tablet-Based Payment Processing Systems" 
@@ -63,7 +63,7 @@ export default function PaymentProcessingHardware() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center  text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center  text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Tablet-Based Payment Processing Systems</h3>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
@@ -85,7 +85,7 @@ export default function PaymentProcessingHardware() {
             {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/terminals.webp" 
                     alt="Integrated Payment Terminals" 
@@ -97,7 +97,7 @@ export default function PaymentProcessingHardware() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Integrated Payment Terminals</h3>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
@@ -119,7 +119,7 @@ export default function PaymentProcessingHardware() {
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/Cloverpayments.webp" 
                     alt="Complete Payment Processing Peripherals" 
@@ -131,7 +131,7 @@ export default function PaymentProcessingHardware() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Complete Payment Processing Peripherals</h3>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
@@ -152,12 +152,12 @@ export default function PaymentProcessingHardware() {
           <div className="card overflow-hidden group rounded-4xl h-full flex flex-col md:flex-row">
             {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
-              <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+              <div className="relative">
+                <figure className="relative h-full">
                   <Image 
-                    src="/payment.png" 
+                     src="/mobilepayment.jpg" 
                     alt="Mobile Merchant Services Solutions" 
-                    width={500} height={500}
+                    width={500} height={200}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
@@ -165,7 +165,7 @@ export default function PaymentProcessingHardware() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Mobile Merchant Services Solutions</h3>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
@@ -188,11 +188,11 @@ export default function PaymentProcessingHardware() {
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative h-full">
                   <Image 
                     src="/IntegratedTerminal.jpg" 
                     alt="Professional Installation and Setup" 
-                    fill
+                    width={500} height={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
@@ -200,7 +200,7 @@ export default function PaymentProcessingHardware() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center  text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center  text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Professional Installation and Setup</h3>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">

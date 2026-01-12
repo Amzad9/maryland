@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function IndustrySolutions() {
   return (
     <section className="mx-auto px-0 md:px-4 py-8  md:py-16 bg-gray-100">
-      <div className="container mx-auto p-4 rounded-3xl relative">
+      <div className="container mx-auto rounded-3xl relative">
         {/* Glow effect on top corners */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-blue-500/15 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/15 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>

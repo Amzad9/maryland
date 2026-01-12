@@ -13,7 +13,7 @@ export default function Footer() {
   const linkClass =
     "relative text-sm text-slate-400 hover:text-[#f4e28f] transition-colors duration-300 " +
     "after:absolute after:left-0 after:-bottom-1 after:h-[1px] after:w-full " +
-    "after:bg-gradient-to-r after:from-[#f4e28f] after:to-[#f4e28f] " +
+    "after:bg-linear-to-r after:from-[#f4e28f] after:to-[#f4e28f] " +
     "after:scale-x-0 after:origin-left after:transition-transform after:duration-300 " +
     "hover:after:scale-x-100";
 

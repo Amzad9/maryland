@@ -143,7 +143,7 @@ const ContactPage = () => {
                     <button
                       type="submit"
                       disabled={isSubmitting}
-                      className="inline-flex items-center gap-3 w-full md:w-auto justify-center rounded-xl px-8 sm:px-10 py-4 bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-[1.02] active:scale-100 transition-all disabled:opacity-70"
+                      className="inline-flex items-center gap-3 w-full md:w-auto justify-center rounded-xl px-8 sm:px-10 py-4 bg-linear-to-r from-sky-500 to-indigo-500 text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-[1.02] active:scale-100 transition-all disabled:opacity-70"
                     >
                       {isSubmitting ? (
                         <>

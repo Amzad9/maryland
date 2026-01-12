@@ -151,15 +151,5 @@ const BenefitItem = ({ title, description, highlight }: { title: string; descrip
   </div>
 );
 
-// Feature Card Component
-const FeatureCard = ({ title, description, gradient }: { title: string; description: string; gradient: string }) => (
-  <div className={`p-6 rounded-xl bg-gradient-to-br ${gradient} backdrop-blur-sm border border-white/30 hover:border-white/50 transition-all duration-300 group hover:transform hover:-translate-y-1`}>
-    <div className="w-12 h-12 bg-white/80 rounded-lg flex items-center justify-center mb-4 group-hover:bg-white transition-colors duration-300">
-      <div className="w-6 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500"></div>
-    </div>
-    <h4 className="font-bold text-gray-800 mb-2">{title}</h4>
-    <p className="text-gray-600 text-sm">{description}</p>
-  </div>
-);
 
 export default MarylandPaymentProcessing;

@@ -29,7 +29,7 @@ export default function MarylandBusiness() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-white text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">DinerDaddy POS with Integrated Merchant Services</h3>
               <div className="space-y-4 mb-6">
                 <ul className="space-y-4">
@@ -71,7 +71,7 @@ export default function MarylandBusiness() {
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/clover.jpg" 
                     alt="Clover POS All-in-One Payment Systems" 
@@ -83,7 +83,7 @@ export default function MarylandBusiness() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-white text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Clover POS All-in-One Payment Systems</h3>
               <div className="space-y-4 mb-6">
                 <ul className="space-y-4">
@@ -125,7 +125,7 @@ export default function MarylandBusiness() {
             {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/aldeiro.webp" 
                     alt="Aldelo POS Restaurant Merchant Services" 
@@ -138,7 +138,7 @@ export default function MarylandBusiness() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-white text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Aldelo POS Restaurant Merchant Services</h3>
               <div className="space-y-4 mb-6">
                 <ul className="space-y-4">
@@ -180,7 +180,7 @@ export default function MarylandBusiness() {
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
-                <figure className="relative h-full min-h-[500px]">
+                <figure className="relative">
                   <Image 
                     src="/mobilepayment.jpg" 
                     alt="Mobile Payment Processing Options" 
@@ -192,7 +192,7 @@ export default function MarylandBusiness() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-12 flex flex-col justify-center bg-white text-gray-900">
+            <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Mobile Payment Processing Options</h3>
               <div className="space-y-4 mb-6">
                 <ul className="space-y-4">

@@ -25,8 +25,8 @@ const ContactEliteCardProcessing = () => {
             {/* Contact Information Card */}
             <div className="glass-morphism p-4 md:p-8 relative overflow-hidden group">
               {/* Background gradient effect */}
-              <div className="absolute -right-20 -top-20 w-80 h-80 bg-gradient-to-r from-blue-500/10 to-cyan-400/10 rounded-full blur-3xl"></div>
-              <div className="absolute -left-20 -bottom-20 w-80 h-80 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl"></div>
+              <div className="absolute -right-20 -top-20 w-80 h-80 bg-linear-to-r from-blue-500/10 to-cyan-400/10 rounded-full blur-3xl"></div>
+              <div className="absolute -left-20 -bottom-20 w-80 h-80 bg-linear-to-r from-indigo-500/10 to-purple-500/10 rounded-full blur-3xl"></div>
 
               <div className="relative z-10">
                 <div className="flex items-center mb-8">
@@ -124,7 +124,7 @@ const ContactItem = ({
     <div className="space-y-4">
       {details.map((detail, index) => (
         <div key={index} className="flex items-start group-hover:transform group-hover:translate-x-1 transition-transform duration-300">
-          <div className={`w-10 h-10 bg-gradient-to-r from-${accent}-500/20 to-${accent === 'blue' ? 'cyan' : accent === 'cyan' ? 'blue' : 'purple'}-500/20 rounded-lg flex items-center justify-center mr-4`}>
+          <div className={`w-10 h-10 bg-linear-to-r from-${accent}-500/20 to-${accent === 'blue' ? 'cyan' : accent === 'cyan' ? 'blue' : 'purple'}-500/20 rounded-lg flex items-center justify-center mr-4`}>
             {detail.icon}
           </div>
           <div>

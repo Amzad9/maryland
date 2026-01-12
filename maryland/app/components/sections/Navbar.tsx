@@ -35,7 +35,7 @@ export default function Navbar() {
   ];
 
   const NAV_LINKS: NavLink[] = [
-    { name: 'Home', href: '/' },
+    { name: 'Home', href: '' },
     { name: 'Solutions', href: 'solutions', hasDropdown: true, items: SOLUTIONS_ITEMS },
     { name: 'Merchants', href: 'merchants', hasDropdown: true, items: MERCHANTS_ITEMS },
     { name: 'About', href: 'about' },
@@ -79,8 +79,8 @@ export default function Navbar() {
               <Image src="/logo.png" alt="Logo" width={80} height={80} />
             </a>
 
-            {/* DESKTOP MENU */}
-            <div className="hidden lg:flex items-center gap-6">
+            {/* DESKTOP MENU - Changed from lg:flex to xl:flex */}
+            <div className="hidden xl:flex items-center gap-6">
               {NAV_LINKS.map(link => (
                 <div key={link.name} className="relative">
                   {link.hasDropdown ? (
@@ -89,7 +89,10 @@ export default function Navbar() {
                         onClick={() =>
                           setOpenDropdown(openDropdown === link.name ? null : link.name)
                         }
-                        className="flex items-center gap-1 text-slate-300 hover:text-white"
+                        onTouchStart={() =>
+                          setOpenDropdown(openDropdown === link.name ? null : link.name)
+                        }
+                        className="flex items-center gap-1 text-slate-300 hover:text-white transition-colors duration-200"
                       >
                         {link.name}
                         <ChevronDown
@@ -106,7 +109,7 @@ export default function Navbar() {
                               key={item}
                               href={`/${slugify(item)}`}
                               onClick={handleLinkClick}
-                              className="block px-4 py-3 text-sm text-slate-300 hover:bg-white/10 hover:text-white transition"
+                              className="block px-4 py-3 text-sm text-slate-300 hover:bg-white/10 hover:text-white transition-colors duration-200"
                             >
                               {item}
                             </a>
@@ -117,7 +120,7 @@ export default function Navbar() {
                   ) : (
                     <a
                       href={`/${link.href}`}
-                      className="text-slate-300 hover:text-white"
+                      className="text-slate-300 hover:text-white transition-colors duration-200"
                     >
                       {link.name}
                     </a>
@@ -127,32 +130,33 @@ export default function Navbar() {
 
               <a
                 href="/getquote"
-                className="px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900"
+                className="px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-300 transition-colors duration-200"
               >
                 Get A Quote
               </a>
             </div>
 
-            {/* MOBILE BUTTON */}
+            {/* MOBILE BUTTON - Changed from lg:hidden to xl:hidden */}
             <button
               onClick={() => setMobileMenuOpen(v => !v)}
-              className="lg:hidden text-white"
+              className="xl:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors duration-200"
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
             >
-              {mobileMenuOpen ? <X /> : <Menu />}
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
       </nav>
 
-      {/* MOBILE MENU */}
+      {/* MOBILE MENU - Changed from lg:hidden to xl:hidden */}
       <div
-        className={`lg:hidden fixed top-0 right-0 h-full w-80 bg-[#10284D]/95 backdrop-blur-md z-50 transform transition-transform ${
+        className={`xl:hidden fixed top-0 right-0 h-full w-80 bg-[#10284D] backdrop-blur-md z-50 transform transition-transform duration-300 ease-in-out ${
           mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="px-6 py-20 space-y-4">
           {NAV_LINKS.map(link => (
-            <div key={link.name}>
+            <div key={link.name} className="border-b border-slate-700/50 last:border-b-0 pb-2 last:pb-0">
               {link.hasDropdown ? (
                 <>
                   <button
@@ -161,24 +165,29 @@ export default function Navbar() {
                         mobileDropdown === link.name ? null : link.name
                       )
                     }
-                    className="flex justify-between w-full text-slate-300"
+                    onTouchStart={() =>
+                      setMobileDropdown(
+                        mobileDropdown === link.name ? null : link.name
+                      )
+                    }
+                    className="flex justify-between w-full text-slate-300 hover:text-white py-2 items-center"
                   >
-                    {link.name}
+                    <span className="font-medium">{link.name}</span>
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform ${
+                      className={`w-4 h-4 transition-transform duration-200 ${
                         mobileDropdown === link.name ? 'rotate-180' : ''
                       }`}
                     />
                   </button>
 
                   {mobileDropdown === link.name && (
-                    <div className="ml-4 mt-2 space-y-2">
+                    <div className="ml-4 mt-2 space-y-2 border-l border-slate-700/50 pl-3">
                       {link.items?.map(item => (
                         <a
                           key={item}
-                          href={`/${link.href}/${slugify(item)}`}
+                          href={`/${slugify(item)}`}
                           onClick={handleLinkClick}
-                          className="block text-sm text-slate-300 hover:text-white"
+                          className="block text-sm text-slate-300 hover:text-white py-1.5 pl-2 hover:bg-white/5 rounded transition-colors duration-200"
                         >
                           {item}
                         </a>
@@ -190,21 +199,32 @@ export default function Navbar() {
                 <a
                   href={`/${link.href}`}
                   onClick={handleLinkClick}
-                  className="block text-slate-300 hover:text-white"
+                  className="block text-slate-300 hover:text-white py-2 font-medium"
                 >
                   {link.name}
                 </a>
               )}
             </div>
           ))}
+          
+          <div className="pt-4 mt-4 border-t border-slate-700/50">
+            <a
+              href="/getquote"
+              onClick={handleLinkClick}
+              className="block w-full text-center px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-300 transition-colors duration-200"
+            >
+              Get A Quote
+            </a>
+          </div>
         </div>
       </div>
 
-      {/* OVERLAY */}
+      {/* OVERLAY - Changed from lg:hidden to xl:hidden */}
       {mobileMenuOpen && (
         <div
-          className="fixed inset-0 bg-black/60 z-40 lg:hidden"
+          className="fixed inset-0 bg-black/60 z-40 xl:hidden"
           onClick={() => setMobileMenuOpen(false)}
+          onTouchStart={() => setMobileMenuOpen(false)}
         />
       )}
     </>

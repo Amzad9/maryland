@@ -7,47 +7,76 @@ export default function CTA() {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <section id="contact" className="relative py-24 overflow-hidden">
-            <div className="absolute inset-0 bg-linear-to-br from-blue-50 via-white to-purple-50"></div>
-            <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-linear-to-r from-blue-200/30 to-purple-200/20 rounded-full blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-linear-to-r from-emerald-200/20 to-cyan-200/20 rounded-full blur-3xl"></div>
+        <section id="contact" className="relative py-20 md:py-24 overflow-hidden">
+            {/* Subtle gradient background */}
+            <div className="absolute inset-0 bg-linear-to-br from-blue-50/30 via-white to-purple-50/20"></div>
+            
+            {/* Blurred background elements */}
+            <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-linear-to-r from-blue-100/20 to-purple-100/10 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-linear-to-r from-emerald-100/10 to-cyan-100/10 rounded-full blur-3xl"></div>
 
-            <div className="absolute top-1/4 left-1/4 w-4 h-4 bg-blue-400/40 rounded-full animate-ping"></div>
-            <div className="absolute bottom-1/3 right-1/3 w-3 h-3 bg-purple-400/40 rounded-full animate-ping delay-300"></div>
+            {/* Subtle decorative elements */}
+            <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-blue-300/20 rounded-full animate-pulse"></div>
+            <div className="absolute bottom-1/3 right-1/3 w-1.5 h-1.5 bg-purple-300/20 rounded-full animate-pulse delay-700"></div>
 
-            <div className="relative z-10 max-w-7xl mx-auto px-4">
-                <div className="bg-linear-to-br from-white via-white to-blue-50/30 backdrop-blur-xl rounded-3xl border-2 border-white/50 shadow-2xl shadow-blue-500/10 p-4 md:p-12 transform transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/20">
-                    <div className="max-w-4xl mx-auto">
-                        <div className="text-center mb-10">
-                            <h2 className="text-2xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                                Are You Ready To Take Your Business To The Next Level?
+            <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                {/* Glass morphism container with blur overlay */}
+                <div className="relative bg-white/40 backdrop-blur-xl rounded-2xl border border-white/60 shadow-xl shadow-blue-500/5 p-8 md:p-12 transform transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
+                    
+                    {/* Blur Overlay Layer */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-white/10 backdrop-blur-md rounded-2xl -z-10"></div>
+                    
+                    {/* Frosted Glass Effect */}
+                    <div className="absolute inset-0 bg-linear-to-br from-white/30 via-transparent to-white/10 rounded-2xl backdrop-blur-sm -z-10"></div>
+                    
+                    {/* Subtle border glow */}
+                    <div className="absolute inset-0 rounded-2xl border border-white/50 shadow-inner"></div>
+
+                    <div className="relative z-10 max-w-3xl mx-auto text-center">
+                        
+                        {/* Heading */}
+                        <div className="mb-10">
+                            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+                                Ready to Elevate Your Business?
                             </h2>
                             
-                            <p className="text-gray-700 text-lg md:text-xl mb-8 leading-relaxed">
-                                Are you ready to grow your business and take that next step in your business plan,
-                                but need some capital to get it moving? Elite Card Processing has an opportunity
-                                for you to get the financing you need, today!
+                            <p className="text-gray-600 text-lg md:text-xl mb-8 leading-relaxed max-w-2xl mx-auto">
+                                Looking to grow your business but need capital to take that next step? 
+                                Elite Card Processing offers tailored financing solutions to help you achieve your goals.
                             </p>
-                            
-                         
-                            <div className="mt-12">
-                                <p className="text-2xl font-bold text-gray-900 mb-6">
-                                    Contact Us Today For A Free Quote!
+                        </div>
+
+                        {/* CTA Section */}
+                        <div className="mt-12">
+                            <div className="mb-10">
+                                <h3 className="text-2xl font-semibold text-gray-900 mb-2">
+                                    Get Your Free Quote Today
+                                </h3>
+                                <p className="text-gray-500 text-sm">
+                                    No commitment, just a conversation about your business needs
                                 </p>
-                                
+                            </div>
+                            
+                            {/* CTA Button */}
+                            <div className="flex flex-col items-center space-y-4">
                                 <button
                                     onMouseEnter={() => setIsHovered(true)}
                                     onMouseLeave={() => setIsHovered(false)}
-                                    className="group inline-flex items-center justify-center py-4 px-8 bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
+                                    className="group relative inline-flex items-center justify-center py-3.5 px-10 bg-linear-to-r from-blue-500 to-cyan-500 text-white font-medium rounded-xl shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-0.5 active:scale-[0.98] overflow-hidden"
                                 >
-                                    <span className="text-lg">Let's Get Started</span>
-                                    <ArrowRight className={`w-5 h-5 ml-3 transition-transform duration-300 ${isHovered ? 'translate-x-2' : ''}`} />
+                                    {/* Button shine effect */}
+                                    <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                                    
+                                    <span className="text-base relative z-10">Start Your Application</span>
+                                    <ArrowRight className={`w-4 h-4 ml-3 relative z-10 transition-all duration-300 ${isHovered ? 'translate-x-1' : ''}`} />
                                 </button>
                                 
-                                <p className="text-gray-500 text-sm mt-6">
-                                    If you're ready to apply go ahead and click to Get Started!
+                                <p className="text-gray-400 text-sm max-w-xs mx-auto">
+                                    Quick and easy process. Get pre-approved in minutes.
                                 </p>
                             </div>
+
+                         
                         </div>
                     </div>
                 </div>
