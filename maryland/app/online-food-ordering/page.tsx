@@ -14,12 +14,12 @@ const SolutionsPage = () => {
         md:py-32
         justify-center
         overflow-hidden
-        bg-[url('https://images.pexels.com/photos/8837470/pexels-photo-8837470.jpeg')]
+        bg-[url('https://images.pexels.com/photos/4058223/pexels-photo-4058223.jpeg')]
         bg-cover
         bg-center
       ">
       {/* soft ambient glow */}
-      <div className="absolute inset-0 bg-linear-to-br from-white/40 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-br from-white/20 to-transparent" />
 
    
       <div className="absolute inset-0 bg-linear-to-br from-[#152E5A]/85 via-[#152E5A]/70 to-[#152E5A]/85"></div>

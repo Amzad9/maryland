@@ -14,7 +14,7 @@ const MerchantServices = () => {
         md:py-32
         justify-center
         overflow-hidden
-        bg-[url('https://images.pexels.com/photos/8837470/pexels-photo-8837470.jpeg')]
+        bg-[url('https://images.pexels.com/photos/35601075/pexels-photo-35601075.jpeg')]
         bg-cover
         bg-center
       ">
