@@ -38,6 +38,7 @@ export default function Navbar() {
     { name: 'Home', href: '' },
     { name: 'Solutions', href: 'solutions', hasDropdown: true, items: SOLUTIONS_ITEMS },
     { name: 'Merchants', href: 'merchants', hasDropdown: true, items: MERCHANTS_ITEMS },
+    { name: 'ISO Agent Program', href: 'isoagentprogram' },
     { name: 'About', href: 'about' },
     { name: 'How To Videos', href: 'how-to-videos' },
     { name: 'Elite Reviews', href: 'elite-reviews' },

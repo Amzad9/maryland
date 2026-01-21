@@ -110,7 +110,7 @@ export default function AccountPortalLoginThreeCards() {
         </div>
 
         {/* Bottom CTA Buttons */}
-        <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+        <div className="grid sm:grid-cols-1 gap-4 max-w-2xl mx-auto">
           <a href="#" className="p-4 rounded-xl bg-linear-to-r from-blue-600 to-indigo-600 text-white font-bold text-center hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 border border-blue-600 hover:border-blue-700">
             <div className="flex items-center justify-center gap-3">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
