@@ -74,10 +74,10 @@ export default function Navbar() {
         className="sticky top-0 z-50 bg-[#10284D]/95 backdrop-blur-md border-b border-slate-800"
       >
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between py-2">
+          <div className="flex items-center justify-between py-1">
             {/* LOGO */}
             <a href="/">
-              <Image src="/logo/Elite-Card-Processing-02.png" alt="Logo" className='rounded-4xl' width={90} height={90} />
+              <Image src="/logo/Elite-Card-Processing-03.png" alt="Logo" className='rounded-4xl' width={80} height={80} />
             </a>
 
             {/* DESKTOP MENU - Changed from lg:flex to xl:flex */}

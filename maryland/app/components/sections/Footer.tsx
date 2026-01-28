@@ -42,9 +42,9 @@ export default function Footer() {
           {/* About */}
           <div className="space-y-4">
           <a href="/">
-              <Image src="/logo/Elite-Card-Processing-02.png" alt="Logo" className='rounded-xl' width={120} height={120} />
+              <Image src="/logo/Elite-Card-Processing-03.png" alt="Logo" className='rounded-xl' width={120} height={120} />
             </a>
-            <p className="text-sm text-slate-400 leading-relaxed mt-0">
+            <p className="text-sm text-slate-400 leading-relaxed mt-2">
               Elite Card Processing was founded on the principles of providing exceptional
               service at a great rate. We bring merchants the latest technology to improve efficiency.
             </p>
