@@ -41,9 +41,10 @@ export default function Footer() {
 
           {/* About */}
           <div className="space-y-4">
-            <Image src="/logo.png" alt="Maryland Merchant Services" width={100} height={100} />
-
-            <p className="text-sm text-slate-400 leading-relaxed">
+          <a href="/">
+              <Image src="/logo/Elite-Card-Processing-02.jpg" alt="Logo" className='rounded-xl' width={60} height={60} />
+            </a>
+            <p className="text-sm text-slate-400 leading-relaxed mt-5">
               Elite Card Processing was founded on the principles of providing exceptional
               service at a great rate. We bring merchants the latest technology to improve efficiency.
             </p>

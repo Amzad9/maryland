@@ -1,5 +1,5 @@
 import React from 'react';
-import CashDiscount from '../components/cashdiscountdual/CashDiscount';
+import CashDiscount from '../components/cash-discount-dual-pricing/CashDiscount';
 
 const MerchantServices = () => {
     return (

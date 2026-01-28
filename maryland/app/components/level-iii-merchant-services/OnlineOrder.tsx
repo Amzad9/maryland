@@ -1,11 +1,10 @@
 import WhyChoose from "../solutions/WhyChoose";
 import TestimonialCard from "../solutions/TestimonialCard";
-import Tabs from "../onlinefoodordering/Tabs";
-import MarylandPaymentProcessing from "../solutions/MarylandPaymentProcessing";
+import Tabs from "../level-iii-merchant-services/Tabs";
 import ContactEliteCardProcessing from "../solutions/ContactEliteCardProcessing";
 import CTA from "../solutions/CTA";
-import ResourcesSection from "../solutions/ResourcesSection";
-import MarylandRestaurantNovi from "./ MarylandRestaurantNovi";
+import PaymentProcessingResources from "../level-iii-merchant-services/PaymentProcessingResources";
+import NoviEatsOnlineOrdering from "./NoviEatsOnlineOrdering";
 
 export default function Page() {
   return (
@@ -13,9 +12,9 @@ export default function Page() {
       <Tabs />
       <WhyChoose />
       <TestimonialCard />
-      <MarylandRestaurantNovi />
+      <NoviEatsOnlineOrdering />
       <ContactEliteCardProcessing />
-      <ResourcesSection />
+      <PaymentProcessingResources />
       <CTA />
     </>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import MerchantCash from '../components/merchantcashadvance/MerchantCash';
+import MerchantCash from '../components/merchant-cash-advance/MerchantCash';
 
 const MerchantServices = () => {
     return (

@@ -77,7 +77,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3">
             {/* LOGO */}
             <a href="/">
-              <Image src="/logo.png" alt="Logo" width={80} height={80} />
+              <Image src="/logo/Elite-Card-Processing-02.jpg" alt="Logo" className='rounded-4xl' width={60} height={60} />
             </a>
 
             {/* DESKTOP MENU - Changed from lg:flex to xl:flex */}

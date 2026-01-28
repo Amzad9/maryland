@@ -1,5 +1,5 @@
 import React from 'react';
-import OnlineOrder from '../components/onlinefoodordering/OnlineOrder';
+import OnlineOrder from '../components/online-food-ordering/OnlineOrder';
 
 const SolutionsPage = () => {
   return (

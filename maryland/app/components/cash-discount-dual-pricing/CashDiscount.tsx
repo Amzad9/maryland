@@ -6,7 +6,7 @@ import MarylandSurchargeLaws from "./MarylandSurchargeLaws";
 import LegalCompliance from "./LegalCompliance";
 import TechnologySection from "./TechnologySection";
 import DualPricingVsSurcharging from "./DualPricingVsSurcharging";
-import SuccessStories from './ProcessingResources'
+import SuccessStories from './PaymentProcessingResources'
 import WhyChooseUs from './WhyChooseUs'
 import DualPricingCard from './DualPricingCard'
 import SurchargeFAQ from "./SurchargeFAQ";

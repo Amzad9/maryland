@@ -3,8 +3,8 @@ import TestimonialCard from "../solutions/TestimonialCard";
 import Tabs from "../seasonal-atms/Tabs";
 import ContactEliteCardProcessing from "../solutions/ContactEliteCardProcessing";
 import CTA from "../solutions/CTA";
-import ProcessingResources from "../seasonal-atms/ProcessingResources";
-import MarylandRestaurantNovi from "./MarylandRestaurantNovi";
+import PaymentProcessingResources from "../seasonal-atms/PaymentProcessingResources";
+import NoviEatsOnlineOrdering from "./NoviEatsOnlineOrdering";
 
 export default function Page() {
   return (
@@ -12,9 +12,9 @@ export default function Page() {
       <Tabs />
       <WhyChoose />
       <TestimonialCard />
-      <MarylandRestaurantNovi />
+      <NoviEatsOnlineOrdering />
       <ContactEliteCardProcessing />
-      <ProcessingResources />
+      <PaymentProcessingResources />
       <CTA />
     </>
   );

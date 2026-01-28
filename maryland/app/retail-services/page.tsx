@@ -1,5 +1,5 @@
 import React from 'react';
-import MerchantRetail from '../components/merchantretailservices/MerchantRetail';
+import MerchantRetail from '../components/retail-services/MerchantRetail';
 
 const MerchantServices = () => {
     return (

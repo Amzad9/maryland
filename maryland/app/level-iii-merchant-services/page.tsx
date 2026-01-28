@@ -1,5 +1,5 @@
 import React from 'react';
-import OnlineOrder from '../components/levelmerchantservices/OnlineOrder';
+import OnlineOrder from '../components/level-iii-merchant-services/OnlineOrder';
 
 const MerchantServices = () => {
     return (

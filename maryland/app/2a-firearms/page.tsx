@@ -1,5 +1,5 @@
 import React from 'react';
-import Afirearms from '../components/2afirearms/2afirearms';
+import Afirearms from '../components/2a-firearms/2afirearms';
 
 const MerchantServices = () => {
     return (
