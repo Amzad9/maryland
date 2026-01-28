@@ -22,11 +22,7 @@ export default function QuotePage() {
                     no hidden fees, no surprises.
                 </p>
             </section>
-
-            {/* MAIN CARD */}
-            {/* MAIN CARD */}
             <section className="mx-auto mt-14 max-w-7xl px-6 pb-24 relative">
-
                 {/* card glow */}
                 <div className="pointer-events-none absolute inset-0 -z-10 flex justify-center">
                     <div

@@ -114,8 +114,11 @@ export default function page() {
                                     Track and grow your business using AMP's sales-focused CRM & Dialer.
                                 </p>
                             </div>
-
-                            <a href="#" className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base">
+    {/* Button */}
+    <a
+                                href="#"
+                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
+                            >
                                 Get Started
                             </a>
                         </div>
@@ -136,7 +139,11 @@ export default function page() {
                                 </p>
                             </div>
 
-                            <a href="#" className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base">
+                              {/* Button */}
+                              <a
+                                href="#"
+                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
+                            >
                                 Get Started
                             </a>
                         </div>
@@ -157,7 +164,11 @@ export default function page() {
                                 </p>
                             </div>
 
-                            <a href="#" className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base">
+                             {/* Button */}
+                             <a
+                                href="#"
+                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
+                            >
                                 Get Started
                             </a>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Account from '../components/accountmanagement/Account';
+import Account from '../components/account-management/Account';
 
 const MerchantServices = () => {
     return (

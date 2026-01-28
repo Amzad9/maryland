@@ -1,27 +1,26 @@
 "use client";
 
-import Business from "../onlinefoodordering/Business";
-import Features from "../onlinefoodordering/Features";
-import CompleteRestaurant from "../onlinefoodordering/CompleteRestaurant";
-import IndustrySolutions from "../onlinefoodordering/Industries";
-import EnhancedCustomer from '../onlinefoodordering/EnhancedCustomer'
-import OrderingPricing from '../onlinefoodordering/OrderingPricing'
+import Business from "../merchant-cash-advance/Business";
+import Features from "../merchant-cash-advance/Features";
+import CompleteRestaurant from "../merchant-cash-advance/CompleteRestaurant";
+import IndustrySolutions from "../merchant-cash-advance/Industries";
+import EnhancedCustomer from '../merchant-cash-advance/EnhancedCustomer'
+import OrderingPricing from '../merchant-cash-advance/OrderingPricing'
 import { useState } from 'react';
 
 const TAB_LABELS = [
-  "Online Ordering Platform",
-  "Food Ordering Features",
-  "Specialized Online Food Ordering ",
-  "Restaurant Merchant Services",
-  "Enhanced Customer Experience ",
-  "Food Ordering Pricing",
+  "Business Financing ",
+  "Maryland Businesses",
+  "Merchant Cash Advance",
+  "Financing Application Process",
+  "Financing Consultation",
 ];
 
 export default function BusinessTabs() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 py-16 md:py-20">
+    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 pt-16 pb-4 md:pt-20">
       <div className="">
         {/* Tab Navigation */}
         <div className="relative mb-8 md:mb-12">
@@ -107,12 +106,7 @@ export default function BusinessTabs() {
                   <EnhancedCustomer />
                 </div>
               )}
-               {/* Tab 6 Content */}
-               {activeTab === 5 && (
-                <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <OrderingPricing />
-                </div>
-              )}
+           
             </div>
           </div>
         </div>

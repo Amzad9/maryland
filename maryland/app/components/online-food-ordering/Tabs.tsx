@@ -1,27 +1,27 @@
 "use client";
 
-import Business from "../levelmerchantservices/Business";
-import Features from "../levelmerchantservices/Features";
-import CompleteRestaurant from "../levelmerchantservices/CompleteRestaurant";
-import IndustrySolutions from "../levelmerchantservices/Industries";
-import EnhancedCustomer from '../levelmerchantservices/EnhancedCustomer'
-import OrderingPricing from '../levelmerchantservices/OrderingPricing'
+import Business from "../online-food-ordering/Business";
+import Features from "../online-food-ordering/Features";
+import CompleteRestaurant from "../online-food-ordering/CompleteRestaurant";
+import IndustrySolutions from "../online-food-ordering/Industries";
+import EnhancedCustomer from '../online-food-ordering/EnhancedCustomer'
+import OrderingPricing from '../online-food-ordering/OrderingPricing'
 import { useState } from 'react';
 
 const TAB_LABELS = [
-  "Integrated Retail Merchant ",
-  "Retail POS System ",
-  "Restaurant Payment Processing",
-  "Level III Interchange Rate",
-  "Level III Credit Card Processing ",
-  "Government Compliance",
+  "Online Ordering Platform",
+  "Food Ordering Features",
+  "Specialized Online Food Ordering ",
+  "Restaurant Merchant Services",
+  "Enhanced Customer Experience ",
+  "Food Ordering Pricing",
 ];
 
 export default function BusinessTabs() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 pt-16 md:pt-20 ">
+    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 py-16 md:py-20">
       <div className="">
         {/* Tab Navigation */}
         <div className="relative mb-8 md:mb-12">

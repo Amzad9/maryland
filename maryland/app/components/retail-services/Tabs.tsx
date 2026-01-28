@@ -1,11 +1,11 @@
 "use client";
 
-import Business from "../levelmerchantservices/Business";
-import Features from "../levelmerchantservices/Features";
-import CompleteRestaurant from "../levelmerchantservices/CompleteRestaurant";
-import IndustrySolutions from "../levelmerchantservices/Industries";
-import EnhancedCustomer from '../levelmerchantservices/EnhancedCustomer'
-import OrderingPricing from '../levelmerchantservices/OrderingPricing'
+import Business from "../retail-services/Business";
+import Features from "../retail-services/Features";
+import CompleteRestaurant from "../retail-services/CompleteRestaurant";
+import IndustrySolutions from "../retail-services/Industries";
+import EnhancedCustomer from '../retail-services/EnhancedCustomer'
+import OrderingPricing from '../retail-services/OrderingPricing'
 import { useState } from 'react';
 
 const TAB_LABELS = [

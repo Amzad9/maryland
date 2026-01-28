@@ -1,5 +1,5 @@
 import React from 'react';
-import Restaurants from '../components/merchantrestaurant/Restaurants';
+import Restaurants from '../components/restaurants/Restaurants';
 
 const MerchantServices = () => {
     return (

@@ -1,17 +1,17 @@
 "use client";
 
-import Business from "../levelmerchantservices/Business";
-import Features from "../levelmerchantservices/Features";
-import CompleteRestaurant from "../levelmerchantservices/CompleteRestaurant";
-import IndustrySolutions from "../levelmerchantservices/Industries";
-import EnhancedCustomer from '../levelmerchantservices/EnhancedCustomer'
-import OrderingPricing from '../levelmerchantservices/OrderingPricing'
+import LevelIIIGovernmentCorporateServices from "../level-iii-merchant-services/LevelIIIGovernmentCorporateServices";
+import LevelIIIProcessingFeatures from "../level-iii-merchant-services/LevelIIIProcessingFeatures";
+import LevelIIIInterchangeSavings from "../level-iii-merchant-services/LevelIIIInterchangeSavings";
+import IndustrySolutions from "../level-iii-merchant-services/GovernmentCorporateProcessing";
+import LevelIIIProcessingTechnology from '../level-iii-merchant-services/LevelIIIProcessingTechnology'
+import GovernmentComplianceLevelIII from '../level-iii-merchant-services/GovernmentComplianceLevelIII'
 import { useState } from 'react';
 
 const TAB_LABELS = [
-  "Integrated Retail Merchant ",
-  "Retail POS System ",
-  "Restaurant Payment Processing",
+  "Merchant Services ",
+  "Card Processing Features",
+  "Specialized Level III Processing",
   "Level III Interchange Rate",
   "Level III Credit Card Processing ",
   "Government Compliance",
@@ -21,7 +21,7 @@ export default function BusinessTabs() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 pt-16 md:pt-20 ">
+    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 pt-16 md:pt-20">
       <div className="">
         {/* Tab Navigation */}
         <div className="relative mb-8 md:mb-12">
@@ -76,14 +76,14 @@ export default function BusinessTabs() {
               {/* Tab 1 Content */}
               {activeTab === 0 && (
                 <div className="animate-fadeIn">
-                  <Business />
+                  <LevelIIIGovernmentCorporateServices />
                 </div>
               )}
 
               {/* Tab 2 Content */}
               {activeTab === 1 && (
                 <div className="animate-fadeIn">
-                  <Features />
+                  <LevelIIIProcessingFeatures />
                 </div>
               )}
 
@@ -97,20 +97,20 @@ export default function BusinessTabs() {
               {/* Tab 4 Content */}
               {activeTab === 3 && (
                 <div className="animate-fadeIn">
-                  <CompleteRestaurant />
+                  <LevelIIIInterchangeSavings />
                 </div>
               )}
 
               {/* Tab 5 Content */}
               {activeTab === 4 && (
                 <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <EnhancedCustomer />
+                  <LevelIIIProcessingTechnology />
                 </div>
               )}
                {/* Tab 6 Content */}
                {activeTab === 5 && (
                 <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <OrderingPricing />
+                  <GovernmentComplianceLevelIII />
                 </div>
               )}
             </div>
