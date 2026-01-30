@@ -14,13 +14,14 @@ export default function ContactQuoteSection() {
             <div className="absolute top-20 right-20 w-96 h-96 rounded-full blur-3xl pointer-events-none opacity-20" style={{ backgroundColor: 'rgba(59, 130, 246, 0.1)' }}></div>
             <div className="absolute bottom-20 left-20 w-80 h-80 rounded-full blur-3xl pointer-events-none opacity-15" style={{ backgroundColor: 'rgba(139, 92, 246, 0.1)' }}></div>
 
-            <div className="container mx-auto max-w-6xl relative z-10">
-                <div className="text-center mb-16 max-w-3xl mx-auto">
+            <div className="container mx-auto relative z-10">
+                <div className="text-center mb-16 max-w-4xl mx-auto">
                     <h2 id="contact-quote-heading" className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-4">
-                        Ready To Get Started?
+                    Speak to Our Dedicated Team
+
                     </h2>
                     <p className="text-lg text-slate-600">
-                        Connect with our team and discover how we can help your business grow
+                    Talk directly to our trained, professional support experts for fast, personalized help.
                     </p>
                 </div>
 

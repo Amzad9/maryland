@@ -30,7 +30,7 @@ const DualPricingIndustries = () => {
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "2A Friendly Businesses",
+      title: "Firearms Businesses",
       description: "Firearms dealers welcome - dual pricing perfect for gun stores and shooting ranges.",
       features: ["Firearms dealers", "Gun stores", "Shooting ranges", "Industry compliant"]
     },

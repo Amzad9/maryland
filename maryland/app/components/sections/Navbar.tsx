@@ -23,14 +23,14 @@ export default function Navbar() {
     'Online Food Ordering',
     'Level III Merchant Services',
     'Merchant Cash Advance',
-    'Seasonal ATMs',
+    'ATMs',
     'Cash Discount Dual Pricing',
   ];
 
   const MERCHANTS_ITEMS = [
     'Account Management',
     'Retail Services',
-    '2A Firearms',
+    'Firearms',
     'Restaurants',
   ];
 
@@ -48,6 +48,16 @@ export default function Navbar() {
 
   const slugify = (text: string) =>
     text.toLowerCase().replace(/\s+/g, '-');
+
+  // Custom paths for nav items (display name may differ from URL slug)
+  const getDropdownHref = (item: string) => {
+    const overrides: Record<string, string> = {
+      'ATMs': 'seasonal-atms',
+      'Firearms': '2a-firearms',
+      'Political Accounts': 'political-accounts',
+    };
+    return overrides[item] ?? slugify(item);
+  };
 
   const handleLinkClick = () => {
     setMobileMenuOpen(false);
@@ -77,7 +87,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-1">
             {/* LOGO */}
             <a href="/">
-              <Image src="/logo/Elite-Card-Processing-03.png" alt="Logo" className='rounded-4xl' width={80} height={80} />
+              <Image src="/logo.png" alt="Logo" className='rounded-4xl' width={80} height={80} />
             </a>
 
             {/* DESKTOP MENU - Changed from lg:flex to xl:flex */}
@@ -108,7 +118,7 @@ export default function Navbar() {
                           {link.items?.map(item => (
                             <a
                               key={item}
-                              href={`/${slugify(item)}`}
+                              href={`/${getDropdownHref(item)}`}
                               onClick={handleLinkClick}
                               className="block px-4 py-3 text-sm text-slate-300 hover:bg-white/10 hover:text-white transition-colors duration-200"
                             >
@@ -186,7 +196,7 @@ export default function Navbar() {
                       {link.items?.map(item => (
                         <a
                           key={item}
-                          href={`/${slugify(item)}`}
+                          href={`/${getDropdownHref(item)}`}
                           onClick={handleLinkClick}
                           className="block text-sm text-slate-300 hover:text-white py-1.5 pl-2 hover:bg-white/5 rounded transition-colors duration-200"
                         >

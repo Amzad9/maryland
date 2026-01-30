@@ -21,7 +21,7 @@ const specialOffers = [
   { text: "Cash discount program consultation included", isLink: true },
   { text: "Learn about our services", isLink: true },
   { text: "See cash discount savings", isLink: true },
-  { text: "2A friendly accounts", isLink: true },
+  { text: "Firearms dealer accounts", isLink: true },
 ];
 
 const ContactPage = () => {

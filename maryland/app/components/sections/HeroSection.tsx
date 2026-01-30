@@ -8,12 +8,11 @@ export default function HeroSection() {
             </div>
             <div className="relative z-40">
                 <h1 id="hero-heading" className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                    Maryland Merchant Services<br />
-                    <span className="text-white">& Credit Card Processing</span>
+                    Merchant Services & Credit Card Processing
                 </h1>
                 <p className="text-base sm:text-lg text-slate-300 max-w-4xl mx-auto mb-10 px-4 leading-relaxed">
-                    Complete payment processing solutions for Maryland businesses. From restaurants to retail,
-                    government to firearms dealers - we provide the technology and local support to grow your business.
+                    Complete payment processing solutions for businesses of all types. From restaurants to retail,
+                    government to firearms dealers — we deliver advanced technology and dedicated support to help your business thrive.
                 </p>
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4">
                     <button

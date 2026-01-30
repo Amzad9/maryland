@@ -36,13 +36,13 @@ export default function Footer() {
         style={{ backgroundColor: 'rgba(59, 130, 246, 0.15)' }}
       />
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-3 relative z-10">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 py-16 border-b border-slate-800/50">
 
           {/* About */}
           <div className="space-y-4">
           <a href="/">
-              <Image src="/logo/Elite-Card-Processing-03.png" alt="Logo" className='rounded-xl' width={120} height={120} />
+              <Image src="/logo.png" alt="Logo" className='rounded-xl' width={120} height={120} />
             </a>
             <p className="text-sm text-slate-400 leading-relaxed mt-2">
               Elite Card Processing was founded on the principles of providing exceptional

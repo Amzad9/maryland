@@ -91,7 +91,7 @@ const MarylandPaymentProcessing = () => {
                     />
                     <BenefitItem 
                       title="Support For All Business Types"
-                      description="Including 2A friendly merchant accounts"
+                      description="Including firearms merchant accounts"
                       highlight="Inclusive Support"
                     />
                     <BenefitItem 

@@ -21,7 +21,7 @@ export default function WhyChooseUsSection() {
         { 
             icon: Handshake,
             title: "All Businesses Welcome", 
-            description: "We serve businesses others won't touch, including 2A friendly accounts."
+            description: "We serve businesses others won't touch, including firearms dealer accounts."
         },
         { 
             icon: Shield,

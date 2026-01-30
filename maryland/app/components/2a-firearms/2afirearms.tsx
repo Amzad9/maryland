@@ -7,7 +7,7 @@ import { Phone, MapPin, Shield, Target, Zap, CheckCircle2, ChevronRight, Star, A
 function ConsultationSection() {
   const consultationItems = [
     "Current Processing Cost Analysis",
-    "2A Friendly Account Qualification Review",
+    "Firearms Account Qualification Review",
     "Equipment And Technology Recommendations",
     "Cash Discount Program Eligibility",
     "Same-Day Quote And Rapid Approval"
@@ -30,7 +30,7 @@ function ConsultationSection() {
         
           
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Get Your 2A Friendly
+            Get Your Firearms
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-orange-500 to-red-600 mt-2">
               Merchant Account Today
             </span>
@@ -213,7 +213,7 @@ function WhyApplySection() {
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative flex items-center justify-center gap-3">
                   <Zap className="w-5 h-5" />
-                  <span>Get 2A Friendly Quote Now</span>
+                  <span>Get Firearms Quote Now</span>
                 </div>
               </button>
               

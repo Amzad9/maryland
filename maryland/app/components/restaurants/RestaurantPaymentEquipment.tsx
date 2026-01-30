@@ -79,7 +79,7 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/Square-KDS-restaurants-software-1000x600-1.jpg"
+                    src="/kds.jpg"
                     alt="Kitchen Display Systems"
                     height={500}
                     width={500}

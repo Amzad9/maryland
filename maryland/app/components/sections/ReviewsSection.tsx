@@ -21,7 +21,7 @@ export default function ReviewsSection() {
   "
                     >
                         <Image
-                            src="https://plus.unsplash.com/premium_photo-1711051475117-f3a4d3ff6778?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0"
+                            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2670&auto=format&fit=crop"
                             alt="Business team"
                             fill
                             priority
@@ -47,7 +47,7 @@ export default function ReviewsSection() {
                                     </p>
                                 </blockquote>
                                 <div>
-                                <p className="text-white font-semibold text-sm">Michael B.</p>
+                                    <p className="text-white font-semibold text-sm">Michael B.</p>
 
                                     <p className="text-slate-400 text-xs">Restaurant Owner</p>
                                 </div>

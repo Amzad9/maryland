@@ -1,6 +1,7 @@
 'use client';
 import { Utensils, ShoppingBag, Briefcase, Shield, Building2, Zap, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function BusinessCategoriesSection() {
     const categories = [
@@ -8,37 +9,43 @@ export default function BusinessCategoriesSection() {
             icon: Utensils,
             title: "Restaurants & Food",
             text: "Aldelo POS, Clover POS, and Novi Eats ordering solutions.",
-            image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800"
+            image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+            href: "/restaurants"
         },
         {
             icon: ShoppingBag,
             title: "Retail & E-Commerce",
             text: "POS systems, hardware, and ATM placement services.",
-            image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800"
+            image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800",
+            href: "/retail-services"
         },
         {
             icon: Briefcase,
             title: "Service Businesses",
             text: "Mobile processing and recurring billing solutions.",
-            image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800"
+            image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
+            href: "/getquote"
         },
         {
             icon: Shield,
-            title: "Firearms & 2A",
-            text: "2A friendly accounts with cash discount programs.",
-            image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800"
+            title: "Firearms",
+            text: "Firearms dealer accounts with cash discount programs.",
+            image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800",
+            href: "/2a-firearms"
         },
         {
             icon: Building2,
             title: "Government & Utilities",
             text: "Level III processing with full compliance support.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+            href: "/level-iii-merchant-services"
         },
         {
             icon: Zap,
-            title: "High-Risk & Specialty",
-            text: "Specialized solutions when other processors decline.",
-            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
+            title: "Political Accounts",
+            text: "Secure credit card processing for campaigns & political entities — dedicated compliance & expert help.",
+            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
+            href: "/political-accounts"
         }
     ];
 
@@ -120,13 +127,13 @@ export default function BusinessCategoriesSection() {
                                     </div>
                                     {/* Get Quote - Show on hover, bottom right */}
                                     <div className="mt-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-end">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            href={item.href}
                                             className="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-slate-900 transition-colors"
                                         >
                                             Get Quote
                                             <ArrowRight className="w-4 h-4" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </article>
