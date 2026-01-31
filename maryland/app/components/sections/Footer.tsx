@@ -87,8 +87,8 @@ export default function Footer() {
               {[
                 { name: 'Solutions', link: '#solutions' },
                 { name: 'Merchants', link: '#merchants' },
-                { name: 'About Us', link: '#about' },
-                { name: 'Contact', link: '#contact' },
+                { name: 'About Us', link: '/about' },
+                { name: 'Contact', link: '/contact' },
                 { name: 'Privacy Policy', link: '#privacy' },
                 { name: 'Terms of Service', link: '#terms' },
               ].map((item, idx) => (

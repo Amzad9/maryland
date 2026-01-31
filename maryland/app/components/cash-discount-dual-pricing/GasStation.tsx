@@ -217,14 +217,14 @@ export default function PricingComparison() {
         <div className="text-center relative z-10">
           <div className="relative inline-block group">
             <div className="absolute -inset-1 bg-linear-to-r from-blue-600 via-cyan-600 to-indigo-600 rounded-2xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-              <button className="relative bg-linear-to-r from-blue-600 via-cyan-600 to-indigo-600 text-white px-14 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300">
+              <a href="#" className="inline-block relative bg-linear-to-r from-blue-600 via-cyan-600 to-indigo-600 text-white px-14 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/50 transform hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center justify-center gap-3">
                 <span>Eliminate Your Processing Fees</span>
                 <svg className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
-            </button>
+            </a>
           </div>
           
           <p className="mt-10 text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">

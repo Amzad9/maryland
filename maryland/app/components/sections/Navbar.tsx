@@ -23,21 +23,26 @@ export default function Navbar() {
     'Online Food Ordering',
     'Level III Merchant Services',
     'Merchant Cash Advance',
-    'ATMs',
+    'atm',
     'Cash Discount Dual Pricing',
   ];
 
   const MERCHANTS_ITEMS = [
-    'Account Management',
     'Retail Services',
     'Firearms',
     'Restaurants',
+  ];
+
+  const CURRENT_CLIENT_ITEMS = [
+    'Log In to Dashboard',
+    'Current Client Resources',
   ];
 
   const NAV_LINKS: NavLink[] = [
     { name: 'Home', href: '' },
     { name: 'Solutions', href: 'solutions', hasDropdown: true, items: SOLUTIONS_ITEMS },
     { name: 'Merchants', href: 'merchants', hasDropdown: true, items: MERCHANTS_ITEMS },
+    { name: 'Current Client', href: 'current-client', hasDropdown: true, items: CURRENT_CLIENT_ITEMS },
     { name: 'ISO Agent Program', href: 'isoagentprogram' },
     { name: 'About', href: 'about' },
     { name: 'How To Videos', href: 'how-to-videos' },
@@ -55,6 +60,8 @@ export default function Navbar() {
       'ATMs': 'seasonal-atms',
       'Firearms': '2a-firearms',
       'Political Accounts': 'political-accounts',
+      'Log In to Dashboard': 'account-management',
+      'Current Client Resources': 'account-management#resources',
     };
     return overrides[item] ?? slugify(item);
   };
@@ -91,7 +98,7 @@ export default function Navbar() {
             </a>
 
             {/* DESKTOP MENU - Changed from lg:flex to xl:flex */}
-            <div className="hidden xl:flex items-center gap-6">
+            <div className="hidden xl:flex items-center gap-5">
               {NAV_LINKS.map(link => (
                 <div key={link.name} className="relative">
                   {link.hasDropdown ? (
@@ -103,7 +110,7 @@ export default function Navbar() {
                         onTouchStart={() =>
                           setOpenDropdown(openDropdown === link.name ? null : link.name)
                         }
-                        className="flex items-center gap-1 text-slate-300 hover:text-white transition-colors duration-200"
+                        className="flex items-center gap-1 text-slate-300 text-sm hover:text-white transition-colors duration-200"
                       >
                         {link.name}
                         <ChevronDown
@@ -131,7 +138,7 @@ export default function Navbar() {
                   ) : (
                     <a
                       href={`/${link.href}`}
-                      className="text-slate-300 hover:text-white transition-colors duration-200"
+                      className="text-slate-300 text-sm hover:text-white transition-colors duration-200"
                     >
                       {link.name}
                     </a>

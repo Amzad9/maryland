@@ -110,7 +110,7 @@ export default function TestimonialCard() {
           {/* Header with Glass Effect */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-black text-center mb-6 leading-tight">
-              Maryland Businesses Thriving with Elite Card Processing Merchant Services
+              All Businesses Thriving with Elite Card Processing Merchant Services
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">
               Real businesses thriving with our integrated payment processing solutions

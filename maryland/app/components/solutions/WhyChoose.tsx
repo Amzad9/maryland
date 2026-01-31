@@ -74,7 +74,7 @@ import {
   
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-3xl md:text-5xl font-bold text-black text-center mb-6 leading-tight">
-            Why Maryland Businesses Choose Us
+            Why All Businesses Choose Us
           </h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             Local expertise, competitive pricing, and unparalleled support for your payment processing needs

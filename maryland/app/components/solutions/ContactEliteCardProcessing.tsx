@@ -39,7 +39,7 @@ const ContactEliteCardProcessing = () => {
                 <div className="space-y-8">
                   {/* Local Contact */}
                   <ContactItem
-                    title="Local (Hagerstown)"
+                    title=""
                     details={[
                       { type: "Phone", value: "(240) 329-9424", icon: <Phone size={20} /> },
                       { type: "Visit", value: "13701 Maugansville Rd #5, Hagerstown, MD 21740", icon: <MapPin size={20} /> }
@@ -48,19 +48,19 @@ const ContactEliteCardProcessing = () => {
                   />
 
                   {/* Toll-Free */}
-                  <ContactItem
+                  {/* <ContactItem
                     title="Toll-Free"
                     details={[
                       { type: "Phone", value: "(877) 415-8627", icon: <Phone size={20} /> }
                     ]}
                     accent="cyan"
-                  />
+                  /> */}
 
                   {/* Email */}
                   <ContactItem
                     title="Email"
                     details={[
-                      { type: "Email", value: "dualpricing@elitecardprocessing.com", icon: <Mail size={20} /> }
+                      { type: "Email", value: "sales@elitecardprocessing.com", icon: <Mail size={20} /> }
                     ]}
                     accent="indigo"
                   />

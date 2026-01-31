@@ -31,7 +31,7 @@ const MerchantServices = () => {
                     <h1
                         className="relative text-3xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center"
                     >
-                        Retail Merchant Services Maryland - Complete Payment Processing Solutions for Retail Businesses  
+                        Complete Payment Processing Solutions for Retail Businesses  
                           </h1>
 
                 </div>

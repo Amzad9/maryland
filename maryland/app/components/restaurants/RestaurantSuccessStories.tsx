@@ -57,10 +57,10 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about our restaurant solutions">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about our restaurant solutions">
                   Learn about our restaurant solutions
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -109,10 +109,10 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get a free consultation">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get a free consultation">
                   Get a free consultation
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -161,10 +161,10 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about mobile solutions">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about mobile solutions">
                   Learn about mobile solutions
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -213,10 +213,10 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get bar & restaurant consultation">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get bar & restaurant consultation">
                   Get bar & restaurant consultation
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>

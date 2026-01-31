@@ -38,10 +38,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Visa Savings">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Visa Savings">
                     View Visa Rate Savings
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             </div>
           </div>
@@ -71,10 +71,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About MasterCard Rates">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About MasterCard Rates">
                     View MasterCard Optimization
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             
             </div>
@@ -105,10 +105,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About SmartPay">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About SmartPay">
                     Learn About GSA SmartPay
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
              
             </div>
@@ -139,10 +139,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="View Cost Analysis">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="View Cost Analysis">
                     View Savings Analysis
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             
             </div>
@@ -175,10 +175,10 @@ export default function CompleteRestaurant() {
               
             
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Auto-Qualification">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Auto-Qualification">
                     Learn About Auto-Qualification
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             </div>
           </div>
@@ -209,10 +209,10 @@ export default function CompleteRestaurant() {
               </div>
               <div className="mt-4 flex flex-col sm:flex-row gap-4">
                 <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="View Reporting Features">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="View Reporting Features">
                     View Savings Reports
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
               </div>
             </div>

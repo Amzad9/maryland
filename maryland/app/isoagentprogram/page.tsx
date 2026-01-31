@@ -86,7 +86,7 @@ export default function page() {
 
                                 <p className="text-gray-700 text-sm md:text-base">
                                     The AMP team will customize solutions and revenue generating opportunities
-                                    to take your business to the next level.
+                                    to take your agency to the next level.
                                 </p>
                             </div>
 
@@ -111,7 +111,7 @@ export default function page() {
                                 </h2>
 
                                 <p className="text-gray-700 text-sm md:text-base">
-                                    Track and grow your business using AMP's sales-focused CRM & Dialer.
+                                    Track and grow your merchant pipeline with AMP's built-in sales CRM.
                                 </p>
                             </div>
     {/* Button */}
@@ -135,7 +135,7 @@ export default function page() {
                                 </h2>
 
                                 <p className="text-gray-700 text-sm md:text-base">
-                                    POS, terminals and equipment for every business type.
+                                    POS, terminals and equipment for every merchant and industry.
                                 </p>
                             </div>
 
@@ -160,7 +160,7 @@ export default function page() {
                                 </h2>
 
                                 <p className="text-gray-700 text-sm md:text-base">
-                                    Multiple platforms including high-risk merchant solutions.
+                                    Multiple platforms including high-risk merchant solutions, with a full support team as backup.
                                 </p>
                             </div>
 
@@ -190,11 +190,9 @@ export default function page() {
                         </h2>
 
                         <p className="text-white/80 text-base md:text-lg leading-relaxed max-w-xl">
-                            AMP Payment Systems is here to provide you with the{" "}
-                            <span className="font-semibold text-white">tools, connections, and resources</span>{" "}
-                            to maximize your business and put more money in the bank.
-                            When you aren't selling, you aren't making money — so let AMP help
-                            you handle the rest.
+                            AMP gives you the{" "}
+                            <span className="font-semibold text-white">tools, support, and revenue opportunities</span>{" "}
+                            that help ISO agents close more deals and earn more — consistently.
                         </p>
 
                         <a
@@ -208,15 +206,15 @@ export default function page() {
                     {/* RIGHT LIST */}
                     <div className="space-y-3 md:space-y-4 px-4 md:px-0">
                         {[
-                            "Hands on Sales Assistance (We can help you sell your deals)",
-                            "Happy Customers – Arizona Based Customer Service",
-                            "In House Terminal Deployments",
-                            "Financing for Growth",
-                            "Up Front Bonuses Available",
-                            "Internal CRM (included)",
-                            "Equipment Leasing (Up Front Revenue)",
-                            "Payroll Services (Sticky Merchants)",
-                            "Merchant Perks & Monthly Bonuses",
+                            "Personalized sales support to help you close more deals",
+                            "US-based support that keeps merchants satisfied and retained",
+                            "Fast, in-house terminal deployments so merchants get up and running quickly",
+                            "Financing options to grow your portfolio without upfront capital",
+                            "Earn upfront bonuses when you bring in new merchants",
+                            "Track leads, deals, and commissions in one easy dashboard",
+                            "Equipment leasing that generates upfront revenue for you",
+                            "Payroll services that help merchants stay—and keep you earning",
+                            "Ongoing perks and monthly bonuses as your portfolio grows",
                         ].map((item, index) => (
                             <div
                                 key={index}
@@ -248,14 +246,14 @@ export default function page() {
                     {/* Detailed Content Section */}
                     <div id="detailed-content" className={`space-y-16 md:space-y-24`}>
 
-                        {/* Dedicated Account Manager Section with Read More Button */}
+                        {/* You Own the Sale - agents handle the full sales process */}
                         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
                             <div className="space-y-4 md:space-y-6 order-2 lg:order-1 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
-                                    Dedicated Account Manager
+                                    You Own the Sale
                                 </h3>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                                    Gain personalized support from a dedicated account manager who will assist you every step of the way.
+                                    As an agent, you run the full sales process from start to finish. We provide the platform, pricing, and back-office support—you own the relationship and close the deal.
                                 </p>
 
                                 {/* Simple Read More Button that redirects */}
@@ -273,8 +271,8 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/dedicated.jpg"
-                                        alt="Traditional retail store payment processing"
+                                        src="/terminals.webp"
+                                        alt="Payment terminals and tools for independent sales agents"
                                         width={500}
                                         height={500}
                                         className="object-cover h-120 w-full group-hover:scale-105 transition-transform duration-500"
@@ -288,8 +286,8 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/sell.webp"
-                                        alt="Boutique and specialty store processing"
+                                        src="/customerpaying.jpg"
+                                        alt="Agent closing a sale with a merchant"
                                         width={500}
                                         height={500}
                                         className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
@@ -298,10 +296,10 @@ export default function page() {
                             </div>
                             <div className="space-y-4 md:space-y-6 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
-                                    AMP Team Sells the Deal for You
+                                    Your Deal, Your Responsibility
                                 </h3>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                                    Once you've made the introduction, our expert team takes over the sales process, ensuring a seamless experience for both you and your referred clients.
+                                    The sales process is yours from first contact to close. You qualify leads, present solutions, and onboard merchants—with our tools and pricing behind you every step of the way.
                                 </p>
                                 <div className="mt-6">
                                     <a
@@ -333,7 +331,7 @@ export default function page() {
                                     Recurring Revenue
                                 </h3>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                                    Enjoy the benefits of recurring revenue as your referred clients continue to utilize our services.
+                                    Enjoy the benefits of recurring revenue as your clients continue to utilize our services.
                                 </p>
                                 <div className="mt-6">
                                     <a
@@ -352,8 +350,8 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/omnichannel-retail-strategy-retail-digital-transformation-2021.jpeg"
-                                        alt="E-commerce and omnichannel solutions"
+                                        src="/pltform.webp"
+                                        alt="Payment and point-of-sale platforms for agents"
                                         width={500}
                                         height={500}
                                         className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
@@ -401,8 +399,8 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/alltypes.jpg"
-                                        alt="E-commerce and omnichannel solutions"
+                                        src="/bar.jpg"
+                                        alt="Diverse business types supported by AMP payment solutions"
                                         width={500}
                                         height={500}
                                         className="object-cover w-full h-120 group-hover:scale-105 transition-transform duration-500"
@@ -416,8 +414,8 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/businessIdeas.webp"
-                                        alt="E-commerce and omnichannel solutions"
+                                        src="/SeasonalRevenue.jpg"
+                                        alt="Ongoing income from your merchant portfolio"
                                         width={500}
                                         height={500}
                                         className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
@@ -429,7 +427,7 @@ export default function page() {
                                     Passive Income Opportunity
                                 </h3>
                                 <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                                    Earn passive income by simply referring clients to AMP. Once the connection is made, sit back and watch your earnings grow.
+                                    Build ongoing income as the merchants you bring on continue to use our services. Your portfolio grows with every deal you close.
                                 </p>
                                 <div className="mt-6">
                                     <a
@@ -489,7 +487,7 @@ export default function page() {
                             </h3>
 
                             <p className="text-gray-700 text-base md:text-lg">
-                                Get access to <span className="font-semibold">US-based customer service</span>
+                            Get access to <span className="font-semibold">US-based customer service </span>{""}
                                 and a dedicated sales concierge team built to support top producers.
                             </p>
                         </div>
@@ -504,16 +502,16 @@ export default function page() {
 
                 <div className="relative max-w-4xl mx-auto text-center text-white px-4">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 md:mb-6 leading-tight">
-                        Join our ISO program & take your business to new heights
+                    Join our ISO program & take your agency to new heights
                     </h2>
 
                     <p className="text-base md:text-lg lg:text-xl text-white/90 mb-8 md:mb-10">
-                        As a referral partner, you don't need to engage in direct sales efforts.
-                        Simply make the introduction, and we'll take care of the rest.
+                        As an agent, you run direct sales and own the relationship with your merchants.
+                        We provide the platform, pricing, and support—you close the deals.
                     </p>
                     <div className="flex justify-center">
                         <a
-                            href="#"
+                            href="/contact"
                             className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 rounded-lg md:rounded-xl bg-white text-emerald-700 font-bold text-base md:text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                         >
                             Get Started Today

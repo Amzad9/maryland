@@ -10,12 +10,12 @@ export default function Page() {
   return (
     <>
       <Tabs />
-      <WhyChoose />
+      {/* <WhyChoose />
       <TestimonialCard />
       <MarylandPaymentProcessing />
       <ContactEliteCardProcessing />
       <ResourcesSection />
-      <CTA />
+      <CTA /> */}
     </>
   );
 }

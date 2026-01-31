@@ -13,7 +13,7 @@ export default function Business() {
           {/* Added Integrated Retail Merchant Services Section */}
           <div className="space-y-10 text-center max-w-4xl mx-auto lg:text-center mb-16 mt-8">
             <h2 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
-              Integrated Retail Merchant Services for Every Retail Business Type
+              Retail Merchant Services for Every Retail Business Type
             </h2>
           </div>
 
@@ -21,7 +21,7 @@ export default function Business() {
             <div className="space-y-6 order-2 lg:order-1">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Traditional Retail Store Solutions</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Complete retail merchant services with integrated payment processing, including inventory management, customer databases, and sales reporting. Our retail POS system options include Clover POS and specialized retail platforms with full retail credit card processing integration.
+              Complete retail merchant services that include payment processing, inventory management, customer loyalty, and even sales reporting. One popular POS system that we sell and support is CLover POS, and this is a game-changer for businesses that want to grow and better manage their inventory and other business operations.
               </p>
             </div>
             <div className="relative group order-1 lg:order-2">
@@ -102,12 +102,10 @@ export default function Business() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 md:px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
-              Compare retail merchant services options
-            </button>
-            <button className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
-              Schedule retail payment processing consultation
-            </button>
+      
+            <a href="/contact" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
+            Schedule a Consultation Now 
+            </a>
           </div>
         </div>
       </section>

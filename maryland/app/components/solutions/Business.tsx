@@ -1,5 +1,11 @@
 // components/Features.tsx
 import Image from "next/image";
+import WhyChoose from "./WhyChoose";
+import TestimonialCard from "./TestimonialCard";
+import MarylandPaymentProcessing from "./MarylandPaymentProcessing";
+import ContactEliteCardProcessing from "./ContactEliteCardProcessing";
+import ResourcesSection from "./ResourcesSection";
+import CTA from "./CTA";
 
 export default function Business() {
   return (
@@ -52,7 +58,7 @@ export default function Business() {
             <div className="space-y-6">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Retail Payment Processing Solutions</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Comprehensive retail merchant services with integrated credit card processing, inventory tracking, customer management, and multi-location support. Perfect for boutiques, hardware stores, and specialty retailers throughout Maryland.
+                Comprehensive retail merchant services with integrated credit card processing, inventory tracking, customer management, and multi-location support. Perfect for boutiques, hardware stores, and specialty retailers.
               </p>
             </div>
           </div>
@@ -101,16 +107,21 @@ export default function Business() {
 
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 md:px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
+            {/* <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 md:px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
               Compare Merchant Services Options
-            </button>
-            <button className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
+            </button> */}
+            <a href="/contact" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
               Schedule Consultation
-            </button>
+            </a>
           </div>
         </div>
       </section>
-
+      <WhyChoose />
+      <TestimonialCard />
+      <MarylandPaymentProcessing />
+      <ContactEliteCardProcessing />
+      <ResourcesSection />
+      <CTA />
     </>
   );
 }

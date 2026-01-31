@@ -18,7 +18,6 @@ import {
 import { useState } from 'react';
 
 export default function ProcessingResources() {
-  const [isHoveredView, setIsHoveredView] = useState(false);
   const [isHoveredGet, setIsHoveredGet] = useState(false);
 
   return (
@@ -148,23 +147,14 @@ export default function ProcessingResources() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <button 
-            onMouseEnter={() => setIsHoveredView(true)}
-            onMouseLeave={() => setIsHoveredView(false)}
-            className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-orange-600 to-amber-600 text-white font-semibold rounded-xl shadow-2xl shadow-orange-500/30 hover:shadow-3xl hover:shadow-orange-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
-          >
-            <span className="text-lg">View all restaurant solutions</span>
-            <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredView ? 'translate-x-2' : ''}`} />
-          </button>
+        
           
-          <button 
-            onMouseEnter={() => setIsHoveredGet(true)}
-            onMouseLeave={() => setIsHoveredGet(false)}
+          <a href="/getquote"
             className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
           >
             <span className="text-lg">Get started with restaurant merchant services today</span>
             <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredGet ? 'translate-x-2' : ''}`} />
-          </button>
+          </a>
         </div>
       </div>
     </section>

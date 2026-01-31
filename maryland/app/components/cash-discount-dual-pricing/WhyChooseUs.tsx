@@ -164,14 +164,14 @@ export default function WhyChooseUs() {
         <div className="text-center">
           <div className="relative inline-block group">
             <div className="absolute -inset-1 bg-linear-to-r from-blue-600 via-cyan-600 to-indigo-600 rounded-xl md:rounded-2xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-            <button className="relative bg-linear-to-r from-blue-600 via-cyan-600 to-indigo-600 text-white px-6 md:px-12 py-3 md:py-5 rounded-xl md:rounded-2xl font-bold text-base md:text-xl shadow-xl md:shadow-2xl shadow-blue-500/30 hover:shadow-2xl md:hover:shadow-3xl hover:shadow-blue-500/50 transform hover:-translate-y-0.5 md:hover:-translate-y-1 transition-all duration-300 w-full md:w-auto">
+            <a href="#" className="relative inline-block bg-linear-to-r from-blue-600 via-cyan-600 to-indigo-600 text-white px-6 md:px-12 py-3 md:py-5 rounded-xl md:rounded-2xl font-bold text-base md:text-xl shadow-xl md:shadow-2xl shadow-blue-500/30 hover:shadow-2xl md:hover:shadow-3xl hover:shadow-blue-500/50 transform hover:-translate-y-0.5 md:hover:-translate-y-1 transition-all duration-300 w-full md:w-auto">
               <div className="flex items-center justify-center gap-3">
                 <span>Choose the Local Experts</span>
                 <svg className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
-            </button>
+            </a>
           </div>
           
           <p className="mt-8 md:mt-10 text-base md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">

@@ -59,7 +59,8 @@ export default function CTA() {
                             
                             {/* CTA Button */}
                             <div className="flex flex-col items-center space-y-4">
-                                <button
+                                <a
+                                    href="/getquote"
                                     onMouseEnter={() => setIsHovered(true)}
                                     onMouseLeave={() => setIsHovered(false)}
                                     className="group relative inline-flex items-center justify-center py-3.5 px-10 bg-linear-to-r from-blue-500 to-cyan-500 text-white font-medium rounded-xl shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-0.5 active:scale-[0.98] overflow-hidden"
@@ -69,7 +70,7 @@ export default function CTA() {
                                     
                                     <span className="text-base relative z-10">Start Your Application</span>
                                     <ArrowRight className={`w-4 h-4 ml-3 relative z-10 transition-all duration-300 ${isHovered ? 'translate-x-1' : ''}`} />
-                                </button>
+                                </a>
                                 
                                 <p className="text-gray-400 text-sm max-w-xs mx-auto">
                                     Quick and easy process. Get pre-approved in minutes.

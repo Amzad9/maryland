@@ -1,7 +1,10 @@
 import Image from "next/image";
+import ContactEliteCardProcessing from "./ContactEliteCardProcessing";
+import CTA from "./CTA";
 
 export default function IndustrySolutions() {
   return (
+    <>
     <section className="mx-auto px-0 md:px-4 py-8  md:py-16 bg-gray-100">
       <div className="container mx-auto rounded-3xl relative">
         {/* Glow effect on top corners */}
@@ -78,9 +81,9 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4">
-                <button className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/restaurants" className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   View Restaurant Solutions
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -146,9 +149,9 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4">
-                <button className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/retail-services" className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   View Retail Solutions
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -211,9 +214,9 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4">
-                <button className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/retail-services" className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   View Service Solutions
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -265,14 +268,17 @@ export default function IndustrySolutions() {
               </ul>
               
               <div className="mt-4">
-                <button className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/2a-firearms" className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   View Specialty Services
-                </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <ContactEliteCardProcessing />
+    <CTA />
+    </>
   );
 }

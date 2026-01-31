@@ -59,9 +59,9 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4 flex gap-4 flex-wrap">
-                <button className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="#" className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore expansion funding
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -111,9 +111,9 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4 flex gap-4 flex-wrap">
-                <button className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="#" className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore operations funding
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -163,9 +163,9 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4 flex gap-4 flex-wrap">
-                <button className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="#" className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore marketing funding
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -216,18 +216,16 @@ export default function IndustrySolutions() {
               </ul>
               
               <div className="mt-4 flex gap-4 flex-wrap">
-                <button className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="#" className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore emergency funding
-                </button>
+                </a>
               </div>
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            <button className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
-              Explore funding uses
-            </button>
-            <a href="" className="bg-blue-600 text-white px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-blue-700 transition-all duration-300">
+          
+            <a href="#" className="bg-blue-600 text-white px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-blue-700 transition-all duration-300">
               Apply for business capital
             </a>
           </div>

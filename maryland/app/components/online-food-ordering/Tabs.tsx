@@ -27,7 +27,7 @@ export default function BusinessTabs() {
         <div className="relative mb-8 md:mb-12">
           {/* Horizontal scroll wrapper */}
           <div className="flex overflow-x-auto pb-4 md:pb-0 scrollbar-hide md:flex-wrap md:justify-center md:gap-4">
-            <div className="flex gap-2 py-3 md:gap-4 min-w-max md:min-w-0 ">
+            <div className="flex gap-2 py-3 md:gap-4 min-w-max md:min-w-0 px-4">
               {TAB_LABELS.map((label, index) => (
                 <button
                   key={index}

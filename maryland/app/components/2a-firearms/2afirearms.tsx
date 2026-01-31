@@ -77,14 +77,14 @@ function ConsultationSection() {
 
             {/* CTA Button for this section */}
             <div className="mt-10 text-center">
-              <button className="group relative overflow-hidden bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-xl shadow-amber-300/50 hover:shadow-2xl hover:shadow-amber-400/60 transition-all duration-300 transform hover:-translate-y-1 active:scale-95">
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <a href="/getquote" className="group inline-flex items-center justify-center relative overflow-hidden bg-linear-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-xl shadow-amber-300/50 hover:shadow-2xl hover:shadow-amber-400/60 transition-all duration-300 transform hover:-translate-y-1 active:scale-95">
+                <div className="absolute inset-0 bg-linear-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative flex items-center justify-center gap-3">
                   <Zap className="w-5 h-5" />
                   <span>Start Your Free Consultation</span>
                   <ChevronRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-2" />
                 </div>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -94,7 +94,6 @@ function ConsultationSection() {
 }
 
 function WhyApplySection() {
-  const [isHovered, setIsHovered] = useState(false);
 
   const contactInfo = [
     {
@@ -130,13 +129,13 @@ function WhyApplySection() {
   ];
 
   return (
-    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-gradient-to-br from-gray-50 to-white">
+    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-br from-gray-50 to-white">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full">
-        <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-gradient-to-r from-blue-100/50 via-gray-100/30 to-indigo-100/50 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-linear-to-r from-blue-100/50 via-gray-100/30 to-indigo-100/50 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto">
+      <div className="relative z-10 max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Why Apply <span className="text-amber-600">Today</span>
@@ -149,7 +148,7 @@ function WhyApplySection() {
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Left Column - Why Apply Content */}
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl border border-blue-200 p-8 h-full">
+            <div className="bg-linear-to-br from-blue-50 to-indigo-50 rounded-3xl border border-blue-200 p-8 h-full">
               <div className="flex items-center gap-3 mb-6">
                 <Users className="w-8 h-8 text-blue-600" />
                 <h3 className="text-2xl font-bold text-gray-900">Why Choose Us</h3>
@@ -159,7 +158,7 @@ function WhyApplySection() {
               </p>
               
               <div className="space-y-4">
-                <div className="flex items-center gap-3 p-4 rounded-2xl bg-gradient-to-r from-blue-100 to-blue-50 border border-blue-300">
+                <div className="flex items-center gap-3 p-4 rounded-2xl bg-linear-to-r from-blue-100 to-blue-50 border border-blue-300">
                   <CheckCircle2 className="w-6 h-6 text-blue-600 shrink-0" />
                   <span className="text-blue-800 font-medium">No discrimination against legitimate firearms businesses</span>
                 </div>
@@ -182,10 +181,10 @@ function WhyApplySection() {
                   return (
                     <div
                       key={index}
-                      className="p-4 rounded-2xl bg-gradient-to-r from-gray-50 to-white border border-gray-200 hover:border-amber-400 hover:bg-gradient-to-r hover:from-amber-50 hover:to-orange-50 transition-all duration-300 hover:scale-[1.02]"
+                      className="p-4 rounded-2xl bg-linear-to-r from-gray-50 to-white border border-gray-200 hover:border-amber-400 hover:bg-gradient-to-r hover:from-amber-50 hover:to-orange-50 transition-all duration-300 hover:scale-[1.02]"
                     >
                       <div className="flex items-center gap-4">
-                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-100 to-orange-100 border border-amber-300 flex items-center justify-center">
+                        <div className="w-12 h-12 rounded-xl bg-linear-to-br from-amber-100 to-orange-100 border border-amber-300 flex items-center justify-center">
                           <Icon className="w-6 h-6 text-amber-700" />
                         </div>
                         <div className="flex-1">
@@ -201,28 +200,24 @@ function WhyApplySection() {
               </div>
             </div>
 
-           
-
-            {/* CTA Buttons */}
-            <div className="flex flex-col gap-4">
-              <button
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
-                className="group relative overflow-hidden bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg px-6 py-4 rounded-2xl shadow-xl shadow-amber-300/50 hover:shadow-2xl hover:shadow-amber-400/60 transition-all duration-300"
+            <div className="flex flex-row gap-4">
+              <a href="/contact"
+               
+                className="group relative overflow-hidden bg-linear-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg px-6 py-4 rounded-2xl shadow-xl shadow-amber-300/50 hover:shadow-2xl hover:shadow-amber-400/60 transition-all duration-300"
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative flex items-center justify-center gap-3">
                   <Zap className="w-5 h-5" />
                   <span>Get Firearms Quote Now</span>
                 </div>
-              </button>
+              </a>
               
-              <button className="group bg-gradient-to-br from-gray-100 to-white border border-gray-300 text-gray-900 font-bold text-lg px-6 py-4 rounded-2xl shadow-md shadow-gray-200/30 hover:border-amber-400 hover:bg-gradient-to-br hover:from-amber-50 hover:to-orange-50 hover:text-gray-900 transition-all duration-300">
+              <a href="tel:+12403299424" className="group bg-linear-to-br from-gray-100 to-white border border-gray-300 text-gray-900 font-bold text-lg px-6 py-4 rounded-2xl shadow-md shadow-gray-200/30 hover:border-amber-400 hover:bg-gradient-to-br hover:from-amber-50 hover:to-orange-50 hover:text-gray-900 transition-all duration-300">
                 <div className="flex items-center justify-center gap-3">
                   <Phone className="w-5 h-5" />
                   <span>Call (240) 329-9424</span>
                 </div>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -231,7 +226,6 @@ function WhyApplySection() {
   );
 }
 
-// Component 3: Industry Partnerships Section (from third screenshot)
 function PartnershipsSection() {
   const industryPartnerships = {
     title: "Industry Partnerships",
@@ -243,15 +237,15 @@ function PartnershipsSection() {
   };
 
   return (
-    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-gradient-to-br from-white to-gray-50">
+    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-br from-white to-gray-50">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-amber-100/30 via-orange-100/20 to-red-100/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-linear-to-r from-amber-100/30 via-orange-100/20 to-red-100/30 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-red-100 to-red-50 backdrop-blur-sm border border-red-300 mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-red-100 to-red-50 backdrop-blur-sm border border-red-300 mb-6">
             <Badge className="w-4 h-4 text-red-600" />
             <span className="text-sm font-medium text-red-800">TRUSTED INDUSTRY PARTNER</span>
           </div>
@@ -276,11 +270,11 @@ function PartnershipsSection() {
                 <p className="text-gray-700 text-lg mb-8">{industryPartnerships.description}</p>
                 
                 <div className="space-y-4">
-                  <div className="p-4 rounded-2xl bg-gradient-to-r from-gray-100 to-gray-50 border border-gray-300">
+                  <div className="p-4 rounded-2xl bg-linear-to-r from-gray-100 to-gray-50 border border-gray-300">
                     <h4 className="text-lg font-semibold text-amber-800 mb-2">NRABA Member</h4>
                     <p className="text-gray-700">National Rifle Association Business Alliance</p>
                   </div>
-                  <div className="p-4 rounded-2xl bg-gradient-to-r from-gray-100 to-gray-50 border border-gray-300">
+                  <div className="p-4 rounded-2xl bg-linear-to-r from-gray-100 to-gray-50 border border-gray-300">
                     <h4 className="text-lg font-semibold text-amber-800 mb-2">NSSF Supporter</h4>
                     <p className="text-gray-700">National Shooting Sports Foundation Initiatives</p>
                   </div>
@@ -289,9 +283,9 @@ function PartnershipsSection() {
 
               {/* Right - NRA Card */}
               <div className="text-center">
-                <div className="relative p-8 rounded-3xl bg-gradient-to-br from-red-50 to-red-100 border border-red-300">
+                <div className="relative p-8 rounded-3xl bg-linear-to-br from-red-50 to-red-100 border border-red-300">
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-red-500 to-red-600 border-4 border-white flex items-center justify-center shadow-lg">
+                    <div className="w-12 h-12 rounded-full bg-linear-to-br from-red-500 to-red-600 border-4 border-white flex items-center justify-center shadow-lg">
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                   </div>
@@ -303,7 +297,7 @@ function PartnershipsSection() {
                     <p className="text-gray-600 italic text-lg">{industryPartnerships.nra.tagline}</p>
                   </div>
                   
-                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-red-100 to-red-50 border border-red-300">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-linear-to-r from-red-100 to-red-50 border border-red-300">
                     <div className="w-2 h-2 rounded-full bg-red-500"></div>
                     <span className="text-red-800 font-medium">Official Partner</span>
                   </div>
@@ -311,7 +305,7 @@ function PartnershipsSection() {
 
                 {/* Trust Badge */}
                 <div className="mt-8">
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-amber-100 to-orange-100 border border-amber-300">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-amber-100 to-orange-100 border border-amber-300">
                     <Shield className="w-4 h-4 text-amber-700" />
                     <span className="text-sm text-amber-800">Trusted by Firearms Businesses Nationwide</span>
                   </div>
@@ -319,15 +313,14 @@ function PartnershipsSection() {
               </div>
             </div>
 
-            {/* Bottom CTA */}
             <div className="mt-12 text-center">
-              <button className="group relative overflow-hidden bg-gradient-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-xl shadow-amber-300/50 hover:shadow-2xl hover:shadow-amber-400/60 transition-all duration-300">
-                <div className="absolute inset-0 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <a href="/contact" className="group inline-flex items-center justify-center relative overflow-hidden bg-linear-to-r from-amber-500 via-orange-500 to-red-500 text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-xl shadow-amber-300/50 hover:shadow-2xl hover:shadow-amber-400/60 transition-all duration-300">
+                <div className="absolute inset-0 bg-linear-to-r from-amber-600 via-orange-600 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="relative flex items-center justify-center gap-3">
                   <Users className="w-5 h-5" />
                   <span>Join Our Network of Trusted Partners</span>
                 </div>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -336,11 +329,9 @@ function PartnershipsSection() {
   );
 }
 
-// Main Component that combines all three sections
 export default function FirearmsMerchantAccount() {
   return (
     <div className="relative">
-      {/* Floating Particles - Shared across sections */}
       <div className="fixed inset-0 pointer-events-none">
         {[...Array(10)].map((_, i) => (
           <div
@@ -356,7 +347,6 @@ export default function FirearmsMerchantAccount() {
         ))}
       </div>
 
-      {/* Render all three sections */}
       <ConsultationSection />
       <WhyApplySection />
       <PartnershipsSection />

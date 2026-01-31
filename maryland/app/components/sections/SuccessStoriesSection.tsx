@@ -73,10 +73,10 @@ export default function SuccessStoriesSection() {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full bg-linear-to-r from-[#206DD1] to-[#1a5bb3] px-10 py-4 text-base font-bold text-white shadow-[0_10px_25px_rgba(32,109,209,0.4)] transition-transform hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(32,109,209,0.5)] focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                    <a href="/getquote" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full bg-linear-to-r from-[#206DD1] to-[#1a5bb3] px-10 py-4 text-base font-bold text-white shadow-[0_10px_25px_rgba(32,109,209,0.4)] transition-transform hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(32,109,209,0.5)] focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
                         GET YOUR FREE QUOTE TODAY
                         <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

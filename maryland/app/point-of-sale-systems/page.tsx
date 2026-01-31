@@ -40,7 +40,7 @@ const SolutionsPage = () => {
           text-center
         "
       >
-        POS Systems & Integrated Payment Solutions for Maryland Businesses - Complete Merchant Services
+        POS Systems & Integrated Payment Solutions for all Businesses - Complete Merchant Services
       </h1>
 
     </div>

@@ -57,10 +57,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about DinerDaddy">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about DinerDaddy">
                   Learn more about DinerDaddy
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -111,10 +111,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Clover POS">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Clover POS">
                   Learn more about Clover POS
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -166,10 +166,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Aldelo POS">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Aldelo POS">
                   Learn more about Aldelo POS
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -220,10 +220,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore mobile payment processing options">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore mobile payment processing options">
                   Explore mobile payment processing options
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>

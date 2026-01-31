@@ -1,10 +1,10 @@
 // components/LegalCompliance.tsx
 export default function LegalCompliance() {
   return (
-    <section className="relative py-16 px-4 md:px-8 overflow-hidden bg-gradient-to-b from-white to-gray-50">
+    <section className="relative py-16 px-4 md:px-8 overflow-hidden bg-linear-to-b from-white to-gray-50">
       {/* Background Elements */}
-      <div className="absolute top-10 right-10 w-64 h-64 bg-gradient-to-br from-emerald-500/5 to-teal-500/3 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 left-10 w-80 h-80 bg-gradient-to-tl from-green-500/5 to-emerald-500/3 rounded-full blur-3xl" />
+      <div className="absolute top-10 right-10 w-64 h-64 bg-linear-to-br from-emerald-500/5 to-teal-500/3 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 left-10 w-80 h-80 bg-linear-to-tl from-green-500/5 to-emerald-500/3 rounded-full blur-3xl" />
       
       <div className="relative max-w-4xl mx-auto">
         {/* Header */}
@@ -95,14 +95,14 @@ export default function LegalCompliance() {
         <div className="text-center">
           <div className="relative inline-block group">
             <div className="absolute -inset-1 bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 rounded-2xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-            <button className="relative bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/50 transform hover:-translate-y-1 transition-all duration-300">
+            <a href="#" className="inline-block relative bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/50 transform hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center justify-center gap-3">
                 <span>Choose the Better Solution</span>
                 <svg className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
               </div>
-            </button>
+            </a>
           </div>
           
           <p className="mt-8 text-gray-600 text-lg">

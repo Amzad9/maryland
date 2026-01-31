@@ -37,13 +37,13 @@ export default function ProcessingResources() {
           </h2>
           
           <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto">
-            Everything you need for comprehensive account management and professional support
+            A business partner that you can count on for comprehensive account management and a professional support team to help your business grow.        
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {/* Account Management Resources */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-linear-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-linear-to-r from-blue-500 to-indigo-500 flex items-center justify-center shadow-lg">
                 <CreditCard className="w-7 h-7 text-white" />
@@ -51,57 +51,57 @@ export default function ProcessingResources() {
               <h2 className="text-xl font-bold text-white leading-tight">Account Management Resources:</h2>
             </div>
             
-            <div className="space-y-4 flex-grow">
+            <div className="space-y-4 grow">
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Secure Account Portal Access</span>
+                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Secure portal to access account information</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Valor PayTech Equipment Support</span>
+                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Customer Support Services</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Accept.Blue Processing Portal</span>
+                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Access to How To Videos to get immediate help</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Customer Support and Assistance</span>
+                <div className="w-2 h-2 rounded-full bg-blue-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Merchant Services partners that support business growth</span>
               </div>
             </div>
           </div>
 
           {/* Merchant Services Solutions */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-linear-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-linear-to-r from-emerald-500 to-teal-500 flex items-center justify-center shadow-lg">
                 <Users className="w-7 h-7 text-white" />
               </div>
-              <h2 className="text-xl font-bold text-white leading-tight">Merchant Services Solutions:</h2>
+              <h2 className="text-xl font-bold text-white leading-tight"> Industry Best Merchant Services Solutions</h2>
             </div>
             
-            <div className="space-y-4 flex-grow">
+            <div className="space-y-4 grow">
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Merchant services and payment processing</span>
+                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Payment Processing and related services</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">POS systems and equipment</span>
+                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">POS solutions and equipment</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Cash discount programs</span>
+                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Competitive pricing structures </span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Business financing options</span>
+                <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">ATM's and business financing</span>
               </div>
             </div>
           </div>
 
           {/* Professional Support */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-linear-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-linear-to-r from-purple-500 to-pink-500 flex items-center justify-center shadow-lg">
                 <Shield className="w-7 h-7 text-white" />
@@ -109,22 +109,22 @@ export default function ProcessingResources() {
               <h2 className="text-xl font-bold text-white leading-tight">Professional Support:</h2>
             </div>
             
-            <div className="space-y-4 flex-grow">
+            <div className="space-y-4 grow">
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Local Maryland customer service team</span>
+                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Local support team for onsite help</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Technical assistance and troubleshooting</span>
+                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Phone support team available 24/7</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Account optimization and guidance</span>
+                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Technical help for POS systems we support</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Comprehensive merchant services support</span>
+                <div className="w-2 h-2 rounded-full bg-purple-400 mt-2 shrink-0"></div>
+                <span className="text-gray-200 text-base leading-relaxed">Industry best merchant services support</span>
               </div>
             </div>
           </div>
@@ -135,23 +135,14 @@ export default function ProcessingResources() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <button 
-            onMouseEnter={() => setIsHoveredAccess(true)}
-            onMouseLeave={() => setIsHoveredAccess(false)}
-            className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
-          >
-            <span className="text-lg">Access All Account Resources</span>
-            <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredAccess ? 'translate-x-2' : ''}`} />
-          </button>
-          
-          <button 
-            onMouseEnter={() => setIsHoveredContact(true)}
-            onMouseLeave={() => setIsHoveredContact(false)}
+       
+          <a 
+            href="/contact"
             className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
           >
             <span className="text-lg">Contact Support Team</span>
             <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredContact ? 'translate-x-2' : ''}`} />
-          </button>
+          </a>
         </div>
       </div>
     </section>

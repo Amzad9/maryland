@@ -42,10 +42,10 @@ export default function MarylandBusiness() {
               </p>
 
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Delivery and Installation">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Delivery and Installation">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -73,10 +73,10 @@ export default function MarylandBusiness() {
                 Outdoor-rated ATM equipment designed for festivals, fairs, and seasonal events with weather protection, secure mounting, and reliable operation in various environmental conditions.
               </p>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Weather-Resistant Equipment">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Weather-Resistant Equipment">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -104,10 +104,10 @@ export default function MarylandBusiness() {
                 Professional cash loading, monitoring, and management throughout your event duration with optimized cash levels based on expected transaction volume and event attendance projections.
               </p>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Cash Management">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Cash Management">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -135,10 +135,10 @@ export default function MarylandBusiness() {
                 Real-time ATM monitoring, technical support, and emergency response services throughout your event to ensure optimal performance and customer satisfaction.
               </p>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Event Monitoring">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Event Monitoring">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -166,10 +166,10 @@ export default function MarylandBusiness() {
                 Professional ATM removal and pickup services scheduled around your event conclusion with minimal disruption to cleanup and breakdown operations.
               </p>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Removal Services">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Removal Services">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -197,10 +197,10 @@ export default function MarylandBusiness() {
                 Comprehensive transaction reporting, revenue analysis, and performance metrics provided after your event to help plan future seasonal ATM needs and optimize placement strategies.
               </p>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Performance Reporting">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Performance Reporting">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -208,18 +208,12 @@ export default function MarylandBusiness() {
           {/* CTA Buttons Section */}
           <div className="text-center mt-16 space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
-              >
-                <span className="text-lg">Learn about seasonal ATM logistics</span>
-                <ArrowRight className="w-5 h-5 transition-transform duration-300 hover:translate-x-2" />
-              </button>
-              <button
+              <a href="/getquote"
                 className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
               >
                 <span className="text-lg">Get event support services</span>
                 <ArrowRight className="w-5 h-5 transition-transform duration-300 hover:translate-x-2" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

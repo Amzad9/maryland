@@ -39,10 +39,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Short-Term Rental">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Short-Term Rental">
                   Learn More
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -72,10 +72,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Seasonal Programs">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Seasonal Programs">
                   Explore Programs
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -105,10 +105,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Festival Packages">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Festival Packages">
                   View Packages
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -138,10 +138,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Holiday Services">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Holiday Services">
                   Get Holiday Quote
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -171,17 +171,15 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Corporate Rental">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Corporate Rental">
                   Request Quote
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Custom Seasonal ATM Solutions - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden group h-full rounded-4xl flex flex-col md:flex-row-reverse">
-            {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative">
@@ -195,7 +193,6 @@ export default function CompleteRestaurant() {
               </div>
             </div>
             
-            {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Custom Seasonal ATM Solutions</h3>
               <div className="space-y-4 mb-6 pr-2">
@@ -204,10 +201,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Custom Solutions">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Custom Solutions">
                   Discuss Custom Needs
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>    

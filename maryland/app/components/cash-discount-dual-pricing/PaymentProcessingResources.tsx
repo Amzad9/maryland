@@ -141,16 +141,15 @@ export default function SuccessStories() {
         <div className="text-center">
           <div className="relative inline-block group">
             <div className="absolute -inset-1 bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 rounded-2xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-            <button 
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-              className="relative bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/50 transform hover:-translate-y-1 transition-all duration-300"
+            <a 
+              href="#"
+              className="relative inline-block bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/50 transform hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-center justify-center gap-3">
                 <span>Join These Maryland Businesses</span>
                 <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHovered ? 'translate-x-2' : ''}`} />
               </div>
-            </button>
+            </a>
           </div>
           
           <p className="mt-10 text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">

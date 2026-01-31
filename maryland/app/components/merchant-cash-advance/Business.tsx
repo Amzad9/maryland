@@ -102,12 +102,9 @@ export default function Business() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 md:px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
-              Compare cash advance programs
-            </button>
-            <button className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
+            <a href="#" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
               Apply for business financing now
-            </button>
+            </a>
           </div>
         </div>
       </section>

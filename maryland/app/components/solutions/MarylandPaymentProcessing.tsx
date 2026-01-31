@@ -17,7 +17,7 @@ const MarylandPaymentProcessing = () => {
       <div className="relative z-10">
         <div className="max-w-7xl px-4 md:px-0 mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-                Get Your Maryland Business Payment Processing System Today
+                Get Your All Business Payment Processing System Today
               </h2>
 
           {/* Main Content Grid */}

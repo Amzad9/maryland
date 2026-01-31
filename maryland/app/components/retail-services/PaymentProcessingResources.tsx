@@ -46,7 +46,7 @@ export default function ProcessingResources() {
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {/* Complete Retail Solutions */}
-          <div className="group bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-500 h-full flex flex-col">
+          <div className="group bg-linear-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-2xl border border-white/20 p-4 md:p-8 hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/10 transition-all duration-500 h-full flex flex-col">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-18 h-14 rounded-xl bg-linear-to-r from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg">
                 <Store className="w-7 h-7 text-white" />
@@ -54,21 +54,21 @@ export default function ProcessingResources() {
               <h2 className="text-xl font-bold text-white leading-tight">Complete Retail Solutions:</h2>
             </div>
             
-            <div className="space-y-4 flex-grow">
+            <div className="space-y-4 grow">
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></div>
+                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 shrink-0"></div>
                 <span className="text-gray-200 text-base leading-relaxed">Retail POS systems and equipment</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></div>
+                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 shrink-0"></div>
                 <span className="text-gray-200 text-base leading-relaxed">Retail payment processing hardware</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></div>
+                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 shrink-0"></div>
                 <span className="text-gray-200 text-base leading-relaxed">Cash discount programs for retail businesses</span>
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
-                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 flex-shrink-0"></div>
+                <div className="w-2 h-2 rounded-full bg-cyan-400 mt-2 shrink-0"></div>
                 <span className="text-gray-200 text-base leading-relaxed">Firearms-friendly accounts for firearms retailers</span>
               </div>
             </div>

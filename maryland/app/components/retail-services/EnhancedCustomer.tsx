@@ -69,10 +69,10 @@ export default function MarylandBusiness() {
               </div>
 
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about POS Terminals">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about POS Terminals">
                   Learn about POS Terminals
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -126,10 +126,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Inventory Equipment">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Inventory Equipment">
                   Learn more about Inventory Equipment
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -183,10 +183,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Payment Devices">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Payment Devices">
                   Learn more about Payment Devices
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -240,10 +240,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Retail Peripherals">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Retail Peripherals">
                   Learn more about Retail Peripherals
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -297,10 +297,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Equipment">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Equipment">
                   Learn more about Mobile Equipment
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -354,10 +354,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation Services">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation Services">
                   Learn about Installation Services
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -365,18 +365,13 @@ export default function MarylandBusiness() {
           {/* CTA Buttons Section */}
           <div className="text-center mt-16 space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
-              >
-                <span className="text-lg">View retail equipment options</span>
-                <ArrowRight className="w-5 h-5 transition-transform duration-300 hover:translate-x-2" />
-              </button>
-              <button
+           
+              <a href="/getquote"
                 className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
               >
                 <span className="text-lg">Get retail hardware quote</span>
                 <ArrowRight className="w-5 h-5 transition-transform duration-300 hover:translate-x-2" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

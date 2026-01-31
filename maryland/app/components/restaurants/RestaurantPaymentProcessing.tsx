@@ -73,10 +73,10 @@ export default function MarylandBusiness() {
               </div>
 
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Schedule Free Consultation">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Schedule Free Consultation">
                   Schedule Free Consultation
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -135,10 +135,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Our Services">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Our Services">
                   Learn About Our Services
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -188,10 +188,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Handheld Payment Devices">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Handheld Payment Devices">
                   Learn more about Handheld Devices
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -241,10 +241,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Restaurant Peripherals">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Restaurant Peripherals">
                   Learn more about Peripherals
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -294,10 +294,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Processing Equipment">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Processing Equipment">
                   Learn more about Mobile Equipment
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -347,10 +347,10 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation and Training">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation and Training">
                   Learn about Installation Services
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -358,18 +358,13 @@ export default function MarylandBusiness() {
           {/* CTA Buttons Section */}
           <div className="text-center mt-12 md:mt-16 space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button
-                className="group flex items-center justify-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-linear-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
-              >
-                <span className="text-base md:text-lg">View restaurant equipment options</span>
-                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 hover:translate-x-2" />
-              </button>
-              <button
+            
+              <a href="/getquote"
                 className="group flex items-center justify-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
               >
                 <span className="text-base md:text-lg">Get restaurant hardware quote</span>
                 <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 hover:translate-x-2" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

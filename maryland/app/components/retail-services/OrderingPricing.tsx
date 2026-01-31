@@ -47,15 +47,14 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Clover POS">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Clover POS">
                   Learn more about Clover POS
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Specialized Retail Solutions - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row-reverse">
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
@@ -89,15 +88,14 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Discuss specialized retail solutions">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Discuss specialized retail solutions">
                   Discuss specialized retail solutions
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Multi-Location Retail Platforms - Image Left, Content Right */}
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row">
             {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
@@ -131,15 +129,14 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore multi-location retail options">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore multi-location retail options">
                   Explore multi-location retail options
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Mobile Retail Processing - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row-reverse">
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
@@ -173,15 +170,14 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore mobile retail processing options">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore mobile retail processing options">
                   Explore mobile retail processing options
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Compare all retail POS options - Image Left, Content Right */}
           <div className="card overflow-hidden group rounded-4xl h-full flex flex-col md:flex-row">
             {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
@@ -209,15 +205,14 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 cursor-pointer ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Compare all retail POS options">
+                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 cursor-pointer ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Compare all retail POS options">
                   Compare all retail POS options
                   <ArrowRight className="ml-3 h-5 w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Schedule retail demonstration - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden group h-full rounded-4xl flex flex-col md:flex-row-reverse">
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
@@ -246,10 +241,10 @@ export default function OrderingPricing() {
               </div>
               <div className="mt-4 flex flex-col sm:flex-row gap-4">
                 <div className="text-left mt-4">
-                  <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Schedule retail demonstration">
+                  <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Schedule retail demonstration">
                     Schedule retail demonstration
                     <ArrowRight className="ml-3 h-5 w-5" />
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

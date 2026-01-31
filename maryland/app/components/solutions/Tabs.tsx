@@ -12,7 +12,6 @@ const TAB_LABELS = [
   "Features",
   "Industries",
   "Payment Hardware",
-  "Maryland Businesses",
 ];
 
 export default function BusinessTabs() {
@@ -25,7 +24,7 @@ export default function BusinessTabs() {
         <div className="relative mb-8 md:mb-12">
           {/* Horizontal scroll wrapper */}
           <div className="flex overflow-x-auto pb-4 md:pb-0 scrollbar-hide md:flex-wrap md:justify-center md:gap-4">
-            <div className="flex gap-2 py-3 md:gap-4 min-w-max md:min-w-0">
+            <div className="flex gap-2 py-3 px-4 md:gap-4 min-w-max md:min-w-0">
               {TAB_LABELS.map((label, index) => (
                 <button
                   key={index}
@@ -98,13 +97,7 @@ export default function BusinessTabs() {
                   <HardwareGrid />
                 </div>
               )}
-
-              {/* Tab 5 Content */}
-              {activeTab === 4 && (
-                <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <MarylandBusiness />
-                </div>
-              )}
+           
             </div>
           </div>
         </div>

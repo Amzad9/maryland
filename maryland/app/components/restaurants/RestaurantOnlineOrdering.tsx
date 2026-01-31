@@ -39,10 +39,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Ordering Platform">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Ordering Platform">
                   View Ordering Platform
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -73,17 +73,15 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Marketing">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Marketing">
                   View Marketing Services
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Restaurant Menu SEO and Optimization - Image Left, Content Right */}
           <div className="card overflow-hidden rounded-3xl md:rounded-4xl group h-full flex flex-col md:flex-row">
-            {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
@@ -107,10 +105,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Menu Optimization">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Menu Optimization">
                   Optimize Your Menu
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -132,7 +130,6 @@ export default function CompleteRestaurant() {
               </div>
             </div>
             
-            {/* Content Section - Left */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Customer Loyalty and Retention Programs</h3>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
@@ -141,17 +138,15 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Loyalty Programs">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Loyalty Programs">
                   Boost Customer Loyalty
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Delivery and Third-Party Integration - Image Left, Content Right */}
           <div className="card overflow-hidden group rounded-3xl md:rounded-4xl h-full flex flex-col md:flex-row">
-            {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
@@ -166,7 +161,6 @@ export default function CompleteRestaurant() {
               </div>
             </div>
             
-            {/* Content Section - Right */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Delivery and Third-Party Integration</h3>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
@@ -175,17 +169,15 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Delivery Integration">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Delivery Integration">
                   Streamline Delivery
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Restaurant Solutions CTA - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden group h-full rounded-3xl md:rounded-4xl flex flex-col md:flex-row-reverse">
-            {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
@@ -200,7 +192,6 @@ export default function CompleteRestaurant() {
               </div>
             </div>
             
-            {/* Content Section - Left */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Complete Restaurant Solutions</h3>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
@@ -209,10 +200,10 @@ export default function CompleteRestaurant() {
                 </p>
               </div>
               <div className="mt-4">
-                <button className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Marketing">
+                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Marketing">
                   Learn about restaurant marketing
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </button>
+                </a>
               </div>
             </div>
           </div>    

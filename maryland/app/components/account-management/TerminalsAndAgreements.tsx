@@ -10,7 +10,7 @@ export default function TerminalsAndAgreements() {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              Professional EMV Credit Card Terminal Models For Maryland Businesses
+            Merchant Agreement Documents and Regulatory Information
             </h2>
           </div>
   
@@ -52,22 +52,7 @@ export default function TerminalsAndAgreements() {
                 </div>
               </div>
   
-              {/* Privacy Policy */}
-              <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-4">Privacy Policy:</h3>
-                <div className="p-4 rounded-lg bg-linear-to-r from-gray-50 to-gray-100/50 border border-gray-200">
-                  <div className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-linear-to-br from-emerald-100 to-emerald-200 flex items-center justify-center flex-shrink-0">
-                      <svg className="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900">Elite Card Processing Privacy Policy</h4>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            
             </div>
   
             {/* Card 2: Regulatory Information */}
@@ -86,7 +71,7 @@ export default function TerminalsAndAgreements() {
                   Elite Card Processing LLC is a registered ISO of Citizens Bank, Providence, RI, ensuring complete regulatory compliance and industry standard merchant services.
                 </p>
                 
-                <div className="bg-linear-to-r from-emerald-50 to-teal-50 rounded-xl p-6 border border-emerald-100">
+                <div className="bg-linear-to-r from-emerald-50 to-teal-50 rounded-xl p-3 border border-emerald-100">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-lg bg-linear-to-br from-emerald-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
                       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -99,10 +84,26 @@ export default function TerminalsAndAgreements() {
                     </div>
                   </div>
                 </div>
+                  {/* Privacy Policy */}
+              <div className="mt-4">
+                <div className="bg-linear-to-r from-emerald-50 to-teal-50 rounded-xl p-3 border border-emerald-100">
+                  <div className="flex items-center gap-3">
+                  
+                    <div className="w-12 h-12 rounded-lg bg-linear-to-br from-emerald-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900">Elite Card Processing Privacy Policy</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
   
               {/* Divider */}
-              <div className="flex items-center my-8">
+              <div className="flex items-center my-3">
                 <div className="flex-1 border-t border-gray-200"></div>
               </div>
   

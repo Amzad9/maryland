@@ -38,10 +38,10 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
                     Learn about compliance requirements
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             </div>
           </div>
@@ -71,10 +71,10 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
                     Get compliance consultation
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             
             </div>
@@ -105,10 +105,10 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
                     Learn about compliance requirements
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
              
             </div>
@@ -139,10 +139,10 @@ export default function OrderingPricing() {
                 </p>
               </div>
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    Get compliance consultation
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                      Get compliance consultation
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             
             </div>
@@ -175,10 +175,10 @@ export default function OrderingPricing() {
               
             
               <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 cursor-pointer ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 cursor-pointer ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
                     Learn about compliance requirements
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             </div>
           </div>
@@ -211,10 +211,10 @@ export default function OrderingPricing() {
               
             
                 <div className="text-left mt-4">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400  focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    Get compliance consultation
+                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400  focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
+                      Get compliance consultation
                     <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
               </div>
             </div>

@@ -250,13 +250,13 @@ export default function CareersPage() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-linear-to-r from-sky-500 to-indigo-500 text-white px-10 py-4 rounded-xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
+          <a href="/careers" className="bg-linear-to-r from-sky-500 to-indigo-500 text-white px-10 py-4 rounded-xl font-bold shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
             View All Opportunities
-          </button>
+          </a>
 
-          <button className="bg-white/80 backdrop-blur border border-white/40 text-gray-900 px-10 py-4 rounded-xl font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all">
+          <a href="/contact" className="bg-white/80 backdrop-blur border border-white/40 text-gray-900 px-10 py-4 rounded-xl font-bold shadow-lg hover:shadow-xl hover:scale-105 transition-all">
             Contact Hiring Team
-          </button>
+          </a>
         </div>
       </div>
     </div>

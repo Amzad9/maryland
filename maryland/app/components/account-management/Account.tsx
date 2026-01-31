@@ -8,10 +8,12 @@ export default function Page() {
   return (
     <>
       <AccountPortal />
-      <TechnologyPartnerAccess />
-      <DualPricingVsSurcharging />
-      <TerminalsAndAgreements />
-      <MarylandBusiness />
+      <div id="resources" className="scroll-mt-24">
+        <TechnologyPartnerAccess />
+        <DualPricingVsSurcharging />
+        <TerminalsAndAgreements />
+        <MarylandBusiness />
+      </div>
       <CTA />
     </>
   );
