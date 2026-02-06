@@ -22,7 +22,7 @@ export default function CareersPage() {
     {
       icon: <Briefcase className="w-8 h-8 text-primary" />,
       title: 'Trusted & Growing',
-      description: 'Work with a locally trusted and rapidly growing financial services company.'
+      description: 'Work with a trusted and rapidly growing financial services company.'
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-primary" />,
@@ -64,7 +64,7 @@ export default function CareersPage() {
     },
     {
       icon: Handshake,
-      title: 'Local community focus',
+      title: 'Community focus',
       color: 'from-emerald-400 to-teal-400'
     }
   ];
@@ -85,8 +85,7 @@ export default function CareersPage() {
           </h1>
 
           <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
-            Join thousands of Maryland businesses saving big with transparent,
-            local payment processing from Elite Card Processing.
+            Join thousands of businesses saving big with transparent payment processing from Elite Card Processing.
           </p>
           <div className="mx-auto mt-2 h-1 w-28 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500" />
 
@@ -207,7 +206,7 @@ export default function CareersPage() {
 
           {/* Tags */}
           <div className="flex gap-2 flex-wrap">
-            {['Sales', 'B2B', 'FinTech', 'Maryland'].map(tag => (
+          {['Sales', 'B2B', 'FinTech', 'Nationwide'].map(tag => (
               <span
                 key={tag}
                 className="px-4 py-2 bg-white/20 backdrop-blur border border-gray-200/80 rounded-lg text-sm font-medium text-gray-700"
@@ -246,7 +245,7 @@ export default function CareersPage() {
 
         <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
           Join a fast-growing, people-first company redefining the future of
-          payment processing across Maryland.
+          payment processing across the nation.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

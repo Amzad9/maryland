@@ -50,7 +50,7 @@ export default function AboutPage() {
           </h2>
           <p className="relative z-10 mx-auto max-w-4xl text-lg leading-relaxed text-slate-700">
             Elite Card Processing was founded to deliver transparent, reliable,
-            and cutting-edge payment solutions to Maryland businesses. We bring
+            and cutting-edge payment solutions to businesses. We bring
             modern technology with real local support.
           </p>
         </div>
@@ -66,7 +66,7 @@ export default function AboutPage() {
                 Our Mission
               </h2>
               <p className="max-w-xl text-lg leading-relaxed text-slate-700">
-                To empower Maryland businesses with fair pricing, dependable
+                To empower businesses with fair pricing, dependable
                 payment technology, and personal service that only a local
                 provider can offer.
               </p>
@@ -96,13 +96,13 @@ export default function AboutPage() {
             {
               icon: MapPin,
               title: "Location",
-              value: "Hagerstown, Maryland",
+              value: "Hagerstown",
               glow: "text-pink-500",
             },
             {
               icon: Globe,
               title: "Service Area",
-              value: "MD, PA, WV & Nationwide",
+              value: "Nationwide",
               glow: "text-cyan-500",
             },
             {

@@ -20,7 +20,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pos.webp" 
+                    src="/orderingpizaa.avif" 
                     alt="Pizza Restaurant Online Ordering" 
                     width={200} 
                     height={200}
@@ -72,7 +72,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/storetransaction.webp" 
+                    src="/mcdonalds-register.webp" 
                     alt="Chinese Restaurant Online Ordering" 
                     width={500} 
                     height={500}
@@ -125,7 +125,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/merchant-services-hero.jpg" 
+                    src="/food-delivery-apps.avif" 
                     alt="American Restaurant Online Ordering" 
                     width={500} 
                     height={500}
@@ -177,7 +177,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/service.webp" 
+                    src="/The-Evolution-of-Fine-Dining.webp" 
                     alt="Fine Dining Online Ordering" 
                     width={500} 
                     height={500}

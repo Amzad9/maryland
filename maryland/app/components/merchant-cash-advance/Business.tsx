@@ -1,5 +1,5 @@
-// components/Features.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Business() {
   return (
@@ -19,7 +19,9 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Standard Merchant Cash Advance</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Standard Merchant Cash Advance
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Receive immediate cash in exchange for a portion of your future credit card sales with automated daily repayment, flexible terms, and funding amounts from $5,000 to $250,000 based on your monthly processing volume.
               </p>
@@ -52,7 +54,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Same-Day Funding Programs</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Same-Day Funding Programs
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Expedited merchant cash advance with same-day funding approval and next-business-day deposit for urgent business financing needs, equipment purchases, inventory expansion, and time-sensitive opportunities.
               </p>
@@ -61,7 +65,9 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Seasonal Business Financing</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Seasonal Business Financing
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Specialized cash advance programs for seasonal businesses with flexible repayment schedules that accommodate seasonal sales fluctuations, peak season preparation, and off-season cash flow management.
               </p>
@@ -94,7 +100,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Multi-Location Business Funding</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Multi-Location Business Funding
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Comprehensive financing solutions for businesses with multiple locations including consolidated applications, unified repayment structures, and scalable funding amounts based on combined processing volume.
               </p>
@@ -102,7 +110,7 @@ export default function Business() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            <a href="#" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
+            <a href="/contact" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
               Apply for business financing now
             </a>
           </div>

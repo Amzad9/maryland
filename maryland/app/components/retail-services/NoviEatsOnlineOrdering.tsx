@@ -17,7 +17,7 @@ const MarylandRestaurantNovi = () => {
       <div className="relative z-10">
         <div className="container px-4 md:px-0 mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-                Get Your Maryland Restaurant Novi Eats Online Ordering Today
+                Get Your Retail Novi Eats Online Ordering Today
               </h2>
 
           {/* Main Content Grid */}
@@ -72,7 +72,7 @@ const MarylandRestaurantNovi = () => {
                   </div>
                   <div className="space-y-6">
                     <BenefitItem 
-                      title="	Local Maryland retail payment processing company with same-day support"
+                      title="	Retail payment processing company with responsive, dedicated support"
                       description=""
                       highlight=""
                     />
@@ -105,6 +105,16 @@ const MarylandRestaurantNovi = () => {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* Contact CTA beneath boxes */}
+          <div className="text-center mt-12">
+            <a 
+              href="/contact" 
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#10284D] text-white font-semibold rounded-xl shadow-lg hover:bg-[#152E5A] transition-all duration-300 hover:-translate-y-0.5"
+            >
+              Contact Us
+            </a>
           </div>
         </div>
       </div>

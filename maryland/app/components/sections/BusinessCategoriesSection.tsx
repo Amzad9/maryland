@@ -5,48 +5,12 @@ import Link from 'next/link';
 
 export default function BusinessCategoriesSection() {
     const categories = [
-        {
-            icon: Utensils,
-            title: "Restaurants & Food",
-            text: "Aldelo POS, Clover POS, and Novi Eats ordering solutions.",
-            image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
-            href: "/restaurants"
-        },
-        {
-            icon: ShoppingBag,
-            title: "Retail & E-Commerce",
-            text: "POS systems, hardware, and ATM placement services.",
-            image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800",
-            href: "/retail-services"
-        },
-        {
-            icon: Briefcase,
-            title: "Service Businesses",
-            text: "Mobile processing and recurring billing solutions.",
-            image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800",
-            href: "/getquote"
-        },
-        {
-            icon: Shield,
-            title: "Firearms",
-            text: "Firearms dealer accounts with cash discount programs.",
-            image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800",
-            href: "/2a-firearms"
-        },
-        {
-            icon: Building2,
-            title: "Government & Utilities",
-            text: "Level III processing with full compliance support.",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
-            href: "/level-iii-merchant-services"
-        },
-        {
-            icon: Zap,
-            title: "Political Accounts",
-            text: "Secure credit card processing for campaigns & political entities — dedicated compliance & expert help.",
-            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800",
-            href: "/political-accounts"
-        }
+        { icon: Utensils, title: "Restaurants & Food", text: "Aldelo POS, Clover POS, and Novi Eats ordering solutions.", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800", href: "/getquote" },
+        { icon: ShoppingBag, title: "Retail & E-Commerce", text: "POS systems, hardware, and ATM placement services.", image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800", href: "/getquote" },
+        { icon: Briefcase, title: "Service Businesses", text: "Mobile processing and recurring billing solutions.", image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800", href: "/getquote" },
+        { icon: Shield, title: "Firearms", text: "Firearms dealer accounts with cash discount programs.", image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800", href: "/about" },
+        { icon: Building2, title: "Government & Utilities", text: "Level III processing with full compliance support.", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800", href: "/about" },
+        { icon: Zap, title: "Political Accounts", text: "Secure credit card processing for campaigns & political entities — dedicated compliance & expert help.", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800", href: "/about" }
     ];
 
     return (
@@ -76,9 +40,10 @@ export default function BusinessCategoriesSection() {
                     {categories.map((item, idx) => {
                         const Icon = item.icon;
                         return (
-                            <article
+                            <Link
                                 key={idx}
-                                className="group relative overflow-hidden rounded-2xl border border-white/40 backdrop-blur-xl bg-white/40 hover:bg-white/60 transition-all duration-300 shadow-lg hover:shadow-2xl -translate-y-1 hover:-translate-y-2"
+                                href={item.href}
+                                className="group relative block overflow-hidden rounded-2xl border border-white/40 backdrop-blur-xl bg-white/40 hover:bg-white/60 transition-all duration-300 shadow-lg hover:shadow-2xl -translate-y-1 hover:-translate-y-2"
                             >
                                 {/* Pattern overlay */}
                                 <div className="absolute inset-0 opacity-[0.02] bg-[url('https://www.transparenttextures.com/patterns/diagmonds.png')] rounded-2xl pointer-events-none"></div>
@@ -104,15 +69,15 @@ export default function BusinessCategoriesSection() {
                                 </div>
 
                                 {/* Elegant blur circles in card - Purple and Blue */}
-                                <div className="absolute -top-6 -right-6 w-32 h-32 rounded-full blur-2xl pointer-events-none opacity-30 group-hover:opacity-100 group-hover:top-auto group-hover:right-auto group-hover:-bottom-6 group-hover:-left-6 group-hover:scale-150 transition-all duration-500 ease-out" style={{ background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.3), rgba(59, 130, 246, 0.3))' }}></div>
+                                <div className="absolute -top-6 -right-6 w-32 h-32 rounded-full blur-2xl pointer-events-none opacity-30 group-hover:opacity-100 group-hover:top-auto group-hover:right-auto group-hover:-bottom-6 group-hover:-left-6 group-hover:scale-150 transition-all duration-500 ease-out z-0" style={{ background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.3), rgba(59, 130, 246, 0.3))' }}></div>
                                 
                                 {/* Additional blur circles in card */}
-                                <div className="absolute top-1/4 -left-8 w-24 h-24 rounded-full blur-2xl pointer-events-none opacity-20 group-hover:opacity-40 transition-opacity duration-500" style={{ backgroundColor: 'rgba(168, 85, 247, 0.2)' }}></div>
-                                <div className="absolute bottom-1/4 -right-8 w-28 h-28 rounded-full blur-2xl pointer-events-none opacity-20 group-hover:opacity-40 transition-opacity duration-500" style={{ backgroundColor: 'rgba(59, 130, 246, 0.2)' }}></div>
-                                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full blur-3xl pointer-events-none opacity-5 group-hover:opacity-10 transition-opacity duration-500" style={{ background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.15), rgba(99, 102, 241, 0.15))' }}></div>
+                                <div className="absolute top-1/4 -left-8 w-24 h-24 rounded-full blur-2xl pointer-events-none opacity-20 group-hover:opacity-40 transition-opacity duration-500 z-0" style={{ backgroundColor: 'rgba(168, 85, 247, 0.2)' }}></div>
+                                <div className="absolute bottom-1/4 -right-8 w-28 h-28 rounded-full blur-2xl pointer-events-none opacity-20 group-hover:opacity-40 transition-opacity duration-500 z-0" style={{ backgroundColor: 'rgba(59, 130, 246, 0.2)' }}></div>
+                                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full blur-3xl pointer-events-none opacity-5 group-hover:opacity-10 transition-opacity duration-500 z-0" style={{ background: 'linear-gradient(135deg, rgba(147, 51, 234, 0.15), rgba(99, 102, 241, 0.15))' }}></div>
 
-                                <div className="relative z-10 p-8 flex flex-col h-full">
-                                    <div className="flex flex-col items-center text-center mb-6 flex-grow">
+                                <div className="relative z-20 p-8 flex flex-col h-full">
+                                    <div className="flex flex-col items-center text-center mb-6 grow">
                                         <div className="relative w-24 h-24 rounded-full overflow-hidden mb-4 shadow-lg group-hover:scale-110 transition-all">
                                             <Image
                                                 src={item.image}
@@ -122,21 +87,20 @@ export default function BusinessCategoriesSection() {
                                                 sizes="96px"
                                             />
                                         </div>
-                                        <h3 className="text-xl font-bold text-slate-900 mb-2">{item.title}</h3>
+                                        <span className="relative z-30 text-xl font-bold text-slate-900 mb-2 group-hover:text-black transition-colors">
+                                            {item.title}
+                                        </span>
                                         <p className="text-sm text-slate-600 leading-relaxed">{item.text}</p>
                                     </div>
                                     {/* Get Quote - Show on hover, bottom right */}
                                     <div className="mt-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-end">
-                                        <Link
-                                            href={item.href}
-                                            className="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-slate-900 transition-colors"
-                                        >
+                                        <span className="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 group-hover:text-slate-900 transition-colors">
                                             Get Quote
                                             <ArrowRight className="w-4 h-4" />
-                                        </Link>
+                                        </span>
                                     </div>
                                 </div>
-                            </article>
+                            </Link>
                         );
                     })}
                 </div>

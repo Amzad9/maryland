@@ -101,9 +101,13 @@ export default function ContactQuoteSection() {
                             <div className="inline-flex p-4 rounded-full mb-4" style={{ backgroundColor: 'rgba(59, 130, 246, 0.1)' }}>
                                 <Mail className="w-6 h-6" style={{ color: '#3b82f6' }} />
                             </div>
-                            <h3 className="text-lg font-bold text-slate-900 mb-3">Email Us</h3>
-                            <a href="mailto:info@elitecardprocessing.com" className="text-sm text-slate-600 hover:text-blue-600 transition-colors">
-                                Get in touch
+                            <h3 className="text-lg font-bold text-slate-900 mb-3">Contact Us Online</h3>
+                            <a
+                              href="/contact"
+                              className="inline-flex items-center justify-center px-4 py-2 text-sm font-semibold rounded-full bg-linear-to-r from-[#206DD1] to-[#1a5bb3] text-white shadow-sm hover:-translate-y-0.5 hover:shadow-md transition-transform"
+                            >
+                                Go to Contact Page
+                                <ArrowRight className="ml-2 h-4 w-4" />
                             </a>
                         </div>
                     </div>
@@ -111,10 +115,10 @@ export default function ContactQuoteSection() {
 
                 {/* CTA Button */}
                 <div className="text-center">
-                    <button className="w-full lg:w-auto inline-flex items-center justify-center rounded-full bg-linear-to-r from-[#206DD1] to-[#1a5bb3] px-10 py-4 text-base font-bold text-white shadow-[0_10px_25px_rgba(32,109,209,0.4)] transition-transform hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(32,109,209,0.5)] focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Now">
+                    <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full bg-linear-to-r from-[#206DD1] to-[#1a5bb3] px-10 py-4 text-base font-bold text-white shadow-[0_10px_25px_rgba(32,109,209,0.4)] transition-transform hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(32,109,209,0.5)] focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Now">
                         Get Your Free Quote Now
                         <ArrowRight className="ml-3 h-5 w-5" />
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

@@ -52,10 +52,10 @@ export default function Footer() {
 
           {/* Our Solutions */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold relative inline-block">
+            <a href="/getquote" className={`text-xl font-bold relative inline-block ${linkClass}`}>
               Our Solutions
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-linear-to-r from-[#f4e28f] to-transparent"></span>
-            </h3>
+            </a>
             <ul className="space-y-3">
               {[
                 'Clover',
@@ -79,21 +79,22 @@ export default function Footer() {
 
           {/* Resources */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold relative inline-block">
+            <a href="/about" className={`text-xl font-bold relative inline-block ${linkClass}`}>
               Resources
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-linear-to-r from-[#f4e28f] to-transparent"></span>
-            </h3>
+            </a>
             <ul className="space-y-3">
               {[
-                { name: 'Solutions', link: '#solutions' },
-                { name: 'Merchants', link: '#merchants' },
-                { name: 'About Us', link: '/about' },
-                { name: 'Contact', link: '/contact' },
-                { name: 'Privacy Policy', link: '#privacy' },
-                { name: 'Terms of Service', link: '#terms' },
+
+                { name: 'How To Videos', link: '/how-to-videos' },
+                { name: 'Elite Reviews', link: '/elite-reviews' },
+                { name: 'Careers', link: '/careers' },
+                { name: 'Privacy Policy', link: '/privacy-policy' },
+                { name: 'Terms of Service', target: '_blank', link: '/pdf/Nov-2023-ELITE-NTI-Citizens-Merchant-Agreement-Terms-M2M.pdf' },
+                { name: ' 3yr Terms & Conditions', target: '_blank', link: '/pdf/Nov-2023-ELITE-NTI-Citizens-Merchant-Agreement-Terms-3YR.pdf' },
               ].map((item, idx) => (
                 <li key={idx}>
-                  <a href={item.link} className={linkClass}>
+                  <a href={item.link} target={item?.target} className={linkClass}>
                     {item.name}
                   </a>
                 </li>
@@ -103,10 +104,10 @@ export default function Footer() {
 
           {/* Connect With Us */}
           <div className="space-y-4">
-            <h3 className="text-xl font-bold relative inline-block">
+            <a href="/contact" className={`text-xl font-bold relative inline-block ${linkClass}`}>
               Connect With Us
               <span className="absolute -bottom-2 left-0 w-12 h-0.5 bg-linear-to-r from-[#f4e28f] to-transparent"></span>
-            </h3>
+            </a>
 
             <div className="space-y-3 text-sm">
               <div className="flex gap-2 items-start">

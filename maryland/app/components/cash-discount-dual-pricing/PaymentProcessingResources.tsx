@@ -142,7 +142,7 @@ export default function SuccessStories() {
           <div className="relative inline-block group">
             <div className="absolute -inset-1 bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 rounded-2xl blur-lg opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
             <a 
-              href="#"
+              href="/contact"
               className="relative inline-block bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/50 transform hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-center justify-center gap-3">

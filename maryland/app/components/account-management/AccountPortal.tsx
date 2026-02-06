@@ -1,3 +1,5 @@
+import { ExternalLink, Shield, User } from "lucide-react";
+
 export default function AccountPortalLoginThreeCards() {
   const features = [
     "Monthly statement access and download",
@@ -13,6 +15,7 @@ export default function AccountPortalLoginThreeCards() {
   ];
 
   return (
+    <>
     <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-b from-gray-50 to-white">
       {/* Background Elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-linear-to-bl from-blue-500/10 via-indigo-500/5 to-transparent rounded-full blur-3xl" />
@@ -35,12 +38,12 @@ export default function AccountPortalLoginThreeCards() {
           </a> 
 </div>
       
-          <a href="#" className="inline-flex items-center justify-center gap-3 p-4 rounded-xl bg-linear-to-r from-blue-600 to-indigo-600 text-white font-bold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 border border-blue-600 hover:border-blue-700">
+          {/* <a href="#" className="inline-flex items-center justify-center gap-3 p-4 rounded-xl bg-linear-to-r from-blue-600 to-indigo-600 text-white font-bold hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 border border-blue-600 hover:border-blue-700">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
             </svg>
             <span>Access Your Account Portal</span>
-          </a>
+          </a> */}
 
         </div>
 
@@ -104,5 +107,153 @@ export default function AccountPortalLoginThreeCards() {
         </div>
       </div>
     </section>
+    <section id="logins" className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-b from-gray-50 to-white">
+      {/* Background Elements */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-linear-to-bl from-blue-500/10 via-indigo-500/5 to-transparent rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-[700px] h-[700px] bg-linear-to-tr from-emerald-500/10 via-teal-500/5 to-transparent rounded-full blur-[300px]" />
+      
+      <div className="relative max-w-7xl mx-auto">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
+          Account Logins
+          </h2>
+        
+
+      
+        
+
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+              <div className="group relative overflow-hidden rounded-2xl border border-white/30 bg-gradient-to-br from-blue-50 to-indigo-50 p-6 backdrop-blur-2xl shadow-lg transition-all hover:shadow-xl hover:-translate-y-1">
+                <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-blue-400/20 blur-[80px]" />
+                <div className="flex items-start justify-between">
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 rounded-xl bg-white border border-blue-200 shadow-sm">
+                      <Shield className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-slate-800 mb-1">Iris Login</h4>
+                      <p className="text-slate-600 text-sm">CRM Dashboard</p>
+                    </div>
+                  </div>
+                  <ExternalLink className="h-5 w-5 text-slate-400 group-hover:text-blue-500 transition-colors" />
+                </div>
+                <a
+                  href="https://elitecard.iriscrm.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0"
+                >
+                  <span className="sr-only">Access Iris Login</span>
+                </a>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-2xl border border-white/30 bg-gradient-to-br from-green-50 to-emerald-50 p-6 backdrop-blur-2xl shadow-lg transition-all hover:shadow-xl hover:-translate-y-1">
+                <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-green-400/20 blur-[80px]" />
+                <div className="flex items-start justify-between">
+                  <div className="flex items-center gap-4">
+                    <div className="p-3 rounded-xl bg-white border border-green-200 shadow-sm">
+                      <Shield className="h-6 w-6 text-emerald-600" />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-slate-800 mb-1">Merchant Dashboard</h4>
+                      <p className="text-slate-600 text-sm">Nuvei Platform</p>
+                    </div>
+                  </div>
+                  <ExternalLink className="h-5 w-5 text-slate-400 group-hover:text-emerald-500 transition-colors" />
+                </div>
+                <a
+                  href="https://merchantdashboard.nuvei.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="absolute inset-0"
+                >
+                  <span className="sr-only">Access Merchant Dashboard</span>
+                </a>
+              </div>
+            </div>
+      </div>
+    </section>
+    {/* NEW GATEWAY LOGINS SECTION */}
+    <section id="gateways" className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-b from-gray-50 to-white">
+    <div className="relative mb-16 max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
+              Gateway Logins
+            </h2>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+              Secure access to your payment processing dashboards and gateways
+            </p>
+            <div className="mx-auto h-1 w-20 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 mt-4" />
+          </div>
+
+
+          {/* GATEWAY LOGINS */}
+          <div>
+          
+
+            <div className="grid gap-6 md:grid-cols-3">
+              {[
+                {
+                  name: "Accept Blue",
+                  url: "https://accept.blue",
+                  description: "Payment Gateway",
+                  color: "from-purple-50 to-violet-50",
+                  iconColor: "text-purple-600",
+                  borderColor: "border-purple-200",
+                  glowColor: "bg-purple-400/20"
+                },
+                {
+                  name: "NMI Gateway",
+                  url: "https://secure.nmi.com",
+                  description: "Gateway Login",
+                  color: "from-amber-50 to-orange-50",
+                  iconColor: "text-amber-600",
+                  borderColor: "border-amber-200",
+                  glowColor: "bg-amber-400/20"
+                },
+                {
+                  name: "Authorize.Net",
+                  url: "https://account.authorize.net",
+                  description: "Merchant Interface",
+                  color: "from-cyan-50 to-blue-50",
+                  iconColor: "text-cyan-600",
+                  borderColor: "border-cyan-200",
+                  glowColor: "bg-cyan-400/20"
+                }
+              ].map((gateway, index) => (
+                <div
+                  key={index}
+                  className="group relative overflow-hidden rounded-2xl border border-white/30 bg-gradient-to-br p-6 backdrop-blur-2xl shadow-lg transition-all hover:shadow-xl hover:-translate-y-1"
+                  style={{ background: gateway.color }}
+                >
+                  <div className={`absolute -right-8 -top-8 h-32 w-32 rounded-full ${gateway.glowColor} blur-[80px]`} />
+                  <div className="flex items-start justify-between">
+                    <div className="flex items-center gap-4">
+                      <div className={`p-3 rounded-xl bg-white border ${gateway.borderColor} shadow-sm`}>
+                        <Shield className={`h-6 w-6 ${gateway.iconColor}`} />
+                      </div>
+                      <div>
+                        <h4 className="text-xl font-bold text-slate-800 mb-1">{gateway.name}</h4>
+                        <p className="text-slate-600 text-sm">{gateway.description}</p>
+                      </div>
+                    </div>
+                    <ExternalLink className="h-5 w-5 text-slate-400 group-hover:text-purple-500 transition-colors" />
+                  </div>
+                  <a
+                    href={gateway.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute inset-0"
+                  >
+                    <span className="sr-only">Access {gateway.name}</span>
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        </section>
+    </>
   );
 }

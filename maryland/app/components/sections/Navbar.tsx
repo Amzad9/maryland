@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 interface NavLink {
   name: string;
@@ -15,15 +16,25 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
+  const [hash, setHash] = useState('');
 
   const navRef = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
+
+  // Track hash for #logins / #resources
+  useEffect(() => {
+    const updateHash = () => setHash(window.location.hash);
+    updateHash();
+    window.addEventListener('hashchange', updateHash);
+    return () => window.removeEventListener('hashchange', updateHash);
+  }, []);
 
   const SOLUTIONS_ITEMS = [
     'Point of Sale Systems',
     'Online Food Ordering',
     'Level III Merchant Services',
     'Merchant Cash Advance',
-    'atm',
+    'ATM',
     'Cash Discount Dual Pricing',
   ];
 
@@ -34,18 +45,18 @@ export default function Navbar() {
   ];
 
   const CURRENT_CLIENT_ITEMS = [
-    'Log In to Dashboard',
-    'Current Client Resources',
+    { name: 'Log In to Dashboard', href: 'account-management#logins' },
+    { name: 'Current Client Resources', href: 'account-management#resources' },
+    { name: 'How to Videos', href: 'how-to-videos' },
   ];
 
   const NAV_LINKS: NavLink[] = [
     { name: 'Home', href: '' },
     { name: 'Solutions', href: 'solutions', hasDropdown: true, items: SOLUTIONS_ITEMS },
     { name: 'Merchants', href: 'merchants', hasDropdown: true, items: MERCHANTS_ITEMS },
-    { name: 'Current Client', href: 'current-client', hasDropdown: true, items: CURRENT_CLIENT_ITEMS },
+    { name: 'Current Client', href: 'current-client', hasDropdown: true, items: CURRENT_CLIENT_ITEMS.map(item => item.name) },
     { name: 'ISO Agent Program', href: 'isoagentprogram' },
     { name: 'About', href: 'about' },
-    { name: 'How To Videos', href: 'how-to-videos' },
     { name: 'Elite Reviews', href: 'elite-reviews' },
     { name: 'Careers', href: 'careers' },
     { name: 'Contact', href: 'contact' },
@@ -54,16 +65,39 @@ export default function Navbar() {
   const slugify = (text: string) =>
     text.toLowerCase().replace(/\s+/g, '-');
 
-  // Custom paths for nav items (display name may differ from URL slug)
   const getDropdownHref = (item: string) => {
     const overrides: Record<string, string> = {
       'ATMs': 'seasonal-atms',
       'Firearms': '2a-firearms',
       'Political Accounts': 'political-accounts',
-      'Log In to Dashboard': 'account-management',
+      'Log In to Dashboard': 'account-management#logins',
       'Current Client Resources': 'account-management#resources',
     };
     return overrides[item] ?? slugify(item);
+  };
+
+  // Active top nav highlight
+  // const isLinkActive = (href: string) => {
+  //   if (href === 'current-client') {
+  //     return pathname.startsWith('/account-management');
+  //   }
+  //   if (!href) return pathname === '/';
+
+  //   const base = `/${href}`;
+  //   return pathname === base || pathname.startsWith(`${base}/`);
+  // };
+
+  // Active dropdown logic (HASH SAFE)
+  const isDropdownItemActive = (item: string) => {
+    const href = getDropdownHref(item);
+
+    if (href.includes('#')) {
+      const [path, itemHash] = href.split('#');
+      return pathname === `/${path}` && hash === `#${itemHash}`;
+    }
+
+    const basePath = `/${href}`;
+    return pathname === basePath || pathname.startsWith(`${basePath}/`);
   };
 
   const handleLinkClick = () => {
@@ -85,49 +119,46 @@ export default function Navbar() {
 
   return (
     <>
-      {/* NAVBAR */}
-      <nav
-        ref={navRef}
-        className="sticky top-0 z-50 bg-[#10284D]/95 backdrop-blur-md border-b border-slate-800"
-      >
+      <nav ref={navRef} className="sticky top-0 z-50 bg-[#10284D]/95 backdrop-blur-md border-b border-slate-800">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-1">
+
             {/* LOGO */}
             <a href="/">
-              <Image src="/logo.png" alt="Logo" className='rounded-4xl' width={80} height={80} />
+              <Image src="/logo.png" alt="Logo" className="rounded-4xl" width={80} height={80} />
             </a>
 
-            {/* DESKTOP MENU - Changed from lg:flex to xl:flex */}
-            <div className="hidden xl:flex items-center gap-5">
+            {/* DESKTOP NAV */}
+            <div className="hidden lg:flex items-center gap-3 lg:gap-5">
               {NAV_LINKS.map(link => (
                 <div key={link.name} className="relative">
+
                   {link.hasDropdown ? (
                     <>
                       <button
-                        onClick={() =>
-                          setOpenDropdown(openDropdown === link.name ? null : link.name)
-                        }
-                        onTouchStart={() =>
-                          setOpenDropdown(openDropdown === link.name ? null : link.name)
-                        }
-                        className="flex items-center gap-1 text-slate-300 text-sm hover:text-white transition-colors duration-200"
+                        onClick={() => setOpenDropdown(openDropdown === link.name ? null : link.name)}
+                        className={`relative flex items-center gap-1 text-sm px-2 py-1 rounded-full transition-all duration-200
+                          ${isDropdownItemActive(link.href)
+                            ? 'text-white font-semibold shadow-[0_0_12px_rgba(244,226,143,0.5)]'
+                            : 'text-slate-400 hover:text-white hover:bg-white/5'}
+                        `}
                       >
                         {link.name}
-                        <ChevronDown
-                          className={`w-4 h-4 transition-transform ${
-                            openDropdown === link.name ? 'rotate-180' : ''
-                          }`}
-                        />
+                        <ChevronDown className={`w-4 h-4 transition-transform ${openDropdown === link.name ? 'rotate-180' : ''}`} />
                       </button>
 
                       {openDropdown === link.name && (
-                        <div className="absolute top-full left-0 mt-2 w-64 bg-[#10284D] backdrop-blur-md border border-slate-700 rounded-lg shadow-xl z-50">
+                        <div className="absolute top-full left-0 mt-2 w-64 bg-[#10284D] border border-slate-700 rounded-lg shadow-xl z-50">
                           {link.items?.map(item => (
                             <a
                               key={item}
                               href={`/${getDropdownHref(item)}`}
                               onClick={handleLinkClick}
-                              className="block px-4 py-3 text-sm text-slate-300 hover:bg-white/10 hover:text-white transition-colors duration-200"
+                              className={`block px-4 py-3 text-sm rounded-md transition-colors duration-200
+                                ${isDropdownItemActive(item)
+                                  ? 'bg-emerald-500/30 text-white font-semibold'
+                                  : 'text-slate-400 hover:bg-white/10 hover:text-white'}
+                              `}
                             >
                               {item}
                             </a>
@@ -138,7 +169,11 @@ export default function Navbar() {
                   ) : (
                     <a
                       href={`/${link.href}`}
-                      className="text-slate-300 text-sm hover:text-white transition-colors duration-200"
+                      className={`relative text-sm px-2 py-1 rounded-full transition-all duration-200
+                        ${isDropdownItemActive(link.href)
+                          ? 'text-white font-semibold'
+                          : 'text-slate-400 hover:text-white hover:bg-white/5'}
+                      `}
                     >
                       {link.name}
                     </a>
@@ -146,66 +181,54 @@ export default function Navbar() {
                 </div>
               ))}
 
-              <a
-                href="/getquote"
-                className="px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-300 transition-colors duration-200"
-              >
+              <a href="/getquote" className="px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-300">
                 Get A Quote
               </a>
             </div>
 
-            {/* MOBILE BUTTON - Changed from lg:hidden to xl:hidden */}
+            {/* MOBILE MENU BUTTON */}
             <button
               onClick={() => setMobileMenuOpen(v => !v)}
-              className="xl:hidden text-white p-2 hover:bg-white/10 rounded-lg transition-colors duration-200"
-              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+              className="lg:hidden text-white p-2 hover:bg-white/10 rounded-lg"
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
+
           </div>
         </div>
       </nav>
 
-      {/* MOBILE MENU - Changed from lg:hidden to xl:hidden */}
-      <div
-        className={`xl:hidden fixed top-0 right-0 h-full w-80 bg-[#10284D] backdrop-blur-md z-50 transform transition-transform duration-300 ease-in-out ${
-          mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
-        }`}
-      >
+      {/* MOBILE MENU */}
+      <div className={`xl:hidden fixed top-0 right-0 h-full w-80 bg-[#10284D] z-50 transform transition-transform ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="px-6 py-20 space-y-4">
+
           {NAV_LINKS.map(link => (
-            <div key={link.name} className="border-b border-slate-700/50 last:border-b-0 pb-2 last:pb-0">
+            <div key={link.name} className="border-b border-slate-700/50 pb-2">
+
               {link.hasDropdown ? (
                 <>
                   <button
-                    onClick={() =>
-                      setMobileDropdown(
-                        mobileDropdown === link.name ? null : link.name
-                      )
-                    }
-                    onTouchStart={() =>
-                      setMobileDropdown(
-                        mobileDropdown === link.name ? null : link.name
-                      )
-                    }
-                    className="flex justify-between w-full text-slate-300 hover:text-white py-2 items-center"
+                    onClick={() => setMobileDropdown(mobileDropdown === link.name ? null : link.name)}
+                    className={`flex justify-between w-full py-2 text-sm rounded-full px-2
+                      ${isDropdownItemActive(link.href) ? 'text-white font-semibold' : 'text-slate-400'}
+                    `}
                   >
-                    <span className="font-medium">{link.name}</span>
-                    <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-200 ${
-                        mobileDropdown === link.name ? 'rotate-180' : ''
-                      }`}
-                    />
+                    {link.name}
+                    <ChevronDown className={`w-4 h-4 transition-transform ${mobileDropdown === link.name ? 'rotate-180' : ''}`} />
                   </button>
 
                   {mobileDropdown === link.name && (
-                    <div className="ml-4 mt-2 space-y-2 border-l border-slate-700/50 pl-3">
+                    <div className="ml-4 mt-2 space-y-2 pl-3 border-l border-slate-700/50">
                       {link.items?.map(item => (
                         <a
                           key={item}
                           href={`/${getDropdownHref(item)}`}
                           onClick={handleLinkClick}
-                          className="block text-sm text-slate-300 hover:text-white py-1.5 pl-2 hover:bg-white/5 rounded transition-colors duration-200"
+                          className={`block text-sm py-1.5 rounded
+                            ${isDropdownItemActive(item)
+                              ? 'bg-emerald-500/30 text-white font-semibold'
+                              : 'text-slate-400 hover:text-white'}
+                          `}
                         >
                           {item}
                         </a>
@@ -217,33 +240,27 @@ export default function Navbar() {
                 <a
                   href={`/${link.href}`}
                   onClick={handleLinkClick}
-                  className="block text-slate-300 hover:text-white py-2 font-medium"
+                  className={`block py-2 text-sm rounded-full px-2
+                    ${isDropdownItemActive(link.href) ? 'text-white font-semibold' : 'text-slate-400'}
+                  `}
                 >
                   {link.name}
                 </a>
               )}
+
             </div>
           ))}
-          
-          <div className="pt-4 mt-4 border-t border-slate-700/50">
-            <a
-              href="/getquote"
-              onClick={handleLinkClick}
-              className="block w-full text-center px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900 hover:bg-yellow-300 transition-colors duration-200"
-            >
-              Get A Quote
-            </a>
-          </div>
+
+          <a href="/getquote" onClick={handleLinkClick} className="block w-full text-center px-5 py-2.5 text-sm font-semibold rounded-full bg-yellow-400 text-slate-900">
+            Get A Quote
+          </a>
+
         </div>
       </div>
 
-      {/* OVERLAY - Changed from lg:hidden to xl:hidden */}
+      {/* OVERLAY */}
       {mobileMenuOpen && (
-        <div
-          className="fixed inset-0 bg-black/60 z-40 xl:hidden"
-          onClick={() => setMobileMenuOpen(false)}
-          onTouchStart={() => setMobileMenuOpen(false)}
-        />
+        <div className="fixed inset-0 bg-black/60 z-40 xl:hidden" onClick={() => setMobileMenuOpen(false)} />
       )}
     </>
   );

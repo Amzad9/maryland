@@ -41,16 +41,6 @@ export default function page() {
                         <h1 className="relative text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center mb-6 md:mb-8">
                             Maximize Earnings with Our Industry Best ISO Program
                         </h1>
-
-                        <div className="text-center relative z-20">
-                            <a
-                                href="#"
-                                className="inline-flex items-center gap-2 px-8 py-4 bg-linear-to-r from-emerald-500 to-teal-500 text-white font-bold text-lg rounded-xl  transition-all duration-300 shadow-lg hover:shadow-xl"
-                            >
-                                Begin the journey today
-                                <Zap className="w-5 h-5" />
-                            </a>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -79,24 +69,18 @@ export default function page() {
                             </div>
 
                             {/* Content */}
-                            <div className="flex-1 text-center">
+                            <div className="flex-1 text-center space-y-3 md:space-y-4">
                                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">
                                     Supercharge Your Growth
                                 </h2>
 
-                                <p className="text-gray-700 text-sm md:text-base">
-                                    The AMP team will customize solutions and revenue generating opportunities
+                                <p className="text-gray-700 text-sm md:text-base leading-relaxed md:leading-loose">
+                                    The ECP team will customize solutions and revenue generating opportunities
                                     to take your agency to the next level.
                                 </p>
                             </div>
 
-                            {/* Button */}
-                            <a
-                                href="#"
-                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
-                            >
-                                Get Started
-                            </a>
+                          
                         </div>
 
                         {/* Card 2 */}
@@ -105,22 +89,16 @@ export default function page() {
                                 <Users className="w-8 h-8 md:w-10 md:h-10 text-indigo-700" />
                             </div>
 
-                            <div className="flex-1 text-center">
+                            <div className="flex-1 text-center space-y-3 md:space-y-4">
                                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">
                                     In-House CRM Access
                                 </h2>
 
-                                <p className="text-gray-700 text-sm md:text-base">
-                                    Track and grow your merchant pipeline with AMP's built-in sales CRM.
+                                <p className="text-gray-700 text-sm md:text-base leading-relaxed md:leading-loose">
+                                    Track and grow your merchant pipeline with ECP built-in sales CRM.
                                 </p>
                             </div>
-    {/* Button */}
-    <a
-                                href="#"
-                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
-                            >
-                                Get Started
-                            </a>
+
                         </div>
 
                         {/* Card 3 */}
@@ -129,23 +107,17 @@ export default function page() {
                                 <MonitorSmartphone className="w-8 h-8 md:w-10 md:h-10 text-indigo-700" />
                             </div>
 
-                            <div className="flex-1 text-center">
+                            <div className="flex-1 text-center space-y-3 md:space-y-4">
                                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">
                                     Equipment Solutions
                                 </h2>
 
-                                <p className="text-gray-700 text-sm md:text-base">
+                                <p className="text-gray-700 text-sm md:text-base leading-relaxed md:leading-loose">
                                     POS, terminals and equipment for every merchant and industry.
                                 </p>
                             </div>
 
-                              {/* Button */}
-                              <a
-                                href="#"
-                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
-                            >
-                                Get Started
-                            </a>
+                          
                         </div>
 
                         {/* Card 4 */}
@@ -154,24 +126,28 @@ export default function page() {
                                 <ShieldCheck className="w-8 h-8 md:w-10 md:h-10 text-indigo-700" />
                             </div>
 
-                            <div className="flex-1 text-center">
+                            <div className="flex-1 text-center space-y-3 md:space-y-4">
                                 <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">
                                     High-Risk Processing
                                 </h2>
 
-                                <p className="text-gray-700 text-sm md:text-base">
+                                <p className="text-gray-700 text-sm md:text-base leading-relaxed md:leading-loose">
                                     Multiple platforms including high-risk merchant solutions, with a full support team as backup.
                                 </p>
                             </div>
 
-                             {/* Button */}
-                             <a
-                                href="#"
-                                className="mt-6 md:mt-8 block rounded-lg md:rounded-xl bg-linear-to-r from-emerald-600 to-teal-600 text-white font-bold text-center py-3 md:py-4 text-sm md:text-base hover:opacity-90 transition"
-                            >
-                                Get Started
-                            </a>
                         </div>
+                    </div>
+
+                    {/* ISO Careers CTA moved below cards */}
+                    <div className="text-center relative z-20 mt-4 md:mt-6">
+                        <a
+                            href="/careers"
+                            className="inline-flex items-center gap-2 px-8 py-4 bg-linear-to-r from-emerald-500 to-teal-500 text-white font-bold text-lg rounded-xl  transition-all duration-300 shadow-lg hover:shadow-xl"
+                        >
+                            Begin the journey today
+                            <Zap className="w-5 h-5" />
+                        </a>
                     </div>
 
                 </div>
@@ -185,21 +161,21 @@ export default function page() {
                     <div className="px-4 md:px-0">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-6 md:mb-8">
                             Unlock Your Profit Potential <br className="hidden md:block" />
-                            With The AMP ISO – Agent <br className="hidden md:block" />
+                            With The ECP ISO – Agent <br className="hidden md:block" />
                             Benefits
                         </h2>
 
                         <p className="text-white/80 text-base md:text-lg leading-relaxed max-w-xl">
-                            AMP gives you the{" "}
+                            ECP gives you the{" "}
                             <span className="font-semibold text-white">tools, support, and revenue opportunities</span>{" "}
                             that help ISO agents close more deals and earn more — consistently.
                         </p>
 
                         <a
-                            href="#"
+                            href="/contact"
                             className="inline-flex items-center gap-3 mt-8 md:mt-10 px-6 py-3 md:px-8 md:py-4 rounded-lg md:rounded-xl bg-linear-to-r from-emerald-500 to-teal-500 text-white font-bold text-base md:text-lg shadow-lg hover:opacity-90 transition"
                         >
-                            Speak To AMP Today →
+                            Speak To ECP Today →
                         </a>
                     </div>
 
@@ -233,13 +209,13 @@ export default function page() {
                     <div className="absolute -top-16 -left-16 w-48 h-48 md:w-72 md:h-72 bg-sky-400/20 rounded-full blur-3xl animate-pulse" />
                     <div className="absolute bottom-0 -right-16 w-48 h-48 md:w-72 md:h-72 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000" />
 
-                    {/* Strategic Referral Partners Section */}
+                    {/* Strategic Partners Section */}
                     <div className="space-y-6 md:space-y-10 text-center max-w-4xl mx-auto px-4 mb-12 md:mb-16 mt-8">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 md:mb-6 leading-tight">
-                            Strategic Referral Partners
+                            Strategic Partners
                         </h2>
                         <p className="text-gray-600 text-base md:text-lg">
-                            AMP Payment Systems has programs for everyone, learn how to leverage your existing business relationships into a profitable hands-off revenue channel with our Strategic Partnership Program.
+                            ECP Payment Systems has programs for everyone, learn how to leverage your existing business relationships into a profitable hands-off revenue channel with our Strategic Partnership Program.
                         </p>
                     </div>
 
@@ -248,21 +224,21 @@ export default function page() {
 
                         {/* You Own the Sale - agents handle the full sales process */}
                         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-                            <div className="space-y-4 md:space-y-6 order-2 lg:order-1 px-4 md:px-0">
+                            <div className="space-y-5 md:space-y-7 order-2 lg:order-1 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
                                     You Own the Sale
                                 </h3>
-                                <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+                                <p className="text-gray-600 text-base md:text-lg leading-relaxed md:leading-loose">
                                     As an agent, you run the full sales process from start to finish. We provide the platform, pricing, and back-office support—you own the relationship and close the deal.
                                 </p>
 
                                 {/* Simple Read More Button that redirects */}
                                 <div className="mt-6">
                                     <a
-                                        href="/contact"  // Change this to your actual contact or info page
+                                        href="/careers"
                                         className="inline-flex items-center gap-2 px-0 py-3  text-black font-medium rounded-lg hover:opacity-90 transition-all duration-300 group"
                                     >
-                                        Read More
+                                        Learn More
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
@@ -294,19 +270,19 @@ export default function page() {
                                     />
                                 </div>
                             </div>
-                            <div className="space-y-4 md:space-y-6 px-4 md:px-0">
+                            <div className="space-y-5 md:space-y-7 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
                                     Your Deal, Your Responsibility
                                 </h3>
-                                <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+                                <p className="text-gray-600 text-base md:text-lg leading-relaxed md:leading-loose">
                                     The sales process is yours from first contact to close. You qualify leads, present solutions, and onboard merchants—with our tools and pricing behind you every step of the way.
                                 </p>
                                 <div className="mt-6">
                                     <a
-                                        href="/contact"  // Change this to your actual contact or info page
+                                        href="/careers"
                                         className="inline-flex items-center gap-2 px-0 py-3  text-black font-medium rounded-lg hover:opacity-90 transition-all duration-300 group"
                                     >
-                                        Read More
+                                        Learn More
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
@@ -326,19 +302,19 @@ export default function page() {
                                     />
                                 </div>
                             </div>
-                            <div className="space-y-4 md:space-y-6 order-2 lg:order-1 px-4 md:px-0">
+                            <div className="space-y-5 md:space-y-7 order-2 lg:order-1 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
                                     Recurring Revenue
                                 </h3>
-                                <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+                                <p className="text-gray-600 text-base md:text-lg leading-relaxed md:leading-loose">
                                     Enjoy the benefits of recurring revenue as your clients continue to utilize our services.
                                 </p>
                                 <div className="mt-6">
                                     <a
-                                        href="/contact"  // Change this to your actual contact or info page
+                                        href="/careers"
                                         className="inline-flex items-center gap-2 px-0 py-3  text-black font-medium rounded-lg hover:opacity-90 transition-all duration-300 group"
                                     >
-                                        Read More
+                                        Learn More
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
@@ -358,19 +334,19 @@ export default function page() {
                                     />
                                 </div>
                             </div>
-                            <div className="space-y-4 md:space-y-6 px-4 md:px-0">
+                            <div className="space-y-5 md:space-y-7 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
                                     Access to All of Our Platforms
                                 </h3>
-                                <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+                                <p className="text-gray-600 text-base md:text-lg leading-relaxed md:leading-loose">
                                     Unlock access to our comprehensive suite of platforms, offering a wide range of payment processing solutions tailored to diverse business needs.
                                 </p>
                                 <div className="mt-6">
                                     <a
-                                        href="/contact"  // Change this to your actual contact or info page
+                                        href="/careers"
                                         className="inline-flex items-center gap-2 px-0 py-3  text-black font-medium rounded-lg hover:opacity-90 transition-all duration-300 group"
                                     >
-                                        Read More
+                                        Learn More
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
@@ -378,19 +354,19 @@ export default function page() {
 
                         </div>
                         <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-                            <div className="space-y-4 md:space-y-6 px-4 md:px-0">
+                            <div className="space-y-5 md:space-y-7 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
                                     Suitable for All Business Types
                                 </h3>
-                                <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-                                    Whether your contacts operate online, over the phone, or in person, AMP has solutions to meet their payment processing requirements.
+                                <p className="text-gray-600 text-base md:text-lg leading-relaxed md:leading-loose">
+                                    Whether your contacts operate online, over the phone, or in person, ECP has solutions to meet their payment processing requirements.
                                 </p>
                                 <div className="mt-6">
                                     <a
-                                        href="/contact"  // Change this to your actual contact or info page
+                                        href="/careers"
                                         className="inline-flex items-center gap-2 px-0 py-3  text-black font-medium rounded-lg hover:opacity-90 transition-all duration-300 group"
                                     >
-                                        Read More
+                                        Learn More
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
@@ -400,7 +376,7 @@ export default function page() {
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
                                         src="/bar.jpg"
-                                        alt="Diverse business types supported by AMP payment solutions"
+                                        alt="Diverse business types supported by ECP payment solutions"
                                         width={500}
                                         height={500}
                                         className="object-cover w-full h-120 group-hover:scale-105 transition-transform duration-500"
@@ -422,19 +398,19 @@ export default function page() {
                                     />
                                 </div>
                             </div>
-                            <div className="space-y-4 md:space-y-6 px-4 md:px-0">
+                            <div className="space-y-5 md:space-y-7 px-4 md:px-0">
                                 <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800">
                                     Passive Income Opportunity
                                 </h3>
-                                <p className="text-gray-600 text-base md:text-lg leading-relaxed">
+                                <p className="text-gray-600 text-base md:text-lg leading-relaxed md:leading-loose">
                                     Build ongoing income as the merchants you bring on continue to use our services. Your portfolio grows with every deal you close.
                                 </p>
                                 <div className="mt-6">
                                     <a
-                                        href="/contact"  // Change this to your actual contact or info page
+                                        href="/careers"
                                         className="inline-flex items-center gap-2 px-0 py-3  text-black font-medium rounded-lg hover:opacity-90 transition-all duration-300 group"
                                     >
-                                        Read More
+                                        Learn More
                                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
@@ -511,7 +487,7 @@ export default function page() {
                     </p>
                     <div className="flex justify-center">
                         <a
-                            href="/contact"
+                            href="/careers"
                             className="inline-flex items-center justify-center px-8 py-3 md:px-10 md:py-4 rounded-lg md:rounded-xl bg-white text-emerald-700 font-bold text-base md:text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                         >
                             Get Started Today

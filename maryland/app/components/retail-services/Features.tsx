@@ -1,5 +1,6 @@
 // components/Features.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Features() {
   return (
@@ -17,7 +18,12 @@ export default function Features() {
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Complete Retail Credit Card Processing Integration</h3>
+              <Link
+                href="/getquote"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Complete Retail Credit Card Processing Integration
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 All retail POS systems include fully integrated retail payment processing with competitive merchant services rates. Add cash discount programs to eliminate retail processing fees entirely.
               </p>
@@ -50,7 +56,12 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Inventory Management and Barcode Scanning</h3>
+              <Link
+                href="/about"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Inventory Management and Barcode Scanning
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Real-time inventory tracking, barcode scanning, automatic reorder alerts, product performance analytics, and seasonal inventory management - all integrated with your retail credit card processing and merchant services platform.
               </p>
@@ -59,7 +70,12 @@ export default function Features() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Customer Management and Loyalty Programs</h3>
+              <Link
+                href="/getquote"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Customer Management and Loyalty Programs
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Built-in customer database with purchase history, loyalty program integration, targeted marketing capabilities, and customer retention strategies connected to your retail merchant services.
               </p>
@@ -92,7 +108,12 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Sales Reporting and Analytics</h3>
+              <Link
+                href="/about"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Sales Reporting and Analytics
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Comprehensive retail business reporting including sales analytics, employee performance tracking, profit margin analysis, inventory turnover reports, and detailed retail credit card processing statements.
               </p>
@@ -101,7 +122,12 @@ export default function Features() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Multi-Location Retail Management</h3>
+              <Link
+                href="/getquote"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Multi-Location Retail Management
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Centralized management for multiple retail locations with real-time inventory synchronization, unified customer databases, and consolidated retail payment processing reporting.
               </p>
@@ -133,7 +159,12 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">E-commerce Integration</h3>
+              <Link
+                href="/about"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                E-commerce Integration
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Connect your retail POS system with online stores, marketplaces, social media selling, and complete retail merchant services for omnichannel retail payment processing.
               </p>

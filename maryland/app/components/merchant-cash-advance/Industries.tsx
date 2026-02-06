@@ -224,9 +224,17 @@ export default function IndustrySolutions() {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-          
-            <a href="#" className="bg-blue-600 text-white px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-blue-700 transition-all duration-300">
-              Apply for business capital
+            <a
+              href="/contact"
+              className="bg-blue-600 text-white px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-blue-700 transition-all duration-300 text-center"
+            >
+              Apply for Business Financing Now
+            </a>
+            <a
+              href="/contact"
+              className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300 text-center"
+            >
+              Check Qualification Requirements
             </a>
           </div>
         </div>

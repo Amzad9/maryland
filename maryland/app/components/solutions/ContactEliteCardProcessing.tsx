@@ -17,7 +17,7 @@ const ContactEliteCardProcessing = () => {
               Contact Elite Card Processing
             </h2>
             <p className="text-xl text-back max-w-3xl mx-auto">
-              Your Maryland Merchant Services Provider
+              Your Merchant Services Provider
             </p>
           </div>
 
@@ -56,14 +56,22 @@ const ContactEliteCardProcessing = () => {
                     accent="cyan"
                   /> */}
 
-                  {/* Email */}
-                  <ContactItem
-                    title="Email"
-                    details={[
-                      { type: "Email", value: "sales@elitecardprocessing.com", icon: <Mail size={20} /> }
-                    ]}
-                    accent="indigo"
-                  />
+                  {/* Online Contact */}
+                  <div className="group">
+                    <h3 className="text-lg font-bold text-gray-800 mb-3 pb-2 border-b border-indigo-100">Online Contact</h3>
+                    <a
+                      href="/contact"
+                      className="flex items-start group-hover:transform group-hover:translate-x-1 transition-transform duration-300"
+                    >
+                      <div className="w-10 h-10 bg-linear-to-r from-indigo-500/20 to-purple-500/20 rounded-lg flex items-center justify-center mr-4">
+                        <Mail size={20} />
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold text-gray-600">Contact Us</p>
+                        <p className="text-gray-800 font-semibold text-lg text-blue-600 hover:text-blue-700">Go to Contact Page</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

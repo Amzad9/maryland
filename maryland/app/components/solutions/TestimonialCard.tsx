@@ -152,7 +152,7 @@ export default function TestimonialCard() {
                          {/* Glass Morphism Card */}
                 <div className="h-full min-h-[420px] mt-3">
                   <div className={`
-                    h-full bg-white/20 backdrop-blur-xl rounded-2xl border border-white/30 
+                    h-full bg-white/20 backdrop-blur-xl rounded-2xl border border-blue-400/30 
                     p-7 flex flex-col transition-all duration-500 ease-out
                     ${index === activeIndex 
                       ? 'shadow-2xl shadow-blue-500/10 border-blue-400/30' 
@@ -187,9 +187,9 @@ export default function TestimonialCard() {
                         {testimonial.items.map((item, itemIndex) => (
                           <div 
                             key={itemIndex} 
-                            className="flex items-center gap-3 px-4 py-3 rounded-xl "
+                            className="flex items-center gap-3 px-2 py-3 rounded-xl "
                           >
-                            <div className="w-2 h-2 rounded-full bg-linear-to-r from-blue-500 to-purple-500 flex-shrink-0"></div>
+                            <div className="w-2 h-2 rounded-full bg-linear-to-r from-blue-500 to-purple-500 shrink-0"></div>
                             <span className="text-gray-700 text-sm">{item}</span>
                           </div>
                         ))}

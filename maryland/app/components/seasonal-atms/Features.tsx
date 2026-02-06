@@ -12,7 +12,7 @@ export default function Features() {
 
           <div className="space-y-10 text-center max-w-4xl mx-auto lg:text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-              Maximize Revenue and Customer Satisfaction with Seasonal ATM Services
+              Increase Event Revenue
             </h2>
           </div>
           

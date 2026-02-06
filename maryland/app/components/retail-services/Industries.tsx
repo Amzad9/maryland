@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function IndustrySolutions() {
   return (
@@ -31,7 +32,12 @@ export default function IndustrySolutions() {
             </div>
             
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-              <h3 className="card-title text-2xl font-bold mb-6">Fashion and Apparel Retail</h3>
+              <Link
+                href="/about"
+                className="card-title text-2xl font-bold mb-6 hover:text-blue-200 hover:underline transition-colors cursor-pointer block"
+              >
+                Fashion and Apparel Retail
+              </Link>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
@@ -71,7 +77,7 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/contact" className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore fashion retail solutions
                 </a>
               </div>
@@ -95,7 +101,12 @@ export default function IndustrySolutions() {
             </div>
             
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-              <h3 className="card-title text-2xl font-bold mb-6">Gift Shops and Specialty Retail</h3>
+              <Link
+                href="/about"
+                className="card-title text-2xl font-bold mb-6 hover:text-blue-200 hover:underline transition-colors cursor-pointer block"
+              >
+                Gift Shops and Specialty Retail
+              </Link>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -130,12 +141,12 @@ export default function IndustrySolutions() {
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-base">
-                    <strong>Local artisan and consignment tracking</strong> - with retail merchant services
+                    <strong>Artisan and consignment tracking</strong> - with retail merchant services
                   </span>
                 </li>
               </ul>
               <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/contact" className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore specialty retail solutions
                 </a>
               </div>
@@ -159,7 +170,12 @@ export default function IndustrySolutions() {
             </div>
             
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-              <h3 className="card-title text-2xl font-bold mb-6">Hardware and Home Improvement Retail</h3>
+              <Link
+                href="/about"
+                className="card-title text-2xl font-bold mb-6 hover:text-blue-200 hover:underline transition-colors cursor-pointer block"
+              >
+                Hardware and Home Improvement Retail
+              </Link>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-amber-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -199,7 +215,7 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/contact" className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore hardware retail solutions
                 </a>
               </div>
@@ -223,7 +239,12 @@ export default function IndustrySolutions() {
             </div>
             
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
-              <h3 className="card-title text-2xl font-bold mb-6">Electronics and Technology Retail</h3>
+              <Link
+                href="/about"
+                className="card-title text-2xl font-bold mb-6 hover:text-blue-200 hover:underline transition-colors cursor-pointer block"
+              >
+                Electronics and Technology Retail
+              </Link>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -264,7 +285,7 @@ export default function IndustrySolutions() {
               </ul>
               
               <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <a href="/contact" className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                   Explore electronics retail solutions
                 </a>
               </div>

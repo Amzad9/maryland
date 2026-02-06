@@ -2,19 +2,13 @@
 
 import LevelIIIGovernmentCorporateServices from "../level-iii-merchant-services/LevelIIIGovernmentCorporateServices";
 import LevelIIIProcessingFeatures from "../level-iii-merchant-services/LevelIIIProcessingFeatures";
-import LevelIIIInterchangeSavings from "../level-iii-merchant-services/LevelIIIInterchangeSavings";
 import IndustrySolutions from "../level-iii-merchant-services/GovernmentCorporateProcessing";
-import LevelIIIProcessingTechnology from '../level-iii-merchant-services/LevelIIIProcessingTechnology'
-import GovernmentComplianceLevelIII from '../level-iii-merchant-services/GovernmentComplianceLevelIII'
 import { useState } from 'react';
 
 const TAB_LABELS = [
-  "Integrated Retail Merchant ",
-  "Retail POS System ",
+  "Integrated Retail Merchant",
+  "Retail POS System",
   "Restaurant Payment Processing",
-  "Level III Interchange Rate",
-  "Level III Credit Card Processing ",
-  "Government Compliance",
 ];
 
 export default function BusinessTabs() {
@@ -94,25 +88,6 @@ export default function BusinessTabs() {
                 </div>
               )}
 
-              {/* Tab 4 Content */}
-              {activeTab === 3 && (
-                <div className="animate-fadeIn">
-                  <LevelIIIInterchangeSavings />
-                </div>
-              )}
-
-              {/* Tab 5 Content */}
-              {activeTab === 4 && (
-                <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <LevelIIIProcessingTechnology />
-                </div>
-              )}
-               {/* Tab 6 Content */}
-               {activeTab === 5 && (
-                <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <GovernmentComplianceLevelIII />
-                </div>
-              )}
             </div>
           </div>
         </div>

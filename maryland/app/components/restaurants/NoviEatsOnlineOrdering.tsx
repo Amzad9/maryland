@@ -17,7 +17,7 @@ const MarylandRestaurantNovi = () => {
       <div className="relative z-10">
         <div className="container px-4 md:px-0 mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-              Get Your Maryland Restaurant Novi Eats Online Ordering Today
+              Get Your Restaurant Novi Eats Online Ordering Today
                 </h2>
 
           {/* Main Content Grid */}
@@ -73,7 +73,7 @@ Compliance requirement evaluation and implementation planning"
                   </div>
                   <div className="space-y-6">
                     <BenefitItem 
-                      title="Local Maryland Level III processing company with government expertise"
+                      title="Level III processing company with government expertise"
                       description=""
                       highlight=""
                     />

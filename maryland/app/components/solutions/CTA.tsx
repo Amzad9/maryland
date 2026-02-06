@@ -60,7 +60,7 @@ export default function CTA() {
                             {/* CTA Button */}
                             <div className="flex flex-col items-center space-y-4">
                                 <a
-                                    href="/getquote"
+                                    href="/contact"
                                     onMouseEnter={() => setIsHovered(true)}
                                     onMouseLeave={() => setIsHovered(false)}
                                     className="group relative inline-flex items-center justify-center py-3.5 px-10 bg-linear-to-r from-blue-500 to-cyan-500 text-white font-medium rounded-xl shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 transform hover:-translate-y-0.5 active:scale-[0.98] overflow-hidden"

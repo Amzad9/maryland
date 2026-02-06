@@ -103,7 +103,7 @@ export default function ProcessingResources() {
               </div>
               <div className="flex items-start gap-3 p-4 rounded-xl bg-white/5 hover:bg-white/10 transition-all duration-300">
                 <div className="w-2 h-2 rounded-full bg-emerald-400 mt-2 flex-shrink-0"></div>
-                <span className="text-gray-200 text-base leading-relaxed">Restaurant marketing and local SEO services</span>
+                <span className="text-gray-200 text-base leading-relaxed">Restaurant marketing and SEO services</span>
               </div>
             </div>
           </div>

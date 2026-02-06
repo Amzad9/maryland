@@ -1,5 +1,5 @@
-// components/Features.tsx
 import Image from "next/image";
+import Link from "next/link";
 import CTA from "./CTA";
 import ContactEliteCardProcessing from "./ContactEliteCardProcessing";
 
@@ -20,7 +20,9 @@ export default function Features() {
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Complete Credit Card Processing Integration</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Complete Credit Card Processing Integration
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
               All POS systems include fully integrated credit card processing with competitive merchant services rates. Add cash discount programs to eliminate processing fees entirely while maintaining seamless payment processing.
               </p>
@@ -53,7 +55,9 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">All-in-One Payment Management</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                All-in-One Payment Management
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Real-time inventory tracking, automatic reorder alerts, product performance analytics, and multi-location synchronization - all integrated with your credit card processing and merchant account services.
               </p>
@@ -62,7 +66,9 @@ export default function Features() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">	Customer Management and Payment Processing</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Customer Management and Payment Processing
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
               Built-in customer database with purchase history, loyalty program integration, and targeted marketing capabilities, all connected to your merchant services platform for comprehensive business management.
               </p>
@@ -95,7 +101,9 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Comprehensive Merchant Services Reporting</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Comprehensive Merchant Services Reporting
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
               Advanced business reporting including sales analytics, employee performance tracking, profit margin analysis, tax reporting, and detailed credit card processing statements from your merchant account provider.
               </p>
@@ -104,7 +112,9 @@ export default function Features() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Integrated Payment Solutions</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Integrated Payment Solutions
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Connect your POS system with e-commerce platforms, online food ordering, social media marketing tools, and complete merchant services for omnichannel payment processing.
               </p>
@@ -136,7 +146,9 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Mobile Payment Processing</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Mobile Payment Processing
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Accept payments anywhere with mobile POS apps, wireless terminals, and tablet-based solutions perfect for food trucks, farmers markets, and off-site events - all with integrated credit card processing.
               </p>

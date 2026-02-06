@@ -10,7 +10,7 @@ export default function IndustrySolutions() {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
         <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-          Specialized Seasonal ATM Services for Maryland Events and Businesses
+          Event Types
         </h2>
 
         <div className="space-y-12 mb-5">

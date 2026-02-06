@@ -11,7 +11,7 @@ export default function OrderingPricing() {
         <div className="hidden md:block absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
         <h2 className="text-2xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-snug md:leading-tight px-2">
-          Maryland Restaurants Thriving with Elite Card Processing
+          Restaurants Thriving with Elite Card Processing
         </h2>
 
         <div className="space-y-8 md:space-y-12 mt-5">
@@ -57,7 +57,7 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about our restaurant solutions">
+                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about our restaurant solutions">
                   Learn about our restaurant solutions
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
                 </a>
@@ -87,7 +87,7 @@ export default function OrderingPricing() {
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Hagerstown Pizza Restaurant</h3>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
-                  "The restaurant online ordering integration doubled our delivery business. The kitchen display system eliminated order errors, and the local restaurant SEO services brought in new customers every week."
+                  "The restaurant online ordering integration doubled our delivery business. The kitchen display system eliminated order errors, and the restaurant SEO services brought in new customers every week."
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm md:text-base">
                   <li className="flex items-start">
@@ -100,7 +100,7 @@ export default function OrderingPricing() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>New customer acquisition through local restaurant SEO</span>
+                    <span>New customer acquisition through restaurant SEO</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
@@ -109,7 +109,7 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get a free consultation">
+                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Get a free consultation">
                   Get a free consultation
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
                 </a>
@@ -161,7 +161,7 @@ export default function OrderingPricing() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about mobile solutions">
+                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about mobile solutions">
                   Learn about mobile solutions
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
                 </a>
@@ -191,7 +191,7 @@ export default function OrderingPricing() {
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Baltimore County Sports Bar</h3>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
-                  "The restaurant POS system handles our complex bar operations perfectly. Age verification is built-in, tip management is automated, and the restaurant merchant services team provides amazing local support."
+                  "The restaurant POS system handles our complex bar operations perfectly. Age verification is built-in, tip management is automated, and the restaurant merchant services team provides dedicated support."
                 </p>
                 <ul className="space-y-2 text-gray-700 text-sm md:text-base">
                   <li className="flex items-start">
@@ -208,12 +208,12 @@ export default function OrderingPricing() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Local Maryland support for equipment and training</span>
+                    <span>Dedicated support for equipment and training</span>
                   </li>
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get bar & restaurant consultation">
+                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Get bar & restaurant consultation">
                   Get bar & restaurant consultation
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
                 </a>

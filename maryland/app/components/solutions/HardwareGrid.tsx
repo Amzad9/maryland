@@ -1,8 +1,12 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import ContactEliteCardProcessing from "./ContactEliteCardProcessing";
+import CTA from "./CTA";
 
 export default function PaymentProcessingHardware() {
   return (
+    <>
     <section className="mx-auto py-8 md:py-16 bg-white">
       <div className="container mx-auto p-3 md:p-6 rounded-4xl relative">
         {/* Glow effect on top corners */}
@@ -31,18 +35,15 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Complete Merchant Services Terminals</h3>
+              <Link href="/about" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Complete Merchant Services Terminals
+              </Link>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   All-in-one payment systems with integrated credit card processing, receipt printing, and cash drawer connectivity.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    View Terminal Options
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+            
             </div>
           </div>
 
@@ -64,18 +65,15 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center  text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Tablet-Based Payment Processing Systems</h3>
+              <Link href="/getquote" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Tablet-Based Payment Processing Systems
+              </Link>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   iPad and Android tablet POS solutions with secure payment attachments and integrated merchant services.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    View Tablet Solutions
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+             
             
             </div>
           </div>
@@ -98,18 +96,15 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Integrated Payment Terminals</h3>
+              <Link href="/about" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Integrated Payment Terminals
+              </Link>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   EMV chip card terminals, contactless payment readers, and mobile card processing devices fully integrated with your merchant services.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    View Terminal Features
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+             
              
             </div>
           </div>
@@ -132,18 +127,15 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Complete Payment Processing Peripherals</h3>
+              <Link href="/getquote" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Complete Payment Processing Peripherals
+              </Link>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Receipt printers, cash drawers, barcode scanners, kitchen display monitors, and customer-facing displays to complete your payment system.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    View Peripherals
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+             
             
             </div>
           </div>
@@ -166,20 +158,15 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Mobile Merchant Services Solutions</h3>
+              <Link href="/about" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Mobile Merchant Services Solutions
+              </Link>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Wireless terminals, smartphone card readers, and portable payment processing systems for businesses on the go.
                 </p>
               </div>
               
-            
-              <div className="text-left mt-4">
-                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 cursor-pointer ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    View Mobile Solutions
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
             </div>
           </div>
 
@@ -201,24 +188,21 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center  text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Professional Installation and Setup</h3>
+              <Link href="/getquote" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Professional Installation and Setup
+              </Link>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Professional installation and setup included with all payment processing systems. Our Maryland-based merchant services technicians handle everything.
                 </p>
-              </div>
-              <div className="mt-4 flex flex-col sm:flex-row gap-4">
-                <div className="text-left mt-4">
-                    <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full  px-4 py-4 text-base font-bold text-black  transition-transform hover:-translate-y-1  focus:outline-none focus:ring-2 px-10 focus:ring-blue-400 ring-2 px-10 ring-blue-400  focus:ring-offset-2 focus:ring-offset-white" aria-label="Get Your Free Quote Today">
-                    Get Equipment Quote
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <ContactEliteCardProcessing />
+    <CTA />
+        </>
   );
 }

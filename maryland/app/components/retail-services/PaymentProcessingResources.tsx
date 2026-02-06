@@ -9,12 +9,8 @@ import {
   Shield,
   ArrowRight
 } from 'lucide-react';
-import { useState } from 'react';
 
 export default function ProcessingResources() {
-  const [isHoveredView, setIsHoveredView] = useState(false);
-  const [isHoveredGet, setIsHoveredGet] = useState(false);
-
   return (
     <section className="relative min-h-screen py-24 overflow-hidden">
       <div 
@@ -140,25 +136,15 @@ export default function ProcessingResources() {
         {/* Divider Line */}
         <div className="border-t border-white/20 my-12"></div>
 
-        {/* CTA Buttons */}
+        {/* CTA Buttons - Removed blue button, Contact button added */}
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <button 
-            onMouseEnter={() => setIsHoveredView(true)}
-            onMouseLeave={() => setIsHoveredView(false)}
-            className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-blue-600 to-cyan-600 text-white font-semibold rounded-xl shadow-2xl shadow-blue-500/30 hover:shadow-3xl hover:shadow-blue-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
-          >
-            <span className="text-lg">View all retail solutions</span>
-            <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredView ? 'translate-x-2' : ''}`} />
-          </button>
-          
-          <button 
-            onMouseEnter={() => setIsHoveredGet(true)}
-            onMouseLeave={() => setIsHoveredGet(false)}
+          <a 
+            href="/contact"
             className="group flex items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
           >
             <span className="text-lg">Get started with retail merchant services today</span>
-            <ArrowRight className={`w-5 h-5 transition-transform duration-300 ${isHoveredGet ? 'translate-x-2' : ''}`} />
-          </button>
+            <ArrowRight className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-2" />
+          </a>
         </div>
       </div>
     </section>

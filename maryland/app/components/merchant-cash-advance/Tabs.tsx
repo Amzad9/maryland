@@ -1,32 +1,26 @@
 "use client";
 
 import Business from "../merchant-cash-advance/Business";
-import Features from "../merchant-cash-advance/Features";
 import CompleteRestaurant from "../merchant-cash-advance/CompleteRestaurant";
 import IndustrySolutions from "../merchant-cash-advance/Industries";
-import EnhancedCustomer from '../merchant-cash-advance/EnhancedCustomer'
-import OrderingPricing from '../merchant-cash-advance/OrderingPricing'
 import { useState } from 'react';
 
 const TAB_LABELS = [
-  "Business Financing ",
-  "Maryland Businesses",
+  "Business Financing",
   "Merchant Cash Advance",
   "Financing Application Process",
-  "Financing Consultation",
 ];
 
 export default function BusinessTabs() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 pt-16 pb-4 md:pt-20">
+    <section className="w-full bg-linear-to-b from-gray-50 to-white mx-auto px-2 pt-16 md:pt-20">
       <div className="">
-        {/* Tab Navigation */}
+        {/* Tab Navigation - match Retail Services style */}
         <div className="relative mb-8 md:mb-12">
-          {/* Horizontal scroll wrapper */}
           <div className="flex overflow-x-auto pb-4 md:pb-0 scrollbar-hide md:flex-wrap md:justify-center md:gap-4">
-            <div className="flex gap-2 py-3 md:gap-4 min-w-max md:min-w-0 ">
+            <div className="flex gap-2 py-3 md:gap-4 min-w-max md:min-w-0 px-4">
               {TAB_LABELS.map((label, index) => (
                 <button
                   key={index}
@@ -34,19 +28,17 @@ export default function BusinessTabs() {
                   className={`
                     relative px-4 py-3 md:px-8 md:py-4 text-sm md:text-base font-semibold rounded-xl 
                     transition-all duration-300 ease-in-out transform whitespace-nowrap
-                    flex-shrink-0
+                    shrink-0
                     ${activeTab === index 
                       ? 'text-white shadow-xl scale-105' 
                       : 'text-gray-700 hover:text-gray-900 hover:bg-white/80 hover:shadow-lg hover:-translate-y-1'
                     }
                   `}
                 >
-                  {/* Background for active tab */}
                   {activeTab === index && (
                     <div className="absolute inset-0 bg-linear-to-r from-black-600 bg-[#10284D] to-black-500 rounded-xl -z-10"></div>
                   )}
                   
-                  {/* Background for inactive tabs */}
                   {activeTab !== index && (
                     <div className="absolute inset-0 bg-white/60 backdrop-blur-sm border border-gray-200/50 rounded-xl -z-10"></div>
                   )}
@@ -57,13 +49,6 @@ export default function BusinessTabs() {
                 </button>
               ))}
             </div>
-          </div>
-          
-          {/* Scroll indicators for mobile */}
-          <div className="md:hidden flex justify-center gap-1 mt-2">
-            <div className="h-1 w-4 bg-gray-300 rounded-full"></div>
-            <div className="h-1 w-4 bg-gray-300 rounded-full"></div>
-            <div className="h-1 w-4 bg-gray-300 rounded-full"></div>
           </div>
         </div>
 
@@ -82,28 +67,14 @@ export default function BusinessTabs() {
               {/* Tab 2 Content */}
               {activeTab === 1 && (
                 <div className="animate-fadeIn">
-                  <Features />
+                  <IndustrySolutions />
                 </div>
               )}
 
               {/* Tab 3 Content */}
               {activeTab === 2 && (
                 <div className="animate-fadeIn">
-                  <IndustrySolutions />
-                </div>
-              )}
-
-              {/* Tab 4 Content */}
-              {activeTab === 3 && (
-                <div className="animate-fadeIn">
                   <CompleteRestaurant />
-                </div>
-              )}
-
-              {/* Tab 5 Content */}
-              {activeTab === 4 && (
-                <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
-                  <EnhancedCustomer />
                 </div>
               )}
            

@@ -305,7 +305,7 @@ export default function MarylandBusiness() {
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Professional Installation and Training</h3>
               <p className="text-gray-700 mb-4 md:mb-6 text-sm md:text-base">
-                Complete restaurant equipment installation, staff training, and ongoing support included with all restaurant merchant services. Our Maryland-based technicians specialize in restaurant payment processing setup.
+                Complete restaurant equipment installation, staff training, and ongoing support included with all restaurant merchant services. Our specialized technicians focus on restaurant payment processing setup.
               </p>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6">
                 <ul className="space-y-3 md:space-y-4">
@@ -318,19 +318,19 @@ export default function MarylandBusiness() {
                   <li className="flex">
                     <div className="text-gray-700 text-sm md:text-base">
                       <span className="font-semibold text-gray-900 block md:inline">Features:</span>
-                      Maryland-based technicians, Restaurant-specialized setup, Comprehensive staff training
+                      Specialized technicians, Restaurant-specialized setup, Comprehensive staff training
                     </div>
                   </li>
                   <li className="flex">
                     <div className="text-gray-700 text-sm md:text-base">
                       <span className="font-semibold text-gray-900 block md:inline">Benefits:</span>
-                      Expert installation, Reduced downtime, Maximized system utilization, Local support
+                      Expert installation, Reduced downtime, Maximized system utilization, Dedicated support
                     </div>
                   </li>
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation and Training">
+                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation and Training">
                   Learn about Installation Services
                   <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
                 </a>
@@ -341,11 +341,17 @@ export default function MarylandBusiness() {
           {/* CTA Buttons Section */}
           <div className="text-center mt-12 md:mt-16 space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="/contact"
+                className="group flex items-center justify-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-[#10284D] text-white font-semibold rounded-xl shadow-xl hover:bg-[#152E5A] transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
+              >
+                <span className="text-base md:text-lg">Contact Us</span>
+                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-2" />
+              </a>
               <a href="/getquote"
                 className="group flex items-center justify-center gap-3 px-6 md:px-8 py-3 md:py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"
               >
                 <span className="text-base md:text-lg">Get restaurant hardware quote</span>
-                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 hover:translate-x-2" />
+                <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform duration-300 group-hover:translate-x-2" />
               </a>
             </div>
           </div>

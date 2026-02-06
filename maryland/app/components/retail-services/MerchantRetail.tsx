@@ -1,4 +1,4 @@
-import WhyChoose from "../solutions/WhyChoose";
+import WhyChoose from "./WhyChoose";
 import TestimonialCard from "../solutions/TestimonialCard";
 import Tabs from "./Tabs";
 import ContactEliteCardProcessing from "../solutions/ContactEliteCardProcessing";

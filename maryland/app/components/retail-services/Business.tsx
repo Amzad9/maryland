@@ -1,5 +1,6 @@
 // components/Features.tsx
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Business() {
   return (
@@ -19,9 +20,14 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Traditional Retail Store Solutions</h3>
+              <Link
+                href="/getquote"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Traditional Retail Store Solutions
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
-              Complete retail merchant services that include payment processing, inventory management, customer loyalty, and even sales reporting. One popular POS system that we sell and support is CLover POS, and this is a game-changer for businesses that want to grow and better manage their inventory and other business operations.
+              Complete retail merchant services that include payment processing, inventory management, customer loyalty, and even sales reporting. One popular POS system that we sell and support is Clover POS, and this is a game-changer for businesses that want to grow and better manage their inventory and other business operations.
               </p>
             </div>
             <div className="relative group order-1 lg:order-2">
@@ -52,7 +58,12 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Boutique and Specialty Store Processing</h3>
+              <Link
+                href="/about"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Boutique and Specialty Store Processing
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Streamlined retail payment processing for fashion boutiques, gift shops, and specialty retailers. Our retail merchant services include customer loyalty programs, seasonal inventory management, and integrated retail credit card processing systems.
               </p>
@@ -61,7 +72,12 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Multi-Location Retail Processing</h3>
+              <Link
+                href="/getquote"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                Multi-Location Retail Processing
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Centralized retail merchant services for chain stores and franchises with real-time inventory synchronization, unified reporting, and consistent retail payment processing across all locations.
               </p>
@@ -94,7 +110,12 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">E-commerce and Omnichannel Solutions</h3>
+              <Link
+                href="/about"
+                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
+                E-commerce and Omnichannel Solutions
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Integrated retail payment processing connecting online stores with physical locations, including inventory synchronization, customer data management, and unified retail merchant services platforms.
               </p>

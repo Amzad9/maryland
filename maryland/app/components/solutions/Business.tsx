@@ -1,5 +1,5 @@
-// components/Features.tsx
 import Image from "next/image";
+import Link from "next/link";
 import WhyChoose from "./WhyChoose";
 import TestimonialCard from "./TestimonialCard";
 import MarylandPaymentProcessing from "./MarylandPaymentProcessing";
@@ -23,7 +23,9 @@ export default function Business() {
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Restaurant Merchant Services</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Restaurant Merchant Services
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Complete restaurant merchant services with integrated payment processing, kitchen display systems, online ordering integration, and table management. DinerDaddy, Aldelo POS and Clover systems provide all-in-one solutions for quick service to full-service dining.
               </p>
@@ -56,7 +58,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Retail Payment Processing Solutions</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Retail Payment Processing Solutions
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Comprehensive retail merchant services with integrated credit card processing, inventory tracking, customer management, and multi-location support. Perfect for boutiques, hardware stores, and specialty retailers.
               </p>
@@ -65,7 +69,9 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Service Business Payment Systems</h3>
+              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Service Business Payment Systems
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Mobile and stationary merchant services for salons, auto repair shops, contractors, and professional services. Accept payments anywhere with integrated processing and mobile capabilities.
               </p>
@@ -98,7 +104,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Multi-Location Merchant Services</h3>
+              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+                Multi-Location Merchant Services
+              </Link>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Scalable payment processing solutions that grow with your business. Manage multiple locations from a single dashboard with real-time reporting, centralized inventory control, and integrated credit card processing.
               </p>

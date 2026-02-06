@@ -180,7 +180,7 @@ export default function BusinessFinancingCards() {
 
                                 <div className="w-full">
                                     <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-6 justify-center">
-                                        <a href="#" className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 sm:px-6 md:px-10 py-3 sm:py-4 md:py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base">
+                                        <a href="/contact" className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 sm:px-6 md:px-10 py-3 sm:py-4 md:py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300 text-sm sm:text-base">
                                         Check qualification requirements
                                         </a> 
                                     </div>

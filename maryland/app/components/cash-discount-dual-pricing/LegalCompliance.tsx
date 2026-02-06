@@ -93,7 +93,7 @@ export default function LegalCompliance() {
 
         {/* CTA */}
         <div className="text-center">
-        <a href="#" className="inline-block relative bg-linear-to-r from-emerald-600 to-teal-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-900/50 transform hover:-translate-y-1 transition-all duration-300">
+        <a href="/contact" className="inline-block relative bg-linear-to-r from-emerald-600 to-teal-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-900/50 transform hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center justify-center gap-3">
                 <span>Start Your Compliant Program</span>
                 <svg className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

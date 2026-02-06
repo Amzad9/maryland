@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function MarylandBusiness() {
   return (
@@ -33,9 +34,12 @@ export default function MarylandBusiness() {
 
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-white text-gray-900">
-              <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">
+              <Link
+                href="/getquote"
+                className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              >
                 Retail POS System Terminals
-              </h3>
+              </Link>
 
               <p className="text-gray-700 mb-6">
                 Complete retail POS system stations with integrated retail credit card processing, receipt printing, barcode scanning, and cash drawer connectivity. Available in countertop, mobile, and tablet configurations for all retail environments.
@@ -69,7 +73,7 @@ export default function MarylandBusiness() {
               </div>
 
               <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about POS Terminals">
+                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about POS Terminals">
                   Learn about POS Terminals
                   <ArrowRight className="ml-3 h-5 w-5" />
                 </a>
@@ -126,7 +130,7 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Inventory Equipment">
+                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Inventory Equipment">
                   Learn more about Inventory Equipment
                   <ArrowRight className="ml-3 h-5 w-5" />
                 </a>
@@ -183,7 +187,7 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Payment Devices">
+                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Payment Devices">
                   Learn more about Payment Devices
                   <ArrowRight className="ml-3 h-5 w-5" />
                 </a>
@@ -240,7 +244,7 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Retail Peripherals">
+                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Retail Peripherals">
                   Learn more about Retail Peripherals
                   <ArrowRight className="ml-3 h-5 w-5" />
                 </a>
@@ -297,7 +301,7 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Equipment">
+                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Equipment">
                   Learn more about Mobile Equipment
                   <ArrowRight className="ml-3 h-5 w-5" />
                 </a>
@@ -325,7 +329,7 @@ export default function MarylandBusiness() {
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Professional Installation and Training</h3>
               <p className="text-gray-700 mb-6">
-                Complete retail equipment installation, staff training, and ongoing support included with all retail merchant services. Our Maryland-based technicians specialize in retail payment processing setup.
+                Complete retail equipment installation, staff training, and ongoing support included with all retail merchant services. Our specialized technicians focus on retail payment processing setup.
               </p>
               <div className="space-y-4 mb-6">
                 <ul className="space-y-4">
@@ -339,7 +343,7 @@ export default function MarylandBusiness() {
                     <ul className="text-gray-700 ml-3 space-y-1">
                       <li>
                         <span className="font-semibold text-gray-900 min-w-24">Features:</span>
-                        Complete retail setup, specialized technicians, Maryland-based support
+                        Complete retail setup, specialized technicians, dedicated support
                       </li>
                     </ul>
                   </li>
@@ -354,7 +358,7 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
               <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation Services">
+                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation Services">
                   Learn about Installation Services
                   <ArrowRight className="ml-3 h-5 w-5" />
                 </a>

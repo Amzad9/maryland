@@ -5,19 +5,19 @@ import { Send, Loader2, Phone, Mail, MapPin, PhoneCall, ArrowRight, Check, Spark
 const contactItems = [
   { icon: Phone, label: "Local (Hagerstown)", value: "(240) 329-9424", href: "tel:+12403299424" },
   { icon: PhoneCall, label: "Toll-Free", value: "(877) 415-8627", href: "tel:+18774158627" },
-  { icon: Mail, label: "Email", value: "dualpricing@elitecardprocessing.com", href: "mailto:dualpricing@elitecardprocessing.com" },
+  { icon: Mail, label: "Email Support", value: "support@elitecardprocessing.com", href: "mailto:support@elitecardprocessing.com" },
   { icon: MapPin, label: "Visit", value: "13701 Maugansville Rd #5, Hagerstown, MD 21740", href: "https://maps.google.com/?q=13701+Maugansville+Rd+%235,+Hagerstown,+MD+21740" },
 ];
 
 const benefits = [
-  "Free consultation with Maryland experts",
+  "Free consultation with payment experts",
   "Same-day competitive quote",
   "No high-pressure sales tactics",
-  "Local support you can count on",
+  "Expert support you can count on",
 ];
 
 const specialOffers = [
-  { text: "No setup fees for qualified businesses", isLink: false },
+  { text: "No setup fees for qualified businesses", isLink: true },
   { text: "Cash discount program consultation included", isLink: true },
   { text: "Learn about our services", isLink: true },
   { text: "See cash discount savings", isLink: true },
@@ -61,10 +61,10 @@ const ContactPage = () => {
               <Zap className="inline w-4 h-4 mr-1" /> Get In Touch
             </span>
             <h1 className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black mb-6 leading-snug sm:leading-tight">
-              Ready To Get Started With Maryland's 
+              Ready to Get Started With Elite Card Processing?
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-slate-700 dark:text-slate-300 max-w-3xl mx-auto">
-              Join thousands of Maryland businesses saving big with transparent, local payment processing from Elite Card Processing.
+              Join thousands of businesses saving more with transparent payment processing.
             </p>
             <div className="mx-auto mt-2 h-1 w-28 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500" />
 
@@ -82,8 +82,8 @@ const ContactPage = () => {
               <div className="relative overflow-hidden rounded-3xl p-8 md:p-10 bg-white/70 dark:bg-slate-900/70 backdrop-blur-2xl border border-white/40 dark:border-white/10 shadow-xl">
                 
                 {/* Glow circles */}
-                <div className="pointer-events-none absolute -top-32 -left-32 h-64 w-64 sm:h-96 sm:w-96 rounded-full bg-gradient-to-br from-sky-400/30 via-indigo-400/20 to-transparent blur-3xl" />
-                <div className="pointer-events-none absolute -bottom-32 -left-32 h-64 w-64 sm:h-96 sm:w-96 rounded-full bg-gradient-to-tr from-indigo-400/20 via-purple-400/10 to-transparent blur-3xl" />
+                <div className="pointer-events-none absolute -top-32 -left-32 h-64 w-64 sm:h-96 sm:w-96 rounded-full bg-linear-to-br from-sky-400/30 via-indigo-400/20 to-transparent blur-3xl" />
+                <div className="pointer-events-none absolute -bottom-32 -left-32 h-64 w-64 sm:h-96 sm:w-96 rounded-full bg-linear-to-tr from-indigo-400/20 via-purple-400/10 to-transparent blur-3xl" />
 
                 <div className="relative z-10">
                   <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-2">
@@ -174,7 +174,7 @@ const ContactPage = () => {
                   className="block p-4 sm:p-6 rounded-2xl bg-white/50 dark:bg-slate-900/50 backdrop-blur-md border border-white/30 hover:border-blue-400/50 hover:scale-105 hover:shadow-2xl transition-all duration-300"
                 >
                   <div className="flex items-center gap-4 sm:gap-5">
-                    <div className="p-3 sm:p-4 rounded-xl bg-gradient-to-br from-blue-500/20 to-indigo-500/20">
+                    <div className="p-3 sm:p-4 rounded-xl bg-linear-to-br from-blue-500/20 to-indigo-500/20">
                       <item.icon className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 dark:text-blue-400" />
                     </div>
                     <div>
@@ -200,7 +200,7 @@ const ContactPage = () => {
                 Get Your Free Quote Today
               </h2>
               <p className="text-lg sm:text-xl md:text-2xl opacity-90 mb-8 sm:mb-12 max-w-2xl mx-auto">
-                Start saving on processing fees with zero risk — transparent rates, local expertise.
+                Start saving on processing fees with zero risk — transparent rates and expert support.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-8">
@@ -226,7 +226,7 @@ const ContactPage = () => {
 
             {/* Benefits Card */}
             <div className="relative overflow-hidden rounded-3xl p-8 md:p-10 bg-white/75 dark:bg-slate-900/75 backdrop-blur-2xl border border-white/40 dark:border-white/10 shadow-xl hover:shadow-2xl transition-all">
-              <div className="pointer-events-none absolute -top-24 -left-24 h-64 w-64 sm:h-80 sm:w-80 rounded-full bg-gradient-to-br from-green-400/20 to-transparent blur-3xl" />
+              <div className="pointer-events-none absolute -top-24 -left-24 h-64 w-64 sm:h-80 sm:w-80 rounded-full bg-linear-to-br from-green-400/20 to-transparent blur-3xl" />
               <div className="relative z-10">
                 <div className="flex items-center gap-3 sm:gap-4 mb-6">
                   <div className="p-3 sm:p-4 rounded-2xl bg-green-500/15 ring-1 ring-green-500/30">
@@ -247,7 +247,7 @@ const ContactPage = () => {
 
             {/* Special Offers Card */}
             <div className="relative overflow-hidden rounded-3xl p-8 md:p-10 bg-white/75 dark:bg-slate-900/75 backdrop-blur-2xl border border-white/40 dark:border-white/10 shadow-xl hover:shadow-2xl transition-all">
-              <div className="pointer-events-none absolute -bottom-24 -right-24 h-64 w-64 sm:h-80 sm:w-80 rounded-full bg-gradient-to-tr from-purple-400/20 to-transparent blur-3xl" />
+              <div className="pointer-events-none absolute -bottom-24 -right-24 h-64 w-64 sm:h-80 sm:w-80 rounded-full bg-linear-to-tr from-purple-400/20 to-transparent blur-3xl" />
               <div className="relative z-10">
                 <div className="flex items-center gap-3 sm:gap-4 mb-6">
                   <div className="p-3 sm:p-4 rounded-2xl bg-purple-500/15 ring-1 ring-purple-500/30">
