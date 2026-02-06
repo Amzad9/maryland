@@ -129,7 +129,7 @@ export default function Navbar() {
             </a>
 
             {/* DESKTOP NAV */}
-            <div className="hidden lg:flex items-center gap-3 lg:gap-5">
+            <div className="hidden xl:flex items-center gap-3 xl:gap-5">
               {NAV_LINKS.map(link => (
                 <div key={link.name} className="relative">
 
@@ -137,7 +137,7 @@ export default function Navbar() {
                     <>
                       <button
                         onClick={() => setOpenDropdown(openDropdown === link.name ? null : link.name)}
-                        className={`relative flex items-center gap-1 text-sm px-2 py-1 rounded-full transition-all duration-200
+                        className={`relative flex items-center gap-1 text-[14px] 2xl:text-[16px] px-2 py-1 rounded-0 transition-all duration-200
                           ${isDropdownItemActive(link.href)
                             ? 'text-white font-semibold shadow-[0_0_12px_rgba(244,226,143,0.5)]'
                             : 'text-slate-400 hover:text-white hover:bg-white/5'}
@@ -154,7 +154,7 @@ export default function Navbar() {
                               key={item}
                               href={`/${getDropdownHref(item)}`}
                               onClick={handleLinkClick}
-                              className={`block px-4 py-3 text-sm rounded-md transition-colors duration-200
+                              className={`block px-4 py-3 text-[14px] 2xl:text-[16px] xl:text-md rounded-0 transition-colors duration-200
                                 ${isDropdownItemActive(item)
                                   ? 'bg-emerald-500/30 text-white font-semibold'
                                   : 'text-slate-400 hover:bg-white/10 hover:text-white'}
@@ -169,9 +169,9 @@ export default function Navbar() {
                   ) : (
                     <a
                       href={`/${link.href}`}
-                      className={`relative text-sm px-2 py-1 rounded-full transition-all duration-200
+                      className={`relative text-[14px] 2xl:text-[16px] px-2 py-1 rounded-0 transition-all duration-200
                         ${isDropdownItemActive(link.href)
-                          ? 'text-white font-semibold'
+                          ? 'text-yellow-500 font-semibold border-b-2 border-yellow-500'
                           : 'text-slate-400 hover:text-white hover:bg-white/5'}
                       `}
                     >
@@ -189,7 +189,7 @@ export default function Navbar() {
             {/* MOBILE MENU BUTTON */}
             <button
               onClick={() => setMobileMenuOpen(v => !v)}
-              className="lg:hidden text-white p-2 hover:bg-white/10 rounded-lg"
+              className="xl:hidden text-white p-2 hover:bg-white/10 rounded-lg"
             >
               {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
