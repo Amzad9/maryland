@@ -8,7 +8,7 @@ export default function NewsletterSection() {
 
     return (
         <section className="w-full bg-linear-to-br from-blue-600 via-purple-600 to-pink-600 px-4 sm:px-6 lg:px-8 py-20 relative overflow-hidden" aria-labelledby="newsletter-heading">
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+            <div className="absolute inset-0 opacity-10"></div>
             <div className="container mx-auto max-w-3xl relative z-10">
                 <div className="text-center mb-10">
                     <div className="inline-flex p-3 bg-white/20 backdrop-blur-md rounded-full mb-6">

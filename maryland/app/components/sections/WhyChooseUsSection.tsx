@@ -38,9 +38,8 @@ export default function WhyChooseUsSection() {
     return (
         <section className="w-full bg-white px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative overflow-hidden" aria-labelledby="why-choose-heading">
             {/* Pattern Background */}
-            <div className="absolute inset-0 opacity-[0.6] bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+            <div className="absolute inset-0 opacity-[0.6] bg-[url('/pointsystems/whychooseus/whychooseus1.png')]"></div>
             
-            {/* Elegant Blur Circles - Teal and Coral */}
             <div className="absolute top-20 left-10 w-72 h-72 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ backgroundColor: 'rgba(20, 184, 166, 0.15)' }}></div>
             <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full blur-3xl animate-pulse pointer-events-none" style={{ backgroundColor: 'rgba(251, 113, 133, 0.12)', animationDelay: '2s' }}></div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full blur-3xl pointer-events-none" style={{ backgroundColor: 'rgba(20, 184, 166, 0.08)' }}></div>
