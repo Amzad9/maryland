@@ -77,18 +77,15 @@ export default function CareersPage() {
         <div className="absolute inset-0 bg-linear-to-tr from-blue-500/10 via-transparent to-indigo-500/10" />
         <div className="absolute top-10 left-10 w-96 h-96 bg-sky-400/30 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-10 right-10 w-80 h-80 bg-indigo-400/30 rounded-full blur-3xl animate-pulse delay-1000" />
-       <Image src="https://plus.unsplash.com/premium_photo-1666299431118-6ddad73cfec5?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero" fill className="absolute opacity-10 inset-0 object-cover" />
+       <Image src="/banner/carrer.jpg" alt="Hero" fill className="absolute opacity-10 inset-0 object-cover" />
         <div className="container mx-auto relative z-10 px-6 text-center max-w-4xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight">
-          Join Our Team at Elite Card Processing
-
+            Join Our Team at Elite Card Processing
           </h1>
-
           <p className="text-xl md:text-2xl text-slate-700 max-w-3xl mx-auto leading-relaxed">
             Join thousands of businesses saving big with transparent payment processing from Elite Card Processing.
           </p>
           <div className="mx-auto mt-2 h-1 w-28 rounded-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500" />
-
         </div>
       </section>
 

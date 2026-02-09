@@ -5,7 +5,6 @@ export default function CompleteRestaurant() {
   return (
     <section className="mx-auto py-6 md:py-16 bg-white overflow-hidden">
       <div className="container mx-auto px-4 md:p-6 rounded-4xl relative">
-        {/* Glow effect on top corners - Hidden on mobile to reduce clutter */}
         <div className="hidden md:block absolute top-0 left-0 w-64 h-64 bg-blue-500/15 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
         <div className="hidden md:block absolute top-0 right-0 w-64 h-64 bg-purple-500/15 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
         <div className="hidden md:block absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
@@ -13,18 +12,17 @@ export default function CompleteRestaurant() {
         <h2 className="text-2xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-snug md:leading-tight px-2">
           Restaurant Online Ordering and Digital Marketing Solutions
         </h2>
-
         <div className="space-y-8 md:space-y-12 mt-5">
           <div className="card overflow-hidden rounded-3xl md:rounded-4xl group h-full flex flex-col md:flex-row">
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/online-ordering-business.jpg" 
+                    src="/restaurants/dm1.png" 
                     alt="Complete Restaurant Online Ordering Platform" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -49,11 +47,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/494f8124f33090f0f62249dff718983e.jpg" 
+                    src="/restaurants/dm2.png" 
                     alt="Restaurant Marketing Strategy and SEO" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -76,11 +74,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/68f230a4fd4b46efe6af5f15_632229593b90383cdaa21806_61e7a37f5a14f156d89cc48c_what-is-seo-for-restaurants.jpeg" 
+                    src="/restaurants/dm3.png" 
                     alt="Restaurant Menu SEO and Optimization" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -105,11 +103,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/Cloverpayments.webp" 
+                    src="/restaurants/dm4.png" 
                     alt="Customer Loyalty and Retention Programs" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -131,11 +129,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/66338ebdc0b7fa70d3b286cf_third party integration blog.webp" 
+                    src="/restaurants/dm5.png" 
                     alt="Delivery and Third-Party Integration" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -157,11 +155,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/IntegratedTerminal.jpg" 
+                    src="/restaurants/dm6.png" 
                     alt="Restaurant Online Ordering and Marketing" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>

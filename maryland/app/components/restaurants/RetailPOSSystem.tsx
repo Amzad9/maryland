@@ -10,22 +10,19 @@ export default function RetailPOSSystem() {
           <div className="absolute bottom-0 -right-20 w-72 h-72 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000" />
           <div className="absolute top-230 left-120 w-120 h-120 bg-indigo-400/15 rounded-full blur-3xl animate-pulse delay-1000" />
 
-          {/* Advanced Retail POS Section */}
           <div className="space-y-10 text-center max-w-4xl mx-auto lg:text-center mb-16 mt-8">
             <h2 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
               Advanced Retail POS System Features That Boost Retail Performance
             </h2>
           </div>
 
-          {/* First Row - 2 Cards */}
           <div className="grid lg:grid-cols-3 gap-12">
-            {/* Card 1 */}
             <div className="space-y-6">
               <div className="relative group">
                 <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/images.jpeg"
+                    src="/restaurants/pos1.png"
                     alt="Complete retail credit card processing integration"
                     width={500}
                     height={500}
@@ -43,13 +40,12 @@ export default function RetailPOSSystem() {
               </div>
             </div>
 
-            {/* Card 2 */}
             <div className="space-y-6">
               <div className="relative group">
                 <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/kds.jpg"
+                    src="/restaurants/pos2.png"
                     alt="Kitchen display and order management system"
                     width={500}
                     height={500}
@@ -66,13 +62,12 @@ export default function RetailPOSSystem() {
                 </p>
               </div>
             </div>
-            {/* Card 3 */}
             <div className="space-y-6">
               <div className="relative group">
                 <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/slider-1-restaurant-food-ordering-dashboard-design-portfolio-bmv-system-integration.webp"
+                    src="/restaurants/pos3.png"
                     alt="Restaurant online ordering integration"
                     width={500}
                     height={500}
@@ -94,7 +89,7 @@ export default function RetailPOSSystem() {
                 <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/5ffdc91e-ef5f-48d0-bba0-a33ac3121705.jpeg"
+                    src="/restaurants/pos4.png"
                     alt="Table management and reservation system"
                     width={500}
                     height={500}
@@ -111,13 +106,12 @@ export default function RetailPOSSystem() {
                 </p>
               </div>
             </div>
-            {/* Card 5 */}
             <div className="space-y-6">
               <div className="relative group">
                 <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/494f8124f33090f0f62249dff718983e.jpg"
+                    src="/restaurants/pos5.png"
                     alt="Restaurant menu engineering and SEO"
                     width={500}
                     height={500}
@@ -139,7 +133,7 @@ export default function RetailPOSSystem() {
                 <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/What-Is-Payroll-Management-System-800x480.jpg"
+                    src="/restaurants/pos6.png"
                     alt="Staff management and payroll system"
                     width={500}
                     height={500}
@@ -159,7 +153,6 @@ export default function RetailPOSSystem() {
           </div>
 
 
-          {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
             <a href="/getquote" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
               Schedule restaurant consultation

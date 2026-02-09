@@ -20,11 +20,11 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/caption.jpg" 
+                    src="/restaurants/ec1.png" 
                     alt="Frederick County Family Restaurant" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -67,11 +67,11 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/20200126-144209-largejpg.jpg" 
+                    src="/restaurants/ec2.png" 
                     alt="Hagerstown Pizza Restaurant" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -114,11 +114,11 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/6650aa2a89108.image.jpg" 
+                    src="/restaurants/ec3.png" 
                     alt="Washington County Food Truck" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -160,11 +160,11 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image 
-                    src="/bar.jpg" 
+                    src="/restaurants/ec4.png" 
                     alt="Baltimore County Sports Bar" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>

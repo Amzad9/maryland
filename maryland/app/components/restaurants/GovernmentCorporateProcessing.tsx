@@ -20,7 +20,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pos.webp" 
+                    src="/restaurants/po1.png" 
                     alt="Federal Government Contractors Processing" 
                     width={200} 
                     height={200}
@@ -80,7 +80,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/storetransaction.webp" 
+                    src="/restaurants/po2.png" 
                     alt="State and Local Government Processing" 
                     width={500} 
                     height={500}
@@ -140,7 +140,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/merchant-services-hero.jpg" 
+                    src="/restaurants/po3.png" 
                     alt="Corporate B2B Payment Processing" 
                     width={500} 
                     height={500}
@@ -200,7 +200,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/service.webp" 
+                    src="/restaurants/po4.png" 
                     alt="Large Ticket Transaction Specialists" 
                     width={500} 
                     height={500}
@@ -212,33 +212,33 @@ export default function IndustrySolutions() {
             
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Large Ticket Transaction Specialists</h3>
-              <ul className="space-y-4 mb-6 pr-2">
+              <ul className="space-y-4 pr-2">
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Visa Large Ticket Transactions</strong> - Transactions over $8,000 qualify for additional Level III interchange reductions with rates of 1.45% + $35 for commercial products
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>MasterCard Large Ticket</strong> - Large ticket thresholds vary by card type and program (contact us for current requirements)
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Equipment Financing</strong> - Equipment financing and leasing payment processing solutions
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Construction & Manufacturing</strong> - Construction and manufacturing industry payment solutions
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-red-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Professional Services</strong> - Professional services and consulting payment processing
                   </span>
@@ -250,13 +250,10 @@ export default function IndustrySolutions() {
                   </span>
                 </li>
               </ul>
-              
-            
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-           
             <a href="/getquote" className="bg-blue-600 text-white px-4 md:px-10 py-5 rounded-full font-semibold shadow-md hover:shadow-lg hover:bg-blue-700 transition-all duration-300">
               Schedule corporate consultation
             </a>

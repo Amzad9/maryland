@@ -21,11 +21,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-auto">
                   <Image
-                    src="/diner.png"
+                    src="/restaurants/pos1.png"
                     alt="Restaurant POS System Terminals"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -74,11 +74,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/kds.jpg"
+                    src="/restaurants/pr1.png"
                     alt="Kitchen Display Systems"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -122,11 +122,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/63b888dae89e7a450e23ed24_产品图1.png"
+                    src="/restaurants/pr2.png"
                     alt="Handheld Restaurant Payment Devices"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -170,11 +170,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/restaurant-pos-588x436.jpg"
+                    src="/restaurants/pr3.png"
                     alt="Restaurant-Specific Peripherals"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -218,11 +218,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/fast-food-equipment-500x500.webp"
+                    src="/restaurants/pr4.png"
                     alt="Mobile Restaurant Processing Equipment"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -266,17 +266,16 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/pro.avif"
+                    src="/restaurants/pr5.png"
                     alt="Professional Installation and Training"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover"
                   />
                 </figure>
               </div>
             </div>
 
-            {/* Content Section - Left */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900">Professional Installation and Training</h3>
               <p className="text-gray-700 mb-4 md:mb-6 text-sm md:text-base">
@@ -308,7 +307,6 @@ export default function MarylandBusiness() {
             </div>
           </div>
 
-          {/* CTA Buttons Section */}
           <div className="text-center mt-12 md:mt-16 space-y-6">
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/contact"

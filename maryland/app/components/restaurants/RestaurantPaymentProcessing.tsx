@@ -21,11 +21,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-auto">
                   <Image
-                    src="/young-happy-waiter-communicating-with-guests-outdoor-cafe_637285-587.avif"
+                    src="/restaurants/ps1.png"
                     alt="Free Restaurant Consultation"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -82,11 +82,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/clover.jpg"
+                    src="/restaurants/ps2.png"
                     alt="Clover POS system - Why Choose Elite Card Processing"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -139,11 +139,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/Handheld_POS.jpg"
+                    src="/restaurants/ps3.png"
                     alt="Handheld Restaurant Payment Devices"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -187,11 +187,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/images (1).jpeg"
+                    src="/restaurants/ps4.png"
                     alt="Restaurant-Specific Peripherals"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -235,11 +235,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/fast-food-equipment-500x500.webp"
+                    src="/restaurants/ps5.png"
                     alt="Mobile Restaurant Processing Equipment"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -283,11 +283,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full min-h-[300px] md:min-h-[500px]">
                   <Image
-                    src="/clover.jpg"
+                    src="/restaurants/ps6.png"
                     alt="Professional Installation and Training"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover"
                   />
                 </figure>
               </div>
