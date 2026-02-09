@@ -6,7 +6,7 @@ const MerchantServices = () => {
         <main
 
         >
-            <section className="
+        <section className="
         relative
         flex
         items-center
@@ -19,8 +19,6 @@ const MerchantServices = () => {
         bg-center
       ">
                 <div className="absolute inset-0 bg-linear-to-br from-white/40 to-transparent" />
-
-
                 <div className="absolute inset-0 bg-linear-to-br from-[#152E5A]/85 via-[#152E5A]/70 to-[#152E5A]/85"></div>
                 <div className="pointer-events-none absolute inset-0">
                     <div className="absolute -left-24 top-24 h-72 w-72 rounded-full bg-white/20 blur-[120px] animate-pulse" />

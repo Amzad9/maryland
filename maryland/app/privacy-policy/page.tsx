@@ -3,14 +3,7 @@ import React from "react";
 export default function PrivacyPolicyPage() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-linear-to-br from-blue-50 via-indigo-50 to-pink-50">
-      {/* GLOBAL BACKGROUND GLOW */}
-      {/* <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-48 top-32 h-[600px] w-[600px] rounded-full bg-blue-400/30 blur-[160px]" />
-        <div className="absolute -right-48 bottom-32 h-[600px] w-[600px] rounded-full bg-purple-400/30 blur-[160px]" />
-        <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-pink-400/20 blur-[180px]" />
-      </div> */}
-
-      {/* HERO */}
+   
       <section className="relative flex h-[250px]  items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -22,7 +15,6 @@ export default function PrivacyPolicyPage() {
 
         <div className="absolute inset-0 bg-linear-to-br from-[#152E5A]/90 via-[#152E5A]/75 to-[#152E5A]/90" />
 
-        {/* HERO GLOW */}
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -left-32 top-24 h-96 w-96 rounded-full bg-white/40 blur-[140px]" />
           <div className="absolute right-20 top-16 h-[420px] w-[420px] rounded-full bg-blue-700/30 blur-[160px]" />

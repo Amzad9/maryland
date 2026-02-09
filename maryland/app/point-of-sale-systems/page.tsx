@@ -43,11 +43,8 @@ const SolutionsPage = () => {
         POS Systems & Integrated Payment Solutions for all Businesses - Complete Merchant Services
       </h1>
 
-    </div>
-      {/* text */}
-    
+    </div>    
       </section>
-
       <PosSystems />
     </main>
   );

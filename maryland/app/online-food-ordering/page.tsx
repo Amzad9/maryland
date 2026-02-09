@@ -44,10 +44,7 @@ const SolutionsPage = () => {
       </h1>
 
     </div>
-      {/* text */}
-    
       </section>
-
       <OnlineOrder />
     </main>
   );

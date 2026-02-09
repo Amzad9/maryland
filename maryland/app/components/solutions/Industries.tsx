@@ -17,14 +17,12 @@ export default function IndustrySolutions() {
         </h2>
 
         <div className="space-y-12 mb-5">
-          {/* Restaurant POS Card - Image Left, Content Right */}
           <div className="card bg-base-100 shadow-xl overflow-hidden group h-full flex flex-col md:flex-row">
-            {/* Image Section - Left */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pointsystems/industries/in1.png" 
+                    src="/pointsystems/Industries/in1.png" 
                     alt="Restaurant POS" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -38,43 +36,43 @@ export default function IndustrySolutions() {
               <h3 className="card-title text-2xl font-bold mb-6">Restaurant POS Solutions</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>DinerDaddy POS</strong> - Premier restaurant management with integrated merchant services at dinerdaddy.com
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Aldelo POS</strong> - Processor-agnostic POS with scalable solutions and non-proprietary hardware for complete restaurant merchant services
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Clover POS</strong> - Restaurant POS system for quick service with integrated payment processing
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Kitchen display systems</strong> with seamless credit card processing and restaurant online ordering
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Online ordering integration</strong> with merchant services and restaurant marketing strategy
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Table management and reservation systems</strong> with payment processing
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Menu engineering and restaurant menu SEO optimization</strong> through integrated merchant services
                   </span>
@@ -93,7 +91,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pointsystems/industries/in2.png" 
+                    src="/pointsystems/Industries/in2.png" 
                     alt="Clover POS" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -163,7 +161,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pointsystems/industries/in3.png" 
+                    src="/pointsystems/Industries/in3.png" 
                     alt="Service Business Payment Processing" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -228,7 +226,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pointsystems/industries/in4.png" 
+                    src="/pointsystems/Industries/in4.png" 
                     alt="Specialty Merchant Services" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

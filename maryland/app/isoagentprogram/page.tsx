@@ -247,11 +247,11 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/terminals.webp"
+                                        src="/isoagentprogram/is1.png"
                                         alt="Payment terminals and tools for independent sales agents"
                                         width={500}
                                         height={500}
-                                        className="object-cover h-120 w-full group-hover:scale-105 transition-transform duration-500"
+                                        className="object-cover h-110 w-full group-hover:scale-105 transition-transform duration-500"
                                     />
                                 </div>
                             </div>
@@ -262,11 +262,11 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/customerpaying.jpg"
+                                        src="/isoagentprogram/is2.png"
                                         alt="Agent closing a sale with a merchant"
                                         width={500}
                                         height={500}
-                                        className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
+                                        className="object-cover w-full h-110 group-hover:scale-105 transition-transform duration-500"
                                     />
                                 </div>
                             </div>
@@ -294,11 +294,11 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/revenue.webp"
+                                        src="/isoagentprogram/is3.png"
                                         alt="Multi-location retail processing"
                                         width={500}
                                         height={500}
-                                        className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
+                                        className="object-cover w-full h-110 group-hover:scale-105 transition-transform duration-500"
                                     />
                                 </div>
                             </div>
@@ -326,11 +326,11 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/pltform.webp"
+                                        src="/isoagentprogram/is4.png"
                                         alt="Payment and point-of-sale platforms for agents"
                                         width={500}
                                         height={500}
-                                        className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
+                                        className="object-cover w-full h-110 group-hover:scale-105 transition-transform duration-500"
                                     />
                                 </div>
                             </div>
@@ -375,11 +375,11 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/bar.jpg"
+                                        src="/isoagentprogram/is5.png"
                                         alt="Diverse business types supported by ECP payment solutions"
                                         width={500}
                                         height={500}
-                                        className="object-cover w-full h-120 group-hover:scale-105 transition-transform duration-500"
+                                        className="object-cover w-full h-110 group-hover:scale-105 transition-transform duration-500"
                                     />
                                 </div>
                             </div>
@@ -390,11 +390,11 @@ export default function page() {
                                 <div className="absolute -inset-3 md:-inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-2xl md:blur-3xl rounded-2xl md:rounded-3xl" />
                                 <div className="relative rounded-xl md:rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                                     <Image
-                                        src="/SeasonalRevenue.jpg"
+                                        src="/isoagentprogram/is6.png"
                                         alt="Ongoing income from your merchant portfolio"
                                         width={500}
                                         height={500}
-                                        className="object-cover w-full group-hover:scale-105 transition-transform duration-500"
+                                        className="object-cover w-full h-110 group-hover:scale-105 transition-transform duration-500"
                                     />
                                 </div>
                             </div>
@@ -435,7 +435,6 @@ export default function page() {
                     {/* Cards */}
                     <div className="grid md:grid-cols-2 gap-6 md:gap-8 px-4 md:px-0">
 
-                        {/* Card 1 */}
                         <div className="bg-white rounded-xl md:rounded-2xl border border-gray-200 p-6 md:p-10 flex flex-col">
                             <div className="w-14 h-14 md:w-16 md:h-16 rounded-lg md:rounded-xl bg-linear-to-br from-emerald-100 to-teal-100 flex items-center justify-center mb-4 md:mb-6">
                                 <DollarSign className="w-6 h-6 md:w-8 md:h-8 text-emerald-700" />
@@ -452,7 +451,6 @@ export default function page() {
                             </p>
                         </div>
 
-                        {/* Card 2 */}
                         <div className="bg-white rounded-xl md:rounded-2xl border border-gray-200 p-6 md:p-10 flex flex-col">
                             <div className="w-14 h-14 md:w-16 md:h-16 rounded-lg md:rounded-xl bg-linear-to-br from-blue-100 to-indigo-100 flex items-center justify-center mb-4 md:mb-6">
                                 <Headset className="w-6 h-6 md:w-8 md:h-8 text-indigo-700" />
@@ -467,7 +465,6 @@ export default function page() {
                                 and a dedicated sales concierge team built to support top producers.
                             </p>
                         </div>
-
                     </div>
                 </div>
             </section>
