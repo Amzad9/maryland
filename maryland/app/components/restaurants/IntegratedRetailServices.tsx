@@ -69,7 +69,7 @@ export default function Business() {
                 <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/restaurants/multi-location.png"
+                    src="/restaurants/Multi-location.png"
                     alt="Multi-location retail processing"
                     width={500}
                     height={500}
