@@ -1,10 +1,12 @@
 "use client";
 
 import IndustrySolutions from "../online-food-ordering/Industries";
-import EnhancedCustomer from '../online-food-ordering/EnhancedCustomer'
+import EnhancedCustomer from '../online-food-ordering/EnhancedCustomer';
+import Business from './Business';
 import { useState } from 'react';
 
 const TAB_LABELS = [
+  "Business",
   "Specialized Online Food Ordering",
   "Enhanced Customer Experience",
 ];
@@ -55,15 +57,22 @@ export default function BusinessTabs() {
           {/* Glass morphism container for content */}
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl border border-white/50 shadow-2xl shadow-blue-500/5 overflow-hidden">
             <div className="overflow-x-hidden overflow-y-hidden">
-              {/* Tab 1 Content */}
+              {/* Tab 1 Content - Business */}
               {activeTab === 0 && (
                 <div className="animate-fadeIn">
-                  <IndustrySolutions />
+                  <Business />
                 </div>
               )}
 
               {/* Tab 2 Content */}
               {activeTab === 1 && (
+                <div className="animate-fadeIn">
+                  <IndustrySolutions />
+                </div>
+              )}
+
+              {/* Tab 3 Content */}
+              {activeTab === 2 && (
                 <div className="animate-fadeIn overflow-x-hidden overflow-y-hidden">
                   <EnhancedCustomer />
                 </div>

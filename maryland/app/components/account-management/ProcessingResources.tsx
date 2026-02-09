@@ -7,13 +7,11 @@ export default function SuccessStories() {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-gradient-to-b from-white to-gray-50">
-      {/* Background Elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-emerald-500/10 via-teal-500/5 to-transparent rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-green-500/10 via-emerald-500/5 to-transparent rounded-full blur-3xl" />
+    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-b from-white to-gray-50">
+      <div className="absolute top-0 right-0 w-96 h-96 bg-linear-to-br from-emerald-500/10 via-teal-500/5 to-transparent rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-linear-to-tr from-green-500/10 via-emerald-500/5 to-transparent rounded-full blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Maryland Businesses Thriving with Dual Pricing
@@ -23,12 +21,10 @@ export default function SuccessStories() {
           </p>
         </div>
 
-        {/* Success Stories Cards */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {/* Hagerstown Family Restaurant */}
           <div className="bg-white rounded-2xl p-8 border border-gray-200 hover:border-emerald-200 transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-amber-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-xl bg-linear-to-br from-orange-500 to-amber-500 flex items-center justify-center">
                 <Users className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -56,7 +52,7 @@ export default function SuccessStories() {
           {/* Frederick Hardware Store */}
           <div className="bg-white rounded-2xl p-8 border border-gray-200 hover:border-emerald-200 transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-xl bg-linear-to-br from-blue-500 to-cyan-500 flex items-center justify-center">
                 <TrendingUp className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -81,10 +77,9 @@ export default function SuccessStories() {
             </div>
           </div>
 
-          {/* Hagerstown Automotive Mechanic */}
           <div className="bg-white rounded-2xl p-8 border border-gray-200 hover:border-emerald-200 transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-xl bg-linear-to-br from-purple-500 to-pink-500 flex items-center justify-center">
                 <ThumbsUp className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -126,7 +121,7 @@ export default function SuccessStories() {
             <div className="grid md:grid-cols-3 gap-6">
               {[...Array(3)].map((_, index) => (
                 <div key={index} className="text-center">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 rounded-2xl bg-linear-to-br from-emerald-500 to-teal-500 flex items-center justify-center mx-auto mb-4">
                     <DollarSign className="w-7 h-7 text-white" />
                   </div>
                   <h4 className="text-3xl font-bold text-emerald-600 mb-2">$1,800/month</h4>

@@ -18,42 +18,48 @@ import {
         description: "Experienced team providing professional installation, training, and responsive support.",
         icon: <Building className="w-6 h-6 text-blue-600" />,
         bgColor: "bg-blue-50/70 backdrop-blur-sm",
-        borderColor: "border-blue-200/50"
+        borderColor: "border-blue-200/50",
+        link: "/about"
       },
       {
         title: "Affordable POS Platform",
         description: "Transparent pricing with competitive rates and no hidden fees for your business.",
         icon: <DollarSign className="w-6 h-6 text-green-600" />,
         bgColor: "bg-green-50/70 backdrop-blur-sm",
-        borderColor: "border-green-200/50"
+        borderColor: "border-green-200/50",
+        link: "/point-of-sale-systems"
       },
       {
         title: "Industry Expertise",
         description: "Deep understanding of business requirements and relevant regulations.",
         icon: <Target className="w-6 h-6 text-purple-600" />,
         bgColor: "bg-purple-50/70 backdrop-blur-sm",
-        borderColor: "border-purple-200/50"
+        borderColor: "border-purple-200/50",
+        link: "/about"
       },
       {
         title: "Responsive Support",
         description: "Dedicated team provides fast support and equipment replacement when you need it.",
         icon: <Zap className="w-6 h-6 text-red-600" />,
         bgColor: "bg-red-50/70 backdrop-blur-sm",
-        borderColor: "border-red-200/50"
+        borderColor: "border-red-200/50",
+        link: "/about"
       },
       {
         title: "Scalable Solutions",
         description: "Complete staff training included with scalable POS solutions that grow with your business.",
         icon: <TrendingUp className="w-6 h-6 text-amber-600" />,
         bgColor: "bg-amber-50/70 backdrop-blur-sm",
-        borderColor: "border-amber-200/50"
+        borderColor: "border-amber-200/50",
+        link: "/point-of-sale-systems"
       },
       {
         title: "Growth Partnership",
         description: "We grow with you, providing upgrades and new integrations as your business evolves.",
         icon: <Handshake className="w-6 h-6 text-teal-600" />,
         bgColor: "bg-teal-50/70 backdrop-blur-sm",
-        borderColor: "border-teal-200/50"
+        borderColor: "border-teal-200/50",
+        link: "/elite-reviews"
       }
     ];
   
@@ -115,12 +121,12 @@ import {
   
                   {/* Learn More Link with consistent spacing */}
                   <div className="mt-8 pt-4 border-t border-gray-200/50">
-                    <button className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center gap-1 group/link">
+                    <a href={reason.link} className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center gap-1 group/link">
                       Learn more
                       <span className="group-hover/link:translate-x-1 transition-transform">
                         →
                       </span>
-                    </button>
+                    </a>
                   </div>
                 </div>
   

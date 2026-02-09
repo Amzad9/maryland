@@ -36,18 +36,17 @@ export default function TerminalsAndAgreements() {
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Month-to-Month Agreement Terms:</h3>
                 <div className="space-y-3">
                   {[
-                    "M2M Terms & Conditions",
-                    "3-Year Agreement Terms",
-                    "3-Year Terms & Conditions"
+                    { label: "M2M Terms & Conditions", href: "https://elitecardprocessing.com/wp-content/uploads/2023/10/Nov-2023-ELITE-NTI-Citizens-Merchant-Agreement-Terms-M2M.pdf" },
+                    { label: "3-Year Terms & Conditions", href: "https://elitecardprocessing.com/wp-content/uploads/2023/10/Nov-2023-ELITE-NTI-Citizens-Merchant-Agreement-Terms-3YR.pdf" }
                   ].map((item, index) => (
-                    <div key={index} className="flex items-center gap-3 p-3 rounded-lg bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-100 hover:from-blue-100 hover:to-indigo-100 transition-all duration-200">
-                      <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center flex-shrink-0">
-                        <svg className="w-3 h-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4" />
+                    <a key={index} href={item.href} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 p-3 rounded-lg bg-linear-to-r from-blue-50 to-indigo-50 border border-blue-100 hover:from-blue-100 hover:to-indigo-100 transition-all duration-200 group">
+                      <div className="w-6 h-6 rounded-full bg-linear-to-br from-blue-100 to-blue-200 flex items-center justify-center shrink-0">
+                        <svg className="w-3 h-3 text-blue-600 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                       </div>
-                      <span className="text-gray-700 font-medium">{item}</span>
-                    </div>
+                      <span className="text-gray-700 font-medium group-hover:text-blue-700">{item.label}</span>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -86,19 +85,18 @@ export default function TerminalsAndAgreements() {
                 </div>
                   {/* Privacy Policy */}
               <div className="mt-4">
-                <div className="bg-linear-to-r from-emerald-50 to-teal-50 rounded-xl p-3 border border-emerald-100">
+                <a href="https://elitecardprocessing.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="block bg-linear-to-r from-emerald-50 to-teal-50 rounded-xl p-3 border border-emerald-100 hover:from-emerald-100 hover:to-teal-100 transition-all duration-200 group">
                   <div className="flex items-center gap-3">
-                  
-                    <div className="w-12 h-12 rounded-lg bg-linear-to-br from-emerald-500 to-emerald-600 flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 rounded-lg bg-linear-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shrink-0">
                     <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
                     </div>
                     <div>
-                      <h4 className="font-bold text-gray-900">Elite Card Processing Privacy Policy</h4>
+                      <h4 className="font-bold text-gray-900 group-hover:text-emerald-700">Elite Card Processing Privacy Policy</h4>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
               </div>
   
@@ -130,26 +128,7 @@ export default function TerminalsAndAgreements() {
             </div>
           </div>
   
-          {/* Bottom CTA Buttons */}
-          <div className="grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
-            <a href="#" className="p-4 rounded-xl bg-linear-to-r from-blue-600 to-indigo-600 text-white font-bold text-center hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 border border-blue-600 hover:border-blue-700">
-              <div className="flex items-center justify-center gap-3">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-                <span>Review Terms and Conditions</span>
-              </div>
-            </a>
-            
-            <a href="#" className="p-4 rounded-xl bg-linear-to-r from-gray-100 to-gray-200 text-gray-700 font-bold text-center border border-gray-300 hover:border-gray-400 hover:from-gray-200 hover:to-gray-300 transition-all duration-200">
-              <div className="flex items-center justify-center gap-3">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>Get Documentation Support</span>
-              </div>
-            </a>
-          </div>
+         
         </div>
       </section>
     );

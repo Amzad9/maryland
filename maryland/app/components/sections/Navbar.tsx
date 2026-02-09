@@ -21,7 +21,6 @@ export default function Navbar() {
   const navRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
 
-  // Track hash for #logins / #resources
   useEffect(() => {
     const updateHash = () => setHash(window.location.hash);
     updateHash();
@@ -76,18 +75,6 @@ export default function Navbar() {
     return overrides[item] ?? slugify(item);
   };
 
-  // Active top nav highlight
-  // const isLinkActive = (href: string) => {
-  //   if (href === 'current-client') {
-  //     return pathname.startsWith('/account-management');
-  //   }
-  //   if (!href) return pathname === '/';
-
-  //   const base = `/${href}`;
-  //   return pathname === base || pathname.startsWith(`${base}/`);
-  // };
-
-  // Active dropdown logic (HASH SAFE)
   const isDropdownItemActive = (item: string) => {
     const href = getDropdownHref(item);
 
@@ -121,14 +108,12 @@ export default function Navbar() {
     <>
       <nav ref={navRef} className="sticky top-0 z-50 bg-[#10284D]/95 backdrop-blur-md border-b border-slate-800">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between py-1">
+          <div className="flex items-center justify-between py-2">
 
-            {/* LOGO */}
             <a href="/">
               <Image src="/logo.png" alt="Logo" className="rounded-4xl" width={80} height={80} />
             </a>
 
-            {/* DESKTOP NAV */}
             <div className="hidden xl:flex items-center gap-3 xl:gap-5">
               {NAV_LINKS.map(link => (
                 <div key={link.name} className="relative">
@@ -186,7 +171,6 @@ export default function Navbar() {
               </a>
             </div>
 
-            {/* MOBILE MENU BUTTON */}
             <button
               onClick={() => setMobileMenuOpen(v => !v)}
               className="xl:hidden text-white p-2 hover:bg-white/10 rounded-lg"
@@ -198,7 +182,6 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* MOBILE MENU */}
       <div className={`xl:hidden fixed top-0 right-0 h-full w-80 bg-[#10284D] z-50 transform transition-transform ${mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="px-6 py-20 space-y-4">
 
@@ -258,7 +241,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* OVERLAY */}
       {mobileMenuOpen && (
         <div className="fixed inset-0 bg-black/60 z-40 xl:hidden" onClick={() => setMobileMenuOpen(false)} />
       )}

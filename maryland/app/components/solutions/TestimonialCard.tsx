@@ -163,7 +163,7 @@ export default function TestimonialCard() {
                   `}>
                     {/* Quote Icon with Glass Effect */}
                     <div className="mb-6">
-                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-white/40 to-white/20 backdrop-blur-sm border border-white/30 flex items-center justify-center shadow-inner">
+                      <div className="w-12 h-12 rounded-full bg-linear-to-br from-white/40 to-white/20 backdrop-blur-sm border border-white/30 flex items-center justify-center shadow-inner">
                         <Quote className="w-6 h-6 text-blue-600" />
                       </div>
                     </div>

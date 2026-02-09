@@ -16,17 +16,16 @@ export default function MarylandBusiness() {
         </h2>
 
         <div className="space-y-12 mt-5">
-          {/* FIRST CARD: Retail POS System Terminals */}
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row">
             <div className="md:w-1/2 relative">
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image
-                    src="/diner.png"
+                    src="/retail-services/re1.png"
                     alt="Retail POS System Terminals"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover"
+                    className="w-full h-110 rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -34,12 +33,11 @@ export default function MarylandBusiness() {
 
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-white text-gray-900">
-              <Link
-                href="/getquote"
-                className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-2xl font-bold mb-6 text-gray-900"
               >
                 Retail POS System Terminals
-              </Link>
+              </h2>
 
               <p className="text-gray-700 mb-6">
                 Complete retail POS system stations with integrated retail credit card processing, receipt printing, barcode scanning, and cash drawer connectivity. Available in countertop, mobile, and tablet configurations for all retail environments.
@@ -71,13 +69,6 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about POS Terminals">
-                  Learn about POS Terminals
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
             </div>
           </div>
 
@@ -87,11 +78,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image
-                    src="/inventory-scanning-software-hero.jpg"
+                    src="/retail-services/re2.png"
                     alt="Barcode Scanners and Inventory Equipment"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover"
+                    className="w-full h-110 rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -129,12 +120,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Inventory Equipment">
-                  Learn more about Inventory Equipment
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -144,11 +130,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image
-                    src="/aldeiro.webp"
+                    src="/retail-services/re3.png"
                     alt="Customer-Facing Payment Devices"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -186,12 +172,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Payment Devices">
-                  Learn more about Payment Devices
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+        
             </div>
           </div>
 
@@ -201,11 +182,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image
-                    src="/mobilepayment.jpg"
+                    src="/retail-services/re4.png"
                     alt="Retail-Specific Peripherals"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -243,12 +224,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Retail Peripherals">
-                  Learn more about Retail Peripherals
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -258,11 +234,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image
-                    src="/photography-web-subcat-hero-mobile-printers-4x3-3600.jpg.imgo.jpg"
+                    src="/retail-services/re5.png"
                     alt="Mobile Retail Processing Equipment"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -300,12 +276,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Equipment">
-                  Learn more about Mobile Equipment
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+          
             </div>
           </div>
 
@@ -315,11 +286,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image
-                    src="/Two-men-setting-up-Ranger-DST30P.jpg"
+                    src="/retail-services/re6.png"
                     alt="Professional Installation and Training"
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover"
+                    className="w-full h-110 rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -357,12 +328,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation Services">
-                  Learn about Installation Services
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 

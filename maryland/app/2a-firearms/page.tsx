@@ -25,8 +25,9 @@ const MerchantServices = () => {
                 </div>
                 <div className='container mx-auto'>
                     <h1 className="relative text-3xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center">
-                    Account Management Portal - Access Your Merchant Services Account Information   
+                    2A Friendly Payment Processor
                     </h1>
+                    <p className="relative text-xl md:text-2xl text-white/90 mt-4 text-center italic">Accept Credit Cards Legally</p>
                 </div>
             </section>
             <Afirearms />

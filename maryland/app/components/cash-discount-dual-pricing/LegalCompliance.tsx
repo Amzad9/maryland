@@ -50,7 +50,7 @@ export default function LegalCompliance() {
           </div>
 
           {/* Right Column - Comparison */}
-          <div className="bg-gradient-to-br from-blue-50/30 to-cyan-50/20 rounded-2xl p-8 border border-blue-100">
+          <div className="bg-linear-to-br from-blue-50/30 to-cyan-50/20 rounded-2xl p-8 border border-blue-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               Why Dual Pricing Wins
             </h3>

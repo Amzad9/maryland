@@ -127,12 +127,12 @@ const ConsultationItem = ({ title, description, feature }: { title: string; desc
   <div className="flex items-start group cursor-pointer">
     <div className="shrink-0 mt-3 w-6 border-b">
     </div>
-    <div className="ml-4 flex-1">
+    <a href="/getquote" className="ml-4 flex-1">
       <div className="flex items-center justify-between">
-        <h4 className="font-bold text-gray-800 group-hover:text-white transition-colors duration-300">{title}</h4>
+        <h4 className="font-bold text-gray-800 group-hover:text-primary transition-colors duration-300">{title}</h4>
       </div>
       <p className="text-gray-600 text-sm mt-1">{description}</p>
-    </div>
+    </a>
   </div>
 );
 
@@ -141,13 +141,13 @@ const BenefitItem = ({ title, description, highlight }: { title: string; descrip
   <div className="flex items-start group cursor-pointer">
    <div className="shrink-0 mt-3 w-6 border-b">
    </div>
-    <div className="ml-4 flex-1">
+    <a href="/about" className="ml-4 flex-1">
       <div className="flex items-center justify-between">
-        <h4 className="font-bold text-gray-800 group-hover:text-white transition-colors duration-300">{title}</h4>
+        <h4 className="font-bold text-gray-800 group-hover:text-primary transition-colors duration-300">{title}</h4>
       
       </div>
       <p className="text-gray-600 text-sm mt-1">{description}</p>
-    </div>
+    </a>
   </div>
 );
 

@@ -1,4 +1,4 @@
-import WhyChoose from "./WhyChoose";
+import WhyChoose from "../solutions/WhyChoose";
 import TestimonialCard from "../solutions/TestimonialCard";
 import Tabs from "./Tabs";
 import ContactEliteCardProcessing from "../solutions/ContactEliteCardProcessing";
@@ -11,7 +11,7 @@ export default function Page() {
     <>
       <Tabs />
       <WhyChoose />
-      <TestimonialCard />
+      {/* <TestimonialCard /> */}
       <NoviEatsOnlineOrdering />
       <ContactEliteCardProcessing />
       <PaymentProcessingResources />

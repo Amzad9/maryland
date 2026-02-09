@@ -20,9 +20,9 @@ export default function Features() {
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Complete Credit Card Processing Integration
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
               All POS systems include fully integrated credit card processing with competitive merchant services rates. Add cash discount programs to eliminate processing fees entirely while maintaining seamless payment processing.
               </p>
@@ -31,7 +31,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/cardproceesing.jpg"
+                  src="/pointsystems/features/f1.png"
                   alt="Tablet POS system on restaurant counter"
                   width={500}
                   height={500}
@@ -46,7 +46,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/mobilepayment.jpg"
+                  src="/pointsystems/features/f2.png"
                   alt="Modern retail payment terminals comparison"
                   width={500}
                   height={500}
@@ -55,9 +55,9 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 All-in-One Payment Management
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Real-time inventory tracking, automatic reorder alerts, product performance analytics, and multi-location synchronization - all integrated with your credit card processing and merchant account services.
               </p>
@@ -66,9 +66,9 @@ export default function Features() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Customer Management and Payment Processing
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
               Built-in customer database with purchase history, loyalty program integration, and targeted marketing capabilities, all connected to your merchant services platform for comprehensive business management.
               </p>
@@ -77,7 +77,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1594025742030-8702f7ec0fe1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/pointsystems/features/f3.png"
                   alt="iPad POS system for service businesses"
                   width={500}
                   height={500}
@@ -92,7 +92,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://plus.unsplash.com/premium_photo-1667518228939-5d897e4fce81?q=80&w=2657&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/pointsystems/features/f4.png"
                   alt="Multi-location warehouse and inventory management dashboard"
                   width={500}
                   height={500}
@@ -101,9 +101,9 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Comprehensive Merchant Services Reporting
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
               Advanced business reporting including sales analytics, employee performance tracking, profit margin analysis, tax reporting, and detailed credit card processing statements from your merchant account provider.
               </p>
@@ -112,9 +112,9 @@ export default function Features() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 block">
                 Integrated Payment Solutions
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Connect your POS system with e-commerce platforms, online food ordering, social media marketing tools, and complete merchant services for omnichannel payment processing.
               </p>
@@ -123,7 +123,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/terminals.webp"
+                  src="/pointsystems/features/f5.png"
                   alt="iPad POS system for service businesses"
                   width={500}
                   height={500}
@@ -137,7 +137,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/customerpaying.jpg"
+                  src="/pointsystems/features/f6.png"
                   alt="Multi-location warehouse and inventory management dashboard"
                   width={500}
                   height={500}
@@ -146,9 +146,9 @@ export default function Features() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
                 Mobile Payment Processing
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Accept payments anywhere with mobile POS apps, wireless terminals, and tablet-based solutions perfect for food trucks, farmers markets, and off-site events - all with integrated credit card processing.
               </p>

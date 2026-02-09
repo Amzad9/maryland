@@ -38,12 +38,7 @@ export default function CompleteRestaurant() {
                   Integrated restaurant online ordering system with Novi Eats featuring custom restaurant websites, mobile apps, and delivery management. Full integration with your restaurant POS system and payment processing for seamless order management.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Ordering Platform">
-                  View Ordering Platform
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -72,12 +67,7 @@ export default function CompleteRestaurant() {
                   Restaurant SEO services to improve online visibility, Google My Business optimization, and restaurant marketing strategy integration with your restaurant merchant services platform.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Marketing">
-                  View Marketing Services
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -104,12 +94,7 @@ export default function CompleteRestaurant() {
                   Menu engineering services including item profitability analysis, pricing optimization, seasonal menu management, and restaurant menu SEO to improve online ordering and search visibility.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Menu Optimization">
-                  Optimize Your Menu
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -137,12 +122,7 @@ export default function CompleteRestaurant() {
                   Built-in customer loyalty programs, email marketing integration, SMS marketing campaigns, and customer retention strategies connected to your restaurant POS system and payment processing data.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Loyalty Programs">
-                  Boost Customer Loyalty
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -168,12 +148,7 @@ export default function CompleteRestaurant() {
                   Seamless integration with DoorDash, Uber Eats, Grubhub, and other delivery platforms while maintaining control of customer data and reducing commission fees through direct restaurant online ordering.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Delivery Integration">
-                  Streamline Delivery
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -199,12 +174,7 @@ export default function CompleteRestaurant() {
                   Get everything you need to succeed in today's digital restaurant landscape - from online ordering and marketing to loyalty programs and delivery integration.
                 </p>
               </div>
-              <div className="mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Restaurant Marketing">
-                  Learn about restaurant marketing
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>    
         </div>

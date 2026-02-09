@@ -21,10 +21,10 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/mobilepayment.jpg" 
+                    src="/merchant-cash-advance/f1.png" 
                     alt="Quick Application Submission" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -32,20 +32,15 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
-              <Link href="/about" className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-2xl font-bold mb-6 text-gray-900">
                 Step 1: Quick Application Submission
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Complete our streamlined online application with basic business information, processing history, and funding requirements. The application takes just minutes and requires minimal documentation.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="/about" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Start application process">
-                    Start application process
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+            
             </div>
           </div>
 
@@ -56,10 +51,10 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/tablet.jpg" 
+                    src="/merchant-cash-advance/f2.png" 
                     alt="Processing History Review" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -67,7 +62,7 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/getquote" className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <Link href="/getquote" className="card-title text-2xl font-bold mb-6 text-gray-900">
                 Step 2: Processing History Review
               </Link>
               <div className="space-y-4 mb-6 pr-2">
@@ -75,12 +70,7 @@ export default function CompleteRestaurant() {
                   Our funding partner reviews your credit card processing history, monthly volume, and business performance to determine your qualification and funding amount without extensive financial documentation.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="/getquote" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Review Process">
-                    Get funding consultation
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+           
             
             </div>
           </div>
@@ -92,10 +82,10 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/terminals.webp" 
+                    src="/merchant-cash-advance/f3.png" 
                     alt="Rapid Approval Decision" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -103,57 +93,43 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/about" className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-2xl font-bold mb-6 text-gray-900">
                 Step 3: Rapid Approval Decision
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Receive approval decisions within hours, not weeks, with funding amounts up to $250,000 based on your monthly processing volume and business performance history.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="/about" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Fast Approval">
-                    Learn About Fast Approval
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
+           
              
             </div>
           </div>
 
           {/* Step 4: Fast Funding Deposit - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row-reverse">
-            {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/Cloverpayments.webp" 
+                    src="/merchant-cash-advance/f4.png" 
                     alt="Fast Funding Deposit" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
             </div>
             
-            {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/getquote" className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-2xl font-bold mb-6 text-gray-900">
                 Step 4: Fast Funding Deposit
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Once approved, funds are deposited directly into your business bank account within 1-3 business days, with same-day funding available for qualifying applications.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                    <a href="/getquote" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="View Funding Speed">
-                    View Funding Speed Options
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
-            
             </div>
           </div>
 
@@ -164,10 +140,10 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/mobilepayment.jpg" 
+                    src="/merchant-cash-advance/f5.png" 
                     alt="Automated Repayment Setup" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -175,22 +151,14 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/about" className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-2xl font-bold mb-6 text-gray-900">
                 Step 5: Automated Repayment Setup
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Automated daily repayment begins immediately, with a small percentage of your daily credit card sales automatically applied to your advance balance until paid in full.
                 </p>
               </div>
-              
-            
-              <div className="text-left mt-4">
-                    <a href="/about" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn About Repayment">
-                    Learn About Repayment Terms
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
             </div>
           </div>
 
@@ -201,10 +169,10 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/IntegratedTerminal.jpg" 
+                    src="/merchant-cash-advance/f6.png" 
                     alt="Ongoing Support and Future Funding" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -212,22 +180,15 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/getquote" className="card-title text-2xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-2xl font-bold mb-6 text-gray-900">
                 Step 6: Ongoing Support and Future Funding
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Access to ongoing support, account management, and future funding opportunities as your business grows and processing volume increases.
                 </p>
               </div>
-              <div className="mt-4 flex flex-col sm:flex-row gap-4">
-                <div className="text-left mt-4">
-                    <a href="/getquote" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="View Support Options">
-                    View Support Options
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                    </a>
-                </div>
-              </div>
+           
             </div>
           </div>    
         </div>

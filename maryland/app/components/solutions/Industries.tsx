@@ -24,7 +24,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pos.webp" 
+                    src="/pointsystems/industries/in1.png" 
                     alt="Restaurant POS" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -34,7 +34,7 @@ export default function IndustrySolutions() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Restaurant POS Solutions</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -93,7 +93,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/storetransaction.webp" 
+                    src="/pointsystems/industries/in2.png" 
                     alt="Clover POS" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -102,7 +102,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Retail & Service Solutions</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -163,7 +163,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/merchant-services-hero.jpg" 
+                    src="/pointsystems/industries/in3.png" 
                     alt="Service Business Payment Processing" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -173,7 +173,7 @@ export default function IndustrySolutions() {
             </div>
             
             {/* Content Section - Right */}
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Service Business Payment Processing</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -228,7 +228,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/service.webp" 
+                    src="/pointsystems/industries/in4.png" 
                     alt="Specialty Merchant Services" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -238,7 +238,7 @@ export default function IndustrySolutions() {
             </div>
             
             {/* Content Section - Left */}
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Specialty Merchant Services</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">

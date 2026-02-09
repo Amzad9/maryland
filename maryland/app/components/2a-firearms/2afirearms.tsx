@@ -1,8 +1,19 @@
-// components/FirearmsMerchantAccount.tsx
-"use client";
+ "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { Phone, MapPin, Shield, Target, Zap, CheckCircle2, ChevronRight, Star, Award, Users, Globe, Badge } from 'lucide-react';
+
+const FIREARMS_IMAGES = [
+  { src: '/2a-firearms/Picture1.jpg', label: 'Firearms Collection', alt: 'Firearms collection' },
+  { src: '/2a-firearms/Picture2.jpg', label: 'Gun Store', alt: 'Gun store display' },
+  { src: '/2a-firearms/Picture3.jpg', label: 'Semi-Auto Pistol', alt: 'Semi-automatic pistol' },
+  { src: '/2a-firearms/Picture4.jpg', label: 'Revolver', alt: 'Revolver' },
+  { src: '/2a-firearms/Picture5.jpg', label: 'Rifle', alt: 'Rifle' },
+  { src: '/2a-firearms/Picture6.jpg', label: 'Ammunition', alt: 'Ammunition' },
+  { src: '/2a-firearms/Picture7.jpg', label: 'Retail Display', alt: 'Firearms retail display' },
+  { src: '/2a-firearms/Picture8.jpg', label: 'Online Sales', alt: 'Online firearm sales' },
+];
 
 function ConsultationSection() {
   const consultationItems = [
@@ -15,17 +26,14 @@ function ConsultationSection() {
 
   return (
     <section className="relative py-20 px-4 md:px-8 overflow-hidden">
-      {/* Light Background - Match site theme */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-white to-blue-50/30"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-slate-50 via-white to-blue-50/30"></div>
       
-      {/* Subtle gradient accents - Site colors */}
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#10284D]/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-linear-to-r from-blue-50/50 via-slate-50/30 to-indigo-100/50 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
             Get Your Firearms
@@ -39,7 +47,6 @@ function ConsultationSection() {
           </p>
         </div>
 
-        {/* Consultation Card - Two column layout */}
         <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-3xl border border-slate-200 shadow-2xl shadow-slate-200/50 p-8">
             <div className="flex items-center gap-4 mb-8">
@@ -56,8 +63,6 @@ function ConsultationSection() {
                 </h2>
               </div>
             </div>
-            
-            {/* Two column grid - no scroll needed, even on smaller screens */}
             <div className="grid grid-cols-2 gap-4">
               {consultationItems.map((item, index) => (
                 <div
@@ -74,7 +79,6 @@ function ConsultationSection() {
               ))}
             </div>
 
-            {/* CTA Button for this section */}
             <div className="mt-10 text-center">
               <a href="/contact" className="group inline-flex items-center justify-center relative overflow-hidden bg-[#10284D] text-white font-bold text-lg px-8 py-4 rounded-2xl shadow-xl hover:bg-[#152E5A] transition-all duration-300 transform hover:-translate-y-1 active:scale-95">
                 <div className="relative flex items-center justify-center gap-3">
@@ -101,7 +105,6 @@ function WhyApplySection() {
 
   return (
     <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-linear-to-br from-slate-50 to-white">
-      {/* Background Elements - Site theme */}
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-[#10284D]/5 rounded-full blur-3xl"></div>
       </div>
@@ -117,7 +120,6 @@ function WhyApplySection() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8">
-          {/* Left Column - Why Choose Us */}
           <div className="space-y-8">
             <div className="bg-linear-to-br from-slate-50 to-blue-50/30 rounded-3xl border border-slate-200 p-8 h-full">
               <div className="flex items-center gap-3 mb-6">
@@ -149,7 +151,6 @@ function WhyApplySection() {
             </div>
           </div>
 
-          {/* Right Column - Contact Information */}
           <div className="space-y-8">
             <div className="bg-white rounded-3xl border border-slate-200 shadow-xl shadow-slate-200/30 p-8">
               <h3 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h3>
@@ -253,7 +254,6 @@ function PartnershipsSection() {
             <Badge className="w-4 h-4 text-[#10284D]" />
             <span className="text-sm font-medium text-[#10284D]">TRUSTED INDUSTRY PARTNER</span>
           </div>
-          
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Industry <span className="text-[#10284D]">Partnerships</span>
           </h2>
@@ -271,7 +271,6 @@ function PartnershipsSection() {
                   <h3 className="text-2xl font-bold text-gray-900">{industryPartnerships.title}</h3>
                 </div>
                 <p className="text-gray-700 text-lg mb-8">{industryPartnerships.description}</p>
-                
                 <div className="space-y-4">
                   <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200">
                     <h4 className="text-lg font-semibold text-[#10284D] mb-2">NRABA Member</h4>
@@ -322,6 +321,63 @@ function PartnershipsSection() {
   );
 }
 
+function TwoAProcessorIntroSection() {
+  return (
+    <section className="relative py-20 px-4 md:px-8 overflow-hidden">
+      <div className="absolute inset-0 bg-linear-to-br from-slate-50 via-white to-blue-50/30" />
+      <div className="relative z-10 max-w-4xl mx-auto text-center">
+        <p className="text-sm uppercase tracking-wider text-[#10284D] font-semibold mb-4">
+          The 2A Friendly Payment Processor Built for Firearms & Ammo
+        </p>
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          2A Friendly <span className="text-[#10284D]">Payment Processor</span>
+        </h2>
+        <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto">
+          Accept credit cards for firearms and ammunition online without the hassle of getting shut down by payment processors.
+        </p>
+      </div>
+    </section>
+  );
+}
+
+function FirearmTypesSection() {
+  return (
+    <section className="relative py-20 px-4 md:px-8 overflow-hidden bg-white">
+      <div className="relative z-10 max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Firearms We <span className="text-[#10284D]">Support</span>
+          </h2>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            Payment processing for all types of firearms and ammunition
+          </p>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {FIREARMS_IMAGES.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-2xl border border-slate-200 shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+            >
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src={item.src}
+                  alt={item.alt}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 50vw, 25vw"
+                />
+              </div>
+              <div className="p-4 text-center">
+                <p className="font-bold text-gray-900">{item.label}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function FirearmsMerchantAccount() {
   return (
     <div className="relative">
@@ -340,6 +396,8 @@ export default function FirearmsMerchantAccount() {
         ))}
       </div>
 
+      <TwoAProcessorIntroSection />
+      <FirearmTypesSection />
       <ConsultationSection />
       <WhyApplySection />
       <AuthorizedGatewaysSection />

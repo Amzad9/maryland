@@ -14,7 +14,7 @@ export default function SuccessStoriesSection() {
             aria-labelledby="success-heading"
         >
             {/* Pattern overlay */}
-            <div className="absolute inset-0 z-1 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/diagmonds.png')]"></div>
+            <div className="absolute inset-0 z-1 opacity-5 "></div>
             
             {/* Elegant blur circles - Light blue/purple tones */}
             <div className="absolute top-20 left-10 w-72 h-72 rounded-full blur-3xl animate-pulse pointer-events-none z-1" style={{ backgroundColor: 'rgba(147, 197, 253, 0.2)' }}></div>

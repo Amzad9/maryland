@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Map, Globe, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Map, Globe, Phone, Mail, Clock, ArrowRight } from 'lucide-react';
 
 const ContactEliteCardProcessing = () => {
   return (
@@ -46,30 +46,8 @@ const ContactEliteCardProcessing = () => {
                     ]}
                     accent="blue"
                   />
-
-                  {/* Toll-Free */}
-                  {/* <ContactItem
-                    title="Toll-Free"
-                    details={[
-                      { type: "Phone", value: "(877) 415-8627", icon: <Phone size={20} /> }
-                    ]}
-                    accent="cyan"
-                  /> */}
-
-                  {/* Online Contact */}
                   <div className="group">
-                    <h3 className="text-lg font-bold text-gray-800 mb-3 pb-2 border-b border-indigo-100">Online Contact</h3>
-                    <a
-                      href="/contact"
-                      className="flex items-start group-hover:transform group-hover:translate-x-1 transition-transform duration-300"
-                    >
-                      <div className="w-10 h-10 bg-linear-to-r from-indigo-500/20 to-purple-500/20 rounded-lg flex items-center justify-center mr-4">
-                        <Mail size={20} />
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-gray-600">Contact Us</p>
-                        <p className="text-gray-800 font-semibold text-lg text-blue-600 hover:text-blue-700">Go to Contact Page</p>
-                      </div>
+                    <a href="/contact" className="group inline-block items-center gap-3 px-4 md:px-8 py-4 bg-linear-to-r from-emerald-600 to-teal-600 text-white font-semibold rounded-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-500/40 transition-all duration-300 transform hover:-translate-y-1 active:scale-95"><span className="text-lg">Contact </span>
                     </a>
                   </div>
                 </div>
@@ -78,7 +56,7 @@ const ContactEliteCardProcessing = () => {
 
             {/* Service Areas & CTA Card */}
             <div className="glass-morphism p-4 md:p-8 relative overflow-hidden group">
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-blue-500/5 to-purple-500/5"></div>
 
               <div className="relative z-10">
                 {/* Service Areas */}

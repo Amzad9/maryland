@@ -76,23 +76,6 @@ export default function ServicesSection() {
             );
           })}
         </div>
-
-        {/* Speak to Our Dedicated Team - full-width CTA below the 6 service cards */}
-        {/* <div className="my-16 rounded-3xl p-6 sm:p-8 bg-[#10284D] border border-slate-700/50 shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
-          <div className="flex items-center gap-4">
-            <MessageCircle className="w-12 h-12 text-[#f4e28f] shrink-0" aria-hidden />
-            <div>
-              <h3 className="text-xl font-bold text-white mb-1">Speak to Our Dedicated Team</h3>
-              <p className="text-slate-300 text-sm sm:text-base">Talk directly to our trained, professional support experts for fast, personalized help.</p>
-            </div>
-          </div>
-          <Link
-            href="/contact"
-            className="shrink-0 px-6 py-3 rounded-full bg-[#f4e28f] text-slate-900 font-semibold hover:bg-yellow-300 transition-colors"
-          >
-            Contact Us
-          </Link>
-        </div> */}
       </div>
     </section>
   );

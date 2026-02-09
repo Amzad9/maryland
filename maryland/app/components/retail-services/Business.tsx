@@ -20,12 +20,11 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link
-                href="/getquote"
-                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="text-3xl md:text-4xl font-bold text-gray-800"
               >
                 Traditional Retail Store Solutions
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
               Complete retail merchant services that include payment processing, inventory management, customer loyalty, and even sales reporting. One popular POS system that we sell and support is Clover POS, and this is a game-changer for businesses that want to grow and better manage their inventory and other business operations.
               </p>
@@ -34,7 +33,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/SP_0716-copy-Medium.jpg"
+                  src="/retail-services/traditional.png"
                   alt="Traditional retail store payment processing"
                   width={500}
                   height={500}
@@ -49,7 +48,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/FeatureImage_Retail_Store_Layout.jpg"
+                  src="/retail-services/boutique.png"
                   alt="Boutique and specialty store processing"
                   width={500}
                   height={500}
@@ -58,12 +57,11 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link
-                href="/about"
-                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="text-3xl md:text-4xl font-bold text-gray-800"
               >
                 Boutique and Specialty Store Processing
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Streamlined retail payment processing for fashion boutiques, gift shops, and specialty retailers. Our retail merchant services include customer loyalty programs, seasonal inventory management, and integrated retail credit card processing systems.
               </p>
@@ -72,12 +70,11 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link
-                href="/getquote"
-                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+                  <h2
+                className="text-3xl md:text-4xl font-bold text-gray-800"
               >
                 Multi-Location Retail Processing
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Centralized retail merchant services for chain stores and franchises with real-time inventory synchronization, unified reporting, and consistent retail payment processing across all locations.
               </p>
@@ -86,7 +83,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/retail-services/Location.png"
                   alt="Multi-location retail processing"
                   width={500}
                   height={500}
@@ -101,7 +98,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/omnichannel-retail-strategy-retail-digital-transformation-2021.jpeg"
+                  src="/retail-services/commerce.png"
                   alt="E-commerce and omnichannel solutions"
                   width={500}
                   height={500}
@@ -110,12 +107,11 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link
-                href="/about"
-                className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="text-3xl md:text-4xl font-bold text-gray-800"
               >
                 E-commerce and Omnichannel Solutions
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Integrated retail payment processing connecting online stores with physical locations, including inventory synchronization, customer data management, and unified retail merchant services platforms.
               </p>

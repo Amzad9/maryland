@@ -40,7 +40,7 @@ const SolutionsPage = () => {
           text-center
         "
       >
-       Novi Eats Online Food Ordering Maryland - Complete Restaurant Online Ordering Platform
+       Novi Eats Online Food Ordering - Complete Restaurant Online Ordering Platform
       </h1>
 
     </div>

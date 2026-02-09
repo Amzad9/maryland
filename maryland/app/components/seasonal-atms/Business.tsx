@@ -28,7 +28,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/Festival.avif"
+                  src="/atm/s1.png"
                   alt="Festival and fair ATM rental"
                   width={500}
                   height={500}
@@ -43,7 +43,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/ATM Sales and Installation.webp"
+                  src="/atm/s2.png"
                   alt="Seasonal business ATM placement"
                   width={500}
                   height={500}
@@ -70,7 +70,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/03-internal-images-1920w.webp"
+                  src="/atm/s3.png"
                   alt="Event ATM services"
                   width={500}
                   height={500}
@@ -85,7 +85,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/hand-inserting.avif"
+                  src="/atm/s4.png"
                   alt="Holiday and special occasion ATMs"
                   width={500}
                   height={500}

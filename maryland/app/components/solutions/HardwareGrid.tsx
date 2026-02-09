@@ -24,7 +24,7 @@ export default function PaymentProcessingHardware() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/mobilepayment.jpg" 
+                    src="/pointsystems/hardware/h1.png" 
                     alt="Complete Merchant Services Terminals" 
                     width={500} height={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
@@ -35,15 +35,14 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center bg-white text-gray-900">
-              <Link href="/about" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-3xl font-bold mb-6 text-gray-900 block">
                 Complete Merchant Services Terminals
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   All-in-one payment systems with integrated credit card processing, receipt printing, and cash drawer connectivity.
                 </p>
-              </div>
-            
+              </div> 
             </div>
           </div>
 
@@ -54,7 +53,7 @@ export default function PaymentProcessingHardware() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/tablet.jpg" 
+                    src="/pointsystems/hardware/h2.png" 
                     alt="Tablet-Based Payment Processing Systems" 
                     width={500} height={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
@@ -65,16 +64,14 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center  text-gray-900">
-              <Link href="/getquote" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-3xl font-bold mb-6 text-gray-900 block">
                 Tablet-Based Payment Processing Systems
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   iPad and Android tablet POS solutions with secure payment attachments and integrated merchant services.
                 </p>
               </div>
-             
-            
             </div>
           </div>
 
@@ -85,7 +82,7 @@ export default function PaymentProcessingHardware() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/terminals.webp" 
+                    src="/pointsystems/hardware/h3.png" 
                     alt="Integrated Payment Terminals" 
                     width={500} height={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
@@ -96,16 +93,14 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/about" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-3xl font-bold mb-6 text-gray-900">
                 Integrated Payment Terminals
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   EMV chip card terminals, contactless payment readers, and mobile card processing devices fully integrated with your merchant services.
                 </p>
               </div>
-             
-             
             </div>
           </div>
 
@@ -116,7 +111,7 @@ export default function PaymentProcessingHardware() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/Cloverpayments.webp" 
+                    src="/pointsystems/hardware/h4.png" 
                     alt="Complete Payment Processing Peripherals" 
                     width={500} height={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
@@ -127,16 +122,14 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/getquote" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-3xl font-bold mb-6 text-gray-900">
                 Complete Payment Processing Peripherals
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Receipt printers, cash drawers, barcode scanners, kitchen display monitors, and customer-facing displays to complete your payment system.
                 </p>
               </div>
-             
-            
             </div>
           </div>
 
@@ -147,7 +140,7 @@ export default function PaymentProcessingHardware() {
               <div className="relative">
                 <figure className="relative h-full">
                   <Image 
-                     src="/mobilepayment.jpg" 
+                     src="/pointsystems/hardware/h5.png" 
                     alt="Mobile Merchant Services Solutions" 
                     width={500} height={200}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
@@ -158,9 +151,9 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link href="/about" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-3xl font-bold mb-6 text-gray-900 block">
                 Mobile Merchant Services Solutions
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Wireless terminals, smartphone card readers, and portable payment processing systems for businesses on the go.
@@ -177,7 +170,7 @@ export default function PaymentProcessingHardware() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/IntegratedTerminal.jpg" 
+                    src="/pointsystems/hardware/h6.png" 
                     alt="Professional Installation and Setup" 
                     width={500} height={500}
                     className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
@@ -188,9 +181,9 @@ export default function PaymentProcessingHardware() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-4 md:p-12 flex flex-col justify-center  text-gray-900">
-              <Link href="/getquote" className="card-title text-3xl font-bold mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="card-title text-3xl font-bold mb-6 text-gray-900">
                 Professional Installation and Setup
-              </Link>
+              </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
                   Professional installation and setup included with all payment processing systems. Our Maryland-based merchant services technicians handle everything.
@@ -201,7 +194,6 @@ export default function PaymentProcessingHardware() {
         </div>
       </div>
     </section>
-    <ContactEliteCardProcessing />
     <CTA />
         </>
   );

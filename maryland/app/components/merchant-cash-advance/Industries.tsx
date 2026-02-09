@@ -14,13 +14,12 @@ export default function IndustrySolutions() {
         </h2>
 
         <div className="space-y-12 mb-5">
-          {/* Business Expansion and Growth */}
           <div className="card bg-base-100 shadow-xl overflow-hidden group h-full flex flex-col md:flex-row">
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full">
-                  <Image 
-                    src="/How.jpg" 
+                  <Image
+                    src="/merchant-cash-advance/m1.png" 
                     alt="Business Expansion and Growth" 
                     width={200} 
                     height={200}
@@ -30,7 +29,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Business Expansion and Growth</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -72,7 +71,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/warehouse.jpeg" 
+                    src="/merchant-cash-advance/m2.png" 
                     alt="Inventory and Operations" 
                     width={500} 
                     height={500}
@@ -82,29 +81,29 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Inventory and Operations</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Inventory Expansion</strong> - Funding for increased inventory, seasonal stock, and bulk purchasing opportunities
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Seasonal Preparation</strong> - Capital for peak season inventory, staffing, and operational scaling
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Supply Chain Management</strong> - Financing for supplier payments, bulk orders, and inventory optimization
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-green-400 rounded-full mt-2 shrink-0"></div>
                   <span className="text-base">
                     <strong>Working Capital</strong> - Cash flow support for daily operations, vendor payments, and business expenses
                   </span>
@@ -124,7 +123,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/merchant-services-hero.jpg" 
+                    src="/merchant-cash-advance/m3.png" 
                     alt="Marketing and Technology" 
                     width={500} 
                     height={500}
@@ -134,7 +133,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Marketing and Technology</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -176,7 +175,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/service.webp" 
+                    src="/merchant-cash-advance/m4.png" 
                     alt="Emergency and Opportunity Funding" 
                     width={500} 
                     height={500}
@@ -186,7 +185,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Emergency and Opportunity Funding</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">

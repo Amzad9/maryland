@@ -19,9 +19,9 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
                 Standard Merchant Cash Advance
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Receive immediate cash in exchange for a portion of your future credit card sales with automated daily repayment, flexible terms, and funding amounts from $5,000 to $250,000 based on your monthly processing volume.
               </p>
@@ -30,7 +30,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/MCA.png"
+                  src="/merchant-cash-advance/b1.png"
                   alt="Merchant cash advance financial growth"
                   width={500}
                   height={500}
@@ -45,7 +45,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/Same-DayFunding.png"
+                  src="/merchant-cash-advance/b2.png"
                   alt="Same-day business funding"
                   width={500}
                   height={500}
@@ -54,9 +54,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
                 Same-Day Funding Programs
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Expedited merchant cash advance with same-day funding approval and next-business-day deposit for urgent business financing needs, equipment purchases, inventory expansion, and time-sensitive opportunities.
               </p>
@@ -65,9 +65,9 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
                 Seasonal Business Financing
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Specialized cash advance programs for seasonal businesses with flexible repayment schedules that accommodate seasonal sales fluctuations, peak season preparation, and off-season cash flow management.
               </p>
@@ -76,7 +76,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/clearlypayments.jpg"
+                  src="/merchant-cash-advance/b3.png"
                   alt="Seasonal business financing solutions"
                   width={500}
                   height={500}
@@ -91,7 +91,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/merchant-cash-advance/b4.png"
                   alt="Multi-location business funding"
                   width={500}
                   height={500}
@@ -100,9 +100,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
                 Multi-Location Business Funding
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Comprehensive financing solutions for businesses with multiple locations including consolidated applications, unified repayment structures, and scalable funding amounts based on combined processing volume.
               </p>

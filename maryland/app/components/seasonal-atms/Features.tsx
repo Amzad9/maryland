@@ -27,7 +27,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/seo-revenue.jpg"
+                  src="/atm/i1.png"
                   alt="Increased event revenue with seasonal ATM services"
                   width={500}
                   height={500}
@@ -42,7 +42,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/Ai-blog-Feature-Image-1.jpg"
+                  src="/atm/i2.png"
                   alt="Enhanced customer experience with ATM access"
                   width={500}
                   height={500}
@@ -69,7 +69,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1594025742030-8702f7ec0fe1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/atm/i3.png"
                   alt="Competitive event advantage with ATM services"
                   width={500}
                   height={500}
@@ -84,7 +84,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/reven.jpg"
+                  src="/atm/i4.png"
                   alt="Flexible revenue opportunity with seasonal ATM rental"
                   width={500}
                   height={500}
@@ -111,7 +111,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/terminals.webp"
+                  src="/atm/i5.png"
                   alt="Reduced cash handling with ATM services"
                   width={500}
                   height={500}
@@ -126,7 +126,7 @@ export default function Features() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/pro.avif"
+                  src="/atm/i6.png"
                   alt="Professional event image with modern ATM equipment"
                   width={500}
                   height={500}

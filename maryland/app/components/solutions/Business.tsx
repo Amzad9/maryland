@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import WhyChoose from "./WhyChoose";
 import TestimonialCard from "./TestimonialCard";
 import MarylandPaymentProcessing from "./MarylandPaymentProcessing";
 import ContactEliteCardProcessing from "./ContactEliteCardProcessing";
 import ResourcesSection from "./ResourcesSection";
 import CTA from "./CTA";
-
+  
 export default function Business() {
   return (
     <>
@@ -23,9 +22,9 @@ export default function Business() {
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Restaurant Merchant Services
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Complete restaurant merchant services with integrated payment processing, kitchen display systems, online ordering integration, and table management. DinerDaddy, Aldelo POS and Clover systems provide all-in-one solutions for quick service to full-service dining.
               </p>
@@ -34,7 +33,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/paymentm.avif"
+                  src="/pointsystems/b1.png"
                   alt="Tablet POS system on restaurant counter"
                   width={500}
                   height={500}
@@ -49,7 +48,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/storetransaction.webp"
+                  src="/pointsystems/b2.png"
                   alt="Modern retail payment terminals comparison"
                   width={500}
                   height={500}
@@ -58,9 +57,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Retail Payment Processing Solutions
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Comprehensive retail merchant services with integrated credit card processing, inventory tracking, customer management, and multi-location support. Perfect for boutiques, hardware stores, and specialty retailers.
               </p>
@@ -69,9 +68,9 @@ export default function Business() {
 
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 order-2 lg:order-1">
-              <Link href="/getquote" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Service Business Payment Systems
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Mobile and stationary merchant services for salons, auto repair shops, contractors, and professional services. Accept payments anywhere with integrated processing and mobile capabilities.
               </p>
@@ -80,7 +79,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="/clearlypayments.jpg"
+                  src="/pointsystems/b3.png"
                   alt="iPad POS system for service businesses"
                   width={1400}
                   height={1050}
@@ -95,7 +94,7 @@ export default function Business() {
               <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
               <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                 <Image
-                  src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=2744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/pointsystems/b4.png"
                   alt="Multi-location warehouse and inventory management dashboard"
                   width={1600}
                   height={1200}
@@ -104,9 +103,9 @@ export default function Business() {
               </div>
             </div>
             <div className="space-y-6">
-              <Link href="/about" className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-blue-600 hover:underline transition-colors cursor-pointer block">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-800 transition-colors block">
                 Multi-Location Merchant Services
-              </Link>
+              </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Scalable payment processing solutions that grow with your business. Manage multiple locations from a single dashboard with real-time reporting, centralized inventory control, and integrated credit card processing.
               </p>
@@ -115,9 +114,6 @@ export default function Business() {
 
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-center">
-            {/* <button className="bg-linear-to-r from-blue-600 to-cyan-600 text-white px-4 md:px-10 py-5 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:shadow-blue-300/50 hover:scale-105 transition-all duration-300">
-              Compare Merchant Services Options
-            </button> */}
             <a href="/contact" className="bg-white/80 backdrop-blur-sm border border-blue-200 text-blue-700 px-10 py-5 rounded-xl font-semibold shadow-md hover:shadow-lg hover:bg-white/90 transition-all duration-300">
               Schedule Consultation
             </a>

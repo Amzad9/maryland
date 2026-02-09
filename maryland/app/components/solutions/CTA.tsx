@@ -24,7 +24,7 @@ export default function CTA() {
                 <div className="relative bg-white/40 backdrop-blur-xl rounded-2xl border border-white/60 shadow-xl shadow-blue-500/5 p-8 md:p-12 transform transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
                     
                     {/* Blur Overlay Layer */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-white/50 to-white/10 backdrop-blur-md rounded-2xl -z-10"></div>
+                    <div className="absolute inset-0 bg-linear-to-br from-white/50 to-white/10 backdrop-blur-md rounded-2xl -z-10"></div>
                     
                     {/* Frosted Glass Effect */}
                     <div className="absolute inset-0 bg-linear-to-br from-white/30 via-transparent to-white/10 rounded-2xl backdrop-blur-sm -z-10"></div>

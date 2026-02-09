@@ -31,7 +31,7 @@ const MerchantServices = () => {
                     <h1
                         className="relative text-3xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center"
                     >
-                        Level III Credit Card Processing Maryland - Specialized Government and B2B Merchant Services      </h1>
+                        Level III Credit Card Processing Specialized Government and B2B Merchant Services      </h1>
 
                 </div>
             </section>

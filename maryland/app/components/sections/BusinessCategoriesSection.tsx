@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 export default function BusinessCategoriesSection() {
     const categories = [
-        { icon: Utensils, title: "Restaurants & Food", text: "Aldelo POS, Clover POS, and Novi Eats ordering solutions.", image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800", href: "/getquote" },
-        { icon: ShoppingBag, title: "Retail & E-Commerce", text: "POS systems, hardware, and ATM placement services.", image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800", href: "/getquote" },
-        { icon: Briefcase, title: "Service Businesses", text: "Mobile processing and recurring billing solutions.", image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800", href: "/getquote" },
-        { icon: Shield, title: "Firearms", text: "Firearms dealer accounts with cash discount programs.", image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800", href: "/about" },
-        { icon: Building2, title: "Government & Utilities", text: "Level III processing with full compliance support.", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800", href: "/about" },
-        { icon: Zap, title: "Political Accounts", text: "Secure credit card processing for campaigns & political entities — dedicated compliance & expert help.", image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800", href: "/about" }
+        { icon: Utensils, title: "Restaurants & Food", text: "Aldelo POS, Clover POS, and Novi Eats ordering solutions.", image: "/industry/ins1.png", href: "/getquote" },
+        { icon: ShoppingBag, title: "Retail & E-Commerce", text: "POS systems, hardware, and ATM placement services.", image: "/industry/ins2.png", href: "/getquote" },
+        { icon: Briefcase, title: "Service Businesses", text: "Mobile processing and recurring billing solutions.", image: "/industry/ins3.png", href: "/getquote" },
+        { icon: Shield, title: "Firearms", text: "Firearms dealer accounts with cash discount programs.", image: "/industry/ins4.png", href: "/about" },
+        { icon: Building2, title: "Government & Utilities", text: "Level III processing with full compliance support.", image: "/industry/ins5.png", href: "/about" },
+        { icon: Zap, title: "Political Accounts", text: "Secure credit card processing for campaigns & political entities — dedicated compliance & expert help.", image: "/industry/ins6.png", href: "/about" }
     ];
 
     return (

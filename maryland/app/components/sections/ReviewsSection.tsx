@@ -21,7 +21,7 @@ export default function ReviewsSection() {
   "
                     >
                         <Image
-                            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2670&auto=format&fit=crop"
+                            src="/industry/ins5.png"
                             alt="Business team"
                             fill
                             priority
@@ -90,38 +90,7 @@ export default function ReviewsSection() {
 
                         </div>
 
-                        {/* <nav className="mt-8 pt-6 border-b border-slate-700/50" aria-label="Footer navigation">
-                            <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-md text-[#f4e28f] mb-4">
-                                <a href="#solutions" className="hover:text-white transition">Solutions</a>
-                                <a href="#merchants" className="hover:text-white transition">Merchants</a>
-                                <a href="#about" className="hover:text-white transition">About Us</a>
-                                <a href="#contact" className="hover:text-white transition">Contact</a>
-                                <a href="#privacy" className="hover:text-white transition">Privacy Policy</a>
-                                <a href="#terms" className="hover:text-white transition">Terms of Service</a>
-                            </div>
-                        </nav> */}
-                        {/* <footer className="py-8 border-t border-slate-800" role="contentinfo">
-                            <div className="w-full">
-                                <div className="flex flex-col lg:flex-row items-center justify-between gap-6 text-sm text-slate-400">
-                                    <address className="flex flex-col text-[12px] sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-1 not-italic">
-                                        <a href="tel:1-877-418-0827" className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded px-2 py-1 text-[12px]"><span className="text-[#f4e28f]">Toll Free:</span> 1-877-418-0827</a>
-                                        <a href="tel:240-328-4424" className="hover:text-white transition focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded px-2 py-1 text-[12px]"><span className="text-[#f4e28f]">Local:</span> 240-328-4424</a>
-                                        <span><span className="text-[#f4e28f]">Address:</span> Maryland, USA</span>
-                                    </address>
-                                    <div className="flex items-center gap-4" role="list" aria-label="Social media links">
-                                        <a href="#facebook" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="Facebook" role="listitem">
-                                            <span className="text-slate-900 text-lg font-bold" aria-hidden="true">f</span>
-                                        </a>
-                                        <a href="#twitter" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="Twitter" role="listitem">
-                                            <span className="text-slate-900 text-lg font-bold" aria-hidden="true">t</span>
-                                        </a>
-                                        <a href="#linkedin" className="w-10 h-10 bg-[#f4e28f] rounded-full flex items-center justify-center hover:bg-yellow-600 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-lg" aria-label="LinkedIn" role="listitem">
-                                            <span className="text-slate-900 text-lg font-bold" aria-hidden="true">in</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </footer> */}
+                      
                     </div>
                 </div>
             </div>

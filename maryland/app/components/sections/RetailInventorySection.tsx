@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function RetailInventorySection() {
     return (
         <section 
-            className="w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50" 
+            className="w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative overflow-hidden bg-linear-to-br from-slate-50 via-white to-blue-50" 
             aria-labelledby="retail-inventory-heading"
         >
             {/* Pattern overlay */}
@@ -45,9 +45,9 @@ export default function RetailInventorySection() {
                     {/* Right Image */}
                     <div className="relative">
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                            <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/10 rounded-2xl"></div>
+                            <div className="absolute inset-0 bg-linear-to-br from-blue-600/10 to-purple-600/10 rounded-2xl"></div>
                             <Image
-                                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200"
+                                src="/industry/inventory.jpg"
                                 alt="Retail inventory management system"
                                 width={800}
                                 height={600}

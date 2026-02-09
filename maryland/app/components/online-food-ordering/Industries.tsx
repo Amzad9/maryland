@@ -10,7 +10,7 @@ export default function IndustrySolutions() {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
         <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-          Specialized Online Food Ordering for Maryland Restaurant Types
+          Specialized Online Food Ordering for Restaurant Types
         </h2>
 
         <div className="space-y-12 mb-5">
@@ -20,7 +20,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/orderingpizaa.avif" 
+                    src="/onlinefoodordering/s1.png" 
                     alt="Pizza Restaurant Online Ordering" 
                     width={200} 
                     height={200}
@@ -30,7 +30,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Pizza Restaurant Online Ordering</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -72,7 +72,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/mcdonalds-register.webp" 
+                    src="/onlinefoodordering/s2.png" 
                     alt="Chinese Restaurant Online Ordering" 
                     width={500} 
                     height={500}
@@ -82,7 +82,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Chinese Restaurant Online Ordering</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -125,7 +125,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/food-delivery-apps.avif" 
+                    src="/onlinefoodordering/s3.png" 
                     alt="American Restaurant Online Ordering" 
                     width={500} 
                     height={500}
@@ -135,7 +135,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">American Restaurant Online Ordering</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -177,7 +177,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/The-Evolution-of-Fine-Dining.webp" 
+                    src="/onlinefoodordering/s4.png" 
                     alt="Fine Dining Online Ordering" 
                     width={500} 
                     height={500}
@@ -187,7 +187,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Fine Dining Online Ordering</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">

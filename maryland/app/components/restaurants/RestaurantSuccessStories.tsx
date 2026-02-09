@@ -56,12 +56,7 @@ export default function OrderingPricing() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about our restaurant solutions">
-                  Learn about our restaurant solutions
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -108,12 +103,7 @@ export default function OrderingPricing() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Get a free consultation">
-                  Get a free consultation
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+          
             </div>
           </div>
 
@@ -160,16 +150,10 @@ export default function OrderingPricing() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about mobile solutions">
-                  Learn about mobile solutions
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
-          {/* Baltimore County Sports Bar - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden rounded-3xl md:rounded-4xl group h-full flex flex-col md:flex-row-reverse">
             {/* Image Section - Right */}
             <div className="md:w-1/2 relative overflow-hidden">
@@ -212,12 +196,7 @@ export default function OrderingPricing() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Get bar & restaurant consultation">
-                  Get bar & restaurant consultation
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
         </div>

@@ -30,7 +30,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Federal Government Contractors</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -70,11 +70,7 @@ export default function IndustrySolutions() {
                   </span>
                 </li>
               </ul>
-              <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  Explore government processing solutions
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -94,7 +90,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">State and Local Government Processing</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -134,11 +130,7 @@ export default function IndustrySolutions() {
                   </span>
                 </li>
               </ul>
-              <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  Explore government processing solutions
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -158,7 +150,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Corporate B2B Payment Processing</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -198,11 +190,7 @@ export default function IndustrySolutions() {
                   </span>
                 </li>
               </ul>
-              <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  Explore corporate processing solutions
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -222,7 +210,7 @@ export default function IndustrySolutions() {
               </div>
             </div>
             
-            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
+            <div className="md:w-1/2 p-3 md:p-12 flex flex-col justify-center bg-linear-to-br from-gray-900 to-gray-800 text-white">
               <h3 className="card-title text-2xl font-bold mb-6">Large Ticket Transaction Specialists</h3>
               <ul className="space-y-4 mb-6 pr-2">
                 <li className="flex items-start gap-3">
@@ -263,11 +251,7 @@ export default function IndustrySolutions() {
                 </li>
               </ul>
               
-              <div className="mt-4 flex gap-4 flex-wrap">
-                <a href="#" className="px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  Explore large ticket solutions
-                </a>
-              </div>
+            
             </div>
           </div>
           

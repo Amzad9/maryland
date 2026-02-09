@@ -10,7 +10,7 @@ export default function MarylandBusiness() {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
         <h2 className="text-3xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-          Maryland Businesses Thriving with Elite Card Processing Merchant Services
+           Businesses Thriving with Elite Card Processing Merchant Services
         </h2>
         <div className="space-y-12 mt-5">
           <div className="card overflow-hidden rounded-4xl group h-full flex flex-col md:flex-row">
@@ -18,10 +18,10 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image
-                    src="/diner.png"
+                    src="/onlinefoodordering/e1.png"
                     alt="DinerDaddy POS with Integrated Merchant Services" 
                     height={500} width={500}
-                    className="w-full h-full rounded-4xl object-cover"
+                    className="w-full h-120 rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -56,12 +56,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about DinerDaddy">
-                  Learn more about DinerDaddy
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+             
             </div>
           </div>
 
@@ -72,10 +67,10 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/clover.jpg" 
+                    src="/onlinefoodordering/e2.png" 
                     alt="Clover POS All-in-One Payment Systems" 
                     height={500} width={500}
-                    className="w-full h-full rounded-4xl object-cover"
+                    className="w-full h-120 rounded-4xl object-cover"
                   />
                 </figure>
               </div>
@@ -110,12 +105,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Clover POS">
-                  Learn more about Clover POS
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+             
             </div>
           </div>
 
@@ -126,11 +116,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/aldeiro.webp" 
+                    src="/onlinefoodordering/e3.png" 
                     alt="Aldelo POS Restaurant Merchant Services" 
                     height={500}
                     width={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-120 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -165,12 +155,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Aldelo POS">
-                  Learn more about Aldelo POS
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -181,10 +166,11 @@ export default function MarylandBusiness() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/mobilepayment.jpg" 
+                    src="/onlinefoodordering/e4.png" 
                     alt="Mobile Payment Processing Options" 
-                    fill
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    height={500}
+                    width={500}
+                    className="w-full h-120 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -219,12 +205,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-10 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore mobile payment processing options">
-                  Explore mobile payment processing options
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
         </div>

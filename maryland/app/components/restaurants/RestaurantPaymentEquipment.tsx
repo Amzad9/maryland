@@ -64,12 +64,7 @@ export default function MarylandBusiness() {
                 </ul>
               </div>
 
-              <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Restaurant POS Systems">
-                  Learn about POS Systems
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -117,12 +112,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Kitchen Display Systems">
-                  Learn more about Kitchen Displays
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -170,12 +160,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Handheld Payment Devices">
-                  Learn more about Handheld Devices
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+          
             </div>
           </div>
 
@@ -223,12 +208,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Restaurant Peripherals">
-                  Learn more about Peripherals
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -276,12 +256,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="#" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Mobile Processing Equipment">
-                  Learn more about Mobile Equipment
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+          
             </div>
           </div>
 
@@ -329,12 +304,7 @@ export default function MarylandBusiness() {
                   </li>
                 </ul>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full inline-flex items-center justify-center rounded-full px-6 md:px-10 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn about Installation and Training">
-                  Learn about Installation Services
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+          
             </div>
           </div>
 

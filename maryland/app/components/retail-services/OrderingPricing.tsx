@@ -20,10 +20,10 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/Cloverpayments.webp" 
+                    src="/retail-services/co1.png" 
                     alt="Clover Retail POS System" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -46,12 +46,7 @@ export default function OrderingPricing() {
                   <strong>Retail Focus:</strong> Flexible platform adaptable to various retail business types
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Learn more about Clover POS">
-                  Learn more about Clover POS
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+          
             </div>
           </div>
 
@@ -61,10 +56,10 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/realtime.jpeg" 
+                    src="/retail-services/co2.png" 
                     alt="Specialized Retail Solutions" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -87,12 +82,7 @@ export default function OrderingPricing() {
                   <strong>Retail Focus:</strong> Completely customized for unique retail operations
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Discuss specialized retail solutions">
-                  Discuss specialized retail solutions
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -102,10 +92,10 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/Multi-Location-Inventory-Management-A-Definitive-Guide_Blogs_848x467px.jpg" 
+                    src="/retail-services/co3.png" 
                     alt="Multi-Location Retail Platforms" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -128,12 +118,7 @@ export default function OrderingPricing() {
                   <strong>Retail Focus:</strong> Enterprise-level retail management with integrated payment processing
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore multi-location retail options">
-                  Explore multi-location retail options
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -143,10 +128,10 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative">
                   <Image 
-                    src="/Cloverpayments.webp" 
+                    src="/retail-services/co4.png" 
                     alt="Mobile Retail Processing" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -169,12 +154,7 @@ export default function OrderingPricing() {
                   <strong>Retail Focus:</strong> Mobile retail operations with full payment processing capabilities
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-[#10284D] ring-2 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Explore mobile retail processing options">
-                  Explore mobile retail processing options
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -184,10 +164,10 @@ export default function OrderingPricing() {
               <div className="relative">
                 <figure className="relative h-full">
                   <Image 
-                    src="/mobilepayment.jpg" 
+                    src="/retail-services/co5.png" 
                     alt="Compare all retail POS options" 
                     width={500} height={200}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -204,12 +184,7 @@ export default function OrderingPricing() {
                   Our experts will help you evaluate features, pricing, and integration options to find the perfect solution for your retail operation.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 px-10 focus:ring-[#10284D] ring-2 cursor-pointer ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Compare all retail POS options">
-                  Compare all retail POS options
-                  <ArrowRight className="ml-3 h-5 w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -219,10 +194,10 @@ export default function OrderingPricing() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/IntegratedTerminal.jpg" 
+                    src="/retail-services/co6.png" 
                     alt="Schedule retail demonstration" 
                     width={500} height={500}
-                    className="w-full h-full rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -239,14 +214,7 @@ export default function OrderingPricing() {
                   Get hands-on experience with inventory management, customer loyalty programs, integrated payment processing, and all the features that make our retail solutions stand out.
                 </p>
               </div>
-              <div className="mt-4 flex flex-col sm:flex-row gap-4">
-                <div className="text-left mt-4">
-                  <a href="/contact" className="w-full lg:w-auto inline-flex items-center justify-center rounded-full px-4 py-4 text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 px-10 focus:ring-[#10284D] ring-2 px-10 ring-[#10284D] focus:ring-offset-2 focus:ring-offset-white" aria-label="Schedule retail demonstration">
-                    Schedule retail demonstration
-                    <ArrowRight className="ml-3 h-5 w-5" />
-                  </a>
-                </div>
-              </div>
+           
             </div>
           </div>    
         </div>

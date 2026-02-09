@@ -3,7 +3,6 @@ import React from 'react';
 const MarylandRestaurantNovi = () => {
   return (
     <div className=" py-20 relative">
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-linear-to-br from-blue-900/30 to-indigo-900/20"></div>
         <div 
@@ -113,7 +112,6 @@ Compliance requirement evaluation and implementation planning"
   );
 };
 
-// Consultation Item Component
 const ConsultationItem = ({ title, description, feature }: { title: string; description: string; feature: string }) => (
   <div className="flex items-start group cursor-pointer">
      <div className="shrink-0 mt-3 w-2 h-2 bg-gray-400 rounded-full">
@@ -127,7 +125,6 @@ const ConsultationItem = ({ title, description, feature }: { title: string; desc
   </div>
 );
 
-// Benefit Item Component
 const BenefitItem = ({ title, description, highlight }: { title: string; description: string; highlight: string }) => (
   <div className="flex items-start group cursor-pointer">
    <div className="shrink-0 mt-3 w-2 h-2 bg-gray-400 rounded-full">

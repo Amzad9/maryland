@@ -107,15 +107,7 @@ const MarylandRestaurantNovi = () => {
             </div>
           </div>
 
-          {/* Contact CTA beneath boxes */}
-          <div className="text-center mt-12">
-            <a 
-              href="/contact" 
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#10284D] text-white font-semibold rounded-xl shadow-lg hover:bg-[#152E5A] transition-all duration-300 hover:-translate-y-0.5"
-            >
-              Contact Us
-            </a>
-          </div>
+      
         </div>
       </div>
     </div>
@@ -129,9 +121,8 @@ const ConsultationItem = ({ title, description, feature }: { title: string; desc
      </div>
     <div className="ml-4 flex-1">
       <div className="flex items-center justify-between">
-        <h4 className="font-bold text-gray-800 group-hover:text-white transition-colors duration-300">{title}</h4>
+        <a href="/getquote" className="font-bold text-gray-800 group-hover:text-white transition-colors duration-300">{title}</a>
       </div>
-      <p className="text-gray-600 text-sm mt-1">{description}</p>
     </div>
   </div>
 );
@@ -143,10 +134,9 @@ const BenefitItem = ({ title, description, highlight }: { title: string; descrip
    </div>
     <div className="ml-4 flex-1">
       <div className="flex items-center justify-between">
-        <h4 className="font-bold text-gray-800 group-hover:text-white transition-colors duration-300">{title}</h4>
+        <a href="/about" className="font-bold text-gray-800 group-hover:text-white transition-colors duration-300">{title}</a>
       
       </div>
-      <p className="text-gray-600 text-sm mt-1">{description}</p>
     </div>
   </div>
 );

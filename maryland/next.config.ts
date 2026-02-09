@@ -26,6 +26,10 @@ const nextConfig: NextConfig = {
       {
         protocol:'https',
         hostname: 'cdn.ezo.io'
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
       }
 
     ],

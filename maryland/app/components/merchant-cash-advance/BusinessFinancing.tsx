@@ -57,7 +57,7 @@ export default function BusinessFinancingCards() {
 
                         <div className="relative bg-white/90 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 border border-blue-100 shadow-lg hover:shadow-xl transition-all duration-300 flex-1 flex flex-col">
                             <div className="flex items-center gap-3 sm:gap-4 mb-6 md:mb-8">
-                                <div className="p-2 sm:p-3 bg-gradient-to-br from-blue-100 to-blue-50 rounded-lg sm:rounded-xl border border-blue-200">
+                                <div className="p-2 sm:p-3 bg-linear-to-br from-blue-100 to-blue-50 rounded-lg sm:rounded-xl border border-blue-200">
                                     <TrendingUp className="w-6 h-6 sm:w-7 sm:h-7 text-blue-500" />
                                 </div>
                                 <h2 className="text-xl sm:text-2xl font-bold text-gray-900">Funding Program Features</h2>
@@ -123,7 +123,7 @@ export default function BusinessFinancingCards() {
 
                         <div className="relative bg-white/90 backdrop-blur-sm rounded-2xl p-4 sm:p-6 md:p-8 border border-emerald-100 shadow-lg hover:shadow-xl transition-all duration-300 flex-1 flex flex-col">
                             <div className="flex items-center gap-3 sm:gap-4 mb-6 md:mb-8">
-                                <div className="p-2 sm:p-3 bg-gradient-to-br from-emerald-100 to-emerald-50 rounded-lg sm:rounded-xl border border-emerald-200">
+                                <div className="p-2 sm:p-3 bg-linear-to-br from-emerald-100 to-emerald-50 rounded-lg sm:rounded-xl border border-emerald-200">
                                     <CheckCircle className="w-6 h-6 sm:w-7 sm:h-7 text-emerald-500" />
                                 </div>
                                 <h2 className="text-xl sm:text-2xl font-bold text-gray-900">Qualification Requirements</h2>

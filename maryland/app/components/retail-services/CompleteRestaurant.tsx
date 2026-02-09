@@ -21,11 +21,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/1707747620Inventory_management_software_development.jpg" 
+                    src="/retail-services/ad1.png" 
                     alt="Complete Inventory Management System" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -33,27 +33,17 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center bg-white text-gray-900">
-              <Link
-                href="/getquote"
-                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900"
               >
                 Complete Inventory Management System
-              </Link>
+              </h2>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
                   Real-time inventory tracking with barcode scanning, automatic reorder alerts, seasonal inventory planning, and multi-location inventory synchronization. Full integration with your retail POS system and payment processing for accurate stock management.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a
-                  href="/getquote"
-                  className="w-full inline-flex items-center justify-center rounded-full px-4 md:px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white"
-                  aria-label="Learn About Inventory Management"
-                >
-                  Learn about inventory solutions
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -64,11 +54,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/tgUiM5yCbLpiCURdmObSaSNLDQ.webp" 
+                    src="/retail-services/ad2.png" 
                     alt="Customer Database and Loyalty Programs" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -76,27 +66,17 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link
-                href="/about"
-                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900"
               >
                 Customer Database and Loyalty Programs
-              </Link>
+              </h2>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
                   Built-in customer management with purchase history, preference tracking, loyalty point programs, and targeted marketing campaigns. Connect customer data across all retail locations with integrated merchant services.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a
-                  href="/about"
-                  className="w-full inline-flex items-center justify-center rounded-full px-4 md:px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white"
-                  aria-label="Learn About Customer Management"
-                >
-                  Explore loyalty programs
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
@@ -107,11 +87,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/featured-image.jpeg" 
+                    src="/retail-services/ad3.png" 
                     alt="Multi-Location Retail Coordination" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -119,27 +99,17 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Right */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link
-                href="/getquote"
-                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900"
               >
                 Multi-Location Retail Coordination
-              </Link>
+              </h2>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
                   Centralized inventory management, customer database sharing, unified pricing control, and consolidated reporting across multiple retail locations with integrated retail payment processing.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a
-                  href="/getquote"
-                  className="w-full inline-flex items-center justify-center rounded-full px-4 md:px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white"
-                  aria-label="Learn About Multi-Location Management"
-                >
-                  Learn about multi-store solutions
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -150,11 +120,11 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/1732108927617.jpeg" 
+                    src="/retail-services/ad4.png" 
                     alt="Seasonal and Promotional Management" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
@@ -162,27 +132,17 @@ export default function CompleteRestaurant() {
             
             {/* Content Section - Left */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link
-                href="/about"
-                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900"
               >
                 Seasonal and Promotional Management
-              </Link>
+              </h2>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
                   Advanced promotional pricing, seasonal inventory planning, clearance management, and holiday sales tracking integrated with your retail merchant services platform.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a
-                  href="/about"
-                  className="w-full inline-flex items-center justify-center rounded-full px-4 md:px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white"
-                  aria-label="View Promotional Tools"
-                >
-                  View promotional tools
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+           
             </div>
           </div>
 
@@ -191,83 +151,56 @@ export default function CompleteRestaurant() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/vendor-management.webp" 
+                    src="/retail-services/ad5.png" 
                     alt="Vendor and Supplier Integration" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
             </div>
             
-            {/* Content Section - Right */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link
-                href="/getquote"
-                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900"
               >
                 Vendor and Supplier Integration
-              </Link>
+              </h2>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
                   Purchase order management, vendor performance tracking, automatic reordering, and supplier payment coordination connected to your retail credit card processing system.
                 </p>
               </div>
-              <div className="text-left mt-4">
-                <a
-                  href="/getquote"
-                  className="w-full inline-flex items-center justify-center rounded-full px-4 md:px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white"
-                  aria-label="Learn About Vendor Integration"
-                >
-                  Learn about vendor integration
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
+            
             </div>
           </div>
 
-          {/* Analytics and Business Intelligence - Image Right, Content Left (Reversed) */}
           <div className="card overflow-hidden group h-full rounded-3xl md:rounded-4xl flex flex-col md:flex-row-reverse">
             <div className="md:w-1/2 relative overflow-hidden">
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/Big-data-analytics-solutions.jpg" 
+                    src="/retail-services/ad6.png" 
                     alt="Analytics and Business Intelligence" 
                     width={500} 
                     height={500}
-                    className="w-full h-full rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-110 rounded-3xl md:rounded-4xl object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </figure>
               </div>
             </div>
             
-            {/* Content Section - Left */}
             <div className="md:w-1/2 p-6 md:p-12 flex flex-col justify-center text-gray-900">
-              <Link
-                href="/about"
-                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900 hover:text-blue-600 hover:underline transition-colors cursor-pointer block"
+              <h2
+                className="card-title text-xl md:text-2xl font-bold mb-4 md:mb-6 text-gray-900"
               >
                 Analytics and Business Intelligence
-              </Link>
+              </h2>
               <div className="space-y-3 md:space-y-4 mb-4 md:mb-6 md:pr-2">
                 <p className="text-sm md:text-base leading-relaxed text-gray-700">
                   Comprehensive retail analytics including sales trends, customer behavior analysis, inventory performance, profit margin optimization, and growth forecasting through integrated merchant services.
                 </p>
-              </div>
-              <div className="mt-4">
-
-              <div className="text-left mt-4">
-                <a
-                  href="/about"
-                  className="w-full inline-flex items-center justify-center rounded-full px-4 md:px-4 py-3 md:py-4 text-sm md:text-base font-bold text-black transition-transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-400 ring-2 ring-blue-400 focus:ring-offset-2 focus:ring-offset-white"
-                  aria-label="Learn About Vendor Integration"
-                >
-                  Learn about retail management
-                  <ArrowRight className="ml-3 h-4 w-4 md:h-5 md:w-5" />
-                </a>
-              </div>
               </div>
             </div>
           </div>    

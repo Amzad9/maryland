@@ -4,7 +4,7 @@ import { Phone, MapPin, Mail, ArrowRight } from 'lucide-react';
 export default function ContactQuoteSection() {
     return (
         <section 
-            className="w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-blue-50" 
+            className="w-full px-4 sm:px-6 lg:px-8 py-16 sm:py-20 relative overflow-hidden bg-linear-to-br from-slate-50 via-white to-blue-50" 
             aria-labelledby="contact-quote-heading"
         >
             {/* Pattern overlay */}

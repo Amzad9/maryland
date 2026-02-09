@@ -31,7 +31,7 @@ const MerchantServices = () => {
                     <h1
                         className="relative text-3xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center"
                     >
-                       Merchant Cash Advance Maryland - Fast Business Financing for Growing Companies    </h1>
+                       Merchant Cash Advance - Fast Business Financing for Growing Companies    </h1>
 
                 </div>
             </section>

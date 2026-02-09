@@ -10,16 +10,13 @@ export default function Business() {
           <div className="absolute bottom-0 -right-20 w-72 h-72 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000" />
           <div className="absolute top-230 left-120 w-120 h-120 bg-indigo-400/15 rounded-full blur-3xl animate-pulse delay-1000" />
 
-          {/* Retail Merchant Services Section */}
           <div className="space-y-10 text-center max-w-4xl mx-auto lg:text-center mb-16 mt-8">
             <h2 className="text-3xl md:text-5xl font-bold text-black mb-6 leading-tight">
               Integrated Retail Merchant Services for Every Retail Business Type
             </h2>
           </div>
 
-          {/* First Row - 2 Cards */}
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Card 1 */}
             <div className="space-y-6">
               <div className="relative group">
                 <div className="absolute -inset-6 bg-linear-to-r from-blue-300 to-cyan-300 opacity-20 blur-3xl rounded-3xl" />

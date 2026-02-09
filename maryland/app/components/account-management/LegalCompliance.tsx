@@ -2,12 +2,10 @@
 export default function LegalCompliance() {
   return (
     <section className="relative py-16 px-4 md:px-8 overflow-hidden bg-linear-to-b from-white to-gray-50">
-      {/* Background Elements */}
       <div className="absolute top-10 right-10 w-64 h-64 bg-linear-to-br from-emerald-500/5 to-teal-500/3 rounded-full blur-3xl" />
       <div className="absolute bottom-10 left-10 w-80 h-80 bg-linear-to-tl from-green-500/5 to-emerald-500/3 rounded-full blur-3xl" />
       
       <div className="relative max-w-4xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-linear-to-r from-emerald-50 to-teal-50 border border-emerald-100 mb-4">
             <span className="text-sm font-medium text-emerald-700">FULLY COMPLIANT</span>
@@ -21,9 +19,7 @@ export default function LegalCompliance() {
           </p>
         </div>
 
-        {/* Main Content */}
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          {/* Left Column - Requirements */}
           <div className="space-y-6">
             <div className="bg-white rounded-2xl p-8 border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
@@ -49,8 +45,7 @@ export default function LegalCompliance() {
             </div>
           </div>
 
-          {/* Right Column - Comparison */}
-          <div className="bg-gradient-to-br from-blue-50/30 to-cyan-50/20 rounded-2xl p-8 border border-blue-100">
+          <div className="bg-linear-to-br from-blue-50/30 to-cyan-50/20 rounded-2xl p-8 border border-blue-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
               Why Dual Pricing Wins
             </h3>
@@ -91,7 +86,6 @@ export default function LegalCompliance() {
           </div>
         </div>
 
-        {/* CTA */}
         <div className="text-center">
         <button className="relative bg-linear-to-r from-emerald-600 to-teal-600 text-white px-12 py-5 rounded-2xl font-bold text-xl shadow-2xl shadow-emerald-500/30 hover:shadow-3xl hover:shadow-emerald-900/50 transform hover:-translate-y-1 transition-all duration-300">
               <div className="flex items-center justify-center gap-3">
