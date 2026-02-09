@@ -44,7 +44,7 @@ export default function Business() {
                 <div className="absolute -inset-6 bg-linear-to-r from-cyan-300 to-blue-300 opacity-20 blur-3xl rounded-3xl" />
                 <div className="relative rounded-3xl overflow-hidden border border-blue-100 shadow-xl bg-white/60 backdrop-blur-sm">
                   <Image
-                    src="/restaurants/boutique.png"
+                    src="/restaurants/Boutique.png"
                     alt="Boutique and specialty store processing"
                     width={500}
                     height={500}
