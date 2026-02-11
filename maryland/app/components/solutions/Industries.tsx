@@ -22,7 +22,7 @@ export default function IndustrySolutions() {
               <div className="relative h-full">
                 <figure className="relative h-full">
                   <Image 
-                    src="/pointsystems/Industries/in1.png" 
+                    src="/pointsystems/ndustries/in1.png" 
                     alt="Restaurant POS" 
                     width={500} height={500}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

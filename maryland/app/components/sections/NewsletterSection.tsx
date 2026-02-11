@@ -1,11 +1,9 @@
 'use client';
 import { Mail, Send } from 'lucide-react';
 import { useState } from 'react';
-
 export default function NewsletterSection() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
-
     return (
         <section className="w-full bg-linear-to-br from-blue-600 via-purple-600 to-pink-600 px-4 sm:px-6 lg:px-8 py-20 relative overflow-hidden" aria-labelledby="newsletter-heading">
             <div className="absolute inset-0 opacity-10"></div>
@@ -25,7 +23,6 @@ export default function NewsletterSection() {
                     className="space-y-4"
                     onSubmit={(e) => {
                         e.preventDefault();
-                        // Handle form submission
                     }}
                 >
                     <div className="flex flex-col sm:flex-row gap-4">
