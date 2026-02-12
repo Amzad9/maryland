@@ -21,7 +21,7 @@ export default function PaymentsStatsSection() {
             </div>
           </div>
 
-          {/* Right-side stats column */}
+          {/* Right-side stats column - Clean, simple layout */}
           <div className="flex flex-col gap-6">
             {/* Stat card 1 */}
             <div className="rounded-2xl bg-black/60 border border-white/10 shadow-lg flex flex-col justify-center px-6 py-8 h-full">
@@ -34,15 +34,15 @@ export default function PaymentsStatsSection() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {/* Stat card 2 */}
+              {/* Stat card 2 - Updated to US dollars */}
               <div className="rounded-2xl bg-[#ff6b00] flex flex-col justify-center px-6 py-8 h-full">
-                <p className="text-3xl md:text-4xl font-extrabold mb-2">78B</p>
+                <p className="text-3xl md:text-4xl font-extrabold mb-2">$78B</p>
                 <p className="text-sm md:text-base text-white/90">
                   Merchant transactions processed annually
                 </p>
               </div>
 
-              {/* Stat card 3 */}
+              {/* Stat card 3 - Simplified to match screenshot */}
               <div className="rounded-2xl bg-[#0f62fe] flex flex-col justify-center px-6 py-8 h-full">
                 <p className="text-sm md:text-base text-white/80 mb-1">
                   Nearly
@@ -61,4 +61,3 @@ export default function PaymentsStatsSection() {
     </section>
   );
 }
-

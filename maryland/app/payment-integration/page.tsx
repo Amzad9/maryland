@@ -25,7 +25,7 @@ export default function PaymentIntegrationPage() {
 
       <ExperienceCarousel />
       <TabsSection />
-      <TestimonialSection />
+      {/* <TestimonialSection /> */}
       <ResourcesCarousel />
       <FinalCTA />
     </main>

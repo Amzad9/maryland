@@ -35,6 +35,7 @@ export default function Navbar() {
     'Merchant Cash Advance',
     'ATM',
     'Cash Discount Dual Pricing',
+    'Payment Integration',
   ];
 
   const MERCHANTS_ITEMS = [
@@ -47,7 +48,6 @@ export default function Navbar() {
     { name: 'Log In to Dashboard', href: 'account-management#logins' },
     { name: 'Current Client Resources', href: 'account-management#resources' },
     { name: 'How to Videos', href: 'how-to-videos' },
-    { name: 'Payment Integration', href: 'payment-integration' },
   ];
 
   const NAV_LINKS: NavLink[] = [
