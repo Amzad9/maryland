@@ -60,28 +60,28 @@ export default function ExperienceCarousel() {
 
   if (!mounted) {
     return (
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-24 bg-white">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-8 md:mb-12">
             Deliver a seamless payment experience
           </h2>
-          <div className="h-96 bg-gray-100 rounded-2xl animate-pulse" />
+          <div className="h-80 md:h-96 bg-gray-100 rounded-2xl animate-pulse" />
         </div>
       </section>
     );
   }
 
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-12 md:py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12">
+        <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6 md:mb-12">
           Deliver a seamless payment experience
         </h2>
         <div className="relative mx-auto">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
-            spaceBetween={24}
-            slidesPerView={4}
+            spaceBetween={16}
+            slidesPerView={1.2}
             autoplay={{
               delay: 4000,
               disableOnInteraction: false,
@@ -89,9 +89,21 @@ export default function ExperienceCarousel() {
             }}
             slidesPerGroup={1}
             breakpoints={{
-              640: { slidesPerView: 2, slidesPerGroup: 2 },
-              1024: { slidesPerView: 3, slidesPerGroup: 3 },
-              1280: { slidesPerView: 4, slidesPerGroup: 4 },
+              640: { 
+                slidesPerView: 2, 
+                slidesPerGroup: 2,
+                spaceBetween: 20
+              },
+              1024: { 
+                slidesPerView: 3, 
+                slidesPerGroup: 3,
+                spaceBetween: 24
+              },
+              1280: { 
+                slidesPerView: 4, 
+                slidesPerGroup: 4,
+                spaceBetween: 24
+              },
             }}
             navigation={{
               prevEl: ".experience-carousel-prev",
@@ -99,10 +111,10 @@ export default function ExperienceCarousel() {
             }}
             pagination={{
               clickable: true,
-              bulletClass: "swiper-pagination-bullet",
-              bulletActiveClass: "swiper-pagination-bullet-active",
+              dynamicBullets: true,
+              dynamicMainBullets: 3,
             }}
-            className="pb-14"
+            className="pb-12 md:pb-14"
           >
             {CARDS.map((card, i) => (
               <SwiperSlide key={i} className="h-auto">
@@ -112,13 +124,14 @@ export default function ExperienceCarousel() {
                       src={card.image}
                       alt=""
                       className="object-cover w-full h-full"
+                      loading="lazy"
                     />
                   </div>
-                  <div className="p-6 flex flex-col flex-1 min-h-[140px]">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
+                  <div className="p-4 sm:p-5 md:p-6 flex flex-col flex-1 min-h-[120px] sm:min-h-[140px]">
+                    <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2 line-clamp-2">
                       {card.title}
                     </h3>
-                    <p className="text-gray-600 text-sm leading-relaxed flex-1 line-clamp-3">
+                    <p className="text-sm text-gray-600 leading-relaxed flex-1 line-clamp-3 sm:line-clamp-3">
                       {card.description}
                     </p>
                   </div>
@@ -126,33 +139,83 @@ export default function ExperienceCarousel() {
               </SwiperSlide>
             ))}
           </Swiper>
+          
+          {/* Navigation buttons - hidden on mobile */}
           <button
             type="button"
-            className="experience-carousel-prev absolute left-0 top-1/2 -translate-y-1/2 -translate-x-2 z-10 w-10 h-10 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center text-[#d4af37] hover:bg-gray-50 transition-colors"
+            className="experience-carousel-prev absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center text-[#d4af37] hover:bg-gray-50 transition-colors hidden sm:flex"
             aria-label="Previous"
           >
-            <ChevronLeft className="w-5 h-5" />
+            <ChevronLeft className="w-5 h-5 lg:w-6 lg:h-6" />
           </button>
           <button
             type="button"
-            className="experience-carousel-next absolute right-0 top-1/2 -translate-y-1/2 translate-x-2 z-10 w-10 h-10 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center text-[#d4af37] hover:bg-gray-50 transition-colors"
+            className="experience-carousel-next absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-white border border-gray-200 shadow-md flex items-center justify-center text-[#d4af37] hover:bg-gray-50 transition-colors hidden sm:flex"
             aria-label="Next"
           >
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight className="w-5 h-5 lg:w-6 lg:h-6" />
           </button>
-          <div className="swiper-pagination flex justify-center gap-2 mt-6" />
         </div>
+        
         <style jsx global>{`
+          .swiper-pagination {
+            position: relative !important;
+            bottom: 0 !important;
+            margin-top: 24px !important;
+            display: flex !important;
+            justify-content: center !important;
+            gap: 8px !important;
+          }
+          
           .swiper-pagination-bullet {
             width: 8px;
             height: 8px;
             background: #d1d5db;
-            opacity: 1;
+            opacity: 0.7;
+            transition: all 0.3s ease;
           }
+          
           .swiper-pagination-bullet-active {
             background: #d4af37;
             width: 24px;
             border-radius: 4px;
+            opacity: 1;
+          }
+          
+          /* Mobile pagination adjustments */
+          @media (max-width: 640px) {
+            .swiper-pagination {
+              margin-top: 16px !important;
+            }
+            
+            .swiper-pagination-bullet {
+              width: 6px;
+              height: 6px;
+            }
+            
+            .swiper-pagination-bullet-active {
+              width: 18px;
+            }
+          }
+          
+          /* Dynamic pagination styling */
+          .swiper-pagination-bullet-active-prev,
+          .swiper-pagination-bullet-active-next {
+            transform: scale(0.8);
+            opacity: 0.5;
+          }
+          
+          .swiper-pagination-bullet-active-prev-prev,
+          .swiper-pagination-bullet-active-next-next {
+            transform: scale(0.6);
+            opacity: 0.3;
+          }
+
+          /* Pause autoplay on hover */
+          .swiper:hover {
+            .swiper-wrapper {
+              animation-play-state: paused;
+            }
           }
         `}</style>
       </div>
