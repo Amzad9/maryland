@@ -71,7 +71,7 @@ const ContactEliteCardProcessing = () => {
                     {/* Payment Processing Service Areas (Primary) */}
                     <ServiceArea
                       title="Payment Processing Service Areas (Primary)"
-                      areas={["All of Maryland, Pennsylvania , West Virginia"]}
+                      areas={["All of States, Pennsylvania , West Virginia"]}
                       gradient="from-green-500/20 to-emerald-500/20"
                       icon={<Map size={20} />}
                     />

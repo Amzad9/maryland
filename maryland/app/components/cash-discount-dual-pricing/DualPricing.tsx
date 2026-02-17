@@ -5,7 +5,7 @@ export default function DualPricingCTA() {
       "Implementation timeline",
       "Dual pricing savings calculation", 
       "Staff training plan",
-      "Maryland compliance review",
+      "Most states compliance review",
       "Customer communication templates",
       "Terminal recommendation"
     ];
@@ -18,7 +18,7 @@ export default function DualPricingCTA() {
         <div className="relative max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-              Start Eliminating Processing Fees in Maryland Today
+              Start Eliminating Processing Fees in Most States Today
             </h2>
           </div>
   
@@ -66,7 +66,7 @@ export default function DualPricingCTA() {
                 </div>
                 <div>
                   <p className="text-gray-800">
-                    <span className="font-bold text-emerald-700">Most Maryland businesses save $1,000-$5,000 monthly.</span>{' '}
+                    <span className="font-bold text-emerald-700">Most states businesses save $1,000-$5,000 monthly.</span>{' '}
                     See your savings in 15 minutes.
                   </p>
                 </div>

@@ -8,7 +8,7 @@ export default function DualPricingIndustries() {
           </svg>
         ),
         title: "Restaurants & Food Service",
-        description: "Protect thin margins while offering customer payment flexibility. Perfect for Maryland restaurants, cafes, and food trucks.",
+        description: "Protect thin margins while offering customer payment flexibility. Perfect for most states restaurants, cafes, and food trucks.",
         gradient: "from-orange-500 to-red-500"
       },
       {
@@ -29,7 +29,7 @@ export default function DualPricingIndustries() {
           </svg>
         ),
         title: "Service Businesses",
-        description: "Great for contractors, auto repair, salons, and professional services throughout Maryland.",
+        description: "Great for contractors, auto repair, salons, and professional services throughout most states.",
         gradient: "from-teal-500 to-emerald-500"
       },
       {
@@ -82,10 +82,10 @@ export default function DualPricingIndustries() {
           {/* Header */}
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              Dual Pricing: Perfect For Maryland Industries
+              Dual Pricing: Perfect For Most States Industries
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tailored payment solutions designed specifically for every type of business across Maryland
+              Tailored payment solutions designed specifically for every type of business across most states
             </p>
           </div>
   
@@ -117,7 +117,7 @@ export default function DualPricingIndustries() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm font-medium text-gray-600">Perfect for Maryland businesses</span>
+                  <span className="text-sm font-medium text-gray-600">Perfect for most states businesses</span>
                 </div>
               </div>
             ))}
@@ -135,7 +135,7 @@ export default function DualPricingIndustries() {
                 <h2 className="text-3xl font-bold text-gray-900">Geographic Coverage</h2>
               </div>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Serving businesses across Maryland with comprehensive payment solutions
+                Serving businesses across most states with comprehensive payment solutions
               </p>
             </div>
   

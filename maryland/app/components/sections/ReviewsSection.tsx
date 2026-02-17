@@ -38,53 +38,53 @@ export default function ReviewsSection() {
                             <article className="relative rounded-3xl p-3 border border-slate-700/30 shadow-2xl bg-[linear-gradient(45deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_8%,rgba(16,40,77,0.95)_22%,rgba(16,40,77,1)_100%)]">
                                 <div className="relative inline-block mb-4 -mt-16">
                                     <div className="w-24 h-24 rounded-full bg-linear-to-br from-yellow-400 to-yellow-600 p-1 shadow-[0_0_30px_rgba(255,215,100,0.65),0_0_60px_rgba(255,255,255,0.25)]">
-                                        <Image src="/test1.png" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Sarah J." />
+                                        <Image src="https://lh3.googleusercontent.com/a-/AOh14GjxgEm2930L_mvsEXJdDRPU4BK262yDVuFCGSp1Ew=w40-h40-c-c-rp-w40-h40-mo-br100" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Sarah J." />
                                     </div>
                                 </div>
                                 <blockquote>
                                     <p className="text-slate-300 text-xs leading-relaxed mb-4">
-                                        "Eta Card Processing has streamlined our operations! Their local assistance meets our critical needs. Their local expertise is unmatched."
+                                    "Josh is the reason our business will NEVER change credit card processors."
                                     </p>
                                 </blockquote>
                                 <div>
-                                    <p className="text-white font-semibold text-sm">Michael B.</p>
+                                    <p className="text-white font-semibold text-sm">Phil Hott</p>
 
-                                    <p className="text-slate-400 text-xs">Restaurant Owner</p>
+                                    <p className="text-slate-400 text-xs">4 years ago</p>
                                 </div>
                             </article>
 
                             <article className="relative rounded-3xl p-3 border border-slate-700/30 shadow-2xl bg-[linear-gradient(45deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_8%,rgba(16,40,77,0.95)_22%,rgba(16,40,77,1)_100%)]">
                                 <div className="relative inline-block mb-4 -mt-16">
                                     <div className="w-24 h-24 rounded-full bg-linear-to-br from-yellow-400 to-yellow-600 p-1 shadow-[0_0_30px_rgba(255,215,100,0.65),0_0_60px_rgba(255,255,255,0.25)]">
-                                        <Image src="/test2.png" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Michael B." />
+                                        <Image src="https://lh3.googleusercontent.com/a-/AOh14GhWU5WHWx0dEay-N7i2Eux0LiZZqTybihoYyQ24dg=w40-h40-c-c-rp-w40-h40-mo-ba2-br100" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="Michael B." />
                                     </div>
                                 </div>
                                 <blockquote>
                                     <p className="text-slate-300 text-xs leading-relaxed mb-4">
-                                        "Moving to Eta was the best decision. The POS system is excellent, and the zero-fee program is a game changer for many companies."
+                                    "I have used Josh for years and he has always been great to work with. Quick, local service if you ever have a problem or question, and rates are great!"
                                     </p>
                                 </blockquote>
                                 <div>
-                                    <p className="text-white font-semibold text-sm">Sarah J.</p>
+                                    <p className="text-white font-semibold text-sm">Eugene Martin</p>
 
-                                    <p className="text-slate-400 text-xs">Retail Manager</p>
+                                    <p className="text-slate-400 text-xs">4 years ago</p>
                                 </div>
                             </article>
 
                             <article className="relative rounded-3xl p-3 border border-slate-700/30 shadow-2xl bg-[linear-gradient(45deg,rgba(255,255,255,0.35)_0%,rgba(255,255,255,0.15)_8%,rgba(16,40,77,0.95)_22%,rgba(16,40,77,1)_100%)]">
                                 <div className="relative inline-block mb-4 -mt-16">
                                     <div className="w-24 h-24 rounded-full bg-linear-to-br from-yellow-400 to-yellow-600 p-1 shadow-[0_0_30px_rgba(255,215,100,0.65),0_0_60px_rgba(255,255,255,0.25)]">
-                                        <Image src="/test3.png" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="David L." />
+                                        <Image src="https://lh3.googleusercontent.com/a-/AOh14Gj3fL--l9pBZv1ZWg0Y-fh6lxGWEUSoiXLTooNPjDA=w40-h40-c-c-rp-w40-h40-mo-br100" height={96} width={96} className="w-full h-full object-cover rounded-full" alt="David L." />
                                     </div>
                                 </div>
                                 <blockquote>
                                     <p className="text-slate-300 text-xs leading-relaxed mb-4">
-                                        "Their Level II processing solutions and compliance steps for one account. for the business, highly recommend site."
+                                      "Great company and very professional customer service. Best rates I have found and there machines and equipment works flawlessly. Highly recommend josh and elite card processing."
                                     </p>
                                 </blockquote>
                                 <div>
-                                    <p className="text-white font-semibold text-sm">David L.</p>
-                                    <p className="text-slate-400 text-xs">Government Contractor</p>
+                                    <p className="text-white font-semibold text-sm">Dustin Stottlemyer</p>
+                                    <p className="text-slate-400 text-xs">4 years ago</p>
                                 </div>
                             </article>
 

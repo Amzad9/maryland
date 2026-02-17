@@ -3,7 +3,7 @@ import { TrendingUp, Users, Award, Zap, ArrowRight } from 'lucide-react';
 
 export default function SuccessStoriesSection() {
     const stats = [
-        { icon: Users, value: "10,000+", label: "Maryland Businesses" },
+        { icon: Users, value: "10,000+", label: "Most States Businesses" },
         { icon: Award, value: "4.9/5", label: "Average Rating" },
         { icon: Zap, value: "24/7", label: "Support Available" }
     ];

@@ -22,7 +22,7 @@ export default function Business() {
             <div className="space-y-6 order-2 lg:order-1">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-800">Government Contractor Processing</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Complete Level III credit card processing for Maryland government contractors with GSA SmartPay compliance, detailed line-item reporting, and competitive interchange rates. Our government merchant services include specialized reporting for federal, state, and local contracts.
+                Complete Level III credit card processing for Most States government contractors with GSA SmartPay compliance, detailed line-item reporting, and competitive interchange rates. Our government merchant services include specialized reporting for federal, state, and local contracts.
               </p>
             </div>
             <div className="relative group order-1 lg:order-2">

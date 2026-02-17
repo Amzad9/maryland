@@ -12,7 +12,7 @@ export default function LegalCompliance() {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            100% Legal in Maryland
+            100% Legal in most states
           </h2>
           <p className="text-2xl text-emerald-600 font-medium mb-8">
             Full Compliance Guaranteed
@@ -23,7 +23,7 @@ export default function LegalCompliance() {
           <div className="space-y-6">
             <div className="bg-white rounded-2xl p-8 border border-gray-200">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Maryland Requirements Met
+                Most states Requirements Met
               </h3>
               
               <div className="space-y-4">
@@ -31,7 +31,7 @@ export default function LegalCompliance() {
                   "Proper Signage - Clear cash/card pricing displayed",
                   "Point of Sale Disclosure - Prices shown before payment",
                   "No Payment Discrimination - All payment types accepted",
-                  "Consumer Protection Compliance - Maryland AG approved",
+                  "Consumer Protection Compliance - Most states AG approved",
                   "Network Rule Compliance - Visa/Mastercard certified"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -98,7 +98,7 @@ export default function LegalCompliance() {
       
           
           <p className="mt-6 text-gray-600">
-            Join Maryland businesses with guaranteed legal compliance
+            Join most states businesses with guaranteed legal compliance
           </p>
         </div>
       </div>

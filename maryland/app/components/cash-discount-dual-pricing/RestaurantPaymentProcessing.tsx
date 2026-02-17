@@ -11,7 +11,7 @@ export default function MarylandBusiness() {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
         <h2 className="text-3xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-          Get Your Maryland Restaurant Payment Processing System Today
+          Get Your Most States Restaurant Payment Processing System Today
         </h2>
 
         <div className="space-y-12 mt-5">
@@ -104,7 +104,7 @@ export default function MarylandBusiness() {
                 <ul className="space-y-4">
                   <li className="flex">
                     <span className="text-gray-700 ml-3">
-                      Local Maryland restaurant payment processing company with same-day support
+                      Local Most States restaurant payment processing company with same-day support
                     </span>
                   </li>
                   <li className="flex">
@@ -334,7 +334,7 @@ export default function MarylandBusiness() {
             <div className="md:w-1/2 p-12 flex flex-col justify-center bg-white text-gray-900">
               <h3 className="card-title text-2xl font-bold mb-6 text-gray-900">Professional Installation and Training</h3>
               <p className="text-gray-700 mb-6">
-                Complete restaurant equipment installation, staff training, and ongoing support included with all restaurant merchant services. Our Maryland-based technicians specialize in restaurant payment processing setup.
+                Complete restaurant equipment installation, staff training, and ongoing support included with all restaurant merchant services. Our Most States-based technicians specialize in restaurant payment processing setup.
               </p>
               <div className="space-y-4 mb-6">
                 <ul className="space-y-4">
@@ -348,7 +348,7 @@ export default function MarylandBusiness() {
                     <ul className="text-gray-700 ml-3 space-y-1">
                       <li>
                         <span className="font-semibold text-gray-900 min-w-24">Features:</span>
-                        Maryland-based technicians, Restaurant-specialized setup, Comprehensive staff training
+                        Most States-based technicians, Restaurant-specialized setup, Comprehensive staff training
                       </li>
                     </ul>
                   </li>

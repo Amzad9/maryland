@@ -25,7 +25,7 @@ const MerchantServices = () => {
                 </div>
                 <div className='container mx-auto'>
                     <h1 className="relative text-3xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center">
-                        Eliminate Credit Card Processing Fees with Cash Discount & Dual Pricing in Maryland    
+                        Eliminate Credit Card Processing Fees with Cash Discount & Dual Pricing    
                     </h1>
                 </div>
             </section>

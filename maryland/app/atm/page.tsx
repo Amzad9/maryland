@@ -31,7 +31,7 @@ const MerchantServices = () => {
                     <h1
                         className="relative text-3xl md:text-6xl font-extrabold text-white tracking-tight drop-shadow-[0_6px_30px_rgba(0,0,0,0.15)] text-center"
                     >
-                       Seasonal ATM Rental Maryland - Temporary ATM Placement for Events and Seasonal Businesses  </h1>
+                       Seasonal ATM Rental - Temporary ATM Placement for Events and Seasonal Businesses  </h1>
 
                 </div>
             </section>

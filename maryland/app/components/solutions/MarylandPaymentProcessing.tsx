@@ -80,8 +80,8 @@ const MarylandPaymentProcessing = () => {
                   
                   <div className="space-y-6">
                     <BenefitItem 
-                      title="Local Maryland Payment Processing"
-                      description="Same-day support with local expertise for Maryland businesses"
+                      title="Local Payment Processing"
+                      description="Same-day support with local expertise for most states businesses"
                       highlight="Local Expertise"
                     />
                     <BenefitItem 

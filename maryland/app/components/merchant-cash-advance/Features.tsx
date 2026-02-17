@@ -12,7 +12,7 @@ export default function Features() {
 
           <div className="space-y-10 text-center max-w-4xl mx-auto lg:text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-              Why Maryland Businesses Choose Merchant Cash Advance Financing
+              Why Businesses Choose Merchant Cash Advance Financing
             </h2>
           </div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">

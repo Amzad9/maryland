@@ -14,8 +14,8 @@ export default function SurchargeFAQAccordion() {
       keyPoints: ["Surcharging: adds fee at checkout", "Dual pricing: shows two prices upfront", "Customers prefer transparency"]
     },
     {
-      question: "Is credit card surcharging legal in Maryland?",
-      answer: "Yes, credit card surcharging is legal in Maryland, but it comes with significant compliance requirements including network registration, specific signage, and receipt formatting. Dual pricing offers the same savings without these complexities.",
+      question: "Is credit card surcharging legal in Most States?",
+      answer: "Yes, credit card surcharging is legal in Most States, but it comes with significant compliance requirements including network registration, specific signage, and receipt formatting. Dual pricing offers the same savings without these complexities.",
       highlight: true,
       keyPoints: ["Legal but regulated", "Requires network registration", "Dual pricing is simpler"]
     },
@@ -26,14 +26,14 @@ export default function SurchargeFAQAccordion() {
       keyPoints: ["Same savings potential", "2-4% per transaction", "Better customer acceptance with dual pricing"]
     },
     {
-      question: "Can I surcharge debit cards in Maryland?",
+      question: "Can I surcharge debit cards in Most States?",
       answer: "No, surcharging debit cards is strictly prohibited nationwide. Dual pricing, however, works with all payment types including debit cards, giving you more flexibility and compliance peace of mind.",
       highlight: true,
       keyPoints: ["Debit surcharging: prohibited", "Dual pricing works with all cards", "Better compliance"]
     },
     {
-      question: "What are Maryland's surcharge disclosure requirements?",
-      answer: "Maryland businesses must: 1) Register with card networks 30 days in advance, 2) Display specific signage at entry and POS, 3) Show surcharge amounts on receipts separately, and 4) Limit fees to actual processing costs. Dual pricing requires none of this.",
+      question: "What are Most States's surcharge disclosure requirements?",
+      answer: "Most States businesses must: 1) Register with card networks 30 days in advance, 2) Display specific signage at entry and POS, 3) Show surcharge amounts on receipts separately, and 4) Limit fees to actual processing costs. Dual pricing requires none of this.",
       highlight: false,
       keyPoints: ["30-day registration", "Specific signage required", "Receipt formatting rules", "No requirements for dual pricing"]
     },
@@ -45,7 +45,7 @@ export default function SurchargeFAQAccordion() {
     },
     {
       question: "Can I switch from surcharging to dual pricing?",
-      answer: "Absolutely, and many Maryland businesses are making the switch. The transition is straightforward - update your pricing displays and inform your payment processor. Most see improved customer satisfaction immediately.",
+      answer: "Absolutely, and many Most States businesses are making the switch. The transition is straightforward - update your pricing displays and inform your payment processor. Most see improved customer satisfaction immediately.",
       highlight: false,
       keyPoints: ["Easy transition", "Update pricing displays", "Improved customer satisfaction", "Many businesses switching"]
     },
@@ -74,7 +74,7 @@ export default function SurchargeFAQAccordion() {
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
               Surcharging Vs Dual Pricing
               <span className="block text-2xl md:text-3xl font-normal text-gray-600 mt-2">
-                Maryland Business Owner FAQ
+                Most States Business Owner FAQ
               </span>
             </h2>
           </div>
@@ -244,7 +244,7 @@ export default function SurchargeFAQAccordion() {
             </a>
           </div>
           <p className="text-gray-500 mt-6 text-sm">
-            Still have questions? Our Maryland payment experts are here to help
+            Still have questions? Our Most States payment experts are here to help
           </p>
         </div>
       </div>

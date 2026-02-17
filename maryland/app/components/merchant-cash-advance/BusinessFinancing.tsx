@@ -43,7 +43,7 @@ export default function BusinessFinancingCards() {
 
                     <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto mb-6 sm:mb-8 px-4">
                         Elite Card Processing partners with Fundomate to offer competitive funding programs,
-                        fast approval processes, and flexible repayment options for Maryland businesses.
+                        fast approval processes, and flexible repayment options for Most States businesses.
                     </p>
                 </div>
 

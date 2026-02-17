@@ -11,7 +11,7 @@ export default function OrderingPricing() {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
         <h2 className="text-3xl md:text-5xl font-serif max-w-5xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-          Free Seasonal ATM Planning for Maryland Events and Businesses
+          Free Seasonal ATM Planning for Events and Businesses
         </h2>
 
         <div className="space-y-12 mt-5">

@@ -35,7 +35,7 @@ export default function Navbar() {
     'Merchant Cash Advance',
     'ATM',
     'Cash Discount Dual Pricing',
-    'Payment Integration',
+    'Integrated Payments',
   ];
 
   const MERCHANTS_ITEMS = [

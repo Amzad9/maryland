@@ -7,7 +7,7 @@ const DualPricingIndustries = () => {
     {
       icon: <Building2 className="w-6 h-6" />,
       title: "Restaurants & Food Service",
-      description: "Protect thin margins while offering customer payment flexibility. Perfect for Maryland restaurants, cafes, and food trucks.",
+      description: "Protect thin margins while offering customer payment flexibility. Perfect for most states restaurants, cafes, and food trucks.",
       features: ["Thin margin protection", "Payment flexibility", "Ideal for all food service"]
     },
     {
@@ -19,7 +19,7 @@ const DualPricingIndustries = () => {
     {
       icon: <Wrench className="w-6 h-6" />,
       title: "Service Businesses",
-      description: "Great for contractors, auto repair, salons, and professional services throughout Maryland.",
+      description: "Great for contractors, auto repair, salons, and professional services throughout most states.",
       features: ["Contractors", "Auto repair", "Salons", "Professional services"]
     },
     {
@@ -56,10 +56,10 @@ const DualPricingIndustries = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Dual Pricing: <span className="text-blue-600">Perfect For Maryland Industries</span>
+            Dual Pricing: <span className="text-blue-600">Perfect For Most States Industries</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Tailored payment solutions for every type of business across Maryland
+            Tailored payment solutions for every type of business across most states
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const DualPricingIndustries = () => {
           </div>
           
           <p className="text-blue-100 text-lg mb-8 max-w-3xl">
-            Serving businesses across Maryland with comprehensive payment solutions
+            Serving businesses across most states with comprehensive payment solutions
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -154,7 +154,7 @@ const DualPricingIndustries = () => {
             Get Started With Dual Pricing
           </button>
           <p className="text-gray-500 mt-4">
-            Join hundreds of Maryland businesses already saving with our dual pricing solutions
+            Join hundreds of most states businesses already saving with our dual pricing solutions
           </p>
         </div>
       </div>

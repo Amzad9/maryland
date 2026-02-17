@@ -186,7 +186,7 @@ export default function PaymentProcessingHardware() {
               </h2>
               <div className="space-y-4 mb-6 pr-2">
                 <p className="text-base leading-relaxed text-gray-700">
-                  Professional installation and setup included with all payment processing systems. Our Maryland-based merchant services technicians handle everything.
+                  Professional installation and setup included with all payment processing systems. Our most states-based merchant services technicians handle everything.
                 </p>
               </div>
             </div>

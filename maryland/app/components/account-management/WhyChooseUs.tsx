@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
             Why Choose Elite Card Processing
           </h2>
           <p className="text-2xl text-blue-600 font-medium">
-            For Dual Pricing In Maryland
+            For Dual Pricing In Most States
           </p>
         </div>
 
@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
             {[
               {
                 feature: "Local Expertise",
-                elite: "Maryland compliance specialists",
+                elite: "Most states compliance specialists",
                 other: "No local focus",
                 eliteIcon: <MapPin className="w-4 h-4" />,
                 otherIcon: <X className="w-4 h-4" />
@@ -142,7 +142,7 @@ export default function WhyChooseUs() {
           </div>
           
           <p className="mt-10 text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Join Maryland businesses who trust local expertise for their payment processing needs.
+            Join most states businesses who trust local expertise for their payment processing needs.
           </p>
         </div>
       </div>

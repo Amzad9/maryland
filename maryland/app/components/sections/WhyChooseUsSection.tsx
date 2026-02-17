@@ -5,7 +5,7 @@ export default function WhyChooseUsSection() {
     const features = [
         { 
             icon: Building2,
-            title: "Local Maryland Company", 
+            title: "Local Most States Company", 
             description: "We are your Hagerstown neighbors offering local support, not offshore call centers."
         },
         { 
@@ -31,7 +31,7 @@ export default function WhyChooseUsSection() {
         { 
             icon: Star,
             title: "Guaranteed Results", 
-            description: "4.9-star reviews and thousands of satisfied Maryland merchants."
+            description: "4.9-star reviews and thousands of satisfied most states merchants."
         }
     ];
 
@@ -57,7 +57,7 @@ export default function WhyChooseUsSection() {
                         <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-24 h-1 bg-[linear-gradient(90deg,transparent_0%,rgba(244,226,143,0.8)_50%,transparent_100%)]"></span>
                     </h2>
                     <p className="text-lg text-slate-600 max-w-2xl mx-auto mt-6">
-                        Trusted by Maryland businesses for reliable payment processing solutions
+                        Trusted by most states businesses for reliable payment processing solutions
                     </p>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

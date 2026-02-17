@@ -8,7 +8,7 @@ export default function MarylandSurchargeLaws() {
       <div className="relative max-w-6xl mx-auto">
         <div className="text-center mb-12">  
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-            Maryland Surcharge Laws
+            Most States Surcharge Laws
             <span className="block text-2xl md:text-3xl font-normal text-gray-600 mt-2">
               Legal But Complex vs. Simple Dual Pricing
             </span>
@@ -125,7 +125,7 @@ export default function MarylandSurchargeLaws() {
         {/* Conclusion */}
         <div className="bg-linear-to-r from-blue-50 to-cyan-50 rounded-2xl p-8 border border-blue-100 text-center mb-12">
           <p className="text-xl text-gray-800 leading-relaxed">
-            While surcharging is legal in Maryland, dual pricing offers the same savings with 
+            While surcharging is legal in most states, dual pricing offers the same savings with 
             <span className="font-bold text-blue-600"> much less complexity</span> and 
             <span className="font-bold text-emerald-600"> better customer acceptance</span>.
           </p>

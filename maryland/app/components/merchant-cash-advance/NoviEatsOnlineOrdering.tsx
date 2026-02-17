@@ -17,7 +17,7 @@ const MarylandRestaurantNovi = () => {
       <div className="relative z-10">
         <div className="container px-4 md:px-0 mx-auto">
               <h2 className="text-3xl md:text-5xl font-serif max-w-4xl mx-auto text-center font-bold text-black mb-6 leading-tight">
-              Get Your Maryland Restaurant Novi Eats Online Ordering Today
+              Get Your Restaurant Novi Eats Online Ordering Today
                 </h2>
 
           {/* Main Content Grid */}
@@ -78,7 +78,7 @@ const MarylandRestaurantNovi = () => {
                   </div>
                   <div className="space-y-6">
                     <BenefitItem 
-                      title="Local Maryland business financing specialist with personal service"
+                      title="Local business financing specialist with personal service"
                       description=""
                       highlight=""
                     />
@@ -103,7 +103,7 @@ const MarylandRestaurantNovi = () => {
                       highlight=""
                     />
                     <BenefitItem 
-                      title="Scalable financing solutions for growing Maryland businesses"
+                      title="Scalable financing solutions for growing businesses"
                       description=""
                       highlight=""
                     />

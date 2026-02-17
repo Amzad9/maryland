@@ -76,7 +76,7 @@ const MarylandRestaurantNovi = () => {
                   </div>
                   <div className="space-y-6">
                     <BenefitItem 
-                      title="Authorized Novi Eats dealer with local Maryland restaurant expertise"
+                      title="Authorized Novi Eats dealer with local restaurant expertise"
                       description=""
                       highlight=""
                     />
@@ -101,7 +101,7 @@ const MarylandRestaurantNovi = () => {
                       highlight=""
                     />
                     <BenefitItem 
-                      title="Scalable solutions for growing Maryland restaurant businesses"
+                      title="Scalable solutions for growing restaurant businesses"
                       description=""
                       highlight=""
                     />

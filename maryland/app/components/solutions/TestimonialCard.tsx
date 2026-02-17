@@ -22,7 +22,7 @@ export default function TestimonialCard() {
         "Real-time reporting across locations",
         "Streamlined operations"
       ],
-      location: "Maryland"
+      location: "Most States"
     },
     {
       id: 2,
@@ -60,13 +60,13 @@ export default function TestimonialCard() {
     {
       id: 5,
       name: "Regional Retailer",
-      quote: "Managing multiple stores across Maryland became effortless with our centralized merchant services. The integrated payment processing gives us complete visibility.",
+      quote: "Managing multiple stores across most states became effortless with our centralized merchant services. The integrated payment processing gives us complete visibility.",
       items: [
         "Unified merchant services",
         "Centralized dashboard",
         "Cross-location analytics"
       ],
-      location: "Statewide Maryland"
+      location: "Statewide Most States"
     }
   ];
 
