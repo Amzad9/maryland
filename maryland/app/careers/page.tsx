@@ -12,11 +12,46 @@ import {
   Check,
   ShieldCheck,
   Lightbulb,
-  Handshake
+  Handshake,
+  Loader2
 } from 'lucide-react';
 
 export default function CareersPage() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    telephone: '',
+    position: '',
+    message: ''
+  });
+  const [resume, setResume] = useState<File | null>(null);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
+  };
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0] ?? null;
+    setResume(file);
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    // Placeholder submit – integrate with backend or email service as needed
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    setIsSubmitting(false);
+    setFormData({
+      name: '',
+      email: '',
+      telephone: '',
+      position: '',
+      message: ''
+    });
+    setResume(null);
+  };
 
   const benefits = [
     {
@@ -165,13 +200,13 @@ export default function CareersPage() {
           </div>
         </div>
       </section>
-{/* ================= JOB ================= */}
+      {/* ================= JOB ================= */}
 <section className="relative  mx-auto px-6 py-16 md:py-24 overflow-hidden">
   {/* Floating background */}
   <div className="absolute -top-20 -left-20 w-72 h-72 bg-sky-400/20 rounded-full blur-3xl animate-pulse" />
   <div className="absolute bottom-0 -right-20 w-72 h-72 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000" />
 
-  <div className="relative z-10">
+        <div className="relative z-10">
     <div className="text-center mb-16 max-w-2xl mx-auto">
       <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
         Career Opportunities
@@ -181,7 +216,7 @@ export default function CareersPage() {
       </p>
     </div>
 
-    <div className="max-w-4xl mx-auto group">
+        <div className="max-w-4xl mx-auto group">
       <div className="relative bg-white/60 backdrop-blur-2xl rounded-3xl border border-white/30 shadow-sm  transition-all duration-500 p-8 lg:p-12 flex flex-col lg:flex-row gap-8 items-center justify-between overflow-hidden">
 
         {/* Glow on hover */}
@@ -214,11 +249,139 @@ export default function CareersPage() {
           </div>
         </div>
 
-        <button className="relative bg-linear-to-r from-sky-500 to-indigo-500 text-white px-10 py-4 rounded-xl font-semibold shadow-lg hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-2">
+        <a
+          href="#career-application"
+          className="relative bg-linear-to-r from-sky-500 to-indigo-500 text-white px-10 py-4 rounded-xl font-semibold shadow-lg hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-2"
+        >
           Apply Now
           <ArrowRight className="w-5 h-5" />
-        </button>
+        </a>
       </div>
+    </div>
+  </div>
+</section>
+{/* ================= APPLICATION FORM ================= */}
+<section
+  id="career-application"
+  className="relative max-w-5xl mx-auto px-6 pb-20 md:pb-24"
+>
+  <div className="relative bg-white/70 backdrop-blur-2xl rounded-3xl border border-white/40 shadow-xl overflow-hidden">
+    <div className="pointer-events-none absolute -top-32 -right-32 h-72 w-72 rounded-full bg-linear-to-br from-sky-400/25 to-indigo-400/25 blur-3xl" />
+    <div className="pointer-events-none absolute -bottom-32 -left-32 h-72 w-72 rounded-full bg-linear-to-tr from-indigo-400/25 to-purple-400/25 blur-3xl" />
+
+    <div className="relative z-10 p-8 md:p-10 lg:p-12">
+      <div className="mb-8 text-center">
+        <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-sky-100 text-sky-700 text-xs font-semibold tracking-wide uppercase">
+          <Sparkles className="w-4 h-4" />
+          Join the Team
+        </span>
+        <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900">
+          Submit Your Application
+        </h2>
+        <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
+          Share your details and upload your resume. Our hiring team will review your
+          information and contact you if there is a potential fit.
+        </p>
+      </div>
+
+      <form onSubmit={handleSubmit} className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <input
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            placeholder="Full Name"
+            required
+            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 focus:border-sky-500 outline-none transition-all"
+          />
+          <input
+            name="email"
+            type="email"
+            value={formData.email}
+            onChange={handleChange}
+            placeholder="Email Address"
+            required
+            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 focus:border-sky-500 outline-none transition-all"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <input
+            name="telephone"
+            value={formData.telephone}
+            onChange={handleChange}
+            placeholder="Phone (optional)"
+            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 outline-none transition-all"
+          />
+          <input
+            name="position"
+            value={formData.position}
+            onChange={handleChange}
+            placeholder="Position of Interest"
+            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 outline-none transition-all"
+          />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-2">
+              Upload Resume
+            </label>
+            <input
+              type="file"
+              accept=".pdf,.doc,.docx"
+              onChange={handleFileChange}
+              className="block w-full text-sm text-gray-700 file:mr-4 file:py-2.5 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-semibold file:bg-sky-50 file:text-sky-700 hover:file:bg-sky-100 cursor-pointer"
+            />
+            <p className="mt-1 text-xs text-gray-500">
+              Accepted formats: PDF, DOC, DOCX (max 10MB).
+            </p>
+          </div>
+          <ul className="space-y-2 text-sm text-gray-600">
+            <li className="flex items-center gap-2">
+              <Check className="w-4 h-4 text-emerald-500" />
+              Securely reviewed by our hiring team
+            </li>
+            <li className="flex items-center gap-2">
+              <Check className="w-4 h-4 text-emerald-500" />
+              No third-party sharing of your information
+            </li>
+          </ul>
+        </div>
+
+        <textarea
+          name="message"
+          value={formData.message}
+          onChange={handleChange}
+          rows={5}
+          placeholder="Tell us about your experience and what makes you a great fit..."
+          className="w-full rounded-xl px-4 py-3 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 outline-none resize-none transition-all"
+        />
+
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <p className="text-xs md:text-sm text-gray-500 max-w-md">
+            By submitting this form, you agree that Elite Card Processing may contact you
+            about relevant opportunities.
+          </p>
+          <button
+            type="submit"
+            disabled={isSubmitting}
+            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-linear-to-r from-sky-500 to-indigo-500 text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-105 active:scale-100 transition-all disabled:opacity-70"
+          >
+            {isSubmitting ? (
+              <>
+                <Loader2 className="w-5 h-5 animate-spin" />
+                Submitting…
+              </>
+            ) : (
+              <>
+                <Briefcase className="w-5 h-5" />
+                Submit Application
+              </>
+            )}
+          </button>
+        </div>
+      </form>
     </div>
   </div>
 </section>

@@ -1,11 +1,10 @@
 'use client';
 import { useState } from "react";
-import { Send, Loader2, Phone, Mail, MapPin, PhoneCall, ArrowRight, Check, Sparkles, Zap } from "lucide-react";
+import { Send, Loader2, Phone, MapPin, PhoneCall, ArrowRight, Check, Sparkles, Zap } from "lucide-react";
 
 const contactItems = [
   { icon: Phone, label: "Local (Hagerstown)", value: "(240) 329-9424", href: "tel:+12403299424" },
   { icon: PhoneCall, label: "Toll-Free", value: "(877) 415-8627", href: "tel:+18774158627" },
-  { icon: Mail, label: "Email Support", value: "support@elitecardprocessing.com", href: "mailto:support@elitecardprocessing.com" },
   { icon: MapPin, label: "Visit", value: "13701 Maugansville Rd #5, Hagerstown, MD 21740", href: "https://maps.google.com/?q=13701+Maugansville+Rd+%235,+Hagerstown,+MD+21740" },
 ];
 
