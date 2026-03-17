@@ -13,44 +13,25 @@ import {
   ShieldCheck,
   Lightbulb,
   Handshake,
-  Loader2
+  Send
 } from 'lucide-react';
 
 export default function CareersPage() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    telephone: '',
-    position: '',
-    message: ''
-  });
-  const [resume, setResume] = useState<File | null>(null);
+  const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
-  };
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0] ?? null;
-    setResume(file);
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    // Placeholder submit – integrate with backend or email service as needed
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setFormData({
-      name: '',
-      email: '',
-      telephone: '',
-      position: '',
-      message: ''
-    });
-    setResume(null);
+    setStatus('sending');
+
+    try {
+      // Placeholder submit – integrate with backend or email service as needed
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      setStatus('sent');
+      (e.currentTarget as HTMLFormElement).reset();
+    } catch {
+      setStatus('error');
+    }
   };
 
   const benefits = [
@@ -200,191 +181,94 @@ export default function CareersPage() {
           </div>
         </div>
       </section>
-      {/* ================= JOB ================= */}
-<section className="relative  mx-auto px-6 py-16 md:py-24 overflow-hidden">
-  {/* Floating background */}
-  <div className="absolute -top-20 -left-20 w-72 h-72 bg-sky-400/20 rounded-full blur-3xl animate-pulse" />
-  <div className="absolute bottom-0 -right-20 w-72 h-72 bg-indigo-400/20 rounded-full blur-3xl animate-pulse delay-1000" />
-
-        <div className="relative z-10">
-    <div className="text-center mb-16 max-w-2xl mx-auto">
-      <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-        Career Opportunities
-      </h2>
-      <p className="text-xl text-gray-600">
-        Build your future with Elite Card Processing
-      </p>
-    </div>
-
-        <div className="max-w-4xl mx-auto group">
-      <div className="relative bg-white/60 backdrop-blur-2xl rounded-3xl border border-white/30 shadow-sm  transition-all duration-500 p-8 lg:p-12 flex flex-col lg:flex-row gap-8 items-center justify-between overflow-hidden">
-
-        {/* Glow on hover */}
-        <div className="absolute inset-0 bg-linear-to-r from-sky-400/10 to-indigo-400/10 opacity-0 group-hover:opacity-100 transition-opacity" />
-
-        <div className="relative">
-          <span className="inline-flex items-center gap-2 mb-4 px-4 py-1 bg-blue-200/60 text-blue-800 rounded-full text-sm font-semibold">
-            <Briefcase className="w-4 h-4" />
-            Full Time
-          </span>
-
-          <h3 className="text-3xl font-bold text-gray-900 mb-2">
-            B2B Sales Executive
-          </h3>
-
-          <p className="text-lg text-gray-600 mb-4">
-            Elite Card Processing LLC
-          </p>
-
-          {/* Tags */}
-          <div className="flex gap-2 flex-wrap">
-          {['Sales', 'B2B', 'FinTech', 'Nationwide'].map(tag => (
-              <span
-                key={tag}
-                className="px-4 py-2 bg-white/20 backdrop-blur border border-gray-200/80 rounded-lg text-sm font-medium text-gray-700"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <a
-          href="#career-application"
-          className="relative bg-linear-to-r from-sky-500 to-indigo-500 text-white px-10 py-4 rounded-xl font-semibold shadow-lg hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-2"
-        >
-          Apply Now
-          <ArrowRight className="w-5 h-5" />
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-{/* ================= APPLICATION FORM ================= */}
-<section
-  id="career-application"
-  className="relative max-w-5xl mx-auto px-6 pb-20 md:pb-24"
->
-  <div className="relative bg-white/70 backdrop-blur-2xl rounded-3xl border border-white/40 shadow-xl overflow-hidden">
-    <div className="pointer-events-none absolute -top-32 -right-32 h-72 w-72 rounded-full bg-linear-to-br from-sky-400/25 to-indigo-400/25 blur-3xl" />
-    <div className="pointer-events-none absolute -bottom-32 -left-32 h-72 w-72 rounded-full bg-linear-to-tr from-indigo-400/25 to-purple-400/25 blur-3xl" />
-
-    <div className="relative z-10 p-8 md:p-10 lg:p-12">
-      <div className="mb-8 text-center">
-        <span className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-sky-100 text-sky-700 text-xs font-semibold tracking-wide uppercase">
-          <Sparkles className="w-4 h-4" />
-          Join the Team
-        </span>
-        <h2 className="mt-4 text-3xl md:text-4xl font-bold text-gray-900">
-          Submit Your Application
-        </h2>
-        <p className="mt-2 text-gray-600 max-w-2xl mx-auto">
-          Share your details and upload your resume. Our hiring team will review your
-          information and contact you if there is a potential fit.
-        </p>
-      </div>
-
-      <form onSubmit={handleSubmit} className="space-y-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <input
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            placeholder="Full Name"
-            required
-            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 focus:border-sky-500 outline-none transition-all"
-          />
-          <input
-            name="email"
-            type="email"
-            value={formData.email}
-            onChange={handleChange}
-            placeholder="Email Address"
-            required
-            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 focus:border-sky-500 outline-none transition-all"
-          />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <input
-            name="telephone"
-            value={formData.telephone}
-            onChange={handleChange}
-            placeholder="Phone (optional)"
-            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 outline-none transition-all"
-          />
-          <input
-            name="position"
-            value={formData.position}
-            onChange={handleChange}
-            placeholder="Position of Interest"
-            className="w-full h-12 md:h-14 rounded-xl px-4 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 outline-none transition-all"
-          />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
-              Upload Resume
-            </label>
-            <input
-              type="file"
-              accept=".pdf,.doc,.docx"
-              onChange={handleFileChange}
-              className="block w-full text-sm text-gray-700 file:mr-4 file:py-2.5 file:px-4 file:rounded-xl file:border-0 file:text-sm file:font-semibold file:bg-sky-50 file:text-sky-700 hover:file:bg-sky-100 cursor-pointer"
-            />
-            <p className="mt-1 text-xs text-gray-500">
-              Accepted formats: PDF, DOC, DOCX (max 10MB).
+      {/* ================= APPLICATION FORM (CAREER CONTACT) ================= */}
+      <section id="career-application" className="py-16 lg:py-20 bg-slate-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+          <div className="bg-white rounded-2xl p-8 lg:p-10 shadow-xl border border-gray-200/60">
+            <h2 className="text-xl font-bold text-slate-900 mb-2">Apply with us</h2>
+            <p className="text-gray-500 text-sm mb-6">
+              Fill out the form and attach your resume. We typically respond within one business day.
             </p>
+            <form onSubmit={handleSubmit} className="space-y-5">
+              <div className="grid sm:grid-cols-2 gap-5">
+                <div>
+                  <label htmlFor="career-name" className="block text-sm font-medium text-slate-900 mb-2">
+                    Name
+                  </label>
+                  <input
+                    id="career-name"
+                    name="name"
+                    type="text"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="career-email" className="block text-sm font-medium text-slate-900 mb-2">
+                    Email
+                  </label>
+                  <input
+                    id="career-email"
+                    name="email"
+                    type="email"
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                    placeholder="you@example.com"
+                  />
+                </div>
+              </div>
+              <div>
+                <label htmlFor="career-message" className="block text-sm font-medium text-slate-900 mb-2">
+                  Message
+                </label>
+                <textarea
+                  id="career-message"
+                  name="message"
+                  rows={4}
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-slate-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent resize-y min-h-[100px]"
+                  placeholder="Tell us about yourself and the role you’re interested in..."
+                />
+              </div>
+              <div>
+                <label htmlFor="career-resume" className="block text-sm font-medium text-slate-900 mb-2">
+                  Resume <span className="text-gray-500 font-normal">(optional)</span>
+                </label>
+                <input
+                  id="career-resume"
+                  name="resume"
+                  type="file"
+                  accept=".pdf,.doc,.docx"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white text-slate-900 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-sky-50 file:text-sky-700 hover:file:bg-sky-100 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent"
+                />
+                <p className="text-xs text-gray-500 mt-1">PDF or Word, max 10MB</p>
+              </div>
+              {status === 'sent' && (
+                <p className="text-sm font-medium text-green-600">
+                  Thanks! Your application has been submitted. We’ll be in touch soon.
+                </p>
+              )}
+              {status === 'error' && (
+                <p className="text-sm font-medium text-red-600">Something went wrong. Please try again.</p>
+              )}
+              <button
+                type="submit"
+                disabled={status === 'sending'}
+                className="inline-flex justify-center items-center gap-2 px-8 py-3 rounded-lg font-semibold text-base bg-linear-to-r from-sky-500 to-indigo-500 hover:from-sky-600 hover:to-indigo-600 text-white transition-colors shadow-lg disabled:opacity-70"
+              >
+                {status === 'sending' ? (
+                  'Sending...'
+                ) : (
+                  <>
+                    <Send className="w-4 h-4" />
+                    Submit application
+                  </>
+                )}
+              </button>
+            </form>
           </div>
-          <ul className="space-y-2 text-sm text-gray-600">
-            <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-emerald-500" />
-              Securely reviewed by our hiring team
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="w-4 h-4 text-emerald-500" />
-              No third-party sharing of your information
-            </li>
-          </ul>
         </div>
-
-        <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          rows={5}
-          placeholder="Tell us about your experience and what makes you a great fit..."
-          className="w-full rounded-xl px-4 py-3 text-sm md:text-base bg-white/90 border border-slate-200 focus:ring-4 focus:ring-sky-500/20 outline-none resize-none transition-all"
-        />
-
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <p className="text-xs md:text-sm text-gray-500 max-w-md">
-            By submitting this form, you agree that Elite Card Processing may contact you
-            about relevant opportunities.
-          </p>
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-linear-to-r from-sky-500 to-indigo-500 text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-105 active:scale-100 transition-all disabled:opacity-70"
-          >
-            {isSubmitting ? (
-              <>
-                <Loader2 className="w-5 h-5 animate-spin" />
-                Submitting…
-              </>
-            ) : (
-              <>
-                <Briefcase className="w-5 h-5" />
-                Submit Application
-              </>
-            )}
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
+      </section>
 {/* ================= CTA ================= */}
 <section className="relative py-16 md:pt-5 md:pb-24 overflow-hidden bg-url('https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') bg-cover bg-center">
   {/* Background glow */}
