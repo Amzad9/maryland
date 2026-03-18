@@ -1,23 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
-import {
-  Briefcase,
-  TrendingUp,
-  Users,
-  Award,
-  Sparkles,
-  ArrowRight,
-  Check,
-  ShieldCheck,
-  Lightbulb,
-  Handshake,
-  Send
-} from 'lucide-react';
+import { Send } from 'lucide-react';
 
 export default function CareersPage() {
-  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -25,88 +11,34 @@ export default function CareersPage() {
     setStatus('sending');
 
     try {
-      // Placeholder submit – integrate with backend or email service as needed
+      // Placeholder submit – integrate with backend/email service as needed
       await new Promise(resolve => setTimeout(resolve, 1500));
       setStatus('sent');
-      (e.currentTarget as HTMLFormElement).reset();
+      e.currentTarget.reset();
     } catch {
       setStatus('error');
     }
   };
 
-  const benefits = [
-    {
-      icon: <Briefcase className="w-8 h-8 text-primary" />,
-      title: 'Trusted & Growing',
-      description: 'Work with a trusted and rapidly growing financial services company.'
-    },
-    {
-      icon: <TrendingUp className="w-8 h-8 text-primary" />,
-      title: 'Competitive Compensation',
-      description: 'Attractive pay with performance-based incentives.'
-    },
-    {
-      icon: <Users className="w-8 h-8 text-primary" />,
-      title: 'Flexible Growth',
-      description: 'Flexible schedules and real opportunities to grow.'
-    },
-    {
-      icon: <Award className="w-8 h-8 text-primary" />,
-      title: 'Supportive Environment',
-      description: 'A positive, leadership-driven team culture.'
-    },
-    {
-      icon: <Sparkles className="w-8 h-8 text-primary" />,
-      title: 'Continuous Learning',
-      description: 'Ongoing training in payments and modern technology.'
-    }
-  ];
-
-  const cultureValues = [
-    {
-      icon: ShieldCheck,
-      title: 'Integrity & transparency',
-      color: 'from-sky-400 to-cyan-400'
-    },
-    {
-      icon: Award,
-      title: 'Commitment to excellence',
-      color: 'from-indigo-400 to-purple-400'
-    },
-    {
-      icon: Lightbulb,
-      title: 'Innovation in payment technology',
-      color: 'from-orange-400 to-rose-400'
-    },
-    {
-      icon: Handshake,
-      title: 'Community focus',
-      color: 'from-emerald-400 to-teal-400'
-    }
-  ];
-
   return (
-    <div className="min-h-screen bg-white">
-      {/* HERO - MATCHING DONATE CAREERS STYLE */}
-      <section className="relative py-16 lg:py-20 min-h-[240px] flex items-center bg-slate-900">
+    <main className="pt-0">
+      <section className="relative py-16 lg:py-20 min-h-[240px] flex items-center bg-darkSoft">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h1 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-            Careers
-          </h1>
+          <h1 className="text-3xl lg:text-4xl font-bold text-white mb-4">Careers</h1>
           <p className="text-lg lg:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
             Join the team. Submit your details and resume below and we’ll get back to you.
           </p>
         </div>
       </section>
 
-      {/* APPLICATION FORM (CAREER CONTACT) */}
-      <section id="career-application" className="py-16 lg:py-20 bg-slate-50">
+      <section className="py-16 lg:py-20 bg-slate-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl">
           <div className="bg-white rounded-2xl p-8 lg:p-10 shadow-xl border border-gray-200/60">
             <h2 className="text-xl font-bold text-slate-900 mb-2">Apply with us</h2>
             <p className="text-gray-500 text-sm mb-6">
               Fill out the form and attach your resume. We typically respond within one business day.
             </p>
+
             <form onSubmit={handleSubmit} className="space-y-5">
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
@@ -122,6 +54,7 @@ export default function CareersPage() {
                     placeholder="Your name"
                   />
                 </div>
+
                 <div>
                   <label htmlFor="career-email" className="block text-sm font-medium text-slate-900 mb-2">
                     Email
@@ -136,6 +69,7 @@ export default function CareersPage() {
                   />
                 </div>
               </div>
+
               <div>
                 <label htmlFor="career-message" className="block text-sm font-medium text-slate-900 mb-2">
                   Message
@@ -148,6 +82,7 @@ export default function CareersPage() {
                   placeholder="Tell us about yourself and the role you’re interested in..."
                 />
               </div>
+
               <div>
                 <label htmlFor="career-resume" className="block text-sm font-medium text-slate-900 mb-2">
                   Resume <span className="text-gray-500 font-normal">(optional)</span>
@@ -161,14 +96,17 @@ export default function CareersPage() {
                 />
                 <p className="text-xs text-gray-500 mt-1">PDF or Word, max 10MB</p>
               </div>
+
               {status === 'sent' && (
                 <p className="text-sm font-medium text-green-600">
                   Thanks! Your application has been submitted. We’ll be in touch soon.
                 </p>
               )}
+
               {status === 'error' && (
                 <p className="text-sm font-medium text-red-600">Something went wrong. Please try again.</p>
               )}
+
               <button
                 type="submit"
                 disabled={status === 'sending'}
@@ -187,6 +125,6 @@ export default function CareersPage() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
